@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "earbud-fit-ear-tips-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Earbud fit explained: why ear tips change the sound so much",
+  "metaDescription": "Why the seal between earbuds and your ears decides bass and noise cancelling, how to choose silicone or foam tips, and how to check the fit.",
+  "excerpt": "Two people can hear the same earbuds completely differently. The reason is usually the fit. Here is how to get a proper seal.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "earbuds",
+    "ear-tips",
+    "fit"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "audio",
+  "answer": "In-ear earbuds rely on sealing your ear canal. A good seal keeps bass in and outside noise out; a poor one makes the same earbuds sound thin and lets noise cancelling leak. Try every tip size supplied, use the app's fit test if there is one, and consider foam tips if silicone ones keep slipping.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why-the-seal-matters",
+      "heading": "Why the seal matters",
+      "body": "In-ear earbuds use tiny drivers that cannot move much air. They produce strong bass only when the ear canal is sealed, because the sealed space lets low-frequency pressure build. Even a small gap lets bass escape, which is why earbuds can sound tinny until you push them in properly.\n\nThe same seal provides passive noise isolation and makes active noise cancelling work properly. Many noise-cancelling earbuds measure the seal and adjust, but they cannot fix a tip that is the wrong size."
+    },
+    {
+      "id": "choosing-the-right-size",
+      "heading": "Choosing the right size",
+      "body": "Ear canals vary in size and shape, and the left and right ear are often different. Earbuds usually come with three or four sizes of tip. The medium size fitted at the factory suits many people but by no means everyone.\n\nTry each size in each ear. The right size feels secure without pressure, stays put when you move your jaw or shake your head, and makes the sound noticeably fuller. It is common to use different sizes in each ear."
+    },
+    {
+      "id": "silicone-foam-and-other-tips",
+      "heading": "Silicone, foam and other tips",
+      "body": "- **Silicone tips** are durable, easy to clean and the default for most earbuds. Double and triple flange designs suit some ear shapes.\n- **Memory foam tips** compress before insertion and expand to fill the canal. They usually give the best seal and isolation, and stay in place well, but wear out and need replacing every few months.\n- **Hybrid tips** combine a silicone shell with a foam core.\n\nReplacement tips need to fit both the nozzle of the earbud and the charging case. Tips that are too tall can stop earbuds charging, so check compatibility."
+    },
+    {
+      "id": "checking-the-fit",
+      "heading": "Checking the fit",
+      "body": "Many earbud apps include a fit test that plays a tone and measures the seal with the inner microphone. If yours does not, a simple check is to play music with strong bass, then gently press each earbud further in. If the bass gets much stronger, the seal was not complete.\n\nInsert earbuds with a slight twist and, for many designs, gently pull the top of your ear upwards and back to straighten the canal as you do it."
+    },
+    {
+      "id": "comfort-hygiene-and-safety",
+      "heading": "Comfort, hygiene and safety",
+      "body": "- Clean tips regularly with a dry cloth or as the maker suggests; earwax on the mesh reduces volume and clarity.\n- If earbuds become painful within an hour, try a smaller size or a different tip material.\n- Open-style earbuds without tips are more comfortable for some people but cannot seal, so expect less bass and almost no isolation.\n- Keep volume moderate, especially with a good seal, which makes sounds louder at the eardrum."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Why do my earbuds sound tinny?",
+      "a": "Usually because the tips are not sealing your ear canal. Try a different size, insert them with a slight twist, and use the app's fit test if available."
+    },
+    {
+      "q": "Are foam ear tips better?",
+      "a": "Foam tips often seal and isolate better and stay in more securely, but they wear out faster and can be warmer to wear."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-in-ear",
+      "name": "Wikipedia: In-ear monitor",
+      "url": "https://en.wikipedia.org/wiki/In-ear_monitor",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

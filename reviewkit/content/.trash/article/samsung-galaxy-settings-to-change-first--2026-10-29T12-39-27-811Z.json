@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "samsung-galaxy-settings-to-change-first",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "New Samsung Galaxy? Change these settings before anything else",
+  "metaDescription": "Samsung ships One UI with several things switched on that you probably do not want, including ads in its own apps. Here is the day-one pass.",
+  "excerpt": "A new Galaxy arrives configured to suit Samsung as much as you. None of it is sinister, all of it is adjustable, and twenty minutes on day one saves you from the slow irritation of discovering each one separately over six months.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "samsung",
+    "one-ui",
+    "android",
+    "setup"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: 4 W's. What I've got = six specific changes. What it does = removes advertising, fixes the side button, stops notification failures. Who am I = the balanced section acknowledging what One UI does well. What next = the twenty-minute pass.\n\nVERIFY BEFORE PUBLISHING:\n1. Every menu path on your own Galaxy, naming the model and One UI version. Samsung renames these menus between versions more than most manufacturers.\n2. Confirm which Samsung apps currently carry marketing toggles. This changes and the list differs by region.\n3. UK networks add their own preloaded apps, so note whether your handset was bought unlocked or on contract.\n\nIMAGES: screenshot the Customisation Service toggle and the Background usage limits list on your own phone. 1200px minimum.\n\nFIRST-HAND UPGRADE: note how many preinstalled apps your particular handset shipped with, and how many you could actually uninstall rather than only disable. That count is a real number from a real phone and nobody else has yours.\n\nDo not name specific third-party preloads as unwanted by name without checking what is currently shipping. Describe the category.\n\nPut your own name on it.",
+  "format": "explainer",
+  "category": "phones",
+  "answer": "Six changes cover most of it: turn off customisation service and ad personalisation in Samsung's privacy settings, stop Samsung's own apps showing promotional content, uninstall or disable the preloaded third-party apps you did not ask for, remap or disable the side button shortcut, review which apps Samsung has excluded from battery optimisation, and decide deliberately whether you want a Samsung account at all.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why",
+      "heading": "Why a new Galaxy needs a day-one pass",
+      "body": "Samsung makes excellent hardware and then funds part of its margin with software. That is not a scandal, it is a business model, and it is why a £900 phone can also show you a promotional banner in the weather app.\n\nThe settings to change it all exist. They are just scattered across four different menus with names that do not obviously describe what they do, and the defaults favour Samsung.\n\nTwenty minutes now. Here is the order I would do it in.",
+      "media": [
+        {
+          "src": "/images/samsung-galaxy-settings-to-change-first/samsung-phone-settings-guide.webp",
+          "alt": "samsung-galaxy-settings",
+          "credit": "Own screenshot",
+          "width": 1600,
+          "height": 900
+        }
+      ],
+      "opinion": true
+    },
+    {
+      "id": "ads",
+      "heading": "First: the advertising and personalisation settings",
+      "body": "This is the one that annoys people most once they notice it.\n\nGo to Settings, then Privacy. Look for **Customisation Service**, which is Samsung analysing your usage to personalise content. Turn it off. Then look for ad personalisation, usually reached through Settings, Google, Ads, where you can also reset your advertising ID.\n\nThen the Samsung apps themselves. Open Samsung's own apps one at a time, the weather app, Samsung Free or whatever it is called on your model, and look in each app's own settings for an option about marketing or promotional information. Each app has its own toggle. There is no master switch, which is irritating by design or by accident, and I genuinely do not know which.\n\nWhile you are there, Samsung Push Service is the thing responsible for a good proportion of notifications you never asked for. Disabling it stops most marketing pushes from Samsung apps."
+    },
+    {
+      "id": "bloat",
+      "heading": "Second: the apps you did not choose",
+      "body": "Your Galaxy arrived with third-party apps preinstalled. Some are Samsung's, some are there because a company paid to be there, and some are there because your network put them there.\n\nLong-press each one. If it offers Uninstall, take it. If it only offers Disable, that is still worth doing: a disabled app stops running, stops updating and vanishes from your app list, even though it stays on the system partition.\n\nDo not go hunting for ways to remove the ones that resist. There are guides involving developer tools and command lines, and for a phone you depend on, the risk of breaking something is not worth the storage. Disable is enough.\n\nOne nuance worth knowing. Some Samsung apps are doing real work underneath, and removing them is how people end up with a phone where sharing or the clipboard stops behaving. If an app's name starts with Samsung and you do not recognise what it does, disable the obvious consumer-facing ones and leave the system plumbing alone."
+    },
+    {
+      "id": "side-button",
+      "heading": "Third: that side button",
+      "body": "By default, holding the side button on most Galaxy phones opens the voice assistant. Which means turning the phone off requires a two-button gesture that nobody guesses on their first attempt.\n\nSettings, Advanced Features, Side Button. Change press and hold to Power off menu.\n\nIt takes ten seconds and it removes a small daily friction. If you genuinely use the assistant, leave it, but most people hold that button to turn the phone off and get a voice assistant instead, roughly forever."
+    },
+    {
+      "id": "battery",
+      "heading": "Fourth: the battery setting that cuts both ways",
+      "body": "Samsung is aggressive about putting background apps to sleep. Mostly this is good and it is part of why Galaxy battery life is competitive.\n\nIt is also why your alarm app, your messaging app or your step tracker sometimes fails to do its job overnight, and why Samsung phones have a reputation in certain forums for killing background tasks that other Android phones leave alone.\n\nSettings, Battery, Background usage limits. Have a look at the sleeping and deep sleeping lists. If an app you actually rely on for notifications is in there, take it out. If an app you never use is not in there, add it.\n\nThis is the one setting on this page where there is no universally correct answer. It depends entirely on which apps you need to interrupt you."
+    },
+    {
+      "id": "account",
+      "heading": "Fifth: do you actually want a Samsung account?",
+      "body": "Setup will push you towards creating one. You can skip it, and the phone works.\n\nWhat you lose: Samsung Cloud sync for some Samsung apps, SmartThings integration, Samsung Pay, Find My Mobile, and theme downloads.\n\nWhat you avoid: a second account holding a second copy of your data, alongside the Google account you already have.\n\nFind My Mobile is the one genuinely worth weighing, because it works differently from Google's Find My Device and some people find it more reliable. If you have a Galaxy Watch or Samsung home devices, you want the account. If your Galaxy is simply the phone you chose, you can reasonably skip it.\n\nMake it a decision rather than something setup decided for you while you were tapping Next."
+    },
+    {
+      "id": "worth-keeping",
+      "heading": "Things worth leaving alone, or turning on",
+      "body": "In fairness, One UI does several things better than stock Android, and the day-one pass should not be a purge.\n\n**Secure Folder** is genuinely good. A separate encrypted space with its own apps and accounts, useful for keeping work and personal life apart, or for anything you would rather not surface in a gallery.\n\n**Good Lock**, from the Galaxy Store, is Samsung's suite of customisation modules. It goes considerably further than stock Android allows and it is free. If you like fiddling, it is the best reason to own a Samsung.\n\n**Routines**, under Modes and Routines, is a solid automation system that most owners never open.\n\nSo: turn off the advertising, keep the Secure Folder, and have a look at Good Lock on a quiet evening."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Can I remove ads from Samsung apps?",
+      "a": "Largely. Turn off Customisation Service under Privacy, reset your advertising ID, and then go through Samsung's own apps individually, since each has its own marketing toggle rather than one master switch."
+    },
+    {
+      "q": "Is it safe to uninstall preinstalled apps on a Galaxy?",
+      "a": "Uninstalling or disabling consumer-facing apps is fine. Leave anything that looks like system plumbing alone, and avoid guides that use developer tools to force-remove packages on a phone you depend on."
+    },
+    {
+      "q": "Why do my notifications arrive late on a Samsung phone?",
+      "a": "Samsung puts background apps to sleep aggressively to preserve battery. Check Settings, Battery, Background usage limits, and remove any app you genuinely need notifications from."
+    },
+    {
+      "q": "Do I need a Samsung account?",
+      "a": "No. The phone works without one. You lose Find My Mobile, Samsung Pay, SmartThings and Samsung Cloud sync. If you own other Samsung devices it is worth having; if the phone is the only one, you can skip it."
+    }
+  ],
+  "sources": []
+}

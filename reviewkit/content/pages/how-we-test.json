@@ -1,0 +1,49 @@
+{
+  "_note": "TEMPLATE, but close to publishable. Adjust the numbers to what you actually do, then keep to it.",
+  "schemaVersion": 1,
+  "type": "page",
+  "slug": "how-we-test",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "How we test, and what our scores actually mean",
+  "metaDescription": "Our testing method: minimum testing time, how products are bought, which measurements we repeat on every product, and how the scores are worked out.",
+  "excerpt": "The method behind every review on this site: how long we test, what we measure, and what the scores mean.",
+  "footer": true,
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-20"
+  },
+  "sections": [
+    {
+      "id": "the-rules",
+      "heading": "The rules we hold ourselves to",
+      "body": "1. Nothing is reviewed without being used. If we cannot test something, we do not review it.\n2. We use every product for long enough to get past first impressions, and each review states exactly how long the test ran.\n3. We buy what we test. If a product was supplied free or on loan, the review says so at the top.\n4. Every review states what we did not test, so you can judge the gaps for yourself.\n5. Prices are UK prices, and each one carries the date it was checked.\n6. If we get something wrong we correct it on the page and date the correction."
+    },
+    {
+      "id": "what-we-measure",
+      "heading": "What we measure, and how",
+      "body": "We repeat the same measurements on every product in a category so the numbers can be compared across reviews. Typical examples:\n\n- **Phones and laptops:** battery life under a described workload, charging time from low to full, and how hot the device gets.\n- **Monitors and gaming kit:** brightness, input lag and frame rates in the settings people actually use.\n- **Electric cars:** real-world range and charging times in UK conditions, with the temperature noted.\n\nEach review lists the measurements it reports, how they were taken and on what, so you can judge the numbers for yourself."
+    },
+    {
+      "id": "scores",
+      "heading": "What the scores mean",
+      "body": "Scores are out of 10 and reflect value for money at the price we checked, not technical perfection.\n\n- 9 to 10: we would buy it ourselves and recommend it without caveats\n- 7 to 8: a good buy for the right person, with real compromises named in the review\n- 5 to 6: works, but something cheaper or better exists for most people\n- Below 5: we would not spend our own money on it\n\nA score is never the whole review. The \"who should skip it\" section matters more."
+    },
+    {
+      "id": "ai-disclosure",
+      "heading": "Where AI is and is not used",
+      "body": "Reviews are based on a person using the product. Test notes, measurements and verdicts come from that use, and AI is never used to invent results or opinions.\n\nSome explainers are drafted with an AI assistant from the public sources listed at the end of the article. An editor checks every draft against those sources before publication.\n\nAny article or review where an assistant helped with the draft carries a note saying so."
+    }
+  ],
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "iphone-duo-screen-cracks-what-uk-buyers-should-know",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "iPhone Duo Screen Cracks: What We Know and What UK Buyers Should Do",
+  "metaDescription": "Early iPhone Duo owners report inner screens cracking along the hinge. Here is what is confirmed, what is not, repair costs and what UK buyers can do.",
+  "excerpt": "Apple's first foldable has only been on sale since 23 October, and some owners are already posting photos of cracked inner screens. Here is a calm look at what is known so far.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-28"
+  },
+  "tags": [
+    "iphone-duo",
+    "foldable-iphone",
+    "apple",
+    "screen-crack",
+    "phone-durability",
+    "iphone-repair"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "format": "explainer",
+  "category": "phones",
+  "answer": "Some iPhone Duo owners have reported inner screens cracking along the hinge within hours of buying it. Apple has not publicly confirmed a cause or said how widespread it is, and some reviewers folded their units repeatedly with no problems. If you already own one, you are covered by Apple's one-year warranty, and UK buyers also have statutory consumer rights.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-happened",
+      "heading": "What happened after launch",
+      "body": "The iPhone Duo went on sale on 23 October, and by the next day photos of damaged inner displays were appearing on Reddit and the MacRumors forums. The pattern in most of them is similar: a crack running along the fold, sometimes with a bright line of dead pixels down one side of the screen.\n\nThe best-known case is an Australian owner who said the screen failed after roughly six hours and fewer than 20 openings. According to MacRumors, as reported by Gulf News, the owner felt something under the screen near the hinge, heard a crack, and found no visible marks on the display or hinge beforehand. PhoneArena notes that Reddit moderators marked the post as verified after checking extra photos and Apple paperwork, so it does not look like a hoax.\n\nThe phone itself is a 7.6-inch folding OLED on the inside with a 5.4-inch screen on the outside, and it costs around $2,000 in the US, according to Tom's Guide and PhoneArena.",
+      "media": [
+        {
+          "src": "/images/iphone-duo-screen-cracks-what-uk-buyers-should-know/ef65581332d9c00624091096aed68467.webp",
+          "alt": "iphone-duo-screen-cracks",
+          "credit": "Own screenshot",
+          "width": 960,
+          "height": 731
+        }
+      ]
+    },
+    {
+      "id": "how-widespread",
+      "heading": "How widespread is it? Nobody knows yet",
+      "body": "This is the part worth being careful about. 9to5Mac counted about ten separate cases in the first couple of days, mostly from the iPhone Duo subreddit. Ten reports from a phone Apple expects to sell in the millions is a small number, but it is also very early, and people with a broken phone are far more likely to post than people with a working one.\n\nGizchina and Gulf News both point out that Apple has not confirmed a cause for the failures, and has not said whether this is a production fault. MacRumors also noted that some reviewers had folded the phone over and over during testing without any display trouble. Those two facts sit side by side, and neither cancels out the other.\n\nOn the other hand, Tom's Guide reports that JerryRigEverything's durability test did not go well for the Duo. In the bend test the inner display developed a green line and eventually stopped responding. A deliberate bend test is far harsher than normal use, so that result tells you about the limits of the design, not about everyday risk."
+    },
+    {
+      "id": "possible-causes",
+      "heading": "What might be causing it",
+      "body": "At this point it is speculation. 9to5Mac mentions one theory that a small part of the hinge sits slightly out of place and presses up into the inner screen. Another suggestion going around social media is to avoid closing the phone by pushing on the middle of the inner display, though there is no evidence that this is the cause.\n\nApple's own description of the screen helps explain why the fold is the weak point. PhoneArena summarises it as layers of strong glass above and below the folding panel, held together with adhesives that let the layers slide, a titanium plate underneath and a polymer cover on top. Every one of those layers has to flex thousands of times, so a tiny flaw in any of them could matter.\n\nWe will update this article if Apple publishes a statement or a service programme."
+    },
+    {
+      "id": "repair-costs",
+      "heading": "What a repair could cost",
+      "body": "US pricing is the only pricing reported so far. Gizchina and PhoneArena both give $999 for an inner-screen repair without AppleCare+, and PhoneArena adds $49 for the cover layer alone. One other source we looked at lists $99 for the inner display with AppleCare+, but we could not confirm that figure on Apple's own site, so treat it with caution.\n\nWe have not verified UK repair prices. Before you buy, check Apple UK's repair and AppleCare+ pages and compare the cost of cover with the cost of a single out-of-warranty screen repair. Given the figures above, the maths clearly favours cover for a first-generation foldable.\n\nIn the early cases, Tom's Guide and MyMobileIndia both say Apple stores replaced faulty units after inspection, and one US buyer described staff swapping the phone on the spot. That is encouraging, though a handful of anecdotes is not a policy."
+    },
+    {
+      "id": "uk-buyers",
+      "heading": "Your rights if you are in the UK",
+      "body": "Apple's standard one-year limited warranty applies, and Tom's Guide also notes a 14-day return window in the US. UK buyers have a separate layer of protection that does not depend on Apple's own promises. Under the Consumer Rights Act 2015, goods must be of satisfactory quality and fit for purpose. If a new phone is faulty, you generally have a short window of 30 days to reject it and ask for a refund, and after that you may be entitled to a repair or replacement.\n\nThat is a general summary, not legal advice. If a retailer pushes back, Citizens Advice and GOV.UK both have plain-English guides on faulty goods, and buying from a UK retailer or directly from Apple UK keeps the paperwork simple.\n\nPractical steps: photograph the phone as soon as you unbox it, keep the receipt and the box, and contact the seller quickly if anything looks wrong. Do not try to open or repair it yourself, because that could affect your warranty."
+    },
+    {
+      "id": "demand",
+      "heading": "Demand is strong anyway",
+      "body": "The reports have not obviously dented interest. DigiTimes reported that Apple raised its 12-month iPhone Duo shipment target by 44 percent, from 9.7 million to 14 million units, after strong preorders, citing sources who said Apple had told Foxconn and component suppliers. Apple has not confirmed this figure, so it should be read as a supply chain report, not an official number.\n\nMacRumors also described long lines returning to Apple Stores for the launch. Taken together, it suggests many buyers are willing to accept first-generation risk for a first-generation foldable, which is a pattern that goes back to the earliest Android folding phones."
+    },
+    {
+      "id": "should-you-buy",
+      "heading": "Should you buy one now?",
+      "body": "If you want the Duo and can afford the risk, the cautious route is simple. Wait a few weeks to see whether Apple comments and whether the number of reports grows. Buy from a retailer with an easy returns process. Take out AppleCare+ if you decide to keep it, and be gentle when opening and closing it.\n\nIf you are happy with a regular phone, nothing here is a reason to rush. Foldables tend to improve quickly between generations, and the second one will probably be a better bet. We have not had a unit to test ourselves, so this article is a summary of reporting, not a hands-on review. We plan to add our own notes if we get one.\n\nWe will keep this page up to date as more information comes in."
+    },
+    {
+      "id": "sources",
+      "heading": "Sources",
+      "body": "9to5Mac, iPhone Duo displays cracking (25 October 2026): https://9to5mac.com/2026/10/25/iphone-duo-displays-cracking/\nGulf News, iPhone Duo screens crack along hinge within hours of launch: https://gulfnews.com/amp/story/technology%2Fiphone-duo-screens-crack-along-hinge-within-hours-of-launch-1.500722890\nTom's Guide, owners seeing screens crack at the hinge: https://www.tomsguide.com/phones/iphones/the-iphone-duo-just-came-out-and-owners-are-already-seeing-screens-crack-at-the-hinge\nPhoneArena, iPhone Duo screen cracks hours after launch: https://www.phonearena.com/news/iphone-duo-screen-cracks-hours-after-launch-and-the-internet-cries-fake_id184268\nGizchina, early owners report problems: https://www.gizchina.com/apple/iphone-duo-screens-are-cracking-along-the-hinge-as-early-owners-report-problems\nDigiTimes, shipment target raised: https://www.digitimes.com/news/a20261026VL200/2026-technology-demand-iphone-apple.html\nMacRumors, top stories (24 October 2026): https://www.macrumors.com/2026/10/24/top-stories-apple-pro-and-tell-teaser/\nMyMobileIndia, screens cracking within hours: https://www.mymobileindia.com/?p=317480"
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is the iPhone Duo screen crack a confirmed defect?",
+      "a": "No. Apple has not publicly confirmed a cause or said how many units are affected. Reports so far come from owners on Reddit and forums, and some reviewers did not see any problems."
+    },
+    {
+      "q": "What should I do if my iPhone Duo screen cracks?",
+      "a": "Stop using it, take photos, and contact Apple or the retailer straight away. Apple's one-year limited warranty applies, and early reports say Apple stores replaced some faulty units."
+    },
+    {
+      "q": "How much does an iPhone Duo inner screen repair cost?",
+      "a": "In the US, reports put it at $999 without AppleCare+. UK prices have not been verified, so check Apple UK's repair page before buying."
+    },
+    {
+      "q": "Do I have consumer rights in the UK if the phone is faulty?",
+      "a": "Generally yes. The Consumer Rights Act 2015 requires goods to be of satisfactory quality, and there is typically a 30-day short-term right to reject faulty goods. This is a general summary, so check GOV.UK or Citizens Advice for your situation."
+    },
+    {
+      "q": "Is Apple selling more iPhone Duo units than expected?",
+      "a": "A DigiTimes report says Apple raised its 12-month shipment target from 9.7 million to 14 million units after strong preorders. Apple has not confirmed this."
+    }
+  ],
+  "sources": []
+}

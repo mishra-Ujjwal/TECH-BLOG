@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "what-happens-when-smart-home-servers-shut-down",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "The question to ask before buying any smart home gadget",
+  "metaDescription": "Most smart devices stop working when the maker switches off its servers. One question before you buy tells you whether yours will survive that.",
+  "excerpt": "Smart home companies get bought, pivot or close, and when the servers go dark the hardware in your wall often goes with them. There is a single question that separates the devices that survive from the ones that become ornaments.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "smart-home",
+    "iot",
+    "buying-advice",
+    "matter"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: Open Loops. The opening section states that these devices die in a specific way without saying how, and the second section closes that loop with the router test. Each section opens a smaller question the next one answers.\n\nBEFORE PUBLISHING:\n1. ADD REAL EXAMPLES, and this is what will make the article. There are several well-documented cases of smart home services being shut down and devices losing function. Find two or three, verify each against contemporaneous reporting or the company's own notice, name them, and link the sources. Right now the article describes a pattern without evidence, which is its main weakness.\n2. DO THE ROUTER TEST YOURSELF on every smart device you own and publish the results as a small table. That is original first-hand data, costs you five minutes, and is exactly the kind of thing that makes a post impossible to dismiss as generated.\n3. VERIFY what Matter currently guarantees against the Connectivity Standards Alliance's own documentation before describing it. Do not overstate it.\n4. IMAGES: photograph your own hub and devices, and screenshot an app showing a device offline during the router test. 1200px minimum.\n5. Be careful naming companies. Describe documented, sourced events factually and avoid predicting that any current company will shut down.\n6. Put your own name on it.",
+  "format": "explainer",
+  "category": "smart-home",
+  "answer": "Ask whether the device works without the internet. If its commands travel to a company server and back, that device stops working the day the company switches the server off, no matter how well built it is. If it works on your local network, or supports a standard such as Matter or Zigbee with a hub you control, it keeps working regardless of what happens to the company.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "the-hook",
+      "heading": "There is a specific way these things die",
+      "body": "It is rarely a failure. The device does not break, the switch still clicks, the bulb still has power.\n\nWhat happens is that an email arrives, or more often does not, and the app stops connecting. The hardware is in perfect condition. The service that told it what to do has been switched off.\n\nThis has happened repeatedly across the smart home industry, to products from large companies and small ones, usually after an acquisition or a change of strategy. The pattern is consistent enough to plan around, and almost nobody does, because the question that predicts it is never asked in the shop."
+    },
+    {
+      "id": "the-question",
+      "heading": "The question: does it work without the internet?",
+      "body": "Pull your router's plug. Does the device still respond?\n\nThat test separates two architectures that look identical from the outside and are completely different in their life expectancy.\n\n**Cloud-dependent.** You press a button in the app. The command goes to the company's server, possibly in another country, and comes back to the device in your house. Your phone and the device may be a metre apart, and the instruction has travelled thousands of miles. When the server stops answering, the device stops working. The hardware's quality is irrelevant.\n\n**Local control.** The app talks to the device directly over your own network, or through a hub in your home. The internet is used for updates and remote access, not for every command. The company can disappear entirely and the lights still turn on.\n\nMost budget smart plugs and bulbs are cloud-dependent, because it is cheaper to build. Most devices built on Zigbee, Z-Wave, Thread or Matter with a local hub are not."
+    },
+    {
+      "id": "why-they-build-it-that-way",
+      "heading": "Why cloud-dependence is so common",
+      "body": "It is worth understanding, because it tells you which products to distrust.\n\nCloud control is easier and cheaper to develop. The device only has to maintain one connection outward, which sidesteps the hard problem of discovering devices on home networks that are all configured differently. Remote access comes free. So do usage analytics.\n\nIt also creates an ongoing relationship with the customer, which can be converted into a subscription later. A device that works entirely on your own network cannot have a subscription attached to it afterwards, which from the manufacturer's point of view is a drawback.\n\nNone of this is sinister. It is a reasonable engineering and commercial choice. It simply means the thing you bought has a dependency you were not told about and cannot maintain yourself."
+    },
+    {
+      "id": "what-to-buy",
+      "heading": "What to look for instead",
+      "body": "**Matter support** is the clearest signal available today. It is an industry standard designed for local control, and a Matter device works with a hub you own rather than only with the manufacturer's service.\n\n**Zigbee or Z-Wave** devices paired to your own hub have worked this way for years and continue to. The devices are simple radios. Your hub holds the intelligence.\n\n**An explicit statement of local control** in the specifications. Manufacturers that have done this work say so, because it is a selling point to the people who care.\n\n**Avoid** anything requiring an account to perform a basic function, anything where the app has no local mode, and anything from a brand you cannot find a support page for. A smart plug that needs a sign-in to turn on a lamp has told you exactly what it is.\n\nFor anything structural, a thermostat, a lock, wired switches, weight this heavily. A bulb that stops working is an annoyance. A heating system that stops working because a company was sold is a different kind of problem, and replacing wired-in hardware is expensive."
+    },
+    {
+      "id": "already-bought",
+      "heading": "If you already own cloud-dependent devices",
+      "body": "Do not throw anything away. Do three things.\n\n**Test it.** Unplug the router for five minutes and see what still functions. You will learn more in those five minutes than from any specification sheet, and the results are often surprising in both directions.\n\n**Find out what it falls back to.** Many smart switches still work as ordinary switches. Many smart thermostats keep running their last schedule. A device that degrades gracefully is far less of a problem than one that bricks, and the time to find out which you have is now.\n\n**Do not replace working devices pre-emptively.** The waste is real and the risk is theoretical until it is not. Apply the rule to the next thing you buy, and prioritise replacing anything that controls heating, locks or anything wired into the house.\n\nThere is one more option worth knowing about: several open-source home automation projects can take local control of devices whose original service has shut down, and the community around them is genuinely good at rescuing abandoned hardware. It is more involved than most people want. It is also the reason some supposedly dead devices are still running in people's homes."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "What happens to smart home devices when a company shuts down?",
+      "a": "Cloud-dependent devices usually stop responding, because the server that relayed every command no longer answers. Devices with local control, including most Matter, Zigbee and Z-Wave hardware paired to your own hub, keep working."
+    },
+    {
+      "q": "How do I tell whether a device needs the internet?",
+      "a": "Unplug your router for five minutes and try to control it. If it still responds, it has local control. It is a more reliable test than anything written on the box."
+    },
+    {
+      "q": "Does Matter guarantee a device will keep working?",
+      "a": "It is the strongest signal currently available, because Matter is designed around local control with a hub you own. It is not an absolute guarantee, since implementations vary, but it is a far better bet than a proprietary cloud-only product."
+    },
+    {
+      "q": "Should I replace my cloud-dependent devices now?",
+      "a": "No. Test what you have, find out what each one falls back to, and apply the rule to future purchases. Prioritise anything wired in or controlling heating or locks, where replacement is expensive and failure matters more."
+    }
+  ],
+  "sources": []
+}

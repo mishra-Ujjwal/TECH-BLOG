@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "why-wifi-is-slow-in-some-rooms",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Why Wi-Fi is slow in some rooms: the causes explained",
+  "metaDescription": "The common reasons Wi-Fi is slow in particular rooms of a UK home, from router position and building materials to channel congestion and old devices.",
+  "excerpt": "Fast in the hallway, crawling in the back bedroom. Here are the usual causes of uneven Wi-Fi and how to work out which one you have.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "wi-fi",
+    "troubleshooting",
+    "home-network"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "networking",
+  "answer": "Wi-Fi slows in some rooms mainly because of distance and obstacles: brick walls, floors, mirrors, metal and water all weaken the signal. Other causes include interference from neighbouring networks, a router tucked in a cupboard, older devices that drag down speeds, and the 5GHz or 6GHz band not reaching as far as 2.4GHz.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "distance-and-building-materials",
+      "heading": "Distance and building materials",
+      "body": "Wi-Fi is a radio signal that weakens with distance and with everything it passes through. Plasterboard costs little, but brick, stone, concrete and especially foil-backed insulation, underfloor heating pipes, mirrors and metal kitchen appliances absorb or reflect a lot. A room two walls and a floor away from the router may get a fraction of the signal of the hallway.\n\nMany UK routers sit by the master socket, often low down in a hallway or cupboard, which is a poor position for coverage."
+    },
+    {
+      "id": "frequency-bands",
+      "heading": "Frequency bands",
+      "body": "Routers broadcast on several bands. 2.4GHz reaches furthest and passes through walls better but is slower and more crowded. 5GHz is faster but has less range. 6GHz on newer routers is fastest and least crowded but has the shortest range.\n\nDevices may stay connected to a weak 5GHz signal when 2.4GHz would work better, or vice versa. Many routers use band steering to manage this automatically, with varying success."
+    },
+    {
+      "id": "interference-and-congestion",
+      "heading": "Interference and congestion",
+      "body": "In flats and terraced streets, dozens of networks can overlap. On 2.4GHz there are only three channels that do not overlap, so neighbours compete for airtime. Microwave ovens, baby monitors, some cordless phones and Bluetooth devices also use 2.4GHz.\n\nMost modern routers choose channels automatically. If yours does not, or performance is poor at certain times, try a different channel, or use 5GHz where possible."
+    },
+    {
+      "id": "the-devices-themselves",
+      "heading": "The devices themselves",
+      "body": "- **Older devices** using old Wi-Fi standards can only connect at lower speeds and may slow others.\n- **Small devices** such as smart plugs and phones have smaller antennas than laptops.\n- **Busy devices** in another room, such as a games console downloading an update or a cloud backup, use bandwidth everyone shares.\n\nTest with more than one device before blaming a particular room."
+    },
+    {
+      "id": "working-out-the-cause-and-fixing-it",
+      "heading": "Working out the cause and fixing it",
+      "body": "- Run a speed test next to the router, then in the slow room, using the same device. If both are slow, the problem is your broadband, not the Wi-Fi.\n- Move the router somewhere central, higher and in the open if your socket allows; a longer cable from the master socket or an Openreach-approved extension may help.\n- Restart the router and update its firmware.\n- Check whether the device is on 2.4GHz or 5GHz in the slow room.\n- For persistent dead spots, consider a mesh system or a wired connection.\n\nIf speeds are poor everywhere, contact your provider and check your line's minimum guaranteed speed."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Why is my Wi-Fi fast downstairs but slow upstairs?",
+      "a": "Floors, especially with pipes or underfloor heating, block a lot of signal, and routers placed low in a hallway send much of their signal into the ground floor. A central router or mesh system usually helps."
+    },
+    {
+      "q": "Should I use 2.4GHz or 5GHz?",
+      "a": "Use 5GHz near the router for speed and 2.4GHz further away for range. Most routers combine them under one name and choose automatically."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ofcom-wifi",
+      "name": "Ofcom: Phones and broadband advice",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-wifi",
+      "name": "Wikipedia: Wi-Fi",
+      "url": "https://en.wikipedia.org/wiki/Wi-Fi",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

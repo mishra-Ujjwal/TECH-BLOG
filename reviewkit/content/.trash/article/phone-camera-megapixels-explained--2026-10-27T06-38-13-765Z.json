@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "phone-camera-megapixels-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Phone camera megapixels explained: why 200MP is not four times better",
+  "metaDescription": "What megapixels measure, why sensor size and pixel binning matter more, and how to read a phone camera's specification without being misled.",
+  "excerpt": "A higher megapixel count sounds better, but phone cameras are limited by their tiny sensors. Here is what actually decides photo quality.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "camera",
+    "megapixels",
+    "photography"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "phones",
+  "answer": "Megapixels count how many points of light a sensor records, not how good the photos are. On a phone, sensor size, lens quality and processing decide quality far more. High megapixel sensors usually combine groups of pixels into one (pixel binning), so a 200MP phone normally saves 12MP or 50MP photos unless you ask otherwise.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-a-megapixel-is",
+      "heading": "What a megapixel is",
+      "body": "A camera sensor is a grid of tiny light-sensitive sites, called photosites or pixels. One megapixel is a million of them. A 12MP sensor records about 12 million points of light; a 200MP sensor, about 200 million.\n\nMore pixels mean more detail can be recorded, but only if enough light reaches each pixel and the lens can resolve that detail in the first place. On a phone, neither is guaranteed."
+    },
+    {
+      "id": "why-sensor-size-matters-more",
+      "heading": "Why sensor size matters more",
+      "body": "Phone sensors are small, because they have to fit behind a lens in a body less than a centimetre thick. Squeezing more pixels onto the same small area makes each pixel smaller, and smaller pixels collect less light. Less light means more noise (grain and blotchy colour), especially indoors and at night.\n\nThat is why a phone with a larger main sensor and fewer megapixels can take better low-light photos than one with a smaller sensor and more. Sensor size is often given as a fraction such as 1/1.3 inch or 1 inch. These numbers are an old convention and do not match the real diagonal, but bigger fractions still mean bigger sensors."
+    },
+    {
+      "id": "pixel-binning",
+      "heading": "Pixel binning",
+      "body": "To get round the small-pixel problem, high megapixel phone sensors use pixel binning: they combine neighbouring pixels into one larger virtual pixel. A 48MP or 50MP sensor usually bins four pixels into one and saves 12MP photos. A 200MP sensor might bin 16 into one for 12.5MP photos, or four into one for 50MP.\n\nThe result is the best of both, in theory. In good light you can switch to full resolution for maximum detail and the freedom to crop. In poor light the camera bins pixels to collect more light per point. Most of the time, the default mode on a high megapixel phone is the binned one."
+    },
+    {
+      "id": "what-else-decides-quality",
+      "heading": "What else decides quality",
+      "body": "- **The lens.** A small, cheap lens cannot resolve 200 million points of detail, so extra pixels just record blur more precisely.\n- **Processing.** Phones take several frames and merge them to reduce noise and widen dynamic range. This computational processing has more effect on the final image than any single hardware number.\n- **Stabilisation.** Optical image stabilisation lets the camera use slower shutter speeds at night without blur.\n- **The other cameras.** Ultrawide and telephoto cameras usually have smaller sensors than the main one, so their quality drops faster in dim light. A phone is only as good as the camera you are using at the time."
+    },
+    {
+      "id": "how-to-read-a-camera-specification",
+      "heading": "How to read a camera specification",
+      "body": "When comparing phones, look past the headline megapixel figure:\n\n- Check the sensor size of the main camera and of the telephoto, not just the megapixels.\n- Look for optical image stabilisation on the main camera at least.\n- Check the optical zoom of the telephoto. Digital zoom beyond that is a crop.\n- Look at real sample photos taken in dim light, which is where differences show.\n\nA higher megapixel count is useful for cropping and printing large, but it is one ingredient among several, and rarely the one that decides whether you like the photos."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is a 200MP camera better than a 50MP camera?",
+      "a": "Not automatically. Both usually save binned photos at a lower resolution, and sensor size, lens quality and processing affect results more than the megapixel count."
+    },
+    {
+      "q": "Should I shoot in full resolution mode?",
+      "a": "Only in good light when you want to crop or print large. Full resolution files are bigger and often noisier indoors than the default binned mode."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-sensor-format",
+      "name": "Wikipedia: Image sensor format",
+      "url": "https://en.wikipedia.org/wiki/Image_sensor_format",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-binning",
+      "name": "Wikipedia: Pixel binning",
+      "url": "https://en.wikipedia.org/wiki/Pixel_binning",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

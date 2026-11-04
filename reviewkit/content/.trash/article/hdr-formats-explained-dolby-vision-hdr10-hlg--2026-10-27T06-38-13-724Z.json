@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "hdr-formats-explained-dolby-vision-hdr10-hlg",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "HDR formats explained: HDR10, HDR10+, Dolby Vision and HLG",
+  "metaDescription": "What HDR does for a TV picture, how HDR10, HDR10+, Dolby Vision and HLG differ, which UK services use which, and why HDR can look dim at home.",
+  "excerpt": "Every new TV advertises HDR, often several kinds. Here is what high dynamic range adds, how the formats differ, and what UK viewers actually watch in each.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "hdr",
+    "dolby-vision",
+    "picture-quality"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "tvs",
+  "answer": "HDR, or high dynamic range, lets a picture show brighter highlights, deeper shadows and richer colours than standard video. HDR10 is the basic format every HDR TV supports. HDR10+ and Dolby Vision add scene-by-scene instructions so the TV can adapt the picture. HLG is the broadcast format used for live TV, including BBC iPlayer content in the UK.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-hdr-changes",
+      "heading": "What HDR changes",
+      "body": "Standard dynamic range video was designed around the limits of old TVs, with a fixed and fairly narrow range of brightness. HDR video carries information for a much wider range, from deep shadows to highlights such as sunlight on water that can be many times brighter than the rest of the picture. It also usually comes with a wider colour range.\n\nThe effect, on a TV that can show it, is a picture with more depth and sparkle. On a TV that cannot get very bright, HDR has less to work with, which is why the same film can look spectacular on one set and flat on another."
+    },
+    {
+      "id": "hdr10",
+      "heading": "HDR10",
+      "body": "HDR10 is an open standard and the baseline: every HDR TV and HDR source supports it. It uses static metadata, a single set of instructions for the whole film or programme describing its brightest and average levels. The TV uses that to map the content to its own capabilities, a process called tone mapping. Because one setting covers everything, dark scenes and bright scenes are handled the same way."
+    },
+    {
+      "id": "hdr10-and-dolby-vision",
+      "heading": "HDR10+ and Dolby Vision",
+      "body": "Both add dynamic metadata, instructions that can change scene by scene or even frame by frame, so the TV can tone map a dark cave scene differently from a bright beach.\n\n- **Dolby Vision** is a licensed format from Dolby. It is widely used by streaming services and on 4K Blu-ray, and supported by most TV brands, with Samsung the best-known exception.\n- **HDR10+** is a royalty-free alternative backed by Samsung and others, supported by some streaming services and many TVs.\n\nMany TVs support both. If yours supports only one, content in the other format usually plays as standard HDR10, so you still get HDR, just without the scene-by-scene adjustments."
+    },
+    {
+      "id": "hlg-for-broadcast",
+      "heading": "HLG for broadcast",
+      "body": "Hybrid Log-Gamma (HLG) was developed by the BBC and Japan's NHK for broadcasting. It needs no metadata and is designed so the same signal looks acceptable on both HDR and standard TVs, which makes it practical for live events. In the UK, HLG is used for some BBC iPlayer programmes and major live sport. Most HDR TVs sold in the UK support HLG, but it is worth checking on cheaper models."
+    },
+    {
+      "id": "why-hdr-can-look-dim-and-what-to-do",
+      "heading": "Why HDR can look dim, and what to do",
+      "body": "A common complaint is that HDR films look darker than expected. HDR is mastered for a dim room, and most of the picture is meant to sit at normal brightness, with only highlights going very bright. In a bright living room that can look dark.\n\nTry these before blaming the TV:\n\n- Use the TV's own HDR picture mode intended for the room, often called Standard or a bright variant during the day, and Filmmaker, Cinema or Dolby Vision Dark at night.\n- Turn on any ambient light sensor feature so the TV adjusts to the room.\n- Make sure the source is outputting HDR; streaming apps need a premium tier and a fast enough connection for 4K HDR on many services.\n- Check that the HDMI input is set to its enhanced or full bandwidth mode, which some TVs require for 4K HDR from external devices."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do I need Dolby Vision?",
+      "a": "It is nice to have because it adapts the picture scene by scene, but Dolby Vision content plays as HDR10 on TVs without it, so you still get HDR."
+    },
+    {
+      "q": "Does BBC iPlayer use HDR?",
+      "a": "Some BBC iPlayer programmes and major live events are available in HDR using the HLG format, on compatible TVs and devices."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-hdr-video",
+      "name": "Wikipedia: High-dynamic-range television",
+      "url": "https://en.wikipedia.org/wiki/High-dynamic-range_television",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-hlg",
+      "name": "Wikipedia: Hybrid log-gamma",
+      "url": "https://en.wikipedia.org/wiki/Hybrid_log%E2%80%93gamma",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

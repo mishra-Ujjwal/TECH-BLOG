@@ -1,0 +1,71 @@
+{
+  "_note": "Written to match what the code does on 26 October 2026: no analytics, no accounts, no ads switched on, self-hosted fonts, consent choice in localStorage. Update it BEFORE you add analytics, a newsletter, a contact form or turn ads on. Not legal advice: have it checked by someone qualified.",
+  "schemaVersion": 1,
+  "type": "page",
+  "slug": "privacy-policy",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Privacy policy and how we use cookies",
+  "metaDescription": "What personal data this site collects, why, how long we keep it, who we share it with, and the rights you have under UK GDPR.",
+  "excerpt": "The short version: we collect very little. There are no accounts, no comments and no analytics, and nothing is used for advertising unless you agree.",
+  "footer": true,
+  "author": {
+    "name": "{{publisher.name}}",
+    "slug": "publisher"
+  },
+  "dates": { "published": "2026-10-26" },
+  "sections": [
+    {
+      "id": "controller",
+      "heading": "Who is responsible for your data",
+      "body": "{{site.name}} is run by {{publisher.name}}, who is the data controller for the personal data described here. You can contact us about anything in this policy at [{{publisher.email}}](mailto:{{publisher.email}})."
+    },
+    {
+      "id": "summary",
+      "heading": "The short version",
+      "body": "- You can read every page without giving us any personal information.\n- There are no user accounts, comments, newsletters or contact forms.\n- We do not run analytics or tracking tools.\n- We do not currently show advertising. If we start, no advertising cookies will be set unless you agree first.\n- Our fonts are stored on our own server, so loading a page does not send your IP address to a font provider."
+    },
+    {
+      "id": "what-we-collect",
+      "heading": "What we collect, why, and our lawful basis",
+      "body": "**Request logs.** Like any website, the server that delivers our pages records technical details of each request: your IP address, browser type, the page requested and the time. This is processed by our hosting provider to deliver the site and protect it from abuse. Our lawful basis is legitimate interests (keeping the site running and secure).\n\n**Emails you send us.** If you email us, we receive your email address, your name if you include it, and whatever you write. We use it only to reply and, for a correction, to fix the page. Our lawful basis is legitimate interests (answering you). For a privacy request, it is our legal obligation to respond.\n\n**Your cookie choice.** When you accept or reject advertising cookies, your choice is saved in your own browser's local storage under the name `consent.ads.v1`. It is never sent to us. It is strictly necessary to remember your choice, so it does not need consent."
+    },
+    {
+      "id": "cookies",
+      "heading": "Cookies and similar technology",
+      "body": "Today we set no cookies of our own. The only thing stored on your device is the cookie choice described above.\n\nIf we turn advertising on, we will use Google AdSense. Google and its partners may then set cookies to show and measure adverts, including personalised adverts, but only after you select Accept on the banner. If you select Reject, no advertising cookies are set. Google explains its own use of this data in [how Google uses information from sites that use its services](https://policies.google.com/technologies/partner-sites). We will update this policy before any advertising goes live.\n\nYou can change your choice at any time with **Cookie choices** in the footer of every page."
+    },
+    {
+      "id": "affiliate-and-external-links",
+      "heading": "Affiliate and external links",
+      "body": "Some links take you to retailers, and some of those are affiliate links. Once you leave this site, the retailer or affiliate network may set its own cookies to record that you came from us. That happens on their site, under their privacy policy, not ours. We do not receive your name, address or payment details from any retailer."
+    },
+    {
+      "id": "sharing",
+      "heading": "Who we share data with",
+      "body": "We do not sell personal data, and we share it only with the providers we need to run the site:\n\n- our hosting provider, which processes request logs\n- our email provider, which stores messages you send us\n- Google, only if advertising is switched on and you have agreed to advertising cookies\n\nWe may also disclose information if the law requires it. If a provider processes data outside the UK, we rely on the UK's adequacy regulations or on the International Data Transfer Agreement or Addendum approved by the Information Commissioner."
+    },
+    {
+      "id": "retention",
+      "heading": "How long we keep it",
+      "body": "- Request logs: kept by our hosting provider only as long as it needs them to run and secure the site, under its own retention policy. We do not keep separate copies.\n- Emails: kept for up to 12 months after the conversation ends, then deleted. A record of a privacy request is kept for two years so we can show we dealt with it.\n- Your cookie choice: stays in your browser until you change it or clear your browser's storage."
+    },
+    {
+      "id": "rights",
+      "heading": "Your rights",
+      "body": "Under UK data protection law you have the right to:\n\n- ask for a copy of the personal data we hold about you\n- have inaccurate data corrected\n- have your data deleted\n- restrict or object to how we use it\n- receive your data in a portable format\n- withdraw consent at any time, where we rely on consent\n\nTo use any of these rights, email [{{publisher.email}}](mailto:{{publisher.email}}). We will reply within one month. There is no charge.\n\nIf you are unhappy with how we handle your data, you can complain to the Information Commissioner's Office at [ico.org.uk](https://ico.org.uk/make-a-complaint/). We would appreciate the chance to put it right first."
+    },
+    {
+      "id": "children",
+      "heading": "Children",
+      "body": "This site is written for adults and is not aimed at children. We do not knowingly collect personal data from anyone under 13."
+    },
+    {
+      "id": "changes",
+      "heading": "Changes to this policy",
+      "body": "When we change how we handle data, for example by switching on advertising, we update this page first and change the date at the top. Significant changes are also noted at the end of this page."
+    }
+  ],
+  "editorial": { "aiAssisted": false, "updates": [] },
+  "seo": { "noindex": false, "alternates": [] }
+}

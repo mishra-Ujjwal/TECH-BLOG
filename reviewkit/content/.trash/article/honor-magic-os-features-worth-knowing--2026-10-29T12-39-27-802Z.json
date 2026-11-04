@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "honor-magic-os-features-worth-knowing",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Honor split from Huawei years ago. What that actually changed",
+  "metaDescription": "Honor phones now ship with full Google services and their own MagicOS features. Here is what is different from the Huawei-owned years, and what to check.",
+  "excerpt": "If the last Honor phone you paid attention to was before the split from Huawei, the phone has changed more than the name suggests. Full Google Play support is the headline, but it is not the only thing worth knowing before you buy one now.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "honor",
+    "magicos",
+    "android"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: 4 C's. Clear = the split explained plainly. Concise = three focused sections rather than a full history. Compelling = answers the exact confusion buyers have. Credible = named caveats rather than marketing claims repeated uncritically.\n\nVERIFY BEFORE PUBLISHING:\n1. Confirm current Honor update commitment figures per tier directly from Honor's current UK support page, not from memory, and name the date checked.\n2. Verify at least one current example of a feature or model that launched elsewhere before, or instead of, the UK, rather than asserting the pattern generally without a current example.\n3. Confirm Magic Portal and the current AI feature names and behaviour on the current MagicOS version, since Honor renames and reshuffles these features across versions.\n\nIMAGES: screenshot a Magic Portal recognition in action on your own phone, ideally showing both a successful and a failed recognition, since showing the limitation honestly is more useful and more original than only showing the feature working. 1200px minimum.\n\nFIRST-HAND UPGRADE: if you have used Magic Portal or the AI photo tools, give one real example of each working and one of each failing, with what you were trying to do. That specific pair of examples is the most valuable addition available for this topic.\n\nPut your own name on it.",
+  "format": "explainer",
+  "category": "phones",
+  "answer": "Honor was spun off from Huawei in 2020 and, unlike phones still sold under the Huawei name, Honor devices ship with full Google Mobile Services, including the Play Store, Gmail and Maps, the same as any other Android phone sold in the UK. The software layer is called MagicOS, built around a set of AI-driven features Honor markets heavily, and the main things worth checking before buying are the specific model's software update commitment and UK availability of its camera and AI features, which lag the headline announcements more often than competitors.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "the-split",
+      "heading": "The split, briefly, because it still confuses people",
+      "body": "Huawei was placed under US trade restrictions that cut its access to Google's services and to some chip suppliers. In 2020, Huawei sold its Honor sub-brand to a separate consortium, and Honor has operated as an independent company since.\n\nThe practical consequence for a UK buyer: Honor phones are not subject to the same restrictions. They ship with the full suite of Google services, the Play Store works normally, and buying one carries none of the software limitations that affect current Huawei-branded phones. This is the single most important fact for anyone who remembers the Huawei restrictions and is wondering whether Honor is affected the same way. It is not."
+    },
+    {
+      "id": "magicos",
+      "heading": "MagicOS, and what it actually adds",
+      "body": "Honor's software layer has moved increasingly toward AI-branded features as a point of differentiation, following an industry-wide trend rather than leading it, but with a few genuinely distinctive implementations.\n\n**Magic Portal** attempts to recognise content on screen, a phone number in a message or an address in a photo, and offer a direct action such as calling the number or opening it in maps, without you copying and pasting manually. It works well when it recognises something correctly and does nothing useful when it does not, which is the general pattern for this category of feature across the industry, not specific to Honor.\n\n**AI-assisted photo editing**, including object removal and reflection removal tools, which Honor has pushed hard in marketing and which perform reasonably well on straightforward cases, with the usual caveat that complex scenes expose the limits of any on-device AI editing tool.\n\nThe honest framing: these are nice additions on top of competent hardware, not the primary reason to choose the phone over a Samsung or Pixel at a similar price. Judge Honor on its camera hardware and screen quality, which are consistently strong for the price, and treat the AI features as a bonus rather than the deciding factor."
+    },
+    {
+      "id": "updates",
+      "heading": "The thing to actually check: update commitment",
+      "body": "Honor has extended its software support commitments in recent years, moving closer to what Samsung and Google offer, but the exact commitment still varies by model tier more than it does for those two brands.\n\nCheck the specific number of years of major Android updates and the separate, usually longer, number of years of security patches for the exact model you are considering, on Honor's own current support page, before buying. Do not assume a flagship model's commitment applies to a mid-range model in the same range, and do not assume this year's commitment matches a figure you remember from a previous generation, since Honor has changed this more than once."
+    },
+    {
+      "id": "uk-availability",
+      "heading": "Where UK buyers specifically need to check",
+      "body": "Honor announces features globally and rolls them out regionally, and the UK has not always been first in that queue. Specific camera modes, AI features and occasionally specific models have arrived in other markets before, or have never arrived in, the UK.\n\nIf you are choosing a Honor phone because of a specific feature you read about, confirm it is actually available on the UK version of that model before buying, rather than assuming global announcements apply uniformly. This is not unique to Honor among Chinese-market brands, but it is worth checking every time rather than assuming it has improved since the last model you looked at."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do Honor phones have Google Play Store?",
+      "a": "Yes. Honor split from Huawei in 2020 and is not subject to the restrictions affecting current Huawei-branded phones. Honor devices ship with full Google Mobile Services, including the Play Store, the same as any other Android phone sold in the UK."
+    },
+    {
+      "q": "Is Honor still connected to Huawei?",
+      "a": "No, not in ownership. Honor was sold to a separate consortium in 2020 and has operated independently since, which is why it is not affected by the US restrictions that limit Huawei's current phones."
+    },
+    {
+      "q": "How long do Honor phones get software updates?",
+      "a": "It depends on the specific model. Honor has extended its commitments in recent years and moved closer to Samsung and Google, but the figure still varies by tier, so check the current stated commitment for the exact model before buying."
+    },
+    {
+      "q": "Are all Honor AI features available in the UK?",
+      "a": "Not always, and not always immediately. Features are often announced globally before rolling out regionally, and the UK has sometimes received specific camera or AI features later than other markets, or not at all. Confirm UK availability for the specific model before buying for a particular feature."
+    }
+  ],
+  "sources": []
+}

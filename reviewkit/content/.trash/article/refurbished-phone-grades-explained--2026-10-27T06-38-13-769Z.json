@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "refurbished-phone-grades-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Refurbished phone grades explained: what to check before buying in the UK",
+  "metaDescription": "What refurbished phone grades mean in the UK, why they vary between sellers, what to check on the battery and warranty, and your rights if it goes wrong.",
+  "excerpt": "A refurbished phone can save hundreds of pounds. Here is how the grades work, what they leave out, and the checks that separate a good buy from a bad one.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "refurbished",
+    "buying-advice",
+    "consumer-rights"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "phones",
+  "answer": "Refurbished phones are second-hand phones that have been checked, repaired where needed and resold. The grade, usually A, B and C or words like Excellent and Good, describes cosmetic condition, not how well the phone works, and every seller defines grades differently. Check the battery health, the warranty and the returns policy before the grade.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-refurbished-means",
+      "heading": "What refurbished means",
+      "body": "A refurbished phone has had a previous owner or was returned, and has been tested, repaired if necessary, wiped and resold. That is different from a used phone sold privately, which comes with no checks at all, and from a new phone that is simply out of its box.\n\nThere is no single UK standard for refurbishment. Some phones are refurbished by the manufacturer, some by networks, and many by independent companies selling through their own sites or large marketplaces. The quality of the process varies with the seller, which is why the seller matters more than the grade."
+    },
+    {
+      "id": "how-grades-work",
+      "heading": "How grades work",
+      "body": "Most sellers grade on appearance. A typical scale looks like this:\n\n- **A, Excellent or Pristine:** little or no visible wear.\n- **B, Very good:** light scratches on the body, often none on the screen.\n- **C, Good or Fair:** obvious scratches or small dents, but fully working.\n\nBecause each seller writes its own definitions, a grade B phone from one company can look better than a grade A from another. Read the seller's description of each grade, look for photos of the actual condition levels, and remember that a cheaper grade often makes sense if you will use a case anyway."
+    },
+    {
+      "id": "the-battery-is-the-thing-to-check",
+      "heading": "The battery is the thing to check",
+      "body": "Grades rarely say much about the battery, which is the part most likely to have worn. Ask or look for:\n\n- **A minimum battery health guarantee,** for example at least 80 or 85 per cent of original capacity.\n- **Whether the battery has been replaced,** and with what kind of part.\n- **How to check it yourself.** On an iPhone, Settings shows the maximum capacity. Many Android phones show battery health in settings or through the manufacturer's diagnostics.\n\nIf the battery is below about 80 per cent, factor in the cost of a replacement when comparing prices."
+    },
+    {
+      "id": "other-checks-before-you-buy",
+      "heading": "Other checks before you buy",
+      "body": "- **Warranty.** Look for at least 12 months. Some sellers offer longer.\n- **Returns.** You normally have 14 days to cancel an online purchase in the UK. Check the seller's policy and who pays for return postage.\n- **Network lock.** Make sure the phone is unlocked or locked to your network.\n- **Parts.** Some sellers state whether the screen or battery has been replaced with original or third-party parts. Phones may show a notice in settings if a part is not genuine.\n- **What is in the box.** Many refurbished phones come without a charger, and sometimes without a cable.\n- **Activation lock.** The previous owner's account must be removed. A reputable seller does this before sale; check that you can set the phone up with your own account straight away."
+    },
+    {
+      "id": "your-rights-if-it-goes-wrong",
+      "heading": "Your rights if it goes wrong",
+      "body": "Under the Consumer Rights Act 2015, goods bought from a business must be of satisfactory quality, fit for purpose and as described, taking into account that they are second-hand and the price paid. If a refurbished phone develops a fault that was there when you bought it, you have the right to a repair, replacement or refund, depending on when the fault appears. Those rights apply in addition to any warranty, and they do not apply in the same way to private sales. Citizens Advice has a free tool for working out what to ask for."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is grade C refurbished worth buying?",
+      "a": "Often, yes, if the seller guarantees battery health and gives a proper warranty. Grade C usually means cosmetic wear only, which a case will hide."
+    },
+    {
+      "q": "Do I have consumer rights on a refurbished phone?",
+      "a": "Yes, when you buy from a business. The Consumer Rights Act 2015 applies, taking into account that the phone is second-hand and what you paid."
+    }
+  ],
+  "sources": [
+    {
+      "id": "citizens-advice",
+      "name": "Citizens Advice: if something you bought is faulty",
+      "url": "https://www.citizensadvice.org.uk/consumer/something-wrong-with-a-purchase/",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "cra-2015",
+      "name": "Consumer Rights Act 2015",
+      "url": "https://www.legislation.gov.uk/ukpga/2015/15/contents",
+      "licence": "Open Government Licence v3.0",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

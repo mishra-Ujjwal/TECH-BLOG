@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "google-gmail-photos-ad-targeting-what-to-check",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Google and your Gmail data: the settings worth checking now",
+  "metaDescription": "Google's privacy policy now says Gmail and Photos data can shape ads if you connect them to Search or Gemini. Here are the settings and your UK rights.",
+  "excerpt": "Since 16 October, Google's privacy policy says content from Gmail, Drive and Photos can be used for personalised ads if you let services such as Search or Gemini access those apps. Here is where that choice lives, the other settings worth checking, and your UK rights.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "privacy",
+    "google",
+    "advertising",
+    "uk-gdpr"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "BEFORE PUBLISHING: 1. Walk through every settings path on your own account today and correct any menu names, especially where Gemini and Search list connected apps. Screenshot each step. 2. Open the three ICO links and check they load. 3. Add screenshots (blur anything identifying), at least 1200px wide. 4. Rewrite 'Our take' in your own words.",
+  "format": "news-analysis",
+  "category": "computing",
+  "answer": "Google's updated privacy policy says it does not use your Gmail, Drive or Photos content for personalised ads unless you let another Google service, such as Search or Gemini, access those apps. So the first thing to check is which apps you have connected. After that, four account settings control most of the rest: Web and App Activity, Personalised advertising, My Ad Centre and Gmail smart features. In the UK you also have a legal right to see what is held and to object to direct marketing.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-is-reported",
+      "heading": "What has changed",
+      "body": "Google updated its privacy policy with effect from 16 October 2026. It still says it does not show personalised ads based on your content from Drive, Gmail or Google Photos, but adds an exception: if you choose to let other Google services, such as Search or Gemini Apps, access data from those apps, that information can be used to personalise ads, subject to the settings of the service you connected.\n\nIn other words, the change is opt-in. The practical question for most people is whether they have already opted in without noticing, for example by connecting Gmail or Photos to Gemini to try a new feature. The rest of this piece shows where that choice lives, and the other settings worth checking while you are there.",
+      "media": [
+        {
+          "src": "/images/google-gmail-photos-ad-targeting-what-to-check/gmail-settings-worth-checking-now.webp",
+          "alt": "google-gmail-photos-ad-targeting",
+          "credit": "Own screenshot",
+          "width": 1600,
+          "height": 900
+        }
+      ],
+      "opinion": true
+    },
+    {
+      "id": "the-four-settings",
+      "heading": "The five settings that matter",
+      "body": "Set aside ten minutes and go through these in order. Menu names change often, so if a label differs slightly on your account, look for the nearest match.\n\n**Connected apps in Gemini and Search.** This is the setting the policy change is about. In the Gemini app and in Search's personalisation settings, check which Google apps, such as Gmail, Drive and Photos, you have allowed them to access. If you do not use those features, disconnect them. This is the control that decides whether your email and photo content can be used for ads at all.\n\n**Web and App Activity.** At myaccount.google.com, under Data and privacy. It records what you search, which apps you open and where you go in Chrome while signed in. Switching it off stops new activity being saved. You can also set it to auto-delete after three months rather than keeping everything.\n\n**Personalised advertising.** Also under Data and privacy. Turning it off does not reduce the number of ads. You will see the same quantity, chosen with less about you. This is the setting most people assume they have already changed and have not.\n\n**My Ad Centre.** At myadcentre.google.com. This shows the categories Google thinks you belong to, and lets you remove them individually. It is worth opening once purely for the experience of seeing yourself described by an advertising system.\n\n**Gmail smart features.** In Gmail, under Settings, then General. This governs whether Gmail processes your mail for features like smart compose and automatic categorisation. It is a separate control from advertising and worth reviewing on its own terms."
+    },
+    {
+      "id": "what-this-does-for-you",
+      "heading": "What changing them actually does, and what it does not",
+      "body": "Be clear about the limits, because privacy advice is usually oversold.\n\n**It does not make you anonymous.** Google still knows who you are. You are signed in. The settings govern what gets used for targeting, not whether you are identified.\n\n**It does not reduce ad load.** Same number of ads, chosen differently. Anyone promising fewer ads from a privacy setting is selling something.\n\n**It does stop the accumulation.** The largest practical gain is switching activity logging off or to auto-delete, because it limits how much history exists to be used by any future policy you have not read yet. That is the real argument for doing this today rather than when the next story breaks.\n\n**It is not retroactive by itself.** Turning off collection going forward does not delete what is already stored. You have to delete that separately, which is a different button on the same page."
+    },
+    {
+      "id": "your-uk-rights",
+      "heading": "What UK law gives you on top of the settings",
+      "body": "Settings are what a company chooses to offer. Rights are what it has to honour.\n\nUnder UK GDPR you can ask any company, Google included, for a copy of the personal data it holds about you, and it must normally respond within one month. You can object to your data being used for direct marketing, and the ICO describes that right as absolute: there are no exemptions or grounds for refusing it. You can also ask for data to be deleted, with some exceptions.\n\nGoogle's own tool for seeing your data is Google Takeout, which is faster than a formal request and gives you the same visibility for most purposes. Use the formal route when the tool does not answer your question.\n\nIf you are not satisfied with how a request is handled, the Information Commissioner's Office is the UK regulator and takes complaints directly at ico.org.uk. That route is free, and very few people use it."
+    },
+    {
+      "id": "our-take",
+      "heading": "Our take",
+      "body": "The recurring pattern in these stories is not that a company suddenly started doing something sinister. It is that the boundary moves by small, individually defensible steps, each announced in language precise enough to be accurate and vague enough to be unalarming.\n\nNo single step is worth switching email provider over. The accumulation across ten years is, and there is no moment at which the accumulation announces itself. That is why the useful response to a story like this is not outrage, which fades by Friday, but spending ten minutes in a settings page you have never opened.\n\nIf you want to go further, the meaningful step is not a browser extension. It is reducing how much of your life runs through one account.",
+      "opinion": true
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Does turning off personalised ads mean I see fewer ads?",
+      "a": "No. You see the same number, selected using less information about you. Any advice promising fewer ads from a privacy setting is wrong."
+    },
+    {
+      "q": "Does Google use my emails for ads?",
+      "a": "According to its privacy policy effective 16 October 2026, Google does not show personalised ads based on your content from Gmail, Drive or Photos unless you choose to make that data available to another Google service that supports personalised ads, such as Search or Gemini."
+    },
+    {
+      "q": "How do I stop Gmail and Photos data being used for ads?",
+      "a": "Check which apps you have connected to Gemini and to Search's personalisation features, and disconnect Gmail, Drive and Photos if you do not use those features. You can also turn off personalised advertising in your Google Account."
+    },
+    {
+      "q": "Can I see what Google thinks I am interested in?",
+      "a": "Yes. My Ad Centre at myadcentre.google.com lists the categories applied to your account and lets you remove them one by one."
+    },
+    {
+      "q": "What can I do if I am not happy with the response to a data request?",
+      "a": "In the UK you can complain to the Information Commissioner's Office at ico.org.uk. It is free and it is the statutory route, and very few people use it."
+    }
+  ],
+  "sources": [
+    {
+      "id": "google-privacy-policy",
+      "name": "Google Privacy Policy (effective 16 October 2026)",
+      "url": "https://policies.google.com/privacy?hl=en-GB",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "ico-right-to-object",
+      "name": "ICO: The right to object to the use of your data",
+      "url": "https://ico.org.uk/for-the-public/the-right-to-object-to-the-use-of-your-data/",
+      "licence": "Open Government Licence v3.0",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "ico-access",
+      "name": "ICO: Getting copies of your information (subject access request)",
+      "url": "https://ico.org.uk/for-the-public/getting-copies-of-your-information-subject-access-request/",
+      "licence": "Open Government Licence v3.0",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "ico-complaint",
+      "name": "ICO: Make a complaint",
+      "url": "https://ico.org.uk/make-a-complaint/",
+      "licence": "Open Government Licence v3.0",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

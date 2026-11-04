@@ -1,0 +1,627 @@
+@import "tailwindcss";
+
+/* ===========================================================================
+   Design tokens.
+
+   Palette logic: cool paper and blue-black ink, one ultramarine for links and
+   the score, then two colours that carry meaning rather than decoration.
+     measured  moss   something we timed, counted or weighed ourselves
+     caution   umber  taken on trust from the maker, or possibly out of date
+   Nothing else is coloured. If a colour appears, it is saying something.
+   =========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  --paper: #fbfbfc;
+  --paper-2: #f2f3f7;
+  --paper-3: #e9ebf1;
+  --ink: #0e1424;
+  --ink-2: #4a5261;
+  --ink-3: #6b7382;
+  --rule: #dde0e8;
+  --rule-strong: #c3c8d4;
+  --accent: #c2410c;
+  --accent-2: #9a3412;
+  --accent-wash: #fff1e8;
+  --measured: #2f6b4f;
+  --measured-wash: #e8f2ec;
+  --caution: #8a5a12;
+  --caution-wash: #faf0df;
+  /* Brand: the logo's own colours. --brand-orange is the masthead and logo tile;
+     text and links use the darker --accent so they stay readable on white. */
+  --brand-orange: #ff6b2c;
+  --brand-navy: #0e1424;
+
+  /* Type scale, 1.25 from a 17px interface base. */
+  --t-micro: 0.75rem;
+  --t-small: 0.875rem;
+  --t-base: 1.0625rem;
+  --t-read: 1.1875rem;
+  --t-1: 1.3125rem;
+  --t-2: 1.625rem;
+  --t-3: 2rem;
+  --t-display: clamp(2.125rem, 1.35rem + 2.9vw, 3.375rem);
+  --t-figure: clamp(2.75rem, 2rem + 3vw, 4rem);
+
+  --measure: 34rem; /* about 68 characters of Newsreader at reading size */
+  --page: 46rem;
+  --page-wide: 72rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+
+    --paper: #0e1016;
+    --paper-2: #161a23;
+    --paper-3: #1d222d;
+    --ink: #e9ebf1;
+    --ink-2: #aeb6c4;
+    --ink-3: #8a92a1;
+    --rule: #262c38;
+    --rule-strong: #37404f;
+    --accent: #ff8a4c;
+    --accent-2: #ffab7a;
+    --accent-wash: #2b1a10;
+    --measured: #74c79b;
+    --measured-wash: #12261c;
+    --caution: #e0ae61;
+    --caution-wash: #2a2112;
+    --brand-orange: #ff6b2c;
+    --brand-navy: #e9ebf1;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --paper: #0e1016;
+  --paper-2: #161a23;
+  --paper-3: #1d222d;
+  --ink: #e9ebf1;
+  --ink-2: #aeb6c4;
+  --ink-3: #8a92a1;
+  --rule: #262c38;
+  --rule-strong: #37404f;
+  --accent: #ff8a4c;
+  --accent-2: #ffab7a;
+  --accent-wash: #2b1a10;
+  --measured: #74c79b;
+  --measured-wash: #12261c;
+  --caution: #e0ae61;
+  --caution-wash: #2a2112;
+  --brand-orange: #ff6b2c;
+  --brand-navy: #e9ebf1;
+}
+
+/* Expose tokens to Tailwind so text-ink, bg-paper-2 and friends follow the mode. */
+@theme inline {
+  --font-sans: var(--font-sans-local), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-serif-local), Iowan Old Style, Palatino, Georgia, serif;
+
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-paper-3: var(--paper-3);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-accent-wash: var(--accent-wash);
+  --color-measured: var(--measured);
+  --color-measured-wash: var(--measured-wash);
+  --color-caution: var(--caution);
+  --color-caution-wash: var(--caution-wash);
+  --color-brand-orange: var(--brand-orange);
+  --color-brand-navy: var(--brand-navy);
+
+  --text-micro: var(--t-micro);
+  --text-small: var(--t-small);
+  --text-base: var(--t-base);
+  --text-read: var(--t-read);
+  --text-h3: var(--t-1);
+  --text-h2: var(--t-2);
+  --text-h1: var(--t-3);
+  --text-display: var(--t-display);
+  --text-figure: var(--t-figure);
+}
+
+/* =============================================================== base ==== */
+
+* {
+  min-width: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: var(--t-base);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.021em;
+  text-wrap: balance;
+  line-height: 1.12;
+}
+
+/* Optical correction: the display size needs tighter tracking than a sub-head. */
+.t-display {
+  font-size: var(--t-display);
+  letter-spacing: -0.034em;
+  line-height: 1.04;
+  font-weight: 600;
+}
+
+.t-figure {
+  font-size: var(--t-figure);
+  letter-spacing: -0.04em;
+  line-height: 0.92;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* In the base layer, so text colour utilities on links (text-paper, text-accent)
+   win over it. Unlayered, it silently overrode them. */
+@layer base {
+  a {
+    color: inherit;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--accent-wash);
+  color: var(--ink);
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 60;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 6px;
+}
+
+/* ============================================================== links ==== */
+
+.link {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent);
+}
+.link:hover {
+  color: var(--accent-2);
+  text-decoration-color: currentColor;
+}
+
+/* =============================================================== prose ==== */
+/* Serif, because a review is read, not scanned. Hand-rolled, no plugin. */
+
+.prose {
+  font-family: var(--font-serif);
+  font-size: var(--t-read);
+  line-height: 1.68;
+  color: var(--ink);
+  max-width: var(--measure);
+}
+/* Spacing comes from this one rule. Do not add `.prose p { margin: 0 }` or
+   `.prose ul { margin: 0 }`: those selectors are more specific and would cancel it.
+   Tailwind's preflight already zeroes the element margins. */
+.prose > * + * {
+  margin-top: 0.95em;
+}
+.prose h3 {
+  font-family: var(--font-sans);
+  font-size: var(--t-1);
+  line-height: 1.25;
+  margin-top: 1.9em;
+}
+.prose h4 {
+  font-family: var(--font-sans);
+  font-size: var(--t-base);
+  font-weight: 650;
+  margin-top: 1.6em;
+}
+.prose a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent);
+}
+.prose a:hover {
+  text-decoration-color: currentColor;
+}
+.prose ul,
+.prose ol {
+  padding-left: 1.2em;
+}
+.prose ul {
+  list-style: disc;
+}
+.prose ol {
+  list-style: decimal;
+}
+.prose li::marker {
+  color: var(--ink-3);
+}
+.prose li + li {
+  margin-top: 0.35em;
+}
+.prose strong {
+  font-weight: 650;
+}
+.prose em {
+  font-style: italic;
+}
+.prose blockquote {
+  border-left: 2px solid var(--rule-strong);
+  padding-left: 1em;
+  color: var(--ink-2);
+  font-style: italic;
+}
+.prose code {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.86em;
+  background: var(--paper-2);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+.prose--tight {
+  font-size: var(--t-base);
+  line-height: 1.6;
+}
+
+/* The sentence under the headline. Serif, larger than body, set shorter. */
+.standfirst {
+  font-family: var(--font-serif);
+  font-size: var(--t-1);
+  line-height: 1.5;
+  color: var(--ink-2);
+  max-width: 31rem;
+  text-wrap: pretty;
+}
+.prose--wide {
+  max-width: none;
+}
+
+/* ============================================================== panels ==== */
+
+.panel {
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+@media (min-width: 640px) {
+  .panel {
+    padding: 1.5rem;
+  }
+}
+
+/* The verdict is the one element allowed to shout. A 2px accent cap marks it. */
+.panel--verdict {
+  background: var(--paper);
+  border-color: var(--rule-strong);
+  border-top: 2px solid var(--accent);
+  border-radius: 2px 2px 10px 10px;
+}
+
+.panel--quiet {
+  background: transparent;
+  border-color: var(--rule);
+}
+
+/* ======================================================== test record ==== */
+/* The site's signature: evidence before prose. Label over value, hairline bounds. */
+
+.record {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.875rem 1.5rem;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 0.875rem 0;
+}
+@media (min-width: 700px) {
+  .record {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+.record__k {
+  font-size: var(--t-micro);
+  color: var(--ink-3);
+  letter-spacing: 0.01em;
+}
+.record__v {
+  font-size: var(--t-small);
+  font-weight: 550;
+  margin-top: 0.15rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ================================================================ score ==== */
+/* A measuring rule, not a progress bar: ticks every whole point. */
+
+.scale {
+  position: relative;
+  height: 1.5rem;
+  border-left: 1px solid var(--rule-strong);
+  border-right: 1px solid var(--rule-strong);
+}
+.scale__ticks {
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--ink-3) 0 1px,
+    transparent 1px 10%
+  );
+  background-position: 0 bottom;
+  background-size: 100% 0.625rem;
+  background-repeat: no-repeat;
+  opacity: 0.55;
+}
+.scale__track {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.4375rem;
+  height: 3px;
+  background: var(--rule);
+}
+.scale__fill {
+  position: absolute;
+  left: 0;
+  top: 0.4375rem;
+  height: 3px;
+  background: var(--accent);
+  width: var(--score-pct);
+  transform-origin: left center;
+  animation: scale-in 820ms cubic-bezier(0.22, 0.8, 0.3, 1) both;
+}
+.scale__pin {
+  position: absolute;
+  top: 0;
+  left: var(--score-pct);
+  width: 3px;
+  height: 1.0625rem;
+  background: var(--accent);
+  transform: translateX(-1.5px);
+  animation: pin-in 820ms cubic-bezier(0.22, 0.8, 0.3, 1) both;
+}
+@keyframes scale-in {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes pin-in {
+  from {
+    opacity: 0;
+    left: 0;
+  }
+  to {
+    opacity: 1;
+    left: var(--score-pct);
+  }
+}
+
+/* ================================================================= tags ==== */
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: var(--t-micro);
+  font-weight: 550;
+  padding: 0.0625rem 0.375rem;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  white-space: nowrap;
+  vertical-align: 0.08em;
+}
+.tag--measured {
+  color: var(--measured);
+  background: var(--measured-wash);
+}
+.tag--caution {
+  color: var(--caution);
+  background: var(--caution-wash);
+}
+.tag--plain {
+  color: var(--ink-3);
+  background: transparent;
+}
+
+/* =============================================================== tables ==== */
+
+.data {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--t-small);
+}
+.data caption {
+  text-align: left;
+  font-size: var(--t-micro);
+  color: var(--ink-3);
+  padding-bottom: 0.5rem;
+}
+.data th,
+.data td {
+  padding: 0.625rem 0.75rem;
+  text-align: left;
+  vertical-align: baseline;
+  border-bottom: 1px solid var(--rule);
+}
+.data thead th {
+  font-size: var(--t-micro);
+  font-weight: 600;
+  color: var(--ink-3);
+  border-bottom: 1px solid var(--rule-strong);
+  padding-bottom: 0.4375rem;
+}
+.data tbody tr:last-child th,
+.data tbody tr:last-child td {
+  border-bottom: 0;
+}
+.data th:first-child,
+.data td:first-child {
+  padding-left: 0;
+}
+.data th:last-child,
+.data td:last-child {
+  padding-right: 0;
+}
+.data .v {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.data .u {
+  color: var(--ink-3);
+  font-weight: 450;
+}
+/* Row headers in a key/value table read better quiet and narrow. */
+.data--kv th {
+  font-weight: 450;
+  color: var(--ink-2);
+  width: 42%;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* ================================================================ lists ==== */
+/* Listings are an index with scores in a fixed left column, not a card grid. */
+
+.index {
+  border-top: 1px solid var(--rule);
+}
+.index__row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  align-items: start;
+  gap: 1rem;
+  padding: 1.125rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+@media (min-width: 640px) {
+  .index__row {
+    grid-template-columns: 10rem minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+}
+/* The listing thumbnail: a 16:10 picture, or a quiet placeholder without one. */
+.index__thumb {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid var(--rule);
+  background: var(--paper-2);
+}
+.index__row:hover .index__title {
+  color: var(--accent);
+}
+.index__score {
+  font-size: var(--t-1);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--ink);
+}
+.index__score--none {
+  color: var(--ink-3);
+  font-size: var(--t-base);
+}
+.index__title {
+  font-size: var(--t-1);
+  font-weight: 600;
+  letter-spacing: -0.018em;
+  line-height: 1.22;
+}
+
+/* ============================================================== motion ==== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+
+/* Sideways-scrolling rows (the category strip) keep scrolling but hide the bar. */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* The masthead's top bar sits on the logo's orange in both light and dark mode, so
+   it fixes its own palette: navy text, white fields. Everything inside it that uses
+   the usual tokens (links, the menu panel, the search box) picks these up. */
+.brand-bar {
+  color-scheme: light;
+  background: var(--brand-orange);
+  --paper: #ffffff;
+  --paper-2: rgb(255 255 255 / 0.28);
+  --ink: #0e1424;
+  --ink-2: #0e1424;
+  --ink-3: #3b2418;
+  --rule: rgb(14 20 36 / 0.22);
+  --rule-strong: rgb(14 20 36 / 0.45);
+  --accent: #0e1424;
+  --accent-2: #000000;
+  --brand-navy: #0e1424;
+  color: var(--ink);
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "headphone-impedance-sensitivity-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Headphone impedance and sensitivity explained: do you need an amp?",
+  "metaDescription": "What ohms and decibel sensitivity figures mean on headphones, why some sound quiet from a phone, and when a headphone amplifier or USB DAC helps.",
+  "excerpt": "Some wired headphones sound quiet and thin plugged into a phone. Impedance and sensitivity explain why, and when an amplifier is worth buying.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "headphones",
+    "amplifiers",
+    "hi-fi"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "audio",
+  "answer": "Impedance, in ohms, tells you how much the headphones resist the electrical signal; sensitivity tells you how loud they get for a given input. Low-impedance, high-sensitivity headphones are easy to drive from phones and laptops. High-impedance or low-sensitivity models may need a headphone amplifier to reach a comfortable volume with good control.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "impedance",
+      "heading": "Impedance",
+      "body": "Impedance is the electrical resistance a headphone presents to the device driving it, measured in ohms. Most portable headphones and earbuds sit between about 16 and 64 ohms. Many studio and hi-fi headphones are 80, 250, 300 ohms or more.\n\nHigher impedance on its own is not better or worse. It changes how much voltage is needed to reach a given volume. A phone's headphone output produces limited voltage, so it can struggle to drive high-impedance headphones loud enough."
+    },
+    {
+      "id": "sensitivity",
+      "heading": "Sensitivity",
+      "body": "Sensitivity, sometimes called efficiency, tells you how loud a headphone plays for a given input. It is quoted in decibels, either per milliwatt (dB/mW) or per volt (dB/V). The two are not directly comparable, which makes spec sheets confusing.\n\nHigher sensitivity means louder for the same signal. A low-impedance, high-sensitivity earphone gets loud from almost anything, sometimes too easily, revealing background hiss from a poor source. A high-impedance, low-sensitivity headphone needs a stronger signal."
+    },
+    {
+      "id": "when-a-phone-or-laptop-is-not-enough",
+      "heading": "When a phone or laptop is not enough",
+      "body": "Signs your source is struggling:\n\n- You need maximum volume or close to it for normal listening.\n- Bass sounds weak or loose, and the sound becomes harsh at higher volumes.\n- The volume is fine on quiet recordings but loud passages distort.\n\nMany phones no longer have a headphone socket at all, and the small USB-C or Lightning adaptors that replace it vary widely in power. Some are fine for earbuds but underpowered for larger headphones."
+    },
+    {
+      "id": "dacs-and-amplifiers",
+      "heading": "DACs and amplifiers",
+      "body": "Digital music has to be converted to an analogue signal by a DAC (digital-to-analogue converter) and then amplified to drive the headphones. Phones and laptops do both internally.\n\nAn external USB DAC with a built-in amplifier, from small dongle-style devices to desktop boxes, can provide more power, a lower noise floor and better control of demanding headphones. For most earbuds and portable headphones, it makes little audible difference. For high-impedance studio headphones or planar magnetic headphones with low sensitivity, it can be transformative."
+    },
+    {
+      "id": "practical-guidance",
+      "heading": "Practical guidance",
+      "body": "- **Wireless headphones** have their own built-in DAC and amplifier, so impedance does not matter for them.\n- **Earbuds and portable wired headphones** are designed to work from phones without help.\n- **Studio and hi-fi headphones** above about 80 ohms, or planar models with low sensitivity, often benefit from a dedicated amplifier.\n- **Check the maker's guidance;** many state whether an amplifier is recommended.\n- **Mind the volume.** More power means more capacity to damage your hearing. Start low."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do 250 ohm headphones need an amp?",
+      "a": "Usually, yes, for comfortable volume and good control. Phones and many laptops cannot provide enough voltage."
+    },
+    {
+      "q": "Does a USB DAC improve sound quality?",
+      "a": "With easy-to-drive earbuds the difference is often small. It helps most with demanding headphones or a noisy built-in output."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-headphone-amp",
+      "name": "Wikipedia: Headphone amplifier",
+      "url": "https://en.wikipedia.org/wiki/Headphone_amplifier",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-dac",
+      "name": "Wikipedia: Digital-to-analog converter",
+      "url": "https://en.wikipedia.org/wiki/Digital-to-analog_converter",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

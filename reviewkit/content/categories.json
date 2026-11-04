@@ -1,0 +1,111 @@
+{
+  "categories": [
+    {
+      "slug": "phones",
+      "name": "Phones",
+      "seoTitle": "Phone reviews, how-tos and buying guides",
+      "tagline": "Android, iPhone and budget phones",
+      "description": "Phones we have carried as our own for weeks, with the battery life, charging times and camera samples we recorded ourselves.",
+      "metaDescription": "Hands-on phone reviews for UK buyers: flagship, mid-range and budget Android phones and iPhones, with battery and charging figures we measured.",
+      "order": 10,
+      "topics": [
+        "Android phones",
+        "iPhones",
+        "Budget and mid-range phones",
+        "Foldables",
+        "Tablets",
+        "Chargers and cases"
+      ],
+      "brands": [
+        "iPhone",
+        "Samsung Galaxy",
+        "Google Pixel",
+        "Nothing",
+        "Motorola",
+        "OnePlus",
+        "Xiaomi",
+        "Honor",
+        "Oppo"
+      ]
+    },
+    {
+      "slug": "computing",
+      "name": "Computing",
+      "seoTitle": "Laptop, PC and tablet reviews and how-tos",
+      "tagline": "laptops, desktops and PC parts",
+      "description": "Laptops, desktops, monitors and PC components we have set up and used for real work, with battery, speed and noise figures measured the same way each time.",
+      "metaDescription": "Hands-on laptop, desktop, monitor and PC component reviews and how-tos for UK buyers, with battery, performance and noise figures we measured.",
+      "order": 20,
+      "topics": [
+        "Laptops and Chromebooks",
+        "Desktops and mini PCs",
+        "Monitors",
+        "PC components and building",
+        "Keyboards and mice",
+        "Storage and accessories"
+      ],
+      "brands": [
+        "Apple MacBook",
+        "Dell",
+        "HP",
+        "Lenovo",
+        "Asus",
+        "Acer",
+        "Microsoft Surface",
+        "Razer"
+      ]
+    },
+    {
+      "slug": "gaming",
+      "name": "Gaming",
+      "seoTitle": "Console, handheld and gaming gear reviews",
+      "tagline": "consoles, handhelds and gaming gear",
+      "description": "Consoles, handheld PCs, controllers and gaming headsets we have played on, with frame rates, load times and battery life we measured.",
+      "metaDescription": "Hands-on reviews of games consoles, handheld gaming PCs, controllers, headsets and gaming monitors for UK players, with figures we measured.",
+      "order": 80,
+      "topics": [
+        "Consoles",
+        "Handheld gaming PCs",
+        "Controllers",
+        "Gaming headsets",
+        "Gaming monitors"
+      ],
+      "brands": [
+        "PlayStation",
+        "Xbox",
+        "Nintendo Switch",
+        "Steam Deck",
+        "Asus ROG Ally",
+        "Lenovo Legion Go",
+        "Razer",
+        "Logitech G"
+      ]
+    },
+    {
+      "slug": "evs",
+      "name": "EVs",
+      "seoTitle": "Electric car, e-bike and EV charger reviews",
+      "tagline": "electric cars, e-bikes and chargers",
+      "description": "Electric cars, e-bikes, e-scooters and home chargers we have used ourselves, with range and charging figures from real journeys.",
+      "metaDescription": "Hands-on electric car, e-bike, e-scooter and home EV charger reviews for UK drivers and riders, with range and charging speed from real journeys.",
+      "order": 100,
+      "topics": [
+        "Electric cars",
+        "Home EV chargers",
+        "E-bikes",
+        "E-scooters",
+        "Portable power stations"
+      ],
+      "brands": [
+        "Tesla",
+        "Kia",
+        "Hyundai",
+        "MG",
+        "BYD",
+        "Volkswagen",
+        "Ohme",
+        "Pod Point"
+      ]
+    }
+  ]
+}

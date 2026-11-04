@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "ev-range-winter-what-to-expect-uk",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Why your EV loses range in winter, and how much to expect",
+  "metaDescription": "Cold weather cuts electric car range, and most of the loss is cabin heating rather than the battery. Here is what a British winter actually costs you.",
+  "excerpt": "Every electric car loses range when it gets cold, and most owners are told a frightening American number that does not apply to a British winter. Here is what is actually happening, and the three habits that recover most of the loss.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "electric-cars",
+    "ev-range",
+    "winter",
+    "charging"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: 4 U's. Useful = what to expect and how to recover it. Urgent = it is October, winter is starting. Unique = the short-journey explanation and the correction to the 40 per cent figure, which most UK coverage repeats without context. Ultra-specific = the three named habits.\n\nBEFORE PUBLISHING:\n1. VERIFY THE 40 PER CENT FIGURE AND ITS CONDITIONS. It comes from AAA testing and is widely reported at around minus 7C with HVAC in use. Find the original AAA publication, confirm the exact temperature and methodology, and cite AAA directly rather than any news write-up. If you cannot confirm the primary source, remove the number and describe the effect qualitatively instead.\n2. DO NOT INVENT A UK FIGURE. I have deliberately said 'considerably less' rather than giving a number, because I have no UK data. If you want a UK number, either find published UK testing or measure your own car and present it as your own measurement.\n3. If you drive an EV, record your consumption on the same regular journey in October and again in January and publish both. That is a genuinely original data point that almost no UK site has, and it would make this the strongest article of the ten.\n4. CONFIRM the heat pump point and preconditioning behaviour for at least one specific model you can name, since implementations differ.\n5. IMAGES: screenshot your own car's app showing a preconditioning schedule, and your consumption screen. 1200px minimum.\n6. Put your own name on it.",
+  "format": "explainer",
+  "category": "evs",
+  "answer": "Two separate things happen. The battery itself becomes temporarily less efficient when cold, which is modest and partly recovers as it warms. The larger cost is heating the cabin, which on an electric car draws from the same battery that moves it. Widely cited American testing at around minus 7C with the heater running found range falling by roughly 40 per cent, but British winters are usually much milder than that, so most UK owners should expect considerably less. Preconditioning while plugged in recovers a large part of it.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "useful",
+      "heading": "What is actually happening",
+      "body": "Two causes, and people usually blame the wrong one.\n\n**The battery gets slower when cold.** The chemistry depends on ions moving through an electrolyte, and movement slows as temperature falls. The pack delivers less power, accepts charge more slowly, and the car reserves some capacity to protect it. This is real, it is temporary, and it partly reverses as the pack warms during driving.\n\n**The cabin needs heating, and that is the expensive part.** A petrol car heats its interior with waste heat from an engine that is throwing away most of its energy anyway. The heat is free, in the sense that you are getting it whether you want it or not. An electric drivetrain is far more efficient, which means there is very little waste heat to use, so heating the cabin draws directly from the battery that would otherwise move the car.\n\nA resistive cabin heater can draw several kilowatts. On a short winter journey, heating the cabin can use a meaningful share of the energy for the trip. Cars fitted with a heat pump do this far more efficiently, which is why that option matters much more in the UK than its price suggests.\n\nThere is a third, smaller factor: winter tyres, cold air that is denser, and wet roads all add drag."
+    },
+    {
+      "id": "urgent",
+      "heading": "The number you have probably seen, and why it misleads",
+      "body": "The figure that circulates every winter comes from American testing which found range dropping by around 40 per cent in cold conditions with the heating in use.\n\nThat test was run at roughly minus 7C. It is a real result and it is honestly reported. It is also a poor guide to a British winter, because a typical UK winter day sits a long way above that. The relationship is not linear, and the gap between minus 7C and plus 4C is substantial in this context.\n\nSo expect a loss, expect it to be noticeable, and do not plan around the worst headline figure unless you live somewhere that genuinely reaches those temperatures. The honest answer is that your loss depends on your temperature, your journey length and whether your car has a heat pump, and the only number that describes your car is the one you measure yourself over a winter."
+    },
+    {
+      "id": "unique",
+      "heading": "Why short journeys suffer most",
+      "body": "This is the part that explains the complaints better than the headline figure does, and it is rarely mentioned.\n\nMost of the cold-weather penalty is front-loaded. Warming a cold cabin and a cold battery takes a fixed lump of energy that is largely spent in the first ten or fifteen minutes. After that, maintaining temperature costs much less.\n\nSo a two-mile trip to the shops in January can show a shocking consumption figure, because almost all of the energy went into warming things up and very little into moving the car. The same car on a ninety-minute motorway run shows a far smaller percentage loss, because the fixed warming cost is spread across a long journey.\n\nIf your driving is mostly short local trips, you will see the worst of winter range loss, and nothing is wrong with your car. If you mainly do longer runs, the effect will be milder than the internet led you to expect."
+    },
+    {
+      "id": "ultra-specific",
+      "heading": "Three habits that recover most of it",
+      "body": "**Precondition while plugged in.** This is the one that matters. Nearly every electric car can warm its cabin and battery on a schedule while still connected to the charger, using mains electricity rather than the pack. You leave with a warm car and a full battery, and the expensive warm-up has already happened on someone else's energy. If you do one thing from this article, set a departure time in the app.\n\n**Use the heated seats and steering wheel instead of the cabin heater.** Heating a person directly uses a fraction of the energy of heating the air around them. A heated seat draws tens of watts. A cabin heater can draw thousands. On a short journey this alone makes a visible difference, and it is more comfortable sooner.\n\n**Charge to a sensible level overnight and leave it plugged in.** A battery that has been charging is warmer than one that has sat out all night. Leaving the car connected also lets many models maintain pack temperature using mains power.\n\nTwo smaller things. Rapid charging is slower on a cold battery, so if you are planning a motorway stop, many cars will precondition the pack on the way if you set the charger as a navigation destination. And check whether your car has a heat pump, because if you are buying used in the UK it is worth paying for."
+    },
+    {
+      "id": "what-this-means",
+      "heading": "What this means if you are buying",
+      "body": "None of this is a reason not to buy an electric car. It is a reason to buy the right one for how you drive.\n\nIf your journeys are mostly short and local, prioritise a heat pump and a car that preconditions well, and worry less about headline range. Short trips are where winter hurts, and preconditioning is where you get it back.\n\nIf you regularly do long runs in winter, build in a buffer and pay attention to how quickly the car charges when cold rather than only to its maximum charging speed. A car that rapid-charges well from cold is worth more in January than one with a bigger battery.\n\nAnd whatever you drive, measure your own car over one winter. Your figure will be different from the headline, different from your neighbour's, and it is the only one that tells you anything about your journeys."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "How much range does an EV lose in winter?",
+      "a": "It depends on temperature and journey length. Widely cited American testing at around minus 7C with heating in use found roughly a 40 per cent reduction, but British winters are usually much milder, so most UK owners should expect noticeably less."
+    },
+    {
+      "q": "Is it the battery or the heating that costs the most?",
+      "a": "The heating, for most journeys. An electric drivetrain produces very little waste heat, so warming the cabin draws directly from the battery, whereas a petrol car gets that heat free from the engine."
+    },
+    {
+      "q": "What is preconditioning and does it help?",
+      "a": "It warms the cabin and battery on a schedule while the car is still plugged in, using mains electricity instead of the pack. It is the single most effective habit for winter range, because the expensive warm-up happens before you leave."
+    },
+    {
+      "q": "Why is my consumption so bad on short trips?",
+      "a": "Most of the cold-weather cost is spent warming the cabin and battery in the first ten to fifteen minutes. On a short journey nearly all the energy goes into that warm-up, so the percentage looks alarming even though nothing is wrong."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "wifi-6-6e-7-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Wi-Fi 6, 6E and 7 explained: what each generation adds",
+  "metaDescription": "How Wi-Fi 6, Wi-Fi 6E and Wi-Fi 7 differ, what the 6GHz band and multi-link operation do, and whether upgrading your router will make a difference.",
+  "excerpt": "Router boxes now advertise Wi-Fi 7. Here is what each generation adds, what your devices need to benefit, and when an upgrade is worth it.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "wi-fi",
+    "routers",
+    "buying-advice"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "networking",
+  "answer": "Wi-Fi 6 handles many devices at once more efficiently. Wi-Fi 6E adds the 6GHz band, which is less crowded and offers wider channels. Wi-Fi 7 adds 320MHz channels, faster 4096-QAM modulation and multi-link operation, which uses several bands at once. You only benefit if your phones and laptops support the same generation.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "wi-fi-6-802-11ax",
+      "heading": "Wi-Fi 6 (802.11ax)",
+      "body": "Wi-Fi 6 was designed for busy networks. Its headline feature, OFDMA, lets a router split a channel into smaller pieces and serve several devices in a single transmission instead of making them take turns. Combined with improvements to MU-MIMO and a power-saving feature called target wake time, it keeps networks responsive when dozens of phones, laptops, speakers and smart plugs are connected.\n\nWi-Fi 6 works on the 2.4GHz and 5GHz bands, like earlier generations. Most phones and laptops from recent years support it."
+    },
+    {
+      "id": "wi-fi-6e-the-6ghz-band",
+      "heading": "Wi-Fi 6E: the 6GHz band",
+      "body": "Wi-Fi 6E is Wi-Fi 6 extended into the 6GHz band. In the UK, Ofcom has opened part of this band for Wi-Fi. The 6GHz band is much less crowded than 5GHz, since only newer devices can use it, and supports wide 160MHz channels for high speeds.\n\nThe trade-off is range. Higher frequencies are absorbed more by walls and floors, so 6GHz works best in the same room as the router or with mesh points close by."
+    },
+    {
+      "id": "wi-fi-7-802-11be",
+      "heading": "Wi-Fi 7 (802.11be)",
+      "body": "Wi-Fi 7 builds on 6E with several changes:\n\n- **320MHz channels** in the 6GHz band, double the maximum width, where spectrum allows. In the UK the amount of 6GHz spectrum available limits how often full 320MHz channels can be used.\n- **4096-QAM** modulation, packing 12 bits into each symbol instead of 10, about 20 per cent more throughput in strong signal conditions.\n- **Multi-link operation (MLO),** which lets a device connect over two or more bands at once, for higher speed, lower latency and a more reliable connection when one band suffers interference.\n\nThe theoretical maximum speeds are enormous, but real-world gains depend on distance, walls and your devices."
+    },
+    {
+      "id": "will-upgrading-help",
+      "heading": "Will upgrading help?",
+      "body": "A new router only helps if something on your network is the bottleneck:\n\n- **Broadband speed:** if your connection is 70Mbps, any Wi-Fi 5 or Wi-Fi 6 router can already deliver it to a nearby device. Faster Wi-Fi helps with full fibre of 500Mbps and above.\n- **Coverage:** if Wi-Fi is slow in far rooms, a mesh system or better placement helps more than a newer standard.\n- **Your devices:** a laptop with Wi-Fi 6 connects at Wi-Fi 6 speeds to a Wi-Fi 7 router. You gain the newest features only as you replace devices.\n- **Busy homes:** many connected devices benefit from Wi-Fi 6 or later.\n\nRouters are backwards compatible, so older devices keep working on a new router."
+    },
+    {
+      "id": "buying-advice",
+      "heading": "Buying advice",
+      "body": "- If your router is Wi-Fi 5 or older and your home has many devices or fast broadband, Wi-Fi 6 or 6E is a solid upgrade.\n- Choose Wi-Fi 7 if you have recent devices that support it, fast broadband, and want the router to last several years.\n- Look at mesh options for larger homes.\n- Check the security update period, as routers sit at the edge of your network and need ongoing updates."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do I need Wi-Fi 7?",
+      "a": "Only if you have fast broadband and recent devices that support it. Otherwise a good Wi-Fi 6 or 6E router, well placed, will perform similarly."
+    },
+    {
+      "q": "Will a Wi-Fi 7 router work with older devices?",
+      "a": "Yes. Wi-Fi routers are backwards compatible, so older phones and laptops connect using the standards they support."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-wifi7",
+      "name": "Wikipedia: Wi-Fi 7",
+      "url": "https://en.wikipedia.org/wiki/Wi-Fi_7",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-wifi6",
+      "name": "Wikipedia: Wi-Fi 6",
+      "url": "https://en.wikipedia.org/wiki/Wi-Fi_6",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

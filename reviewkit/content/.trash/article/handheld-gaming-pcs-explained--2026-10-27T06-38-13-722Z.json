@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "handheld-gaming-pcs-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Handheld gaming PCs explained: what they are and who they suit",
+  "metaDescription": "How handheld gaming PCs like the Steam Deck and Asus ROG Ally work, how they differ from a Nintendo Switch, and the battery and performance trade-offs.",
+  "excerpt": "Handheld gaming PCs put a PC games library in your hands. Here is how they work, what they do well and the compromises to expect.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "handhelds",
+    "pc-gaming",
+    "buying-advice"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "gaming",
+  "answer": "A handheld gaming PC is a portable computer with a built-in screen and controls that runs PC games, usually from Steam and other PC stores. Examples include the Valve Steam Deck, Asus ROG Ally and Lenovo Legion Go. They play many recent games at modest settings, but battery life in demanding games is short, often one to two hours.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "how-they-differ-from-a-switch",
+      "heading": "How they differ from a Switch",
+      "body": "The Nintendo Switch runs Nintendo's own games and system, designed together. A handheld gaming PC runs PC games you already own or buy from PC stores such as Steam, Epic or GOG. It uses a PC processor with integrated graphics, typically an AMD chip, and either Valve's SteamOS or Windows.\n\nThe appeal is access to a huge existing library, often at lower prices than console games, and the ability to dock to a TV or monitor and use it like a small desktop."
+    },
+    {
+      "id": "steamos-and-windows",
+      "heading": "SteamOS and Windows",
+      "body": "- **SteamOS** on the Steam Deck is built around a controller-friendly interface. It runs most Windows games through a compatibility layer called Proton, and Valve rates games on how well they work. It is generally the smoothest handheld experience.\n- **Windows** on many other handhelds runs almost every PC game and store, including those that do not work on SteamOS, but the desktop interface is awkward on a small touchscreen. Makers add their own launcher apps to help.\n\nSome games with certain anti-cheat systems do not run on SteamOS; check before buying if a particular multiplayer game matters to you."
+    },
+    {
+      "id": "performance-and-settings",
+      "heading": "Performance and settings",
+      "body": "Handheld PCs are far less powerful than gaming desktops. Recent demanding games usually need low to medium settings and lower resolutions, often with upscaling such as AMD FSR, to reach 30 to 60 frames per second. Older and less demanding games, indie games and 2D titles run very well.\n\nMost let you set a power limit in watts. Lower power saves battery at the cost of frame rate; higher power gives smoother play but drains the battery faster and makes the fans louder."
+    },
+    {
+      "id": "battery-screens-and-storage",
+      "heading": "Battery, screens and storage",
+      "body": "- **Battery:** in demanding games expect around one to two hours; in lighter games or with frame rate caps, several hours.\n- **Screens:** sizes range from about 7 to 9 inches. OLED versions offer better contrast; higher refresh rates and variable refresh rate make games feel smoother.\n- **Storage:** games are large. Many handhelds use small M.2 2230 SSDs, which can be upgraded, and have a microSD slot for extra games.\n- **Weight and ergonomics:** some weigh over 600g, which can tire hands in long sessions."
+    },
+    {
+      "id": "who-they-suit",
+      "heading": "Who they suit",
+      "body": "Handheld gaming PCs suit people with an existing PC games library who want to play on the sofa, in bed or while travelling, and people who like tinkering with settings. If you want simple, family-friendly gaming with Nintendo's own games, a Switch remains the better choice. If you want the best performance, a desktop PC or current console will always be more powerful for the money.\n\nAlso consider game streaming, from your own PC or a console, as another way to play big games on a handheld screen at home."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Can a Steam Deck play all PC games?",
+      "a": "Most, but not all. Some games with certain anti-cheat systems do not run on SteamOS. Valve's compatibility ratings show how well each game works."
+    },
+    {
+      "q": "How long does a handheld gaming PC battery last?",
+      "a": "Often around one to two hours in demanding games and several hours in lighter ones, depending on the power limit and settings."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-steam-deck",
+      "name": "Wikipedia: Steam Deck",
+      "url": "https://en.wikipedia.org/wiki/Steam_Deck",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-handheld-pc",
+      "name": "Wikipedia: Handheld gaming PC",
+      "url": "https://en.wikipedia.org/wiki/Handheld_gaming_PC",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

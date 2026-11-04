@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "laptop-processors-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Laptop processors explained: cores, threads, clock speed and wattage",
+  "metaDescription": "What cores, threads, clock speeds and power limits mean on a laptop spec sheet, and how to tell whether a processor suits the work you actually do.",
+  "excerpt": "Laptop spec sheets are full of processor jargon. Here is what cores, threads, gigahertz and wattage tell you, and what they leave out.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "processors",
+    "laptops",
+    "buying-advice"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "computing",
+  "answer": "A processor's cores let it work on several tasks at once, its clock speed sets how fast each core runs, and its power limit decides how long it can sustain that speed. For everyday work almost any modern laptop chip is enough; core count and sustained power only matter for heavy jobs such as video editing, large spreadsheets and compiling code.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "cores-and-threads",
+      "heading": "Cores and threads",
+      "body": "A core is an independent processing unit inside the chip. A laptop with eight cores can genuinely work on eight streams of instructions at the same moment. Threads are the streams of work a core can juggle: some cores can run two threads at once, which helps keep them busy while one thread waits for data.\n\nMany modern laptop chips mix two kinds of core. Performance cores are large and fast, for the job you are focused on. Efficiency cores are smaller and use far less power, for background tasks such as syncing files or playing music. A chip described as 12 cores might be four performance and eight efficiency cores, so compare the type as well as the total."
+    },
+    {
+      "id": "clock-speed",
+      "heading": "Clock speed",
+      "body": "Clock speed, measured in gigahertz (GHz), is how many cycles per second a core runs. Spec sheets usually give two numbers: a base clock the chip can hold under sustained load, and a boost or turbo clock it can reach briefly when there is thermal and power headroom.\n\nClock speed is only comparable within the same family of chips. A newer design can do more work per cycle, so a 4GHz chip from one generation can be slower than a 3.5GHz chip from a later one. Use reviews and benchmarks of real tasks rather than raw gigahertz to compare across brands or generations."
+    },
+    {
+      "id": "wattage-and-why-the-same-chip-performs-differently",
+      "heading": "Wattage and why the same chip performs differently",
+      "body": "Laptops are limited by heat. The maker sets how much power the processor may draw, often given as a TDP or power range in watts, and designs a cooling system to match. A thin and light laptop might allow 15 to 28 watts; a thick gaming or workstation laptop might allow 45 watts or more.\n\nThis is why two laptops with the same processor can perform very differently. The one with the bigger fans and higher power limit can sustain its boost clock for longer, while the thin one slows down after a minute or two of heavy work. If you do long renders or exports, look for reviews that measure sustained performance, not just a quick burst."
+    },
+    {
+      "id": "integrated-and-dedicated-graphics",
+      "heading": "Integrated and dedicated graphics",
+      "body": "Most laptop processors include integrated graphics on the same chip. These are now good enough for streaming high-resolution video, multiple monitors and light photo editing, and some are capable of casual gaming at modest settings.\n\nA dedicated graphics card has its own chip and memory. It adds cost, weight and heat, and cuts battery life, but it is necessary for demanding games, 3D work and some machine learning tasks. If you do not need one, a laptop without it will usually be lighter and last longer away from the charger."
+    },
+    {
+      "id": "matching-a-processor-to-your-work",
+      "heading": "Matching a processor to your work",
+      "body": "- **Web, email, documents, video calls:** an entry-level or mid-range chip from the last few years is plenty. Spend the money on a good screen, keyboard and battery instead.\n- **Large spreadsheets, photo editing, many browser tabs:** a mid-range chip with more performance cores, plus 16GB of memory.\n- **Video editing, 3D, compiling, gaming:** more performance cores, a higher power limit, and often dedicated graphics.\n\nWhatever you choose, battery life and fan noise depend as much on the chip's efficiency and the laptop's tuning as on raw speed, so look for measured battery tests from reviewers who use the same method for every machine."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Are more cores always better?",
+      "a": "Only for tasks that can use them, such as video exports and compiling. Everyday work leans on a few fast cores, so a chip with fewer but quicker performance cores can feel just as responsive."
+    },
+    {
+      "q": "Why is my laptop slower than another with the same processor?",
+      "a": "Laptops set different power limits and have different cooling. A laptop that allows more watts and cools better can sustain higher clock speeds for longer."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-multicore",
+      "name": "Wikipedia: Multi-core processor",
+      "url": "https://en.wikipedia.org/wiki/Multi-core_processor",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-tdp",
+      "name": "Wikipedia: Thermal design power",
+      "url": "https://en.wikipedia.org/wiki/Thermal_design_power",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

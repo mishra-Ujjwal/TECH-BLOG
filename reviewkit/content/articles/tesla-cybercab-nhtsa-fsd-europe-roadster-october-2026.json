@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "tesla-cybercab-nhtsa-fsd-europe-roadster-october-2026",
+  "locale": "en-US",
+  "status": "published",
+  "title": "Tesla Cybercab, NHTSA Order, FSD in Europe and New Roadster: What We Know",
+  "metaDescription": "Cybercab rides began September 3, NHTSA wants answers under oath by October 30, and the EU FSD vote slipped to December. Here is the state of Tesla autonomy.",
+  "excerpt": "Tesla's driverless push has moved fast and drawn scrutiny. This guide covers Cybercab rides, the federal order, Europe's FSD vote and the Roadster, with conflicts flagged.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-29"
+  },
+  "tags": [
+    "tesla-cybercab",
+    "tesla-robotaxi",
+    "nhtsa",
+    "tesla-fsd",
+    "tesla-roadster",
+    "self-driving"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "format": "explainer",
+  "category": "evs",
+  "answer": "Tesla started Cybercab rides in Austin on September 3rd, 2026, and the NHTSA has ordered Tesla to explain under oath how a car with no steering wheel or pedals meets safety standards, with a deadline of October 30th. FSD Supervised was approved in the Netherlands in April but an EU-wide vote is unlikely before December, and a new Roadster was shown on October 15th. Tesla says it will launch Cybercab in Dallas in November.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "tldr",
+      "heading": "TL;DR",
+      "body": "There are four key stories within Tesla this Autumn. The Cybercab (no steering wheel) launched in Austin on September 3rd. The NHTSA launched an investigation into the car's certification and issued a formal order. Within Europe, FSD Supervised has been approved by the Netherlands in April however will not be voted on within the EU until December. Finally, Tesla unveiled a new Roadster on October 15th.\n\nThe most pressing issue is the NHTSA. As per Tesla North, Tesla has until tomorrow, October 30th, to provide an answer to the NHTSA's special order. We do not know what Tesla will say and there has been no indication that it has found any issues with the Cybercab.\n\nOverall, the news has been positive for the rollout of the vehicle however there are some issues with the regulations. The Q3 2026 update states that total unsupervised Robotaxi mileage has increased eightfold in the quarter to just under 2 million miles. It has stated the production rate is above 125k vehicles annually in Texas. However, there have been issues with the regulations in Europe regarding speed limits and driver attentiveness.\n\nThis article highlights the facts from the update, earnings call and regulatory news. We highlight any discrepancies between the information. We have not used the Cybercab or software."
+    },
+    {
+      "id": "cybercab-launch-in-austin",
+      "heading": "Cybercab Launch in Austin",
+      "body": "Rides in the Cybercab started in Austin, Texas on September 3rd, 2026. As it wasn't a live stream, Elon Musk wasn't present and there were no invited journalists, initial reports came from customers and influencers. The Q3 update states it launched robotaxi rides in Austin on September 3rd and it was launched into the Robotaxi fleet. Rides are available from 6am to midnight and Grok is available.\n\nThe Cybercab is a fully electric, 2 seater vehicle with no steering wheel or pedals. It has gull-wing doors, small cabin, partition between the seats and a 22 inch screen with entertainment and game capabilities. Tesla plan to use Starlink V5 hardware. Musk has written on X: \"basically just a super comfy lounge on wheels with an amazing TV.\"\n\nThe Cybercab was unveiled in Hollywood in October 2024. Pre-series production started in February 2026 and series production started in April at Giga Texas in Austin. The Q3 update states production capacity is above 125k vehicles annually.\n\nBefore September 3rd Tesla had offered robotaxi rides in Austin, Dallas, Houston, Miami, Orlando and Tampa however only with converted Model Y vehicles. Not a Tesla App, recapping the Q3 call, says the service runs fully autonomously in 6 cities."
+    },
+    {
+      "id": "fleet-size",
+      "heading": "How many Cybercabs are on the road?",
+      "body": "This is the most variable part of the information. Electrive states Tesla has permission to operate 45 vehicles in Texas. The Austin fleet is small however more may be approved if there are no issues. Tesla North states on September 21st they added their 67th Cybercab in Austin. NHTSA states there are approximately 1000 vehicles within the population.\n\nNot a Tesla App states Austin has over 300 Cybercabs and there are staging areas with hundreds of vehicles in US cities. Musk stated the Austin fleet has grown tenfold since launch around a month ago.\n\nThis information doesn't match up. It could be different dates and different definitions of fleet and population. We cannot confirm this. There is no official number from any source therefore we recommend you take a number with a pinch of salt.\n\nNot a Tesla App states all Cybercabs produced have been added to the Tesla fleet. Most will be owned by Tesla or offered as a transport as a service. Businesses can sign up interest in purchasing a fleet of Cybercabs. They want to deliver the first Cybercabs to customers by the end of 2026."
+    },
+    {
+      "id": "how-autonomous",
+      "heading": "How autonomous is it?",
+      "body": "Tesla have stated that unsupervised mileage has increased eightfold in the quarter. Electrive state that both the Model Y robotaxis and Cybercab are not fully autonomous. Emergency controls on the Model Y have been moved to the support vehicles. Like Waymo and Zoox, Tesla has a command centre to offer remote assistance.\n\nBoth of these can be true as unsupervised means no one is sat in the drivers seat. However, the sources don't state what unsupervised actually means. We would take the mileage figure as a company figure.\n\nNo information was provided on price.\n\nTesla aim to have a 30 cent per mile operational cost. Not a Tesla App states Chief Financial Officer Vaibhav Taneja stated \"We're not there today but we see a path there.\""
+    },
+    {
+      "id": "dallas-and-next-steps",
+      "heading": "Dallas and Next Steps",
+      "body": "Ashok Elluswamy, head of AI software at Tesla, stated during the Q3 call that they will be launching Cybercab in Dallas next month. (Drive Tesla Canada). This would put it at November 2026. However one retailer blog states it will be around November 15th. (Basenor)\n\nNot a Tesla App states Tesla hope to offer more weather conditions, 24/7 service, motorways and higher speeds by the end of the year. Customer owned FSD cars may be added to the network in the second quarter of 2027 however they will need to follow geo-fencing and fleet management. Around this time Musk expects Robotaxi to have a noticeable impact on finances.\n\nUnsupervised FSD for customer vehicles will be available to first customers in the second quarter of 2027. Initially in select regions within the US. Likely to be used on motorways.\n\nThis is all statements from the company call, reported by a third party. Tesla have a history of delaying timelines."
+    },
+    {
+      "id": "nhtsa-special-order",
+      "heading": "NHTSA Special Order",
+      "body": "On September 10th 2026, NHTSA issued a Special Order requesting Tesla provide \"under oath\" evidence that the no steering wheel Cybercab complies with safety regulations. The order was signed by Chief Counsel Peter Simshauser. It contains 21 requests. Tesla North states the audit (AQ26002, Sept 3rd) was converted to a legal requirement to answer with an affidavit from an accountable officer.\n\nThe main issue is the foot brake. Electrek states \"FMVSS No. 135 requires that the service braking system be operable by foot control. However, the Cybercab does not have a foot control. How did it pass certification?\" The order also asks how they comply with other regulations relating to controls, tell-tales, gear position indicator, turn signals, mirrors and stability tell-tales. It asks if they used temporarily installed human controls.\n\nThe Cybercab was certified as complying with all regulations and started charging for rides on September 3rd, without an exemption. Electrek states that in July Amazon's Zoox received a temporary exemption for 8 standards. This is capped at 2,500 vehicles annually until 2028. Tesla do not have an exemption.\n\nThere are penalties up to $27,874 per day, capped at $139,356,994 for not providing full and truthful answers. (Tesla North) Electrek states that lying or hiding information could lead to criminal charges.\n\nTesla North states they have not found any violations and the order doesn't stop the Cybercab from being used. It is asking for information."
+    },
+    {
+      "id": "deadline",
+      "heading": "Deadline",
+      "body": "The deadline was originally September 30th. Tesla North states Tesla requested an extension to 8 weeks (November 20th) due to the large amount of documentation needing to be reviewed to ensure responsiveness and privilege. On September 22nd, NHTSA provided a 30 day deadline. (Memo Sept 29th).\n\nThere is no reason given for why they have set a 30 day deadline rather than 8 weeks. The request isn't in the public file, only a line from NHTSA.\n\nAs of today (October 29th), we have not seen what Tesla have replied with. None of the sources state what they will include. Tesla have not stated publicly and have continued to grow their fleet in Austin.\n\nNothing in the Q3 update or earnings call recaps refer to the NHTSA order.\n\nFrom a practical sense, it doesn't affect much. The service will continue and it will depend on the legal process taking place which could take months. We would keep an eye out for the next public document from NHTSA."
+    },
+    {
+      "id": "fsd-in-europe",
+      "heading": "FSD Supervised in Europe: Approved!",
+      "body": "InsideEVs states Full Self Driving (Supervised) was officially approved in the Netherlands in April 2026 after over 18 months of testing. The system requires active supervision. Electrive states it has received a provisional type approval in the EU under Article 39 of Regulation (EU) 2018/858. This is for new technologies which are not fully covered by existing rules.\n\nIt does not have to be accepted by other countries. To be approved in the EU, a qualified majority of 15 out of 27 member states (65% of the EU population) need to approve. (Electrive)\n\nOn September 28th, Electrive stated 7 member states had adopted the Dutch approval. This includes the Netherlands, Lithuania, Estonia, Denmark, Belgium, Slovenia, Czech Republic. Approximately 12% of the EU population. France hasn't recognised the system. Germany, Italy and Spain haven't adopted it.\n\nTesla's Q3 update states 4 more approvals have been received in the EU. Croatia, Slovenia, Czech Republic and Slovakia. This brings the total to 9 countries. Not a Tesla App states 9. This is a discrepancy of 2 countries. Croatia and Slovakia are not listed in the Electrive article. They may have been approved after September 28th however we couldn't confirm.\n\nThe next Technical Committee on Motor Vehicles meeting was held on October 6th. Only 25 minutes of the agenda was spent discussing the issue and no vote was taken. The committee will not meet again until December. Not a Tesla App states it is expected to be voted on in December. Musk would be surprised if it takes longer than Q1 2027."
+    },
+    {
+      "id": "concerns",
+      "heading": "Concerns",
+      "body": "Sweden are reported to want to reject unless Tesla limit setting speeds above the limit. Other Nordic countries have raised concerns regarding winter driving and driver monitoring. France has raised concerns with speed and attentiveness in urban areas. (Electrive)\n\nTesla have large figures. Over 100k customers have used FSD in the EU, travelling over 160 million km. Worldwide there are 1.74 million active FSD subscriptions. (Q3 update). Originally over 70k customers were using it at the start of September, driving over 1 million km daily. (Electrive)\n\nThey claim that over 100 million km travelled, the system was involved in 4.1 times less accidents than manually driven Teslas. (Electrive) They also claimed it was up to 7 times less collisions per km. (InsideEVs) This doesn't have much context to it and detailed data hasn't been published. This is all claims from Tesla and has not been independently verified.\n\nIn Europe, the system doesn't have speed profiles. Instead it has Max Speed and Max Speed Offset. (InsideEVs) We couldn't find any prices for Europe."
+    },
+    {
+      "id": "new-roadster",
+      "heading": "New Roadster",
+      "body": "The redesigned Roadster was unveiled on Thursday October 15th, 2026. (CGTN) The event was held in Waco, Texas with a demo at a SpaceX test site in McGregor, Texas. Production will start in 2028. The 2 seater has been developed alongside SpaceX and during the demo drove upside down along a ramp using a suction system. It flipped in mid-air and landed using built in thrusters. It isn't immediately clear if these features will be used or legal on public roads.\n\nIt can go from 0-60mph in under 1 second. Musk states the top speed is over 230mph. Before the event Insider Finance stated it can reach 0-60 in 1.9 seconds, top speed over 250mph and has a range of 620 miles. This doesn't match up with the figures we have. CGTN doesn't state any new range.\n\nReservations pages state there will be a Performance model with a deposit of $50,000 deposit, a Thrust version with a $250,000 which has acceleration thrusters. There will also be a Rocket model which is invite only. It has one seat and full flight system. No target prices were given. Insider Finance stated it will be $200,000 however this was the base price Tesla quoted nearly a decade ago. (CGTN)\n\nMorningstar analyst Seth Goldstein expects around 2,000 Roadsters to be produced annually. This is much lower than the 1.6 million vehicles sold last year. (CGTN) Musk stated in 2023 it won't move the needle financially."
+    },
+    {
+      "id": "semi-and-optimus",
+      "heading": "Semi and Optimus",
+      "body": "The Semi has moved into volume production on the high volume line in Nevada. The top model can go 500 miles on a full gross combination weight. It uses 1.7kWh per mile. (Q3 update) Not a Tesla App states the new Semi factory is in Reno.\n\nProduction of Optimus has started on high volume lines in Fremont. The line is designed to produce around 1 million robots annually. It is expected to take at least a year to reach around 20,000 per week. External deliveries are planned around end of 2027. Starting with industrial customers. (Not a Tesla App)\n\nWe are including this information for completion. It is all statements from the company and we have no independent verification."
+    },
+    {
+      "id": "unclear-information",
+      "heading": "Unclear Information",
+      "body": "The number of Cybercabs on the road. Sources state 45, 67, over 300, 10 fold increase and approx 1000.\n\nNumber of countries in the EU that have approved FSD Supervised. Sources state 7 or 9.\n\nWe couldn't confirm what Tesla have replied to the NHTSA or what they included. We couldn't find any pricing for Cybercab rides. We couldn't confirm the price or range of the Roadster.\n\nWe have not used the Cybercab or FSD. The safety stats are all claims from Tesla. The statements from the earnings calls are from third party recaps."
+    },
+    {
+      "id": "sources",
+      "heading": "Sources",
+      "body": "Electrive, Tesla debuts Cybercab autonomous rides: https://electrive.com/2026/09/04/tesla-debuts-cybercab-autonomous-rides\n\nElectrive, EU vote on Tesla FSD not expected before December: https://www.electrive.com/2026/09/28/eu-vote-on-tesla-fsd-not-expected-before-december/\n\nTesla, Q3 2026 Update (Form 8-K, Exhibit 99.1, SEC): https://www.sec.gov/Archives/edgar/data/0001318605/000162828026066738/exhibit9914.htm\n\nNot a Tesla App, Tesla Q3 2026 earnings call recap: https://notateslaapp.com/news/4867/tesla-q3-2026-earnings-call-recap-everything-you-need-to-know\n\nDrive Tesla Canada, Tesla Cybercab heading to Dallas next month: https://driveteslacanada.ca/news/tesla-cybercab-dallas-launch-next-month/\n\nTesla North, Tesla wanted until November to defend the Cybercab, NHTSA had other plans: https://teslanorth.com/2026/10/08/cybercab-nhtsa-extension/\n\nElectrek, NHTSA Tesla Cybercab special order: https://electrek.co/2026/09/15/nhtsa-tesla-cybercab-special-order/\n\nInsideEVs, Tesla's FSD is finally approved in Europe, only not everywhere yet: https://insideevs.com/news/792715/tesla-fsd-approved-the-netherlands/\n\nCGTN, Tesla unveils next-generation Roadster sports EV with SpaceX thrusters: https://news.cgtn.com/news/2026-10-16/Tesla-unveils-next-generation-Roadster-sports-EV-with-SpaceX-thrusters-1RhFPhOHZi8/p.html\n\nInsider Finance, Tesla Roadster reveal puts specs and price on display: https://www.insiderfinance.io/news/tesla-roadster-reveal-puts-specs-and-price-on-display\n\nBasenor, Tesla Cybercab Dallas launch estimated for November 15: https://www.basenor.com/blogs/news/tesla-cybercab-dallas-launch-estimated-for-november-15"
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "When did Tesla start Cybercab rides?",
+      "a": "They started on September 3rd, 2026 in Austin, Texas. (Electrive, Q3 update) They can be booked via the Robotaxi app."
+    },
+    {
+      "q": "Is it fully autonomous?",
+      "a": "Tesla state it is unsupervised however Electrive state neither the Model Y robotaxis or Cybercab are fully autonomous. Remote staff can assist."
+    },
+    {
+      "q": "What did NHTSA ask Tesla to do?",
+      "a": "On September 10th, 2026 they asked Tesla to explain \"under oath\" how the no steering wheel, no pedals Cybercab complies with safety standards. The deadline was extended to October 30th."
+    },
+    {
+      "q": "Is it illegal?",
+      "a": "No. Tesla North states they have not found any violations. The order does not stop the service."
+    },
+    {
+      "q": "Is Tesla FSD approved in Europe?",
+      "a": "It was approved in the Netherlands in April 2026. It is unlikely to be voted on in the EU until December. Sources vary on whether 7 or 9 countries have approved."
+    },
+    {
+      "q": "When will the new Tesla Roadster be out?",
+      "a": "The Roadster was unveiled on October 15th, 2026. Production will start in 2028. No target price was given."
+    },
+    {
+      "q": "When will Cybercab be launched in Dallas?",
+      "a": "Tesla stated during the Q3 call they will be launching next month. (Drive Tesla Canada) This would be November 2026."
+    }
+  ],
+  "sources": []
+}

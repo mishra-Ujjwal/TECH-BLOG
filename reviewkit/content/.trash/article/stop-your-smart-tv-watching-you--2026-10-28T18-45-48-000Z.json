@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "stop-your-smart-tv-watching-you",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Your TV is watching you back. Here is how to stop it",
+  "metaDescription": "Most smart TVs identify what is on screen frame by frame and send it home. The setting that stops it is real, buried, and takes about two minutes to find.",
+  "excerpt": "Modern televisions identify what you are watching by sampling the picture itself, including from a games console or a DVD. The feature has a name, it is switched on by default, and turning it off takes about two minutes once you know what it is called.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "smart-tv",
+    "privacy",
+    "acr",
+    "setup"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: BAB (Before, After, Bridge). Before = your TV is sampling the screen. After = what changes when you stop it. Bridge = the menu paths.\n\nBEFORE PUBLISHING:\n1. I have deliberately described the menu names generically because they differ by brand and model year and I cannot verify them all. WALK THROUGH THIS ON YOUR OWN TV, write down the exact path, and name the brand and model year in the article. One verified brand written precisely beats six brands written vaguely.\n2. If you can borrow a second TV of a different brand, do the same and cover two properly.\n3. IMAGES: this is the strongest photo opportunity of the ten. Photograph your own TV's privacy menu with the setting visible. A real photo of a real menu on a real television is exactly what Discover rewards and what no AI-generated competitor has. 1200px minimum.\n4. The ACR technical explanation is well established, but link a reputable primary reference for how fingerprinting works.\n5. Do not name specific manufacturers as doing anything improper. Describe the feature and how to switch it off. That is accurate and keeps you out of trouble.\n6. Put your own name on it.",
+  "format": "explainer",
+  "category": "tvs",
+  "answer": "The feature is called automatic content recognition, or ACR. Your TV samples the picture on screen, matches it against a database, and reports what you are watching back to the manufacturer. It works regardless of the source, so it sees your console and your Blu-ray player too. Every major brand lets you switch it off, but each one hides it under a different friendly name, usually in a privacy or viewing information menu.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "before",
+      "heading": "What is happening right now",
+      "body": "Your television is almost certainly taking samples of what is on the screen, several times a second, and comparing them against a reference database to work out what you are watching.\n\nNot which app you opened. What is actually on the glass. That means it works when you are streaming, and it also works when you are playing a console, watching a Blu-ray, or using a set-top box the TV manufacturer has nothing to do with. The TV does not need to understand the source. It just looks at the picture.\n\nThat information, usually tied to an identifier for your household, goes back to the manufacturer and is typically used to build an advertising profile. Television makers sell sets at thin margins and make money afterwards. This is a large part of the afterwards.",
+      "media": [
+        {
+          "src": "/images/stop-your-smart-tv-watching-you/is-your-smart-tv-watching-you.webp",
+          "alt": "stop-your-smart-tv-watching-you",
+          "credit": "Own screenshot",
+          "width": 1600,
+          "height": 900
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "Why your TV can identify a DVD",
+      "body": "Automatic content recognition works on fingerprints rather than files. The set reduces a frame to a compact signature, sends that signature to be matched against a library of known content, and gets back an identification.\n\nIt is the same principle as a song recognition app, applied to video and running constantly.\n\nThis is why the usual privacy advice does not help. Clearing cookies does nothing. A private browsing mode does nothing. The TV is not tracking your browsing, it is watching the picture, and the only thing that stops it is the setting that stops it."
+    },
+    {
+      "id": "after",
+      "heading": "What changes when you turn it off",
+      "body": "Honest answer: less than the alarm might suggest, and that is fine.\n\nYou lose content recommendations on the home screen, which on most sets were never very good. Some brands also use it for features like showing you information about what you are watching, which you may not have used.\n\nYou keep everything that matters. Apps work. Streaming works. Picture quality is unchanged. The TV does not nag you.\n\nWhat you gain is that your household stops contributing a continuous log of viewing to an advertising profile. Not nothing, and the cost is a recommendations row you probably scrolled past."
+    },
+    {
+      "id": "the-bridge",
+      "heading": "How to turn it off on each brand",
+      "body": "The setting exists on every major brand. The difficulty is that nobody calls it the same thing, and almost nobody calls it automatic content recognition.\n\nLook under settings for a section named privacy, terms and privacy, viewing information, or support. Then look for an option whose description mentions analysing or recognising what you watch to improve recommendations or advertising.\n\nCommon names to look for include viewing information services, live plus, smart TV experience, additional data, and interest-based advertising. If an option's description mentions recommendations based on what you watch, that is usually the one.\n\nTwo things worth doing while you are in there. Turn off any option offering interest-based or personalised advertising, which is often separate from the recognition setting itself. And check whether there is a reset advertising identifier option, which clears the profile built so far rather than only stopping new collection.\n\nExpect this to take two minutes once you find the menu, and expect the menu to move after a firmware update, so it is worth rechecking once a year."
+    },
+    {
+      "id": "the-bigger-option",
+      "heading": "The option nobody mentions: do not connect it",
+      "body": "There is a more complete answer, and it costs you more.\n\nA television that is never connected to your network cannot report anything. If you already own a streaming stick, a console or a set-top box, the TV's own apps are redundant, and the external device is usually faster and better supported anyway.\n\nThe cost is real. You will not get firmware updates, including picture quality fixes and occasionally genuine bug fixes. Some sets nag about it. Some features are simply unavailable.\n\nFor most people the setting is the right trade. For anyone buying a second TV for a bedroom, where you will plug in a stick regardless, never connecting it is worth considering from the start."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Does my TV record sound or video of my room?",
+      "a": "Automatic content recognition samples what is displayed on the screen, not the room. Sets with built-in microphones for voice control are a separate matter with their own setting, usually a physical switch or a menu toggle for the voice assistant."
+    },
+    {
+      "q": "Can my TV identify what I watch from a games console?",
+      "a": "Yes. It works on the picture itself, so the source makes no difference. A console, a Blu-ray player or a set-top box are all visible to it."
+    },
+    {
+      "q": "Will turning it off break my apps?",
+      "a": "No. Streaming apps, picture quality and every normal function carry on unchanged. You lose content recommendations on the home screen and little else."
+    },
+    {
+      "q": "Does it come back after a software update?",
+      "a": "Sometimes the menu moves, and occasionally settings are reset by a major firmware update. It is worth rechecking once a year or after any update that visibly changes the interface."
+    }
+  ],
+  "sources": []
+}

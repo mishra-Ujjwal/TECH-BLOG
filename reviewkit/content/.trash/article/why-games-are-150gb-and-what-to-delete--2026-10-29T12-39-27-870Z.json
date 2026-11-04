@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "why-games-are-150gb-and-what-to-delete",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Why one game eats 150GB, and what you can safely delete",
+  "metaDescription": "Game installs ballooned because of uncompressed audio, 4K textures and duplicated files. Some of that bulk is optional, and your console hides the switches.",
+  "excerpt": "A single game can now take more space than an entire console generation's library once did. Most of that bulk is textures and audio you may never see or hear, and a surprising amount of it is optional if you know where the switches are.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "gaming",
+    "storage",
+    "consoles",
+    "pc-gaming"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: AIDA. Attention = one game, more than a whole console generation. Interest = where the space goes, including the counter-intuitive duplication point. Desire = how much you can reclaim. Action = the storage decision and the uninstall habit.\n\nBEFORE PUBLISHING:\n1. ADD REAL NUMBERS FROM YOUR OWN LIBRARY. Open your console or Steam, list your five largest installs with their actual sizes, then remove the language packs from one and record the before and after. That table is original data, takes fifteen minutes, and transforms the piece.\n2. VERIFY the current console storage expansion requirements before publishing. These are specific and they change, and getting them wrong would cost a reader money.\n3. The texture, audio and duplication explanations are well established in game development. Link a reputable technical reference, ideally a developer talk or postmortem.\n4. Name the exact storefront menus you used, and screenshot them. Menu names differ between PC launchers and consoles.\n5. IMAGES: screenshot your own storage management screen showing the install sizes. Real numbers from a real library. 1200px minimum.\n6. Put your own name on it.",
+  "format": "explainer",
+  "category": "gaming",
+  "answer": "Three things drive it: 4K textures, which grow with the square of resolution; uncompressed or lightly compressed audio, often in several languages at once; and deliberate file duplication to speed up loading from slow drives. You can usually reclaim a large amount by removing language packs you do not use, deleting high-resolution texture packs on PC, and uninstalling single-player campaigns from games you only play online.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "attention",
+      "heading": "One game, more space than a whole console",
+      "body": "A single modern title can occupy 150GB or more. For comparison, that is more storage than many entire game libraries consumed two console generations ago.\n\nThe interesting part is that this is not mainly because games got longer or more complex. A big open-world game from a decade ago had plenty of content. What changed is how much space each individual asset now takes, and how willing developers are to store the same thing more than once."
+    },
+    {
+      "id": "interest",
+      "heading": "Where the space actually goes",
+      "body": "**Textures, and it is not close.** This is the overwhelming majority of a modern install. Texture memory grows with the square of resolution, so moving from 1080p-era assets to 4K-era assets multiplies the storage for the same artwork by roughly four. Then modern materials use several maps per surface: colour, roughness, metallic, normal, ambient occlusion. One wall is half a dozen images, each of them large.\n\n**Audio, which surprises people.** Games often ship with lightly compressed or uncompressed audio, because decompressing costs processor time that the game would rather spend elsewhere. Add full voice acting in eight or ten languages, all installed by default, and audio alone can account for tens of gigabytes.\n\n**Deliberate duplication.** This one is counter-intuitive. On a mechanical hard drive, seeking between distant files is slow, so engines store the same asset several times, positioned near each sequence that needs it. Reading the same texture three times from three places is faster than seeking once. Studios traded disk space, which is cheap, for loading time, which players complain about.\n\n**Video.** Pre-rendered cutscenes at high resolution are simply large, and some games include many of them.\n\nThis is also why install sizes grew faster than visual quality appeared to. Much of the increase went into assets you only notice if you go looking, or into loading times you noticed by their absence."
+    },
+    {
+      "id": "desire",
+      "heading": "What you can actually reclaim",
+      "body": "A meaningful amount, and most people never try.\n\n**Language packs.** The biggest easy win. Many games install voice audio for every supported language, and most storefronts let you select which you want. On PC this is often in the game's properties under language options. On console it sometimes follows the system language and sometimes does not. Removing languages you do not speak can free a large fraction of an install on a heavily voiced game.\n\n**Optional high-resolution texture packs.** Many PC games ship these separately. If you play at 1080p on a mid-range card, you are storing textures your screen cannot show and your card may not load. These are listed as separate downloadable content in most launchers.\n\n**Campaign and multiplayer as separate installs.** Several large shooters let you install the single-player campaign and the multiplayer component independently. If you finished the campaign two years ago and play only online, that is a great deal of space doing nothing.\n\n**Old shader caches and redundant launcher files.** Minor by comparison, but they accumulate.\n\nThe habit worth building is simply to look at the install options for any game over 80GB before downloading. The choices are usually there and the default is always everything."
+    },
+    {
+      "id": "action",
+      "heading": "The storage decision that actually matters",
+      "body": "If you are adding storage rather than pruning it, one thing matters more than capacity.\n\nModern games increasingly assume fast storage. Console expansion is specified rather than optional for current-generation titles, and an external drive will often run older games perfectly while refusing to run newer ones at all. Check what your console actually requires for current-generation games before buying anything, because the cheap option frequently does not qualify.\n\nOn PC, if you still have a mechanical drive, moving your most-played game to an SSD will do more for your experience than most upgrades at the same price. The duplication trick described above exists specifically to compensate for slow drives, and on fast storage much of that penalty disappears.\n\nAnd the unglamorous advice that works: uninstall things. Digital libraries removed the friction that used to make people finish games before moving on, so most libraries contain several hundred gigabytes of titles nobody has opened in a year. Reinstalling is an evening's download. Storage is money."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Why are modern games so large?",
+      "a": "Mostly 4K textures, which grow with the square of resolution and use several image maps per surface. Then lightly compressed audio in many languages, and deliberate file duplication to speed up loading on slower drives."
+    },
+    {
+      "q": "Can I delete language files from a game?",
+      "a": "Usually yes. Most storefronts let you choose which language packs to install, often under the game's properties. On a heavily voiced game this is the single biggest saving available."
+    },
+    {
+      "q": "Do high-resolution texture packs matter at 1080p?",
+      "a": "Very little. If you play at 1080p, an optional 4K texture pack mostly consumes storage without a visible benefit, and it is usually listed as separate downloadable content you can remove."
+    },
+    {
+      "q": "Does an SSD make games load faster?",
+      "a": "Yes, often substantially, because much of the duplication in modern game files exists to work around slow mechanical drives. Current-generation consoles also have specific storage requirements, so check what yours needs before buying an expansion."
+    }
+  ],
+  "sources": []
+}

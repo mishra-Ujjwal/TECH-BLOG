@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "mirrorless-vs-dslr-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Mirrorless vs DSLR cameras explained: what changed and what to buy",
+  "metaDescription": "How mirrorless cameras differ from DSLRs, why the industry has moved to mirrorless, and what to consider if you are buying new or second-hand.",
+  "excerpt": "Mirrorless cameras have replaced DSLRs in most new ranges. Here is how they differ, what you gain, and when a used DSLR still makes sense.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "mirrorless",
+    "dslr",
+    "buying-advice"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "cameras",
+  "answer": "A DSLR uses a mirror to bounce light into an optical viewfinder; a mirrorless camera drops the mirror and shows a live image from the sensor on an electronic viewfinder or screen. Mirrorless cameras are generally smaller, autofocus more accurately, especially for eyes and moving subjects, and are where camera makers now develop new lenses.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "how-a-dslr-works",
+      "heading": "How a DSLR works",
+      "body": "Inside a digital single-lens reflex (DSLR) camera, a mirror sits at an angle behind the lens. It reflects light up into a prism and out through the optical viewfinder, so you see the scene directly through the lens. When you press the shutter, the mirror flips up out of the way, the shutter opens, and light reaches the sensor.\n\nDSLRs use a separate autofocus sensor in the base of the camera, fed by a secondary mirror. That system is fast for tracking movement through the viewfinder but can be slightly off with some lenses, requiring fine adjustment."
+    },
+    {
+      "id": "how-mirrorless-works",
+      "heading": "How mirrorless works",
+      "body": "A mirrorless camera removes the mirror box. Light falls straight onto the sensor at all times, and the camera shows a live preview on an electronic viewfinder (EVF) or rear screen. Autofocus happens on the sensor itself, using phase-detection points built into it.\n\nRemoving the mirror lets the lens mount sit closer to the sensor, which allows smaller bodies and new lens designs."
+    },
+    {
+      "id": "what-you-gain-with-mirrorless",
+      "heading": "What you gain with mirrorless",
+      "body": "- **Autofocus.** On-sensor focusing with subject detection can recognise and track eyes, faces, animals, birds and vehicles across the frame.\n- **What you see is what you get.** The viewfinder shows exposure, white balance and depth of field before you take the shot.\n- **Video.** Mirrorless designs are better suited to video, with continuous autofocus and no mirror in the way.\n- **Silent shooting.** Electronic shutters allow completely silent shots.\n- **Size.** Bodies are usually smaller, though large lenses still weigh what they weigh.\n- **The future.** Canon, Nikon and Sony focus new development on mirrorless systems."
+    },
+    {
+      "id": "where-dslrs-still-appeal",
+      "heading": "Where DSLRs still appeal",
+      "body": "- **Optical viewfinder.** Some photographers prefer seeing the scene directly, with no lag or screen.\n- **Battery life.** With no electronic viewfinder running constantly, DSLRs often last far longer per charge.\n- **Price on the used market.** DSLRs and their lenses can be bought second-hand very cheaply, making them a good-value way to learn.\n\nMany DSLR lenses can be used on the same brand's mirrorless cameras with an adapter, often with full autofocus, which eases the move."
+    },
+    {
+      "id": "buying-advice",
+      "heading": "Buying advice",
+      "body": "- **New camera:** choose mirrorless. That is where new bodies, lenses and firmware updates are coming from.\n- **Tight budget, learning the basics:** a second-hand DSLR with a kit lens and a fast 50mm prime is excellent value.\n- **Already own DSLR lenses:** consider a mirrorless body from the same brand plus the official adapter.\n- **Check shutter count** on a used camera; it indicates wear, like mileage on a car.\n\nWhatever you choose, budget for good lenses, because they often affect your photos more than the body."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Are DSLRs obsolete?",
+      "a": "Not obsolete, but camera makers now focus on mirrorless. DSLRs remain capable and are often good value second-hand."
+    },
+    {
+      "q": "Can I use DSLR lenses on a mirrorless camera?",
+      "a": "Usually, with the right adapter from the same brand, often retaining autofocus. Check compatibility for your specific lens."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-mirrorless",
+      "name": "Wikipedia: Mirrorless camera",
+      "url": "https://en.wikipedia.org/wiki/Mirrorless_camera",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-dslr",
+      "name": "Wikipedia: Digital single-lens reflex camera",
+      "url": "https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

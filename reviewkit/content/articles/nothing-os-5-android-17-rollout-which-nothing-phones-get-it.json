@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "nothing-os-5-android-17-rollout-which-nothing-phones-get-it",
+  "locale": "en-US",
+  "status": "published",
+  "title": "When will your Nothing phone receive an upgrade to Nothing OS 5 and Android 17?",
+  "metaDescription": "Nothing OS 5 (Android 17) is rolling out. See which Nothing phones get it, when, what's new, and how to check for the update on your phone.",
+  "excerpt": "Nothing's Android 17 update has started rolling out, and the schedule runs into January. Here's which phones get it, what's new, and what US owners should know.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-29"
+  },
+  "tags": [
+    "nothing-phone",
+    "nothing-os-5",
+    "android-17",
+    "nothing-phone-3",
+    "nothing-phone-4a-pro",
+    "software-update",
+    "carl-pei"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "format": "explainer",
+  "category": "phones",
+  "answer": "Nothing OS 5.0 (based on Android 17) began rolling out to the Nothing Phone (3) in mid-October, and most models will receive the update by mid-January 2027. The Nothing Phone (4a), (4a) Pro, (3a) and (3a) Pro are due in early November according to the Nothing roadmap, although it is a staggered rollout. The Nothing Phone (1), (2) and CMF Phone 1 won’t receive the update.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "whats-happening",
+      "heading": "What’s happening",
+      "body": "If you have a Nothing phone you’ll be happy to hear that Android 17 has finally rolled out. The Nothing OS 5.0 (Nothing’s version of Android 17) has started rolling out as a general release to the Nothing Phone (3) in mid-October.\n\nIt’s rolled out pretty quickly. The open beta started on August 26, and the Nothing Phone (3) was the first to go in and out. Nothing says the stable release gives everyone the full experience.\n\nIt’s a staggered release so some of you will have received it already. This is typical for Android updates, so you might not see it on your phone today.",
+      "media": [
+        {
+          "src": "/images/nothing-os-5-android-17-rollout-which-nothing-phones-get-it/9fcfe740-9590-4215-93a1-3dc611d86f96.webp",
+          "alt": "nothing-os-5-android-17",
+          "credit": "Own screenshot",
+          "width": 1600,
+          "height": 901
+        }
+      ]
+    },
+    {
+      "id": "which-phones-and-when",
+      "heading": "Which Nothing phones will receive the update?",
+      "body": "According to the Nothing roadmap (as reported by GSMArena):\n\nNothing Phone 3 – Mid October 2026\n\nNothing Phone 4a, 4a Pro, 3a and 3a Pro – Early November 2026\n\nNothing Phone 2a and 2a Plus – Mid November 2026\n\nNothing Phone 3a Lite – Late December 2026\n\nNothing Phone 4b and CMF Phone 2 Pro – Mid January 2027\n\nThis is an expected date, and not a guaranteed one. The Nothing 4a and 3a family could receive a general release in late October or November (according to Android Central)."
+    },
+    {
+      "id": "beta-or-stable",
+      "heading": "Beta or stable?",
+      "body": "A few models have already started receiving the update. According to the roadmap, the Nothing Phone 4a Pro went into open beta in early September. The Nothing Phone 4a, 3a and 3a Pro followed in late September. All four are still in open beta (according to Android Central).\n\nThe Nothing Phone 2a and 2a Plus are now receiving open beta (October 23, GSMArena). The Nothing Phone 4b will receive beta in mid-December. The Nothing Phone 3a Lite and CMF Phone 2 Pro won’t receive beta at all and will receive the stable release.\n\nStable means it’s the final version. Beta is not complete."
+    },
+    {
+      "id": "whats-new",
+      "heading": "What’s new in Nothing OS 5.0?",
+      "body": "There’s a whole new look with the new Geist font. New icons, spacing and animations. As well as updated Settings, status bar, camera and Gallery.\n\nMore personalisation options. More options for your home screen, lock screen and widgets. Dynamic colours to match your wallpaper, micrographics widget and Collector widget to add pictures to your home screen (T3). New clock faces for the lock screen (GSMArena).\n\nThere is a dedicated Glyph app. Upgraded Essential AI features. Improved real-time transcription and Smart Collections (Android Central).\n\nSplit notifications and Quick Settings (T3). Live updates from compatible apps (such as taxi or food delivery) (T3). Faster Bluetooth controls, faster Essential Voice, improved screen recording and Recents. New sorting options in Gallery. New Essential Apps Builder app (GSMArena summary)."
+    },
+    {
+      "id": "quick-share-iphone",
+      "heading": "Quick Share",
+      "body": "One thing that may interest US users is that Quick Share now has a QR code option for iPhone users (T3). Enhanced Quick Share (GSMArena summary).\n\nNot many details have been given. We haven’t tested it, but it’s definitely worth trying out once you get it."
+    },
+    {
+      "id": "how-to-update",
+      "heading": "How to check for the update",
+      "body": "Open Settings > System > System update and tap to check for updates. (Android Central & T3). You should receive a notification normally.\n\nAlways back up your phone before installing a major version."
+    },
+    {
+      "id": "joining-the-beta",
+      "heading": "Joining the beta",
+      "body": "If your phone is on the beta list download the latest Nothing Beta Hub app from the Nothing website (GSMArena). Open Settings > System > Nothing Beta Hub. Tap Check Version and select Join Beta. You should receive the beta as an over-the-air update within a few minutes.\n\nHowever, if you want to roll back to a stable version you will lose all data on your phone (Request Rollback). We recommend backing up your data first. If this is your only phone it’s a good idea to wait until you get the stable version."
+    },
+    {
+      "id": "phones-left-behind",
+      "heading": "Which phones won’t receive the update?",
+      "body": "According to GSMArena, Nothing state that the Nothing Phone (1), (2) and CMF Phone 1 are at the end of their major software support and won’t receive Nothing OS 5.0.\n\nThe Nothing Phone (2) has an old software stack. In a Reddit AMA, the CEO Carl Pei explained that “the kernel is unfortunately too old.” The chipset vendor won’t support Android 17 on the phone. The Nothing Phone (2) will end on Android 16.\n\nNothing originally stated that they would provide three major Android updates. Pei first said the Nothing Phone (2) received four major updates (from Android 13 to 16), then corrected himself and said they had met what they originally promised, not gone beyond it. Nothing aren’t known for providing long software support (T3)."
+    },
+    {
+      "id": "us-buyers",
+      "heading": "Things to note as a US buyer",
+      "body": "Nothing aren’t a big player in the US. In March, the Nothing Phone (4a) Pro was announced to be coming to the US for $499 (via Amazon). However, the base model won’t be sold in the US. Nothing don’t have any carrier partnerships in the US (9to5Google). Prices may have changed so check before purchasing.\n\nNothing are growing quickly in the US. They’re growing their team and partnerships. For example, they’ve rolled out to Best Buy nationwide (Android Authority report from September AMA). No figures were given.\n\nPei also told fans that whilst they’ve found a good fit for their audio products they’re not entirely sure about their phone strategy. A Nothing phone needs to be meaningfully better than an iPhone for Americans, and they’re still figuring out what that is (Android Authority summary, not a direct quote)."
+    },
+    {
+      "id": "what-nothing-says-next",
+      "heading": "Hints about future software",
+      "body": "Pei admitted that they should reduce the number of semi-compulsory app installations and game promotion. They should find a better balance between providing value to users and making money. “Less but better.”\n\nHe also mentioned that the design team should bring back the ethos of the Nothing Phone (1). However, this doesn’t mean they’ll bring back the phone. Key remapping for the Essential Key is being developed for Nothing OS 5.1. Shared Widgets and Essential Search aren’t a priority right now.\n\nThese were answers to fan questions."
+    },
+    {
+      "id": "what-we-dont-know",
+      "heading": "What we don’t know",
+      "body": "We have not tested Nothing OS 5.0. Everything below is from published sources.\n\nNothing don’t mention any specific regions so we cannot confirm exactly when US owners will receive it. Nothing state it is a staggered rollout. The dates shown above are expected dates. Some sources mention the Nothing 4a and 3a family may receive it in late October or November (Android Central). The roadmap states early November.\n\nAndroid Central don’t mention any known issues with the stable version. However, this is early on and usually issues will be reported after a few days of wider rollout."
+    },
+    {
+      "id": "our-take",
+      "heading": "Our thoughts",
+      "body": "In our opinion, if you have a Nothing Phone (3) and it shows up it looks like a decent update to receive. It was the first to go into beta and stable.\n\nIf this is your only phone it makes sense to wait a few days to see any initial bugs. Only join the beta if you don’t mind incomplete software. If you have a 4a or 3a model you can expect to receive the stable version in early November (roadmap). Don’t rush into beta software.\n\nWe’ll update this article as more phones receive the stable version."
+    },
+    {
+      "id": "sources",
+      "heading": "Sources",
+      "body": "Android Central, Beta no more: Nothing OS 5 (Android 17) is rolling out for the Phone 3 (October 13, 2026): https://www.androidcentral.com/phones/nothing-phones/nothing-os-5-android-17-is-rolling-out-for-the-phone-3\n\nT3 via Yahoo Tech, Your Nothing Phone (3) just got the massive feature update you've been waiting for (October 13, 2026): https://tech.yahoo.com/phones/articles/nothing-phone-3-just-got-100000532.html\n\nGSMArena, Nothing OS 5.0 officially debuts, rollout detailed (August 25, 2026): https://www.gsmarena.com/nothing_os_50_rollout_officially_detailed_heres_what_you_can_expect-news-74330.php\n\nGSMArena, Two more Nothing phones get Nothing OS 5.0 beta (October 23, 2026): https://www.gsmarena.com/two_more_nothing_phones_get_nothing_os_50_beta-news-75180.php\n\nAndroid Authority, Nothing CEO AMA on Android 17, software, design and US growth (September 7, 2026): https://androidauthority.com/nothing-ceo-ama-android-17-software-design-us-growth-3708169\n\n9to5Google, Nothing Phone (4a) Pro is coming to the US for the first time and, at $499, I can't wait (March 6, 2026): https://9to5google.com/2026/03/06/nothing-phone-4a-pro-us-release-price/"
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Which Nothing phones will receive the Nothing OS 5.0?",
+      "a": "According to the Nothing roadmap (reported by GSMArena): Nothing Phone (3), (4a), (4a) Pro, (3a), (3a) Pro, (2a), (2a) Plus, (3a) Lite, (4b) and CMF Phone 2 Pro. The Nothing Phone (1), (2) and CMF Phone 1 won’t receive the update."
+    },
+    {
+      "q": "When will my Nothing phone receive Android 17?",
+      "a": "The Nothing Phone (3) received it in mid-October. The Nothing Phone (4a), (4a) Pro, (3a) and (3a) Pro will receive it in early November. The Nothing Phone (2a) and (2a) Plus will receive it in mid-November. The Nothing Phone (3a) Lite will receive it in late December. The Nothing Phone (4b) and CMF Phone 2 Pro will receive it in mid-January 2027. These are expected dates."
+    },
+    {
+      "q": "How do I update to Nothing OS 5.0?",
+      "a": "Open Settings > System > System update. You should receive a notification normally."
+    },
+    {
+      "q": "Is Nothing OS 5.0 available in the US?",
+      "a": "Nothing state it’s a staggered release. Nothing don’t mention any specific regions so we cannot confirm when it will be available in the US. The Nothing Phone (3) received it in mid-October. Check Settings > System > System update."
+    },
+    {
+      "q": "Will the Nothing Phone (2) receive Android 17?",
+      "a": "No. Nothing state that it has reached end of life for major software support. The Nothing Phone (2) has an old kernel. The Nothing Phone (2) will end on Android 16 as the chipset vendor won’t support Android 17. (CEO Carl Pei explained in a Reddit AMA)."
+    },
+    {
+      "q": "Should I join the Nothing OS 5.0 beta?",
+      "a": "Only if you don’t mind using incomplete software. If you want to roll back you’ll lose all your data (GSMArena). If this is your only phone it’s best to wait until you get the stable version."
+    },
+    {
+      "q": "What’s new in Nothing OS 5.0?",
+      "a": "New Geist font. New look. Dedicated Glyph app. Upgraded Essential AI. More home screen and lock screen options. Split notifications and Quick Settings. Live updates. Quick Share now has a QR code option for iPhone users."
+    }
+  ],
+  "sources": []
+}

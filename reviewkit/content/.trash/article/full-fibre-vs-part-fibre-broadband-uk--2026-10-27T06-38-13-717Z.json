@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "full-fibre-vs-part-fibre-broadband-uk",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Full fibre vs part fibre broadband explained: FTTP, FTTC and cable in the UK",
+  "metaDescription": "How full fibre (FTTP), part fibre (FTTC) and cable broadband differ in the UK, what Ofcom's naming rules mean, and how to check what your home can get.",
+  "excerpt": "UK broadband labels used to call almost everything fibre. Here is how the technologies differ and what Ofcom's naming rules mean for shoppers.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "broadband",
+    "full-fibre",
+    "uk-broadband"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "networking",
+  "answer": "Full fibre (FTTP) runs fibre optic cable all the way to your home and offers the fastest, most reliable speeds, including gigabit and faster uploads. Part fibre (FTTC) runs fibre to a street cabinet and copper phone line for the final stretch, typically up to about 80Mbps. Cable broadband uses coaxial cable for the last part. Ofcom's guidance says only FTTP should be called fibre or full fibre.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "full-fibre-fttp",
+      "heading": "Full fibre (FTTP)",
+      "body": "Fibre to the premises means a fibre optic cable runs from the exchange all the way into your home. Light travels through glass with very little signal loss, so speed does not drop with distance from the cabinet, and fibre is not affected by electrical interference.\n\nFull fibre packages range from tens of megabits to a gigabit or more, with much faster upload speeds than older connections, which helps video calls, cloud backups and households with many users. Openreach, Virgin Media and many alternative networks are building FTTP across the UK, though not every home can get it yet."
+    },
+    {
+      "id": "part-fibre-fttc",
+      "heading": "Part fibre (FTTC)",
+      "body": "Fibre to the cabinet means fibre runs to the green street cabinet, then your existing copper telephone line carries the signal the rest of the way, using VDSL. The copper section limits speed, which typically tops out around 80Mbps download and 20Mbps upload, and falls the further you are from the cabinet. Older or damaged copper lines can perform worse."
+    },
+    {
+      "id": "cable-and-other-options",
+      "heading": "Cable and other options",
+      "body": "Cable broadband, mainly from Virgin Media, uses fibre in the network and coaxial cable into the home. It can deliver very high download speeds. Virgin Media is upgrading its network to full fibre in many areas.\n\nOther options include 4G and 5G home broadband, which uses mobile networks and can be quick where coverage is strong, and satellite broadband for remote locations. Old ADSL over copper, without any fibre in the street, is the slowest wired option."
+    },
+    {
+      "id": "what-ofcom-s-naming-rules-mean",
+      "heading": "What Ofcom's naming rules mean",
+      "body": "For years, providers advertised part fibre as fibre broadband. Ofcom introduced guidance, which took effect in 2024, saying providers should only use fibre or full fibre for FTTP, describe FTTC as part fibre or similar, and give clear information about the technology at the point of sale. When comparing deals, look for the technology description as well as the speed."
+    },
+    {
+      "id": "checking-and-switching",
+      "heading": "Checking and switching",
+      "body": "- **Check availability** with an address checker from Openreach or other network builders, or a price comparison site. Ofcom also offers a broadband and mobile coverage checker.\n- **Check the minimum guaranteed speed.** Providers give an estimated speed for your line and, under Ofcom's voluntary code, a minimum guaranteed speed you can rely on when deciding to leave if it is not met.\n- **Switching is simpler than it was.** Under the One Touch Switch process, your new provider arranges the switch and the old one is notified.\n- **Phone lines are changing.** The UK's old copper phone network is being retired, with landline calls moving to digital services that run over broadband. Check what this means for alarms, telecare devices and older phones in your home."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is FTTC fibre broadband?",
+      "a": "Only partly. Fibre runs to the street cabinet and copper carries the signal into your home. Ofcom's guidance says it should be described as part fibre, not fibre."
+    },
+    {
+      "q": "How do I know if I can get full fibre?",
+      "a": "Use an address checker from Openreach or another full fibre network, a comparison site, or Ofcom's broadband checker."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ofcom-broadband",
+      "name": "Ofcom: Phones and broadband",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "openreach-fibre",
+      "name": "Openreach: Full fibre broadband",
+      "url": "https://www.openreach.com/fibre-broadband",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-fttx",
+      "name": "Wikipedia: Fiber to the x",
+      "url": "https://en.wikipedia.org/wiki/Fiber_to_the_x",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

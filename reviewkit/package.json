@@ -1,0 +1,35 @@
+{
+  "name": "reviewkit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "content:validate": "tsx scripts/validate-content.ts",
+    "content:import": "tsx scripts/import-content.ts",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "check": "npm run content:validate && npm run typecheck && npm run build",
+    "images:optimise": "tsx scripts/optimise-images.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.3.0",
+    "@neondatabase/serverless": "1.2.0",
+    "marked": "18.1.1",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "sharp": "0.35.5",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "22.20.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}

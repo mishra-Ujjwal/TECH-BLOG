@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "one-ui-9-rollout-galaxy-s26-which-phones-get-it-and-when",
+  "locale": "en-US",
+  "status": "published",
+  "title": "One UI 9 rollout: Which Galaxy Phones Are Getting It And When?",
+  "metaDescription": "Samsung started the stable One UI 9 rollout on September 16, 2026. See which S26, S25, S24 and foldable models have it, US carrier timing and new features.",
+  "excerpt": "One UI 9 is rolling out in stages across Galaxy phones. Here is what has reached the S26, S25, S24 and foldables, plus how to check your own phone.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-29"
+  },
+  "tags": [
+    "one-ui-9",
+    "samsung-galaxy",
+    "galaxy-s26",
+    "android-17",
+    "software-update",
+    "samsung"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "format": "explainer",
+  "category": "phones",
+  "answer": "Samsung began rolling out stable One UI 9 (Android 17) to the Galaxy S26, S26+ and S26 Ultra in South Korea on September 16, 2026, with the US rollout starting on September 23. Select Galaxy S25 and Z7 foldables got it from October 2 and the Galaxy S24 family received it in South Korea on October 8. Whether you have it yet depends on your model, carrier and region.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "short-version",
+      "heading": "The short version",
+      "body": "Samsung announced that they began rolling out the stable version of One UI 9 (based on Android 17) to Galaxy S26, S26+, and S26 Ultra devices on September 16, 2026 (tbreak). It began in South Korea with a gradual rollout.\n\nAs Android 17 isn't new for Samsung users, the S26 devices running Android 17 are similar to what has been running on the Galaxy Z Fold8 and Fold8 Ultra for a couple of months (Droid Life).\n\nThe update has rolled out gradually. The S26 family received it in the US on September 23 (NeoTeo), with the update expanding on September 28. Select Galaxy S25 family, S25 FE, S25 Edge, Z Fold7, and Z Flip7 devices received the update in the US from October 2 to October 5. The Galaxy S24 family, Z Fold6, Z Flip6, and A57 5G received the stable version of One UI 9 in South Korea on October 8.\n\nOverall, the update has rolled out gradually. The same model may receive the update on one carrier, but not on another. This article will bring together all the information we found, highlight any inconsistencies, and explain how to check your device.\n\nNote: We were only able to read information up to October 9. If you're reading this any later than October 9, it's likely more models will have received the update.",
+      "media": [
+        {
+          "src": "/images/one-ui-9-rollout-galaxy-s26-which-phones-get-it-and-when/samsung-galaxy-phone-displaying-one-ui-9-0-update-ready-to-i.webp",
+          "alt": "one-ui-9-rollout-galaxy",
+          "credit": "Own screenshot",
+          "width": 1600,
+          "height": 1067
+        }
+      ]
+    },
+    {
+      "id": "what-samsung-said",
+      "heading": "What Samsung said on September 16",
+      "body": "Samsung stated that they began rolling out the stable version of One UI 9 (based on Android 17) to Galaxy S26 series devices on September 16, 2026 after several months of beta testing (tbreak). They had been beta testing One UI 9 on the Galaxy S26 lineup (Droid Life).\n\nThey also mentioned that One UI 9 launched on Galaxy Z Fold8 Ultra, Z Fold8, and Z Flip8. This is why they aren't included in the dated Galaxy S26 rollout. The Galaxy S26 FE also launched with One UI 9.\n\nSamsung mentioned that the list of devices receiving the update includes older Galaxy S and Z devices as well as select Galaxy tablets. They also mentioned that more devices are expected to receive the update in the coming weeks. However, there wasn't any information stating exactly when each model is getting it (tbreak).\n\nThis is why you'll find varying posts online. Someone might have received it on their Galaxy S26 in South Korea, whilst someone else with an unlocked Galaxy S26 in the US may not have received it yet."
+    },
+    {
+      "id": "galaxy-s26-in-the-us",
+      "heading": "Galaxy S26 in the US",
+      "body": "Reddit users received the update on September 23 (Droid Life). Only Galaxy S26, S26+, and S26 Ultra devices with a carrier lock on T-Mobile received the update. Unlocked devices on T-Mobile did not receive the update. Verizon, AT&T and Unlocked users didn't receive any information.\n\nThe build is S948USQU4BZID. It's around 4,183 MB and includes the September 5 Android security patch. It was a single build on a single carrier. This information was pulled from users who received the update. There were rumours that it could be delayed until early October (Droid Life).\n\nA few weeks later, the S26 family received the update in the US. It was rolled out gradually on September 23 and expanded on September 28 (NeoTeo). However, we weren't able to read the sources detailing exactly which carriers received the update. We can't guarantee a carrier by carrier rollout.\n\nIf you're on a carrier in the US, T-Mobile received it first. The rest received it gradually over the next few days/weeks. If you haven't received it, you may just be on the carrier version waiting for approval."
+    },
+    {
+      "id": "older-galaxy-devices",
+      "heading": "Older Galaxy devices",
+      "body": "The select Galaxy S25 and Z7 devices received a global rollout on October 6 (NeoTeo). However, we couldn't see what devices received the update.\n\nThe Galaxy S25 family, S25 FE, S25 Edge, Z Fold7, and Z Flip7 received it in the US between October 2 to 5. However, it was only select models. Again, it varied between carriers and unlocked.\n\nThe Galaxy S24 family, Z Fold6, Z Flip6, and A57 5G received the stable version of One UI 9 in South Korea.\n\nWe couldn't find any confirmed information on other lines like the Galaxy A series (other than the A57 5G in Korea) or the tablets Samsung mentioned. If you have any of these, Samsung Members is where Samsung direct owners to check for compatibility and timing (NeoTeo)."
+    },
+    {
+      "id": "timeline",
+      "heading": "Timeline",
+      "body": "Putting this all together gives us a clearer picture. All dates below are pulled from the articles.\n\nMay 12: Droid Life mentions Samsung began beta testing One UI 9 on Galaxy S26 lineup. September 16: Samsung announced the stable update is rolling out to Galaxy S26, S26+, and S26 Ultra. This was in South Korea. They also mentioned that One UI 9 launched on Galaxy Z Fold8 Ultra, Z Fold8, and Z Flip8.\n\nSeptember 23: Reddit users received the update on Galaxy S26 devices with carrier lock on T-Mobile in the US. September 24: Droid Life wrote their first article mentioning the update was rolled out on one carrier. September 28: NeoTeo mentioned the Galaxy S26 family received an expansion in the US.\n\nOctober 2 to 5: Galaxy S25 family, S25 FE, S25 Edge, Z Fold7, and Z Flip7 received the update in the US. It was rolled out gradually. October 6: Select Galaxy S25 and Z7 devices received a global rollout. October 8: Galaxy S24 family, Z Fold6, Z Flip6, and A57 5G received the stable version of One UI 9 in South Korea. October 9: NeoTeo published their summary.\n\nTwo things to note here. There was a gap between the Galaxy S26 receiving it and Galaxy S25 receiving it in the US. This gap was around 2 weeks. The Galaxy S24 received it in South Korea around 3 weeks after the Galaxy S26 announcement. This is a good indicator of what to expect."
+    },
+    {
+      "id": "gradual-rollout",
+      "heading": "Why it's rolled out gradually",
+      "body": "It doesn't necessarily mean it's rolled out globally. It can be rolled out gradually depending on the model, operator, and region (tbreak). NeoTeo also says it's rolled out gradually.\n\nYou may receive the update on a carrier locked device, but not an unlocked one. Droid Life saw this as T-Mobile devices received the update but unlocked devices on the same network didn't.\n\nThis allows companies to monitor any issues. We couldn't find a statement from Samsung stating this was the reason for the gradual rollout.\n\nThe main thing to take from this is don't assume your friend has it and you don't, or vice versa. Just wait for the notification or check the Software update screen periodically."
+    },
+    {
+      "id": "whats-new",
+      "heading": "What's new?",
+      "body": "New features include My FanCam (automatically follows a selected person in videos and keeps them in the centre), and generative, editable cards in Now Brief (choose or make cards related to health, weather and videos).\n\nImprovements have been made to Creative Studio, Interpreter, Document Scan, and Voice Recorder. A new Warranty and Care section has also been added to Settings. This contains information relating to your warranty, diagnostics, repair estimates, and Samsung Care+ management (will depend on region).\n\nNow Nudge, Now Brief, My FanCam, and Photo Assist have been highlighted (NeoTeo). The Galaxy S25 Ultra received a walkthrough. Quick Panel toggles have been split, media and volume sliders can be resized, and you can view PDFs in My Files.\n\nThere is overlap in both lists. Some features will depend on region and model. We haven't used One UI 9 on any devices so we can't say how refined the features are."
+    },
+    {
+      "id": "discrepancies",
+      "heading": "Discrepancies",
+      "body": "The largest discrepancy is the size of the update. Droid Life mentions it's around 4,183 MB on T-Mobile Galaxy S26. However, tbreak mentions it's around 650 MB for some users. Both can be true as the size will vary depending on your device and how it's been installed. Different carriers, regions, and initial software versions will have varying sizes. Beta users may download a smaller version. We can't say for certain what size it is for you.\n\nNext, the meaning of global. Samsung mentioned it was rolled out globally on September 16. Droid Life mentioned Samsung announced it was ready for Galaxy S26 lineup globally around a week earlier than September 24. However, the first confirmed mentions were from one carrier in the US a week later. tbreak mentions it was rolled out in South Korea and will gradually expand.\n\nNext, the date. Droid Life mentions there could be a delay and it could be rolled out in early October. However, NeoTeo mentions it was rolled out gradually in the US from September 23. This is a more reliable source so we'll go with this.\n\nLastly, only the build for T-Mobile Galaxy S26 was mentioned. Neither NeoTeo or tbreak mention any builds."
+    },
+    {
+      "id": "how-to-check",
+      "heading": "How to check for the update",
+      "body": "All three sources mention the same method. Go to Settings > Software update > Download and install. If it's available for your device, it will appear here.\n\nHowever, just because it doesn't appear doesn't mean it's not available for your device. As mentioned above, it doesn't necessarily mean it's rolled out globally. It can be rolled out gradually depending on the model, operator, and region.\n\nYou can also check Samsung Members. This is where Samsung direct owners to check for compatibility and timing (NeoTeo). Just check it once a day. Constantly force checking won't make it appear any quicker.\n\nDon't download unofficial files from forums/file sharing sites. We don't know if they're safe. You could have an incorrect firmware for your carrier version."
+    },
+    {
+      "id": "before-you-update",
+      "heading": "Before you update",
+      "body": "Backup your phone. This can be done via Samsung Cloud, Google backup, or a computer. A large Android update is a big change so it's a cheap way to back up your phone.\n\nEnsure your phone is charged to a comfortable level and you're connected to Wi-Fi. If it's anything close to the larger size mentioned in Droid Life, you could use a lot of data on mobile.\n\nCheck how your phone is set up. If you have a work profile, a managed device, or a custom launcher, speak to your IT contact or check the launchers notes. These sometimes take time to catch up with new Android versions.\n\nEnsure you have enough free space. Large updates need plenty of space to download and extract. If your phone is low on space, delete old downloads and unused apps first.\n\nCheck your key apps. Banking, work, and authentication apps are the last thing you want to break. Open them once after updating to ensure they work. Usually developers will quickly adapt to new Android versions, however there can be gaps in the first few days.\n\nIf you use your phone for work, consider updating at the end of the day."
+    },
+    {
+      "id": "after-updating",
+      "heading": "After updating",
+      "body": "You may notice a settling period. After a big update, your phone can get quite hot and drain quicker for a day or two whilst apps and search data reindexes.\n\nIf your region offers it, check out the Warranty and Care section in Settings. This will put your warranty, diagnostics, repair estimates, and Samsung Care+ management in one place (tbreak). This will depend on your region.\n\nTry out any new tools that matter to you. If you record events/sport, try out My FanCam. If you use Now Brief, check out the new card options. Photo Assist and Quick Panel changes can be quickly checked.\n\nIf there is an issue, reboot your phone. If a specific app is causing an issue, update it from the store and check out the support page. If you're having issues with battery life/overheating for longer than a few days, it's a good idea to reboot, update any apps, or visit Samsung Members."
+    },
+    {
+      "id": "who-is-next",
+      "heading": "Who should expect it next?",
+      "body": "Samsung have mentioned more devices will receive it. However, they haven't published a full schedule. NeoTeo don't mention what the next wave will be.\n\nWhilst there are patterns, they aren't guaranteed. The newer flagship devices received it first, followed by the previous generation, and then older models. Often South Korea will receive updates first. If you own a Galaxy S24 outside of Korea, it was released in Korea on October 8 so it's likely you'll receive it. We can't say when.\n\nLook out for signs of a wave. Check carrier support pages, Samsung Members, and Software update. Usually the reports from Korea will be first, followed by the US in waves.\n\nIf you own a mid range/older device that hasn't been mentioned, check Samsung Members and Samsung's support pages for your model.\n\nIf you're considering buying a new device mainly for One UI 9, keep in mind the foldables and Galaxy S26 FE launched with it. Older devices are receiving it in waves."
+    },
+    {
+      "id": "final-thoughts",
+      "heading": "Final thoughts",
+      "body": "Overall it seems to be a wide rollout and is progressing at a normal rate for Samsung. The Galaxy S26 family received it first, followed by the Galaxy S25 family and Galaxy Z7 foldables in early October. Finally, the Galaxy S24 family received it in South Korea on October 8.\n\nThere were discrepancies in the information. The size, dates, and global didn't all match up. This is typical for a gradual rollout. You should trust your Software update screen over any posts saying everyone has it.\n\nIf you want an easy method, just check the Software update once a day. Ensure you have a recent backup and install when it becomes available. There's no indication from these reports that waiting a few days will help. There's also no indication that early adopters had widespread issues.\n\nWe haven't tested One UI 9. This article is a summary of three published reports. Details can change very quickly."
+    },
+    {
+      "id": "sources",
+      "heading": "Sources",
+      "body": "Droid Life, Galaxy S26's One UI 9 update is sort of here in the US, September 24, 2026: https://www.droid-life.com/2026/09/24/galaxy-s26s-one-ui-9-update-is-sort-of-here-in-the-us/\n\ntbreak, Samsung Galaxy S26 One UI 9 stable rollout, September 16, 2026: https://tbreak.com/samsung-galaxy-s26-one-ui-9-stable-rollout/\n\nNeoTeo, Samsung's One UI 9 rollout reaches more Galaxy phones, October 9, 2026: https://www.neoteo.com/en/samsungs-one-ui-9-rollout-reaches-more-galaxy-phones"
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "When did the stable version begin rolling out?",
+      "a": "The stable version began rolling out on September 16, 2026. It began with Galaxy S26, S26+, and S26 Ultra (tbreak)."
+    },
+    {
+      "q": "Which Galaxy phones are getting it?",
+      "a": "The Galaxy S26 family received it first. Then select Galaxy S25, S25 FE, S25 Edge, Z Fold7, and Z Flip7 received it in the US between October 2 to 5. Finally, the Galaxy S24 family, Z Fold6, Z Flip6, and A57 5G received it in South Korea on October 8 (NeoTeo)."
+    },
+    {
+      "q": "How can I check for it?",
+      "a": "Go to Settings > Software update > Download and install. You can also check Samsung Members for compatibility and timing."
+    },
+    {
+      "q": "Why don't I have it?",
+      "a": "It can be rolled out gradually depending on the model, carrier, and region."
+    },
+    {
+      "q": "How big is it?",
+      "a": "There were discrepancies. The T-Mobile Galaxy S26 build was around 4,183 MB (Droid Life). Some users received it around 650 MB (tbreak)."
+    },
+    {
+      "q": "What's new?",
+      "a": "My FanCam, editable cards in Now Brief, Now Nudge, Photo Assist, improvements to Creative Studio and Interpreter, and a new Warranty and Care section. Will depend on availability."
+    },
+    {
+      "q": "Are the Galaxy Z Fold8 and Z Flip8 getting it later?",
+      "a": "No. The Galaxy Z Fold8 Ultra, Z Fold8, and Z Flip8 received One UI 9 when it launched (NeoTeo). The Galaxy S26 FE also launched with it."
+    }
+  ],
+  "sources": []
+}

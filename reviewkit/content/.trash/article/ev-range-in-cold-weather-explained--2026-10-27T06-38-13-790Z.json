@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "ev-range-in-cold-weather-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Why electric cars lose range in cold weather, and how to reduce it",
+  "metaDescription": "Why EV range drops in winter, how much to expect, how heat pumps and preconditioning help, and practical habits for UK winter driving.",
+  "excerpt": "Electric cars cover fewer miles in winter. Here is why, roughly how much range to expect, and the habits that claw some of it back.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "electric-cars",
+    "range",
+    "winter-driving"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "evs",
+  "answer": "Electric cars lose range in cold weather because battery chemistry slows down when cold and because heating the cabin uses battery energy, unlike a petrol car's waste engine heat. A drop of around 10 to 30 per cent in UK winter conditions is common, more on short trips and at motorway speeds. Preconditioning while plugged in, seat heaters and a heat pump all help.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why-batteries-dislike-cold",
+      "heading": "Why batteries dislike cold",
+      "body": "Lithium-ion batteries rely on chemical reactions and the movement of ions through a liquid electrolyte. Cold slows those processes, raising internal resistance. The battery delivers its energy less efficiently, and the car may limit power and regenerative braking until the battery warms up. Charging is also slower when the battery is cold, because charging too fast in the cold can damage it."
+    },
+    {
+      "id": "heating-the-cabin",
+      "heading": "Heating the cabin",
+      "body": "A petrol or diesel engine wastes most of its fuel as heat, which warms the cabin for free. An electric motor is so efficient that there is little waste heat, so the car must use battery energy to heat the cabin and windows. On short journeys, warming a cold car from scratch takes a large share of the energy used.\n\nCars with heat pumps move heat from outside air into the cabin, using less energy than resistive heaters, especially in mild cold. Many new electric cars include them; on some models they are an option."
+    },
+    {
+      "id": "how-much-range-to-expect",
+      "heading": "How much range to expect",
+      "body": "The loss depends on temperature, journey length, speed and the car. As a rough guide, many electric cars lose around 10 to 30 per cent of their mild-weather range in a UK winter. Short trips in freezing weather and fast motorway driving in wind and rain sit at the worse end. Long, steady journeys at moderate speeds suffer less, because the battery and cabin warm up and stay warm.\n\nOfficial WLTP range figures are measured in a laboratory under mild conditions and are usually higher than real-world winter range."
+    },
+    {
+      "id": "habits-that-help",
+      "heading": "Habits that help",
+      "body": "- **Precondition while plugged in.** Most cars let you warm the battery and cabin from an app or a timer before you leave. The energy comes from the charger, not the battery.\n- **Use seat and steering wheel heaters.** Heating you directly uses far less energy than heating all the air in the cabin.\n- **Set the battery to warm before rapid charging.** Many cars do this automatically when you navigate to a rapid charger, which speeds up charging.\n- **Park in a garage** if you have one.\n- **Check tyre pressures,** which drop in cold weather and increase rolling resistance.\n- **Moderate motorway speeds.** Air resistance rises sharply with speed."
+    },
+    {
+      "id": "planning-winter-journeys",
+      "heading": "Planning winter journeys",
+      "body": "Allow more margin when planning long trips in winter, and expect rapid charging to be a little slower at the first stop if the battery is cold. Route planner apps that account for temperature and elevation give better estimates. Range returns as temperatures rise; cold weather does not permanently reduce battery capacity in normal use."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "How much range does an electric car lose in winter?",
+      "a": "Commonly around 10 to 30 per cent in UK winter conditions, more on short trips in freezing weather and at high speeds."
+    },
+    {
+      "q": "Does preconditioning save range?",
+      "a": "Yes, when the car is plugged in. Warming the battery and cabin from the charger means less battery energy is needed at the start of your journey."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-ev-battery",
+      "name": "Wikipedia: Electric vehicle battery",
+      "url": "https://en.wikipedia.org/wiki/Electric_vehicle_battery",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-heat-pump",
+      "name": "Wikipedia: Heat pump",
+      "url": "https://en.wikipedia.org/wiki/Heat_pump",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "type": "review",
+  "slug": "kestrel-k1-review",
+  "locale": "en-GB",
+  "status": "draft",
+  "title": "Kestrel K1 review: a £99 phone that lasts two days",
+  "metaDescription": "The Kestrel K1 ran for 41 hours of mixed use in my testing and costs £99, but the camera struggles indoors and updates stop after two years.",
+  "excerpt": "I used the £99 Kestrel K1 as my only phone for two weeks. Battery life is the reason to buy it. The camera and the short update window are the reasons to think twice.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team",
+    "url": "https://example.co.uk/about"
+  },
+  "dates": {
+    "published": "2026-10-12",
+    "lastChecked": "2026-10-24"
+  },
+  "tags": [
+    "phones",
+    "budget"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "editedBy": "TODO Your Name",
+    "approvedOn": "2026-10-12",
+    "updates": []
+  },
+  "_note": "EXAMPLE FILE with an invented product. Shows a shorter review that still passes validation.",
+  "category": "phones",
+  "pillar": "best-note-apps-students-uk",
+  "product": {
+    "name": "Kestrel K1",
+    "brand": "Northwind",
+    "model": "K1-64",
+    "homepage": "https://example.com/kestrel-k1"
+  },
+  "verdict": {
+    "summary": "At £99 the Kestrel K1 does the one thing budget buyers ask for: it lasts. I got 41 hours of mixed use on a charge, which is longer than phones at three times the price. Everything else is a compromise, and the two-year update window is the one I would worry about.",
+    "score": 6.5,
+    "scoreMax": 10,
+    "bestFor": [
+      "A spare or travel phone that will sit in a drawer between trips",
+      "Anyone who mainly calls, texts and uses maps"
+    ],
+    "skipIf": [
+      "You take photos indoors or at night",
+      "You want security updates beyond two years"
+    ],
+    "pros": [
+      {
+        "text": "41 hours of mixed use on one charge",
+        "evidence": "Measured across three full discharge cycles"
+      },
+      {
+        "text": "Headphone socket and an SD card slot",
+        "evidence": "Both tested with a 128GB card"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Indoor photos come out soft and noisy",
+        "evidence": "20 indoor shots, 14 unusable at full size"
+      },
+      {
+        "text": "Security updates end after two years",
+        "evidence": "Stated on the support page, checked 24 Oct 2026"
+      }
+    ]
+  },
+  "scores": [
+    {
+      "label": "Battery",
+      "value": 9
+    },
+    {
+      "label": "Camera",
+      "value": 4
+    },
+    {
+      "label": "Value",
+      "value": 8
+    }
+  ],
+  "testing": {
+    "testedOn": "2026-10-10",
+    "duration": "14 days as my only phone",
+    "setup": "Kestrel K1 64GB on Android 16, EE SIM in London, screen at 50 per cent brightness, Wi-Fi at home and 4G out. Bought at my own expense from a high street shop.",
+    "versionTested": "Android 16, October 2026 patch",
+    "notTested": [
+      "Wireless charging, which the phone does not have",
+      "Gaming beyond two casual titles"
+    ],
+    "measurements": [
+      {
+        "label": "Mixed-use battery life",
+        "value": 41,
+        "unit": "hours",
+        "method": "Three full cycles, screen at 50 per cent, about 90 minutes of screen time a day"
+      },
+      {
+        "label": "Charge 0 to 50 per cent",
+        "value": 48,
+        "unit": "minutes",
+        "method": "Supplied 10W charger, stopwatch"
+      },
+      {
+        "label": "Usable indoor photos",
+        "value": "6 of 20",
+        "method": "Same room, same time of day, judged at full size"
+      }
+    ]
+  },
+  "prices": [
+    {
+      "retailer": "TODO Retailer",
+      "amount": 99,
+      "currency": "GBP",
+      "url": "https://example.com/kestrel-k1",
+      "affiliate": true,
+      "checkedAt": "2026-10-24",
+      "note": "inc. VAT, SIM free"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Key specs",
+      "items": [
+        {
+          "label": "Battery",
+          "value": "5,200mAh",
+          "sourceId": "kestrel-specs",
+          "verified": false
+        },
+        {
+          "label": "Storage",
+          "value": "64GB plus microSD",
+          "sourceId": "kestrel-specs",
+          "verified": true
+        },
+        {
+          "label": "Update window",
+          "value": "2 years of security patches",
+          "sourceId": "kestrel-specs",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "battery",
+      "heading": "41 hours is the headline, and it holds up",
+      "body": "I ran the phone flat three times, with about 90 minutes of screen time a day, the screen at half brightness and mobile data on. The shortest run was 38 hours and the longest 44, so 41 hours is the middle of three real cycles rather than a best case.\n\nThat is the whole argument for this phone. If you want something that survives a weekend away without a charger, it does."
+    },
+    {
+      "id": "camera",
+      "heading": "The camera is the compromise",
+      "body": "Outdoors in daylight it is fine for social media. Indoors it falls apart: of 20 shots taken in the same room at the same time of day, I would keep 6.\n\nIf photos matter to you at all, spend more. This is not a camera you grow into."
+    },
+    {
+      "id": "updates",
+      "heading": "Two years of updates is the real cost",
+      "body": "The support page states two years of security patches from launch, which I checked on 24 October 2026. A £99 phone you replace after two years costs more per year than a £250 phone supported for five.\n\nThat maths is the reason this is a spare phone recommendation rather than a main one."
+    }
+  ],
+  "media": [],
+  "alternatives": [
+    {
+      "name": "A refurbished mid-range phone",
+      "why": "Often similar money, usually a much better camera, and sometimes a longer remaining update window. Check the seller's warranty."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does the Kestrel K1 have a headphone socket?",
+      "a": "Yes, a 3.5mm socket on the top edge, which I used daily with wired earphones during the two-week test."
+    },
+    {
+      "q": "How long does the battery really last?",
+      "a": "Across three full discharge cycles with about 90 minutes of screen time a day, I got between 38 and 44 hours, so about 41 hours of mixed use."
+    }
+  ],
+  "sources": [
+    {
+      "id": "kestrel-specs",
+      "name": "Northwind support pages",
+      "url": "https://example.com/kestrel-k1",
+      "licence": "Facts only, read from the public support pages",
+      "attribution": null,
+      "fetchedAt": "2026-10-24"
+    }
+  ]
+}

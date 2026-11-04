@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "usb-c-thunderbolt-ports-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "USB-C, USB4 and Thunderbolt explained: why the same port does different things",
+  "metaDescription": "Why USB-C ports and cables look identical but behave differently, what USB4 and Thunderbolt add, and how to pick the right cable for charging, data and displays.",
+  "excerpt": "USB-C is a connector shape, not a promise. Here is how to work out what a port and a cable can actually do before something does not work.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "usb-c",
+    "thunderbolt",
+    "cables"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "computing",
+  "answer": "USB-C describes the shape of the plug. What travels through it depends on the port and the cable: anything from slow USB 2 data to 40 or 80 gigabits per second, with or without video and with charging from a few watts up to 240 watts. Thunderbolt and USB4 ports do the most. Check the symbols by the port and the rating of the cable.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "connector-versus-capability",
+      "heading": "Connector versus capability",
+      "body": "USB-C is the oval, reversible connector now used on almost every laptop and phone. It replaced a jumble of older plugs, which is good, but it hides a lot of variety. Behind identical-looking ports you will find different data speeds, different video support and different charging limits.\n\nThree separate things travel over USB-C: data (governed by the USB version), power (governed by USB Power Delivery) and sometimes video (through DisplayPort Alt Mode, Thunderbolt or USB4). A port can support any combination."
+    },
+    {
+      "id": "data-speeds",
+      "heading": "Data speeds",
+      "body": "The USB version sets the data rate. The names have changed several times, so the speed is the useful part:\n\n- **USB 2.0:** 480 megabits per second. Common on cheap cables and charging-only ports.\n- **USB 5Gbps and 10Gbps** (formerly USB 3.x Gen 1 and Gen 2).\n- **USB 20Gbps.**\n- **USB4:** 40Gbps, and 80Gbps for USB4 version 2.0.\n- **Thunderbolt 3 and 4:** 40Gbps. **Thunderbolt 5:** 80Gbps, with up to 120Gbps in one direction for high-resolution displays.\n\nThunderbolt 4 and 5 are built on USB4, with stricter minimum requirements. A Thunderbolt port guarantees things a basic USB-C port may not, such as driving external displays and running a dock."
+    },
+    {
+      "id": "charging",
+      "heading": "Charging",
+      "body": "USB Power Delivery negotiates how much power flows. Phones typically charge at 20 to 45 watts, laptops at 45 to 100 watts, and the Extended Power Range in newer versions allows up to 240 watts for larger laptops.\n\nThe charger, the cable and the device all have to agree. Cables rated above 60 watts contain a small chip that tells the charger they can handle the current. A 60 watt cable connected to a 100 watt charger and laptop will limit charging to 60 watts. Look for the wattage printed on the cable or its packaging."
+    },
+    {
+      "id": "video",
+      "heading": "Video",
+      "body": "To connect a monitor over USB-C, the port must support video output, usually shown by a small DisplayPort symbol or a Thunderbolt lightning bolt next to it. Many budget laptops have one USB-C port with video and another without. Docks that drive two or more monitors usually need Thunderbolt or USB4, and on some computers, particularly Macs with entry-level chips, the number of external displays is limited regardless of the dock."
+    },
+    {
+      "id": "choosing-cables-and-checking-ports",
+      "heading": "Choosing cables and checking ports",
+      "body": "- **Read the symbols** next to each port, or the specification, before buying a dock or monitor.\n- **Buy one good cable** rated for 40Gbps or Thunderbolt and 100 or 240 watts if you want a single cable that does everything. Long cables at full speed are expensive; passive cables over a metre or so often drop to lower data rates.\n- **Keep charging-only cables separate,** for example by colour, because they are often USB 2.0 and will make an external drive or display seem broken.\n- **Use the port the maker recommends for charging** if the laptop has one; some only accept power on specific ports.\n\nIf something does not work, the cable is the first thing to swap."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Are all USB-C cables the same?",
+      "a": "No. They differ in data speed, wattage and video support. A charging cable that came with a phone is often USB 2.0 speed and may not carry video."
+    },
+    {
+      "q": "Is Thunderbolt the same as USB4?",
+      "a": "Thunderbolt 4 and 5 are built on USB4 but guarantee higher minimum features, such as external display support and full 40Gbps or 80Gbps speeds."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-usbc",
+      "name": "Wikipedia: USB-C",
+      "url": "https://en.wikipedia.org/wiki/USB-C",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-thunderbolt",
+      "name": "Wikipedia: Thunderbolt (interface)",
+      "url": "https://en.wikipedia.org/wiki/Thunderbolt_(interface)",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "ethernet-cable-categories-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Ethernet cable categories explained: Cat5e, Cat6, Cat6a and Cat8",
+  "metaDescription": "What the categories of Ethernet cable mean, which supports gigabit and multi-gigabit speeds, and what to buy for a home network in the UK.",
+  "excerpt": "Ethernet cables come in categories from Cat5e to Cat8. Here is what each supports and why most homes do not need the most expensive one.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "ethernet",
+    "cables",
+    "home-network"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "networking",
+  "answer": "Ethernet cable categories describe how much data a cable can carry reliably. Cat5e supports gigabit speeds up to 100 metres and is fine for most homes. Cat6 and Cat6a support 10 gigabit speeds, Cat6a over the full 100 metres. Cat8 is designed for data centres over short distances. For a home network, Cat6 or Cat6a is a sensible, future-proof choice.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why-wired-still-matters",
+      "heading": "Why wired still matters",
+      "body": "A cable connection has lower and more consistent latency than Wi-Fi, is unaffected by walls and interference, and does not share airtime with other devices. For a games console, a desktop PC, a TV that streams 4K, or the link between mesh units, a cable is the most reliable option."
+    },
+    {
+      "id": "the-categories",
+      "heading": "The categories",
+      "body": "- **Cat5e:** supports 1Gbps up to 100 metres, and often 2.5Gbps over shorter runs. Fine for most broadband connections today.\n- **Cat6:** supports 1Gbps up to 100 metres and 10Gbps over shorter distances, typically up to about 55 metres.\n- **Cat6a:** supports 10Gbps up to 100 metres, with better shielding against interference. Thicker and stiffer.\n- **Cat7:** shielded cable built to a standard not widely recognised for Ethernet in the way the others are; often sold with non-standard connectors.\n- **Cat8:** supports 25 or 40Gbps over short distances, up to about 30 metres, intended for data centre switch connections.\n\nOlder Cat5 (without the e) cables are limited to 100Mbps and should be replaced."
+    },
+    {
+      "id": "shielding-and-solid-versus-stranded",
+      "heading": "Shielding and solid versus stranded",
+      "body": "Cables come unshielded (UTP) or shielded (FTP, STP and similar). Unshielded cable is fine for most homes. Shielding helps where cables run alongside mains wiring or electrical equipment, but must be correctly earthed to be effective.\n\nPatch cables for connecting devices are usually stranded, which is flexible. Cables run inside walls and terminated at wall sockets are usually solid core, which carries signals further and is easier to punch into sockets. Avoid copper-clad aluminium cable, which is cheaper but performs worse and does not meet the standards; look for pure copper."
+    },
+    {
+      "id": "what-actually-limits-your-speed",
+      "heading": "What actually limits your speed",
+      "body": "The cable is rarely the bottleneck. Your speed is limited by the slowest part of the chain: your broadband connection, the router's ports (often 1Gbps, sometimes 2.5Gbps or more), any switch, and your device's network port. A Cat8 cable connected to gigabit ports runs at gigabit speed. Spend the money where the bottleneck is."
+    },
+    {
+      "id": "what-to-buy",
+      "heading": "What to buy",
+      "body": "- **Connecting a console or TV to the router:** a Cat6 patch cable.\n- **Running cables through the house:** Cat6 or Cat6a solid copper cable with matching wall sockets, ideally installed by someone experienced if it goes through walls and floors.\n- **Long runs or multi-gigabit plans:** Cat6a.\n- **Flat cables** are handy under carpets and doors, but often perform worse than round cables over long runs.\n\nIf cabling is impractical, powerline or mesh with wireless backhaul are alternatives."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is Cat8 better for gaming?",
+      "a": "Not in practice. Your speed is limited by your broadband and network ports, and Cat8 is designed for short data centre runs. Cat6 is plenty for gaming."
+    },
+    {
+      "q": "Is Cat5e still good enough?",
+      "a": "For gigabit broadband and most home use, yes. Choose Cat6 or Cat6a for new installations to allow for faster connections later."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-cat5",
+      "name": "Wikipedia: Category 5 cable",
+      "url": "https://en.wikipedia.org/wiki/Category_5_cable",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-cat6",
+      "name": "Wikipedia: Category 6 cable",
+      "url": "https://en.wikipedia.org/wiki/Category_6_cable",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

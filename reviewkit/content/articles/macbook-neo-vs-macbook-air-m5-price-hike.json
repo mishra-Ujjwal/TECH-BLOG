@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "macbook-neo-vs-macbook-air-m5-price-hike",
+  "locale": "en-US",
+  "status": "published",
+  "title": "MacBook Neo vs MacBook Air M5 price after increase",
+  "metaDescription": "Apple raised the MacBook Neo to $699 and the Air M5 to $1,299 on June 25, 2026. Compare specs, benchmarks, battery and who should buy which MacBook.",
+  "excerpt": "Apple's June price hike narrowed the MacBook range's value. Here is how the $699 Neo and the $1,299 Air M5 compare on speed, screen, ports and battery.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-29"
+  },
+  "tags": [
+    "macbook-neo",
+    "macbook-air-m5",
+    "apple-price-increase",
+    "macbook",
+    "memory-shortage",
+    "laptop-buying-guide"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "format": "explainer",
+  "category": "computing",
+  "answer": "On June 25, 2026 Apple raised the MacBook Neo from $599 to $699 and the MacBook Air from $1,099 to $1,299 in the US, blaming a memory chip shortage. The Neo has an A18 Pro chip with 8GB of memory and suits browsing and basic work, while the Air M5 has 16GB, a better display and faster performance. Reviewers say the Air is the better laptop overall, and the Neo remains the cheaper choice for light use.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "summary",
+      "heading": "Summary",
+      "body": "As Apple increased prices on several products on June 25 2026 due to a global shortage of memory chips, the MacBook Neo now starts at $699, up from $599, and the MacBook Air at $1,299, up from $1,099 (MacRumors). The 1TB MacBook Pro also went from $1,699 to $1,999 (Reuters, via Khaleej Times).\n\nThat changes the buying math. Macworld's comparison, written after the increase, lists the Neo at $699 and the 13-inch Air M5 at $1,299, a gap of about $600. At the old prices the gap was $500.\n\nThe Neo is significantly different to the Air. The Neo uses a mobile chip with 8GB of memory that cannot be upgraded whereas the Air uses the M5 chip and starts at 16GB. Reviewers said the Air is the better laptop overall, but the Neo was an Editors Choice with Tom's Hardware. They said it was a fantastic budget laptop.\n\nThis boils down to whether you want to spend an extra $600 on the extra memory, brighter and wider colour display, extra ports and faster chip. Most people will agree to do so for all day use (Macworld & BGR). However if you're looking for light use then the Neo will still give you a great machine.\n\nHere's a breakdown of the differences between the two laptops including why sources might differ. We have not used either laptop so have taken the information from the sources below."
+    },
+    {
+      "id": "price-increase-june-25",
+      "heading": "Price Increase on June 25",
+      "body": "MacRumors reports the new US prices for the MacBook Neo: $699 for the 256GB model, up from $599, and $799 for the 512GB model with Touch ID, up from $699. On the Education Store, the 256GB model went from $499 to $599 and the 512GB model from $599 to $699. In Canada the 256GB Neo went from $799 to $949, though MacRumors does not state the currency.\n\nReuters, in the Khaleej Times report, lists further increases: the 512GB MacBook Air from $1,099 to $1,299, the 1TB MacBook Pro from $1,699 to $1,999 and the 128GB iPad Air from $599 to $749. HomePod and Apple TV prices also rose, with amounts not given. The report says the iPhone is not affected, and quotes Apple saying it will raise prices on a number of products, so more increases may follow.\n\nThe reason for the price increase was due to the shortage of memory chips. This has caused a spike in the price of RAM and SSD (MacRumors). As companies such as OpenAI and Meta are demanding more from AI servers, there is an imbalance. Apple said in statements quoted by Reuters they have never seen such a large increase in component prices, they have tried to protect customers but \"unfortunately it's not great news.\"\n\nTrendForce said that DRAM prices increased up to 98% in Q1 2026 and will increase by 58-63% in the current quarter. The smartphone market is expected to decrease by nearly 14% this year and the PC market is expected to decrease by 11.3% (IDC). An analyst by the name of Ben Bajarin from Creative Strategies said that the memory situation is structurally challenging for the foreseeable future.\n\nOne more detail from Reuters matters for shoppers: with the increase, the Neo lost its $100 price advantage over Dell's $699 XPS 13."
+    },
+    {
+      "id": "price-differences-online",
+      "heading": "Price differences online",
+      "body": "If you read older reviews you will see lower prices. Creative Bloq's MacBook Air M5 review lists a starting price of $1,099, and Tom's Hardware's Neo review, updated in March, lists $599 for the base model and $699 for the 512GB version. Those were correct before June 25.\n\nMacworld's comparison reflects the increase, with $699 for the Neo, $799 for the 512GB Neo and $1,299 for the 13-inch Air. It lists the 15-inch Air at $1,499. Macworld also notes that both laptops were price-increased in June 2026.\n\nWhen comparing the reviews, make sure to check the date of the article. Older reviews will include the older price. Even if the performance and battery conclusion remain the same. Retailers can also offer discounts. Tom's Hardware said the base Neo was on Amazon at $689. So the street price can differ to that of Apple. We have not checked current retail prices."
+    },
+    {
+      "id": "specifications",
+      "heading": "Specifications",
+      "body": "Macworld have created a table of the specifications. The Neo has a 6-core CPU and 5-core GPU A18 Pro chip, 8GB of ram (cannot be upgraded), a slower SSD with 256GB/512GB storage. It has a 13 inch display with 2,408 x 1,506 pixels, around 500 nits, only sRGB colours, 60Hz and no True Tone. It has 2 USB-C ports, 1 USB 3 and 1 USB 2. It can only have 1 external display, up to 4K 60Hz.\n\nThe Air M5 has a 10-core CPU, 16GB ram (can be upgraded to 32GB), 512GB storage (can be upgraded to 4TB). It has a 13.6 inch display with 2,560 x 1,664 pixels, around 500 nits, P3 wide colour, 60Hz and True Tone. It has 2 Thunderbolt 4 ports, MagSafe 3, 2 external displays, Wi-Fi 7 and Bluetooth 6.\n\nBoth weigh around the same. The Neo weighs 2.7lbs (1.23kg) (Tom's Hardware). The Air weighs 2.7lbs (Macworld). The Air weighs 1.23kg (Creative Bloq).\n\nThe Neo has a comfortable keyboard however it does not have a backlight. The touchpad is mechanical and can click anywhere (Tom's Hardware). The Air has a backlit keyboard, Force Touch trackpad and a fingerprint reader on all models (Creative Bloq). The base model does not have Touch ID (Macworld).\n\nThe UK model can have the 10-core GPU upgrade. The 24GB ram or 1TB storage upgrade will include this upgrade free of charge (Creative Bloq). We couldn't find this in the US version so make sure to check your region on Apples store.\n\nThe Air has a much faster SSD than the previous generation, around twice as fast. It has a great 12 megapixel Centre Stage webcam (BGR). The Neo has a 1080p camera and Wi-Fi 6E (Tom's Hardware)."
+    },
+    {
+      "id": "performance",
+      "heading": "Performance",
+      "body": "The Neo has a single core score of 3,535 and multi-core score of 8,920 on the Geekbench 6 test (Tom's Hardware). The multi-core score is the lowest of the comparison. It takes 9 minutes and 57 seconds to encode from 4K to 1080p with HandBrake. Whereas it only took less than 5 minutes on the Surface Laptop. It has an average of 32.59fps in the Cyberpunk 2077 test at 1,637 x 1,024 (using Apple's recommended settings).\n\nThe Air M5 has a single core score of 4,158 and multi-core score of 17,091 (Creative Bloq). The M5 MacBook Pro had a score of 4,310 and 17,897. It is around 14% slower in Photoshop than the M5 MacBook Pro. It is more than double the speed of the Neo. In Adobe Premiere with raw video it scores about 52% of the Pro's result, and the reviewer advises video creators to consider a higher tier (Creative Bloq).\n\nOverall the Air has a full M series chip whilst the Neo has a mobile chip. Macworld says the Neo matches the M1 in multi-core and graphics tests. The Air has a great single-core performance, beating most of the competition and is faster than the M4. However, most people won't really notice a big difference (BGR).\n\nBoth are fanless. The Neo stayed cool with the hottest part being 96 degrees fahrenheit (Tom's Hardware). The Air can dip during long intensive tasks (Macworld & Creative Bloq). However, if you're doing intensive video editing and rendering then the MacBook Pro will be a better option."
+    },
+    {
+      "id": "display-battery-ports",
+      "heading": "Display, Battery & Ports",
+      "body": "Display: The Neo had an sRGB coverage of 110.9%, DCI-P3 coverage of 78.8%, brightness of 452.6 nits. It does not have True Tone (Tom's Hardware). The Air has a P3 coverage of 93% and brightness of 450 nits (Creative Bloq). Both are 60Hz. The Air would be great with an OLED display at this price (BGR).\n\nBattery: The Neo can run for up to 16 hours of video playback and the Air can run for 18 hours (Macworld). However, it did not quite hit the claimed battery life in testing. The Neo ran for 13 hours and 28 minutes in a streaming, browsing and light OpenGL test (Tom's Hardware). The M3 MacBook Air ran for 15 hours and 13 minutes. Most people won't hit the 18 hour claim, however it will easily last you through a work day with moderate use (BGR).\n\nCharging: The Neo does not have any fast charging. It charged to 22% after 30 minutes and 44% after 60 minutes. It uses a 20W charger (Tom's Hardware). The Air can charge to 50% in around 30 minutes using a 70W or higher charger (BGR).\n\nPorts: The Neo only has 2 USB-C ports. These are not labelled. One is 10Gb/s and can do DisplayPort. The other is 480Mb/s. It does not have Thunderbolt. You will receive a warning on macOS if you put a device in the incorrect port (Tom's Hardware). The Air has 2 Thunderbolt 4 ports and MagSafe. However, the Air does have limited ports (BGR), so you may need dongles for your accessories."
+    },
+    {
+      "id": "reviews",
+      "heading": "Review",
+      "body": "The Neo is a fantastic budget laptop and should shock the PC industry. It does not ever feel like a budget laptop and was an Editor's Choice. It would be nice to have a backlit keyboard and easier to use ports (March review - Tom's Hardware).\n\nThe Air M5 received a score of 8.5/10. It scored 4/5 for design, features, performance and value. It offers great value for money with great performance, it is the slimmest MacBook and has an excellent display. However, it is no longer the cheapest MacBook, has a maximum of 32GB ram, 60Hz display and poorer video performance (Creative Bloq).\n\nThe Air is a refined upgrade. It is overall better than the Neo. It is not debatable. If you need an upgrade from the MacBook Neo then the MacBook Air is the one to go for (BGR). It does not have an OLED display, limited ports, average speakers compared to the MacBook Pro, limited colour options and isn't particularly exciting in design.\n\nMost people will want to go for the Air as it offers a great balance of performance, portability, battery life and price. However, if you're a student or first time Mac user wanting to do mostly browsing, streaming, video calling and basic apps then the Neo is a great option. If you do go for the Neo make sure to go for the 512GB version (Macworld)."
+    },
+    {
+      "id": "who-should-buy",
+      "heading": "Who should buy?",
+      "body": "If you're doing mostly browsing, streaming, writing, video calling and basic apps and want the cheapest option then the Neo is a great choice. If you're a student or teacher then check the Education Store price of $599. However, it does have some limitations. It only has 8GB of memory (cannot be upgraded), only 1 external display, no Thunderbolt and no backlit keyboard.\n\nIf you want a Mac that will feel fast for years to come, can run Photoshop and coding tools smoothly, have 2 external monitors and last you through your work day then the Air is a great choice. It is great for everyday use, school, travelling and light creative tasks but not for long intensive tasks or AAA gaming (Macworld).\n\nIf you're doing video editing or intensive tasks then a MacBook Pro may be a better choice. The Air scored around half of the Pro in Premiere (Creative Bloq).\n\nIf you're looking for a cheaper option then you may want to wait. The Neo no longer has the price advantage over the Dell XPS 13 at $699. The shortage in memory is long lasting so you cannot guarantee the prices will drop (Reuters)."
+    },
+    {
+      "id": "software",
+      "heading": "Software",
+      "body": "Both are on the list for macOS 27. However, the advanced Siri features require an M3 chip and above and 12GB of ram or above. This makes the Air a better option (9to5Mac - Not confirmed by Apple)."
+    },
+    {
+      "id": "price-ladder",
+      "heading": "Price ladder in the US",
+      "body": "It helps to lay the US prices out in order, using the figures reported by MacRumors, Macworld and Reuters. The MacBook Neo 256GB is $699. The Neo 512GB with Touch ID is $799. The 13-inch MacBook Air is $1,299, the 15-inch Air is $1,499 and the 1TB MacBook Pro is $1,999.\n\nThe steps between them are uneven. Going from the base Neo to the 512GB Neo costs $100. Going from the 512GB Neo to the Air costs $500, and the Air also doubles the memory, upgrades the display and adds Thunderbolt. Going from the 13-inch Air to the 15-inch Air costs $200.\n\nSeen that way, the jump from the Neo to the Air buys more than the jump from the base Neo to the 512GB Neo. If you are already stretching to $799 for a 512GB Neo, the $1,299 Air may be a better use of money. That is our arithmetic and opinion, not a claim from the reviewers. Macworld does recommend the 512GB version if you choose the Neo.\n\nEducation pricing narrows the gap a little. Macworld lists the Neo at $599 on the education store, and MacRumors lists $699 for the 512GB education model. We did not find an education price for the Air."
+    },
+    {
+      "id": "five-questions",
+      "heading": "5 Questions",
+      "body": "What will you be using it for? If you're using it for web, email, documents, streaming and video calling then the Neo will be enough (Macworld). However if you're doing photo editing, coding or have lots of apps and tabs open then the Air will be a safer option with 16GB of memory.\n\nHow many screens do you use? The Air can have 2 external displays and the Neo can only have 1. If you're using it at a desk with 2 monitors then this will be the deciding factor.\n\nHow long will you be using it for? With only 8GB of memory (cannot be upgraded) it may feel limiting after 3-4 years. The Air can be upgraded to have up to 32GB. We didn't test how the laptop ages over time.\n\nDo you want a backlit keyboard, Thunderbolt or Touch ID on the base model? The Neo does not have these and the 256GB base model does not have Touch ID (Tom's Hardware & Macworld).\n\nWhat is your budget ceiling? If it is $700, the Neo is the clear choice. If you can reach $1,300, Macworld and BGR both prefer the Air."
+    },
+    {
+      "id": "things-we-couldnt-confirm",
+      "heading": "Things We Couldn't Confirm",
+      "body": "Current street prices: We didn't check any retailers and prices can often change.\n\nBattery life on the Neo: Macworld said it can last up to 16 hours. However, it only lasted 13 hours 28 minutes in testing (Tom's Hardware).\n\nScreen size on the Air: Macworld & BGR said it's 13.6\", Creative Bloq said it's 13\". They seem to be referring to the same screen.\n\nWill prices increase again? Apple said they may increase prices again (Reuters). No specifics were given.\n\nWe have not used either laptop."
+    },
+    {
+      "id": "sources",
+      "heading": "Sources",
+      "body": "MacRumors, Apple Just Raised the Price of the MacBook Neo, June 25, 2026: https://www.macrumors.com/2026/06/25/apple-just-raised-macbook-neo-prices/\n\nKhaleej Times (Reuters), Apple raises prices of MacBooks, iPads as memory costs skyrocket, June 25, 2026: https://www.khaleejtimes.com/business/tech/apple-raises-prices-of-macbooks-ipads-as-memory-costs-skyrocket-2\n\nMacworld, MacBook Air vs MacBook Neo compared: https://www.macworld.com/article/667144/macbook-air-vs-macbook-pro-neo-compared.html\n\nTom's Hardware, Apple MacBook Neo review: a budget-priced game-changer: https://www.tomshardware.com/laptops/macbooks/apple-macbook-neo-a18-pro-review\n\nCreative Bloq, Apple MacBook Air M5 13-inch review: more Mac than you might expect: https://www.creativebloq.com/tech/laptops/apple-macbook-air-m5-13-inch-review-more-mac-than-you-might-expect\n\nBGR, M5 MacBook Air review: https://bgr.com/2131659/macbook-air-m5-review\n\n9to5Mac, Apple confirms macOS 27 Golden Gate launch date: https://9to5mac.com/2026/09/09/apple-confirms-macos-27-golden-gate-launch-date-september-14/"
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "How much did Apple increase the price of the MacBooks?",
+      "a": "On June 25, 2026 the MacBook Neo went from $599 to $699 and the MacBook Air from $1,099 to $1,299 in the US, per MacRumors."
+    },
+    {
+      "q": "Why did Apple increase the price?",
+      "a": "They increased the price due to a shortage of memory chips. This caused the price of RAM and SSD to increase."
+    },
+    {
+      "q": "Should I buy the MacBook Neo for $699?",
+      "a": "Yes if you're using it for light use. However, it does have some limitations. It only has 8GB of RAM, 1 external display and no backlit keyboard. It now has the same price as the Dell XPS 13 ($699) (Reuters)."
+    },
+    {
+      "q": "Is the MacBook Air M5 better than the Neo?",
+      "a": "Yes, it is not debatable. Most people will want to go for the Air (BGR)."
+    },
+    {
+      "q": "How long will the battery last on the Neo?",
+      "a": "Up to 16 hours (Macworld). However, in testing it only lasted 13 hours 28 minutes (Tom's Hardware)."
+    },
+    {
+      "q": "Can I connect 2 monitors?",
+      "a": "Yes, the Air can connect to 2 external displays. The Neo can only connect to 1 external display (up to 4K 60Hz) (Macworld)."
+    },
+    {
+      "q": "Will the prices increase again?",
+      "a": "Apple said they will increase the price of \"many\" products. Analysts quoted by Reuters said the price of memory will remain high. However, nothing was announced."
+    }
+  ],
+  "sources": []
+}

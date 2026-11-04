@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "iphone-storage-full-what-is-using-it",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Your iPhone says storage full. Here is what is eating it",
+  "metaDescription": "iPhone storage fills faster than it should, and the biggest culprits are usually invisible. Here is where the space goes and what is safe to delete.",
+  "excerpt": "You deleted some apps. You cleared some photos. The bar is still red. The things actually filling an iPhone are mostly invisible from the home screen, and two of them can be cleared in about a minute.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "iphone",
+    "ios",
+    "storage",
+    "troubleshooting"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: PAS. Problem = storage full. Agitate = you deleted photos and it did not help, and System Data is unexplained. Solution = the Messages fix and the two separate Photos settings.\n\nVERIFY BEFORE PUBLISHING:\n1. Walk every settings path on your own iPhone and note the iOS version. Menu wording shifts between versions and this article is worthless if a path is wrong.\n2. Check current iCloud free tier and pricing in GBP before the buying section goes live, and give the date checked.\n3. Confirm Review Large Attachments still appears where described on current iOS.\n\nIMAGES: screenshot your own iPhone Storage bar chart before and after the Messages change. That before-and-after is the single most persuasive image available for this topic and takes two minutes. 1200px minimum.\n\nFIRST-HAND UPGRADE: record how much space the Messages change actually freed on your phone, and put that number in the opening. One real figure changes the whole piece.\n\nPut your own name on it.",
+  "format": "explainer",
+  "category": "phones",
+  "answer": "Open Settings, then General, then iPhone Storage, and wait for the list to finish loading. For most people the top three are Photos, Messages and a category called System Data. Messages is the one worth attacking first, because years of attachments sit there invisibly and a single settings change removes them in seconds. System Data is mostly cache, and it shrinks on its own if you stop fighting it.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "the-screen",
+      "heading": "Start with the screen almost nobody opens",
+      "body": "Settings, General, iPhone Storage.\n\nGive it twenty seconds to think. It is counting, and the first numbers it shows are wrong. When it settles you get a bar chart and, underneath, every app ranked by size with the date you last opened it.\n\nThat list is the whole article, really. Everything below is just interpreting it. But almost nobody opens it, which is why people end up deleting holiday photos to make room for an iOS update while 14GB of Messages attachments sits untouched.",
+      "media": [
+        {
+          "src": "/images/iphone-storage-full-what-is-using-it/iphone-storage.webp",
+          "alt": "iphone-storage",
+          "credit": "Own screenshot",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "opinion": true
+    },
+    {
+      "id": "messages",
+      "heading": "Messages is probably your biggest win",
+      "body": "Here is the thing about Messages. Every photo anyone has ever sent you, every video, every meme from a group chat in 2019, is still on your phone. All of it. Forever.\n\nBy default iOS keeps messages indefinitely, and attachments are stored at full size. A few years of an active family group chat can run to double-digit gigabytes without you ever knowingly saving a single file.\n\nTwo fixes, and the first one takes seconds.\n\nIn Settings, Messages, find Keep Messages and change it from Forever to one year. The phone will ask whether you want to delete older messages. Say yes. If you are nervous, say yes anyway, because anything you genuinely needed from a conversation three years ago you have almost certainly saved elsewhere.\n\nThen, back in iPhone Storage, look for Review Large Attachments. It lists the biggest files people have sent you, largest first, and you can swipe them away individually. Videos dominate this list. Most of them are things you watched once.\n\nThis single change frees more space for more people than anything else on this page, and it costs nothing you will miss."
+    },
+    {
+      "id": "photos",
+      "heading": "Photos, and the setting that confuses everyone",
+      "body": "Photos will usually be your largest single item, which surprises nobody. What surprises people is that turning on iCloud Photos does not automatically free up space.\n\nThere are two separate settings and they do different things.\n\n**iCloud Photos** syncs your library to iCloud. On its own, it keeps full-resolution copies on the phone as well. Your storage does not improve.\n\n**Optimise iPhone Storage**, underneath it, is the one that matters. Switch that on and iOS keeps smaller versions locally and pulls the full file when you need it. On a large library this is the difference between tens of gigabytes and a few.\n\nThe catch, and it is a real one: you need enough iCloud space for the whole library, and the free 5GB will not cover it. So this is the point where Apple's storage pricing enters the conversation, which is not an accident.\n\nIf you would rather not pay, the alternative is a proper backup to a computer or another cloud service, then deleting from the phone. More work, no subscription. And do not forget Recently Deleted, which holds everything for 30 days and counts against your storage the entire time."
+    },
+    {
+      "id": "system-data",
+      "heading": "System Data: the grey blob nobody can explain",
+      "body": "At some point you will see a category called System Data occupying an alarming amount of space, with no explanation and nothing to tap.\n\nIt is mostly cache. Streaming apps store video they expect you to watch again. Safari keeps website data. Offline maps, podcast downloads, update files, logs, all of it lands here. It bloats after a big update and it bloats when you stream a lot.\n\nIt also shrinks by itself. iOS clears cache when the phone genuinely needs room, which is why the advice to panic about System Data is usually wrong.\n\nWhat actually works, in order: restart the phone, which clears a surprising amount. Offload and reinstall your biggest streaming app, which dumps its cache without losing your account. Clear Safari history and website data if you use Safari heavily.\n\nWhat does not work: any app from the App Store promising to clean your iPhone. They cannot access other apps' data. iOS does not permit it. They are selling you a progress bar."
+    },
+    {
+      "id": "offload",
+      "heading": "Offload, delete, and the difference that matters",
+      "body": "In that storage list, tapping an app gives you two options that look similar and are not.\n\n**Offload App** removes the app but keeps its documents and data. The icon stays on your home screen with a small cloud symbol. Tap it and it reinstalls, with everything where you left it. This is the right choice for a game you might return to, or an app you use twice a year.\n\n**Delete App** removes everything.\n\nThere is also Offload Unused Apps, a toggle that does this automatically for anything you have not opened in a while. It is genuinely useful and most people have never found it. The only reason to leave it off is if you travel somewhere without reliable data and need apps available offline.\n\nOne honest caveat: an offloaded app needs the App Store to still carry it. Apps do get pulled. If something is genuinely irreplaceable, delete nothing and buy the storage."
+    },
+    {
+      "id": "buying",
+      "heading": "What this means next time you buy",
+      "body": "128GB is fine if you use iCloud and do not film much video. It is not fine if you record 4K, keep a large offline music library, or install a lot of large games.\n\nThe awkward maths: the jump to the next storage tier costs noticeably less than a few years of the iCloud plan you will otherwise need. Apple prices both, and the pricing is not accidental. Work out which you are actually buying before you decide you have saved money on the cheaper phone.\n\nAnd whichever you pick, do the Messages change on day one. It is the one that keeps paying."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "What is System Data on an iPhone?",
+      "a": "Mostly cache: streaming video, Safari website data, logs and update files. It grows after big updates and heavy streaming, and iOS clears it automatically when space is genuinely needed. A restart usually reduces it."
+    },
+    {
+      "q": "Does iCloud Photos free up space on my iPhone?",
+      "a": "Not on its own. You also need Optimise iPhone Storage switched on underneath it, which keeps smaller local copies and fetches full files on demand. Without that, full-resolution photos stay on the phone."
+    },
+    {
+      "q": "What is the difference between offloading and deleting an app?",
+      "a": "Offloading removes the app but keeps its data, so reinstalling restores everything where you left it. Deleting removes both. Offloading is the better choice for anything you might return to."
+    },
+    {
+      "q": "Do iPhone cleaner apps work?",
+      "a": "No. iOS does not let one app access another app's data, so they cannot clear the caches they claim to clear. The storage screen in Settings does everything that is actually possible."
+    }
+  ],
+  "sources": []
+}

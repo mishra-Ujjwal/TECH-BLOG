@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "matter-and-thread-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Matter and Thread explained: the smart home standards that should end lock-in",
+  "metaDescription": "What the Matter smart home standard and the Thread network do, how they let devices work across Apple, Google, Amazon and Samsung, and what to check.",
+  "excerpt": "Matter promises smart home devices that work with any ecosystem. Here is how Matter and Thread work, what a border router is, and the current limits.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "matter",
+    "thread",
+    "smart-home-setup"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "smart-home",
+  "answer": "Matter is a common language that lets smart home devices work with Apple Home, Google Home, Amazon Alexa and Samsung SmartThings, so you are not locked to one ecosystem. Thread is a low-power wireless network that many Matter devices use. Thread devices need a border router, which is built into many recent smart speakers, hubs and TV boxes.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "the-problem-matter-solves",
+      "heading": "The problem Matter solves",
+      "body": "For years, buying a smart plug or bulb meant checking which ecosystems it worked with, installing yet another app, and sometimes buying a separate hub. Devices from different brands often could not talk to each other.\n\nMatter is a standard developed by the Connectivity Standards Alliance, a group including Apple, Google, Amazon and Samsung. A device certified for Matter works with any Matter controller, so the same plug can be added to Apple Home, Google Home or Alexa, and often to several at once."
+    },
+    {
+      "id": "how-matter-works",
+      "heading": "How Matter works",
+      "body": "Matter defines how devices describe themselves (a light, a lock, a thermostat) and how controllers command them, over standard internet protocols. Crucially, it runs locally on your home network: commands go directly from your phone or speaker to the device, so many devices keep working if the internet goes down and respond faster than cloud-based systems.\n\nMatter runs over Wi-Fi, Ethernet or Thread, and uses Bluetooth only during setup. You add a device by scanning its Matter QR code or entering its pairing number."
+    },
+    {
+      "id": "thread-and-border-routers",
+      "heading": "Thread and border routers",
+      "body": "Thread is a low-power mesh network designed for small battery devices such as sensors and door locks. Each mains-powered Thread device can relay signals for others, so the network gets stronger as you add devices, without the power drain or congestion of Wi-Fi.\n\nThread devices connect to the rest of your network through a Thread border router. Many recent devices include one, such as some Apple TV and HomePod models, Google Nest hubs and Wi-Fi routers, and some Amazon Echo models. Check you have one before buying Thread devices."
+    },
+    {
+      "id": "multi-admin",
+      "heading": "Multi-admin",
+      "body": "Matter allows multiple controllers to manage the same device. You can add a smart plug to Google Home for voice control and to Apple Home for a family member with an iPhone. You usually add the device to the first ecosystem by scanning its code, then share it to others from that app."
+    },
+    {
+      "id": "current-limitations",
+      "heading": "Current limitations",
+      "body": "- **Not every device type is covered yet,** and support for newer types, such as robot vacuums and energy devices, arrived in later versions of the standard. Ecosystems add support at different speeds.\n- **Advanced features** such as a camera's motion zones or a vacuum's room maps may still need the maker's own app.\n- **Older devices** may never get Matter support, though some hubs bridge older Zigbee or Z-Wave devices into Matter.\n- **Thread networks** from different ecosystems have not always merged smoothly, which can cause separate Thread networks in one home.\n\nWhen buying, look for the Matter logo on the box and check the device type is supported by your chosen ecosystem."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do I need a hub for Matter?",
+      "a": "You need a Matter controller, usually a smart speaker, hub or phone app. Thread devices also need a Thread border router, which many recent speakers and hubs include."
+    },
+    {
+      "q": "Can Matter devices work without the internet?",
+      "a": "Many can, because Matter controls devices locally on your home network. Remote access and some features still need the internet."
+    }
+  ],
+  "sources": [
+    {
+      "id": "csa-matter",
+      "name": "Connectivity Standards Alliance: Matter",
+      "url": "https://csa-iot.org/all-solutions/matter/",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-thread",
+      "name": "Wikipedia: Thread (network protocol)",
+      "url": "https://en.wikipedia.org/wiki/Thread_(network_protocol)",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

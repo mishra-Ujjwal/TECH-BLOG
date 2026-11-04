@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "type": "review",
+  "slug": "notely-3-review",
+  "locale": "en-GB",
+  "status": "draft",
+  "title": "Notely 3 review: quick to search, thin on the free plan",
+  "metaDescription": "Notely 3 searched a 4,200-note vault in under a second in my testing, but the free plan caps you at two devices. Here is who it suits.",
+  "excerpt": "I moved 4,200 notes into Notely 3 and used it as my only note app for three weeks. Search is genuinely fast. The free plan is too tight to recommend.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team",
+    "url": "https://example.co.uk/about"
+  },
+  "dates": {
+    "published": "2026-10-20",
+    "updated": "2026-10-24",
+    "lastChecked": "2026-10-24"
+  },
+  "tags": [
+    "note-taking",
+    "productivity"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "editedBy": "TODO Your Name",
+    "approvedOn": "2026-10-20",
+    "updates": [
+      {
+        "date": "2026-10-24",
+        "note": "Re-checked both prices and added the yearly plan."
+      }
+    ]
+  },
+  "_note": "EXAMPLE FILE. The product is invented so no real product is misdescribed. Copy the shape, delete the file.",
+  "category": "computing",
+  "pillar": "best-note-apps-students-uk",
+  "product": {
+    "name": "Notely 3",
+    "brand": "Acme Labs",
+    "homepage": "https://example.com/notely",
+    "image": {
+      "src": "/images/notely-3/hero.webp",
+      "alt": "Notely 3 open on a laptop showing a search results list with 4,200 notes indexed",
+      "credit": "Own screenshot",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "verdict": {
+    "summary": "Notely 3 is the fastest note app I have tested on a large vault, and the Markdown export means you are not locked in. But the free plan limits you to two devices and 100MB, which most people will outgrow within months, so treat the £3.99 a month plan as the real price.",
+    "score": 7.5,
+    "scoreMax": 10,
+    "bestFor": [
+      "People with thousands of existing notes who want fast search",
+      "Anyone who wants plain Markdown files they can take elsewhere"
+    ],
+    "skipIf": [
+      "You need to share notes with a team, which it cannot do",
+      "You want handwriting or stylus support on a tablet"
+    ],
+    "pros": [
+      {
+        "text": "Search stayed under a second on a 4,200-note vault",
+        "evidence": "0.4s median over 20 searches, measured with the in-app timer"
+      },
+      {
+        "text": "Exports clean Markdown with images intact",
+        "evidence": "Exported all 4,200 notes, spot-checked 50, none broken"
+      }
+    ],
+    "cons": [
+      {
+        "text": "The free plan stops at two devices",
+        "evidence": "Third device refused to sync until I upgraded"
+      },
+      {
+        "text": "No team sharing at any price",
+        "evidence": "Checked every plan on the pricing page, 24 Oct 2026"
+      },
+      {
+        "text": "Mobile app dropped edits twice when offline",
+        "evidence": "Two notes lost on 14 and 17 Oct after editing on the Tube"
+      }
+    ]
+  },
+  "scores": [
+    {
+      "label": "Speed",
+      "value": 9
+    },
+    {
+      "label": "Ease of use",
+      "value": 8
+    },
+    {
+      "label": "Value",
+      "value": 6
+    },
+    {
+      "label": "Reliability",
+      "value": 6
+    }
+  ],
+  "testing": {
+    "testedOn": "2026-10-18",
+    "duration": "21 days as my only note app",
+    "setup": "MacBook Air M2 (16GB, macOS 15.2), Pixel 8a on Android 16, home broadband at about 65Mbps down. Imported a 4,200-note vault of about 180MB. Paid Plus plan, bought at my own expense.",
+    "versionTested": "3.2.1 (desktop), 3.2.0 (Android)",
+    "notTested": [
+      "iPad and stylus input, as I do not own an iPad",
+      "Windows build",
+      "Collaboration, because the product does not offer it"
+    ],
+    "measurements": [
+      {
+        "label": "Median search time",
+        "value": 0.4,
+        "unit": "s",
+        "comparison": "my previous app took 2.1s on the same vault",
+        "method": "20 searches across a 4,200-note vault, in-app timer"
+      },
+      {
+        "label": "Cold start to usable",
+        "value": 1.9,
+        "unit": "s",
+        "method": "Average of 10 launches, stopwatch, after a reboot"
+      },
+      {
+        "label": "Full export of 4,200 notes",
+        "value": 73,
+        "unit": "s",
+        "method": "Single export to Markdown, stopwatch"
+      },
+      {
+        "label": "Notes lost in three weeks",
+        "value": 2,
+        "unit": "notes",
+        "method": "Offline edits on mobile, confirmed against a backup"
+      }
+    ]
+  },
+  "prices": [
+    {
+      "retailer": "Acme Labs (direct)",
+      "amount": 3.99,
+      "currency": "GBP",
+      "url": "https://example.com/notely/pricing",
+      "affiliate": false,
+      "checkedAt": "2026-10-24",
+      "note": "Plus plan, billed monthly, inc. VAT"
+    },
+    {
+      "retailer": "Acme Labs (direct)",
+      "amount": 39,
+      "currency": "GBP",
+      "url": "https://example.com/notely/pricing",
+      "affiliate": false,
+      "checkedAt": "2026-10-24",
+      "note": "Plus plan, billed yearly, inc. VAT"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Plans and limits",
+      "items": [
+        {
+          "label": "Free plan devices",
+          "value": "2",
+          "sourceId": "notely-pricing",
+          "verified": true
+        },
+        {
+          "label": "Free plan storage",
+          "value": "100MB",
+          "sourceId": "notely-pricing",
+          "verified": true
+        },
+        {
+          "label": "Plus plan storage",
+          "value": "50GB",
+          "sourceId": "notely-pricing",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "group": "Platforms",
+      "items": [
+        {
+          "label": "Desktop",
+          "value": "macOS, Windows, Linux",
+          "sourceId": "notely-pricing",
+          "verified": false
+        },
+        {
+          "label": "Mobile",
+          "value": "iOS, Android",
+          "sourceId": "notely-pricing",
+          "verified": true
+        },
+        {
+          "label": "Export formats",
+          "value": "Markdown, HTML, PDF",
+          "sourceId": "notely-pricing",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What Notely 3 actually is",
+      "body": "Notely is a local-first note app. Your notes live as Markdown files on your own disk, and the paid plan syncs them between devices through the company's servers.\n\nThe third version, released this year, replaced the search index. That is the change I wanted to test, because search was the reason I had avoided the app before."
+    },
+    {
+      "id": "search-speed",
+      "heading": "Search stayed under a second on 4,200 notes",
+      "body": "I imported a vault of 4,200 notes, about 180MB, and ran the same 20 searches I use on every note app I test. The median result came back in 0.4 seconds, and the slowest was 1.1 seconds on a three-word phrase.\n\nFor comparison, the same vault and the same searches took a median of 2.1 seconds in the app I had been using. That difference is large enough to change how you work: I started searching instead of filing things into folders.",
+      "table": {
+        "caption": "Search times on the same 4,200-note vault",
+        "columns": [
+          "Query type",
+          "Notely 3",
+          "Previous app"
+        ],
+        "rows": [
+          [
+            "Single word",
+            "0.3s",
+            "1.8s"
+          ],
+          [
+            "Three-word phrase",
+            "1.1s",
+            "3.4s"
+          ],
+          [
+            "Tag filter",
+            "0.2s",
+            "0.9s"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "reliability",
+      "heading": "It lost two notes in three weeks",
+      "body": "Twice, edits I made on Android with no signal did not survive. On 14 October I edited a note on the Tube, and on 17 October I did the same. Both times the note reverted to its earlier version once the phone reconnected, and I only noticed because I keep a nightly backup.\n\nTwo notes out of 4,200 is a small proportion, but silent data loss in a note app is the one failure that matters. I reported both. If you work offline often, wait for a fix."
+    },
+    {
+      "id": "value",
+      "heading": "The free plan is not the real price",
+      "body": "The free plan allows two devices and 100MB. I passed 100MB during the import alone, and two devices means a laptop and a phone with nothing left over for a work machine.\n\nSo judge Notely at £3.99 a month, or £39 a year, both checked on 24 October 2026. At that price it competes with apps that do more, and the lack of any sharing feature becomes harder to accept."
+    }
+  ],
+  "media": [
+    {
+      "src": "/images/notely-3/search.webp",
+      "alt": "Notely 3 search results appearing in 0.4 seconds with the built-in timer visible",
+      "caption": "The in-app timer, which is how I took the search measurements.",
+      "credit": "Own screenshot",
+      "width": 1200,
+      "height": 700
+    }
+  ],
+  "alternatives": [
+    {
+      "name": "Plain Markdown files and ripgrep",
+      "why": "Free, nothing to lose, and about as fast if you are comfortable in a terminal. No sync, which you would set up yourself."
+    },
+    {
+      "name": "Kestrel Notes",
+      "reviewSlug": "kestrel-k1-review",
+      "why": "Slower search, but it has team sharing and I saw no data loss in testing."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Notely 3 work offline?",
+      "a": "Yes on desktop, where notes are local files. On Android I lost two offline edits during three weeks of testing, so I would not rely on it offline until that is fixed."
+    },
+    {
+      "q": "Can I get my notes out?",
+      "a": "Yes. A full export of 4,200 notes to Markdown took 73 seconds and the 50 notes I spot-checked kept their images and links intact."
+    },
+    {
+      "q": "Is the free plan enough?",
+      "a": "Only for a small vault on two devices. A 180MB import exceeded the 100MB free limit on its own, so most people moving an existing vault will need the paid plan."
+    }
+  ],
+  "sources": [
+    {
+      "id": "notely-pricing",
+      "name": "Acme Labs pricing page",
+      "url": "https://example.com/notely/pricing",
+      "licence": "Facts only, read from the public pricing page",
+      "attribution": null,
+      "fetchedAt": "2026-10-24"
+    }
+  ]
+}

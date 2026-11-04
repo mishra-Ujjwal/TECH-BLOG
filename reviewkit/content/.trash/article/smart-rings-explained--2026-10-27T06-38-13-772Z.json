@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "smart-rings-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Smart rings explained: what they track and who they suit",
+  "metaDescription": "What smart rings measure, how they compare with smartwatches for sleep and recovery tracking, sizing and subscriptions, and their limitations.",
+  "excerpt": "Smart rings promise health tracking without a screen on your wrist. Here is what they measure, how well, and the trade-offs.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "smart-rings",
+    "sleep-tracking",
+    "wellbeing"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "wearables",
+  "answer": "Smart rings pack heart rate, temperature and movement sensors into a ring, focusing on sleep, recovery and daily activity. They are comfortable to wear at night and last several days per charge, but have no screen, are weaker at workout tracking than a sports watch, and some brands charge a monthly subscription for full features.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-is-inside",
+      "heading": "What is inside",
+      "body": "A smart ring contains a tiny battery, optical sensors on the inside of the band, a skin temperature sensor and an accelerometer, all sealed in a metal or ceramic shell. The optical sensors work like those in a smartwatch, measuring blood flow with light to estimate heart rate, heart rate variability and blood oxygen.\n\nThe finger has strong blood flow close to the surface, which can make readings at rest and during sleep good, often comparable to or better than a wrist-worn device."
+    },
+    {
+      "id": "what-they-do-well",
+      "heading": "What they do well",
+      "body": "- **Sleep.** A ring is less intrusive in bed than a watch, so many people wear it every night, giving consistent data.\n- **Recovery and readiness.** Rings combine sleep, resting heart rate, heart rate variability and temperature into a daily score suggesting whether to push hard or take it easy.\n- **Temperature trends.** Changes in skin temperature overnight can flag the onset of illness, and some rings use them for menstrual cycle predictions.\n- **Battery life.** Most last several days to a week on a charge.\n- **Discretion.** No screen and no buzzing, which some people prefer."
+    },
+    {
+      "id": "where-they-fall-short",
+      "heading": "Where they fall short",
+      "body": "- **Workouts.** Without a screen you cannot see live data, and gripping weights or handlebars can affect readings. Some rings borrow GPS from your phone; dedicated running and cycling needs are better met by a sports watch.\n- **Notifications.** Rings do not show messages or let you reply.\n- **Durability.** Rings knock against things; scratches are common, especially on lifting bars and gym equipment.\n- **Accuracy limits.** Like all consumer wearables, they estimate rather than diagnose, and calorie counts are rough."
+    },
+    {
+      "id": "sizing-and-subscriptions",
+      "heading": "Sizing and subscriptions",
+      "body": "Fit is critical. Most brands send a free sizing kit of plastic dummy rings to wear for a day or two before you order. Finger size changes with temperature and time of day, so size for comfort over a full day and night. The index finger is often recommended for best readings.\n\nCheck the running costs. Some ring makers require a monthly or annual subscription for detailed insights and history, while others include everything in the purchase price. Over two or three years, a subscription can cost as much as the ring."
+    },
+    {
+      "id": "who-they-suit",
+      "heading": "Who they suit",
+      "body": "Smart rings suit people mainly interested in sleep, recovery and general wellbeing, who find watches uncomfortable at night or want a less obvious wearable. Many people wear a ring alongside a sports watch, using the ring for sleep and the watch for training. If you want workout tracking, notifications and payments in one device, a smartwatch remains the better choice."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Are smart rings accurate?",
+      "a": "For resting heart rate, heart rate variability and sleep, many are comparable to good smartwatches. They are less suited to tracking workouts, and all consumer wearables give estimates, not diagnoses."
+    },
+    {
+      "q": "Do smart rings need a subscription?",
+      "a": "Some do for full features and history, others do not. Check before buying, as subscription costs add up over the life of the ring."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-smart-ring",
+      "name": "Wikipedia: Smart ring",
+      "url": "https://en.wikipedia.org/wiki/Smart_ring",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-hrv",
+      "name": "Wikipedia: Heart rate variability",
+      "url": "https://en.wikipedia.org/wiki/Heart_rate_variability",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

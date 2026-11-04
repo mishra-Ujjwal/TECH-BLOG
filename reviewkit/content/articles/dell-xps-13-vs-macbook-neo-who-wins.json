@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "dell-xps-13-vs-macbook-neo-who-wins",
+  "locale": "en-US",
+  "status": "published",
+  "title": "Dell XPS 13 vs MacBook Neo: Who wins?",
+  "metaDescription": "Dell's revived XPS 13 costs $699 and takes aim at the MacBook Neo. Compare specs, battery tests, ports and reviews before you buy either budget laptop.",
+  "excerpt": "Dell brought back the XPS 13 at the same price as the MacBook Neo. Here is how they compare on battery, speed, display and ports, and where reviews disagree.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-29"
+  },
+  "tags": [
+    "dell-xps-13",
+    "macbook-neo",
+    "budget-laptop",
+    "windows-laptop",
+    "laptop-comparison",
+    "back-to-school"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "format": "explainer",
+  "category": "computing",
+  "answer": "Dell announced a new XPS 13 around June 1st, 2026 at $699, with a $599 student price starting in July, aimed at Apple's MacBook Neo. It has a backlit keyboard, a touchscreen, 512GB of storage and longer battery life in some tests, but it trails the Neo in several CPU and gaming benchmarks. T3 calls it overpriced and underpowered but still recommendable for its design.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "summary",
+      "heading": "Summary",
+      "body": "The new XPS 13 was announced around June 1 2026, competing with Apple's MacBook Neo. Starting at $699, and a student promotion drops it to $599 in July. Dell says students will be their main target audience.\n\nApple raised the price of the MacBook Neo from $599 to $699 on June 25, so the Neo lost its $100 price advantage over Dell's $699 XPS 13 (Reuters). Both models now start at $699.99 (SlashGear).\n\nThe Dell model includes more features within the same price range; a backlit keyboard, touchscreen, a larger 2.5K display, 512GB storage and lighter. However, it performs slower in a few CPU benchmarks. From T3's review, the XPS 13 isn't very powerful and is over-priced. But is still recommended.\n\nOverall it's a lighter model with a longer battery life and more features within the same price. However, it's not any more powerful. Both models were reviewed and are clear that they are designed for studying, browsing, writing and video calls.\n\nThis guide will outline how they compare in terms of price, specs, battery life, performance, display, connectivity and keyboard. We've not tested any models.",
+      "media": [
+        {
+          "src": "/images/dell-xps-13-vs-macbook-neo-who-wins/m65.webp",
+          "alt": "dell-xps-13-vs-macbook-neo-who-wins",
+          "credit": "Own screenshot",
+          "width": 1600,
+          "height": 900
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "heading": "Price",
+      "body": "The XPS 13 was announced around June 1, and Expert Reviews says it was unveiled at Computex in Taipei. The base model starts at $699, with a student promotion of $599. Expert Reviews expects it on sale before September (Expert Reviews, ITPro).\n\nDell promised at CES 2026 to compete at all price points (ITPro). On the Neo, Dell says it differs in what it thinks premium means at this price, and that a lower price should not mean a lesser build. It calls the XPS 13 its lightest and most accessible XPS yet.\n\nT3's review, published on August 24 2026, lists regional prices. It starts at $699.99 in the US, 899 pounds in the UK, 1,049 euros in the EU and $1,399 in Australia. However, it has student prices at 699 pounds in the UK and $599 in the US. Due to frequent discounts it may be cheaper. (T3)\n\nSome headlines mention it being priced at $599, such as a Boing Boing headline about a $599. This is due to the student promotion. Check the small print."
+    },
+    {
+      "id": "specs",
+      "heading": "Specs",
+      "body": "The XPS 13 has a 13.4 inch touchscreen IPS Display with a resolution of 2,560 x 1,600. It has a variable refresh rate of 30-120Hz, 500 nits and 100% DCI-P3. The MacBook Neo has a 13 inch IPS Display with a resolution of 2,408 x 1,506, 60Hz and 500 nits. (SlashGear)\n\nThe XPS 13 has an Intel Core 5 320 processor. This is a lightweight Wildcat Lake chip in the Core Series 3 Family, similar to Panther Lake. The MacBook Neo uses Apple's A18 Pro chip. This is the same as the 2024 iPhone 16 Pro. (Expert Reviews, SlashGear)\n\nThe Dell XPS 13 has 8GB or 16GB RAM and 512GB Storage. It plans to have up to 1TB later. The MacBook Neo has 8GB RAM and 256GB or 512GB storage. The Dell has a base model with 8GB RAM but can be upgraded to 32GB. The 16GB upgrade cost 200 pounds in the UK. It cannot be upgraded to 1TB. (ITPro, T3) There seems to be conflicting information regarding how much RAM it can have, check what is available in your region."
+    },
+    {
+      "id": "battery-life",
+      "heading": "Battery Life",
+      "body": "The XPS 13 has a 52Wh battery and can last up to 17 hours. The MacBook Neo has a 36.5Wh battery and can last up to 16. The XPS 13 is the lightest model at 2.2 pounds. The MacBook Neo weighs 2.7 pounds. Both are half an inch thick. (SlashGear)\n\nBoth have two USB-C Ports. The MacBook Neo includes a 3.5mm headphone jack. The XPS 13 has no headphone jack. Both have a 1080p webcam. The Dell has Wi-Fi 7 whereas the MacBook Neo has Wi-Fi 6E. (ITPro, Expert Reviews)\n\nSlashGear collects two sets of independent tests. Tom's Guide measured 14 hours 26 minutes for the XPS 13 and 13 hours 26 minutes for the Neo in a Wi-Fi web surfing test. PCMag measured 21 hours 51 minutes for the XPS 13 and 15 hours 35 minutes for the Neo in a battery rundown.\n\nExpert Reviews says the Neo managed just under 12 hours in its own local video playback test, so the XPS 13's rated 17 hours would be longer, though the figures come from different test methods.\n\nOverall the XPS 13 lasted longer in all tests. In one test it lasted an hour longer and in another test it lasted over 6 hours longer. The difference varies depending on the test. The XPS 13 has a larger battery than the MacBook Neo at 52Wh Vs 36.5Wh.\n\nThese are lab tests. The actual battery life will depend on how bright your screen is, the apps you're using and how often you're using your screen at 120Hz. The XPS 13 has a variable refresh rate between 30 and 120Hz to save battery. (ITPro)"
+    },
+    {
+      "id": "performance",
+      "heading": "Performance",
+      "body": "The MacBook Neo outperforms the XPS 13 in most CPU benchmarks. Tom's Guide ran tests and found the MacBook Neo had a better overall performance in HandBrake and Geekbench 6. It also outperformed in gaming. Only the Blackmagic SSD test was better on the XPS 13. PCMag found the MacBook Neo performed better in Geekbench and 3DMark but worse in HandBrake. The Neo also trailed the 16GB XPS 13 in Cinebench. (SlashGear)\n\nT3 is blunter on the Dell. It says the Core 5 320 is fine for browsing and word processing but multitasking with heavy workloads feels sluggish, and it lists the absence of Intel's Panther Lake chip as a con. It expects a Panther Lake version with the Core Ultra 7 355 to be stronger, though its price is unknown.\n\nITPro adds a useful caution. Apple's in-house chips, operating system and storage may let the Neo get more performance from 8GB than comparable Windows machines can. That is the author's view, not a test result.\n\nOverall neither are powerful enough for high intensity tasks like gaming. (SlashGear)\n\nDell say they will have Core Ultra Series 3 models with up to 32GB of RAM however at the moment there is only one option with the Core 5 320. Panther Lake models will be released later this year. (SlashGear, Expert Reviews, ITPro)"
+    },
+    {
+      "id": "design-and-keyboard",
+      "heading": "Design & Keyboard",
+      "body": "The XPS 13 has a great design. It is made entirely from metal and has a compact, slim and no tapered design. It weighs almost exactly 1kg. T3's reviewer calls it the best design of any Windows laptop tested in years. The display is stunning with slim bezels and a highly anti reflective coating. (T3)\n\nIt has a slim design at 12.7mm and weighs less than 1kg. It has a CNC Aluminium chassis with colours called Sky and Storm. The keyboard is backlit. The MacBook Neo doesn't have a backlit keyboard. (ITPro, Expert Reviews)\n\nThe XPS 13 has a tenkeyless keyboard with a traditional keyboard that has more spacing between the keys. It performed well when typing. The trackpad wasn't outstanding but was functional. (T3)\n\nThe XPS 13 is smaller and half a pound lighter than the MacBook Neo. It also has a larger display. (ITPro) SlashGear's table agrees, with 2.2 pounds against 2.7.\n\nBoth have a 500 nit display. The XPS 13 has a touchscreen and wide colour. The MacBook Neo has a 60Hz display and won't have True Tone. It only supports sRGB. (Macworld)"
+    },
+    {
+      "id": "connectivity-ram-storage",
+      "heading": "Connectivity, RAM & Storage",
+      "body": "Both suffer from poor connectivity. The XPS 13 has minimal connectivity. (T3) It has no headphone jack. (ITPro) The MacBook Neo has two USB-C ports, one USB 3 and one USB 2. It only supports one external display. (Macworld)\n\nThe MacBook Neo has 8GB of RAM which cannot be upgraded. (Macworld) The XPS 13 has configurable RAM. (ITPro, SlashGear) However in the UK it cost 200 pounds to upgrade. It cannot be upgraded from 512GB. (T3)\n\nIf you plan to keep your laptop for 5 years it's better to have more RAM and storage. Both the 16GB Dell and 512GB MacBook Neo are better long term investments even if the price difference is small.\n\nThe storage is the same situation. The 512GB storage will fill up quicker than expected when you start to store lots of photos, downloads and course work. The XPS 13 starts at 512GB. (ITPro, Expert Reviews) The MacBook Neo starts at 256GB. (Macworld) The 512GB Neo costs $799 after the price increase.\n\nThis means if you do want 512GB on the MacBook Neo it will cost you $100 more than the base Dell model. Dell say in their marketing that they're offering 512GB of storage where as the MacBook Neo only offers 256GB. (ITPro)\n\nWe couldn't find any sources that tested how well they both performed with lots of tabs open in your browser and apps."
+    },
+    {
+      "id": "why-price-matters-ram",
+      "heading": "Why the price matters: RAM",
+      "body": "The XPS 13 was launched in an unusual market. Apple increased the price of the MacBook Neo on June 25 due to a shortage in memory chips. As AI data centres are asking for more, there isn't as much to go around for consumer electronics. DRAM prices increased by up to 98% in the first quarter of 2026 and is expected to rise by 58-63% in the next quarter. (TrendForce, Reuters)\n\nThe PC Market is expected to drop by 11.3% this year and Smartphones by nearly 14%. (IDC, Reuters) The XPS 13 range might be appealing for small businesses looking for affordable hardware. (ITPro)\n\nOverall it's a safe bet to get a laptop with 8GB of RAM for $699. Neither Dell nor Apple will go beyond 8GB at this price. Analysts mentioned in the article say that RAM prices aren't expected to drop anytime soon. If you plan to keep your laptop for a long time it's better to pay a bit more for 16GB.\n\nDell often has discounts. (T3) The XPS 13 could be cheaper than the MacBook Neo during sales. We didn't check any deals."
+    },
+    {
+      "id": "battery-and-performance-details",
+      "heading": "Details of Battery Life & Performance",
+      "body": "There are slight differences between the two battery life tests. One test (Tom's Guide) ran a web browsing script over Wi-Fi. The XPS 13 lasted an hour longer. Another test (PCMag) ran a battery rundown. The XPS 13 lasted over 6 hours longer. Rundown tests tend to favour laptops that have energy saving features when idle. The XPS 13 has a variable refresh rate which helps.\n\nThe performance differences seem bigger than they really are. Both laptops will be fine for browsing, emails and documents. (T3) However when exporting videos, large spreadsheets and games the MacBook Neo outperforms. (SlashGear)\n\nThe XPS 13 has a better SSD performance. It outperformed in the Blackmagic SSD test. (Tom's Guide)\n\nIf you want to be sure run your own routine. Most retailers have a returns period so you can run your usual apps for a week."
+    },
+    {
+      "id": "operating-system",
+      "heading": "Operating System: Windows or macOS?",
+      "body": "Perhaps the most important factor to consider is the operating system. (SlashGear) This will depend on what apps, files, phone and habits you have.\n\nIf you have an iPhone and use other Apple services then the MacBook Neo will fit in. If you need Windows apps, touchscreen or pen then the XPS 13 is the way to go.\n\nBoth have the latest software from their manufacturers. The MacBook Neo is on the macOS 27 list. (See our article)\n\nStudents should check what software their school use. Some courses will require Windows only software."
+    },
+    {
+      "id": "verdict",
+      "heading": "Verdict",
+      "body": "T3 gives its verdict without a numeric score. It calls the XPS 13 overpriced and underpowered but still recommendable, possibly with a cult following for its design. Its pros are an impressive design, extremely light weight and a lovely display. Its cons are the missing Panther Lake chip, a price that does not add up and almost no ports.\n\nT3 lists alternatives: the MacBook Neo, which it calls cheaper though heavier and less premium, and the Dell XPS 14, listed at $1,999. The Neo's price at the time of that review was affected by Apple's June increase, so T3's cheaper description may not hold in the US.\n\nNo battery life was covered so we've used the summary from SlashGear using Tom's Guide and PCMag."
+    },
+    {
+      "id": "who-should-buy",
+      "heading": "Who should buy?",
+      "body": "If you want a lighter laptop with a backlit keyboard and touchscreen, prefer Windows and want a long battery life then the XPS 13 is for you. If you qualify for the student price it costs $599.\n\nIf you want a faster CPU performance within the price, are in the Apple ecosystem or want a headphone jack then the MacBook Neo is for you. It does lack some power with the 8GB of RAM that can't be upgraded and no backlit keyboard.\n\nIf you can wait, Dell say they will have Panther Lake models. These are expected to be better. Prices may change on both sides as Apple said it will increase prices on more products and Dell is well known for having frequent discounts.\n\nStudents should take care when choosing. The Dell's $599 offer starts in July, according to ITPro, and Macworld lists education pricing of $599 for the Neo after Apple's increase. At that level the two cost exactly the same for eligible buyers, so the decision comes down to the operating system and the features above.\n\nIf you're buying for a younger student you may want to consider how easy it is to repair. Thin metal laptops can be difficult to repair at this price. Neither Dell or Apple mentioned anything about repairability in the sources we looked at. Check what your warranty covers.\n\nWhatever you choose, consider the 16GB or 512GB models."
+    },
+    {
+      "id": "what-we-couldnt-confirm",
+      "heading": "What we couldn't confirm",
+      "body": "Memory limits: ITPro says up to 32GB, SlashGear says 8GB or 16GB. We could not reconcile them.\n\nHeadphone jack: ITPro says none on the XPS 13, SlashGear says the Neo has one and lists only two USB-C on the Dell, which agrees.\n\nMultitasking: No sources tested.\n\nFuture Panther Lake XPS 13: Not announced.\n\nWe haven't tested any models."
+    },
+    {
+      "id": "sources",
+      "heading": "Sources",
+      "body": "T3, Dell XPS 13 (2026) review, August 24, 2026: https://www.t3.com/tech/laptops/dell-xps-13-review-2026\n\nSlashGear, Dell XPS 13 vs MacBook Neo: How do the laptops compare?, August 20, 2026: https://www.slashgear.com/2236939/dell-xps-13-vs-macbook-neo-laptop-specs-features-comparison/\n\nITPro, Dell sets the stage for a MacBook Neo showdown with budget XPS 13 laptop range: https://www.itpro.com/hardware/laptops/dell-sets-the-stage-for-a-macbook-neo-showdown-with-budget-xps-13-laptop-range\n\nExpert Reviews, Dell's new XPS 13 is a $699 rival to the MacBook Neo: https://www.expertreviews.co.uk/technology/laptops/dell-xps-13-699-unveiled\n\nKhaleej Times (Reuters), Apple raises prices of MacBooks, iPads as memory costs skyrocket: https://www.khaleejtimes.com/business/tech/apple-raises-prices-of-macbooks-ipads-as-memory-costs-skyrocket-2\n\nMacworld, MacBook Air vs MacBook Neo compared: https://www.macworld.com/article/667144/macbook-air-vs-macbook-pro-neo-compared.html"
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "How much is the Dell XPS 13 (2026)?",
+      "a": "$699 in the US, with a $599 student price (ITPro, T3). T3 also lists 899 pounds in the UK and 1,049 euros in the EU."
+    },
+    {
+      "q": "Is the XPS 13 better than the MacBook Neo?",
+      "a": "It has a backlit keyboard, touchscreen, larger display and longer battery life. However the MacBook Neo outperforms in a few CPU and gaming benchmarks."
+    },
+    {
+      "q": "What chip does it have?",
+      "a": "Intel Core 5 320 (Wildcat Lake). Later models will have Panther Lake. No dates have been announced."
+    },
+    {
+      "q": "How long does the battery last?",
+      "a": "14 hours 26 minutes (Tom's Guide). 21 hours 51 minutes (PCMag). The MacBook Neo lasted for 13 hours 26 minutes."
+    },
+    {
+      "q": "Does it have a headphone jack?",
+      "a": "No. It has two USB-C ports. (ITPro)"
+    },
+    {
+      "q": "Is the MacBook Neo cheaper?",
+      "a": "Not in the US. Apple raised it from $599 to $699 on June 25, matching the XPS 13."
+    },
+    {
+      "q": "Who is it for?",
+      "a": "Dell say students will be their main target. It may be a good choice for small businesses looking for affordable hardware. (ITPro)"
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "uk-smart-device-security-law-psti",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "UK smart device security law explained: what the PSTI rules mean for you",
+  "metaDescription": "What the UK's product security law, in force since 29 April 2024, requires of smart devices: no default passwords, a way to report flaws and a stated support period.",
+  "excerpt": "Since April 2024, smart devices sold in the UK must meet basic security rules. Here is what changed and how to use the information makers now publish.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "security",
+    "uk-law",
+    "smart-devices"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "smart-home",
+  "answer": "Since 29 April 2024, consumer smart devices sold in the UK must meet three security requirements under the Product Security and Telecommunications Infrastructure (PSTI) regime: no universal or easily guessable default passwords, a published way to report security problems, and a stated minimum period of security updates.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why-the-law-exists",
+      "heading": "Why the law exists",
+      "body": "Connected devices such as cameras, doorbells, smart speakers, baby monitors and routers have been a common route for attackers. Devices shipped with the same default password were easy to take over in bulk and use to attack other systems. The UK responded with the Product Security and Telecommunications Infrastructure Act 2022, and the consumer product security regime under it came into force on 29 April 2024."
+    },
+    {
+      "id": "what-it-covers",
+      "heading": "What it covers",
+      "body": "The rules apply to consumer connectable products: devices intended for consumers that can connect to the internet, or connect to something that does. That includes smart speakers, TVs, cameras, doorbells, smart plugs, wearables, games consoles and routers. Some product types are excluded because other rules cover them, including desktop and laptop computers, medical devices, smart meters and vehicle charging points that fall under separate regulations.\n\nManufacturers, importers and distributors all have duties to comply, and the Office for Product Safety and Standards enforces the regime."
+    },
+    {
+      "id": "the-three-requirements",
+      "heading": "The three requirements",
+      "body": "- **No universal default passwords.** Each device must have a unique password or make you set your own. Weak defaults like admin or 12345 are banned.\n- **A way to report security issues.** Makers must publish a point of contact for reporting vulnerabilities, and tell the reporter when they have received the report and keep them updated.\n- **A minimum security update period.** Makers must state, at the point of sale, how long the product will receive security updates, as a period or an end date. The period can be extended later but not shortened."
+    },
+    {
+      "id": "how-to-use-this-when-buying",
+      "heading": "How to use this when buying",
+      "body": "The support period is the most useful information for shoppers. A cheap smart camera with one year of security updates may become unsafe to keep on your network long before it stops working, while a dearer one with five or more years of support could be better value.\n\nLook for the statement of compliance or support period on the product page, packaging or the maker's website. If you cannot find it for a product sold in the UK, treat that as a warning sign."
+    },
+    {
+      "id": "what-it-does-not-do",
+      "heading": "What it does not do",
+      "body": "The rules set a baseline, not a guarantee. They do not require products to be free of flaws, encrypt everything, or keep getting updates beyond the stated period. Good habits still matter:\n\n- Change any password you are given to a strong unique one, and turn on two-factor authentication for the device's account.\n- Install updates promptly, or turn on automatic updates.\n- Remove devices from your network when their support ends.\n- Put smart devices on a separate guest network if your router supports it.\n- Buy from reputable sellers; products from overseas marketplace sellers may not comply."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do smart devices sold in the UK have to receive updates?",
+      "a": "Makers must state a minimum security update period at the point of sale. They are not required to support a device indefinitely."
+    },
+    {
+      "q": "When did the UK ban default passwords on smart devices?",
+      "a": "The requirement came into force on 29 April 2024 under the Product Security and Telecommunications Infrastructure regime."
+    }
+  ],
+  "sources": [
+    {
+      "id": "govuk-psti",
+      "name": "GOV.UK: Regulations: consumer connectable product security",
+      "url": "https://www.gov.uk/guidance/regulations-consumer-connectable-product-security",
+      "licence": "Open Government Licence v3.0",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "govuk-psti-news",
+      "name": "GOV.UK: New cyber laws to protect people's personal tech from hackers",
+      "url": "https://www.gov.uk/government/news/new-cyber-laws-to-protect-peoples-personal-tech-from-hackers",
+      "licence": "Open Government Licence v3.0",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

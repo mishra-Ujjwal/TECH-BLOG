@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "mesh-wifi-vs-extenders-vs-powerline",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Mesh Wi-Fi vs extenders vs powerline: fixing Wi-Fi dead spots",
+  "metaDescription": "How mesh Wi-Fi systems, Wi-Fi extenders and powerline adapters differ, why extenders can halve speeds, and which suits a UK house, flat or garden office.",
+  "excerpt": "Slow Wi-Fi upstairs or in the kitchen is common in UK homes. Here are the three main fixes and which suits your home.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "mesh-wi-fi",
+    "powerline",
+    "home-network"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "networking",
+  "answer": "Mesh Wi-Fi uses several units that work as one network, the best all-round fix for larger homes. Extenders are cheap but often reduce speed and create a separate network name. Powerline adapters send data through your electrical wiring, useful where Wi-Fi struggles through thick walls, but results depend heavily on the wiring.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why-dead-spots-happen",
+      "heading": "Why dead spots happen",
+      "body": "Wi-Fi signals weaken with distance and when passing through walls, floors, mirrors, metal and water, including fish tanks and radiators. Many UK homes have solid brick or stone walls, extensions with thick external walls, and routers installed in a hallway cupboard by the phone socket. Before buying anything, try moving the router somewhere central and higher, away from obstructions."
+    },
+    {
+      "id": "wi-fi-extenders",
+      "heading": "Wi-Fi extenders",
+      "body": "An extender, or repeater, receives the router's signal and rebroadcasts it. It is cheap and simple, but has drawbacks:\n\n- A single-band extender has to receive and transmit on the same radio, which can roughly halve the speed it offers.\n- Placement is awkward: too far from the router and it repeats a weak signal; too close and it extends little.\n- Many create a separate network name, and devices may cling to the weaker one.\n\nExtenders suit a small flat or a single problem room on a budget."
+    },
+    {
+      "id": "mesh-wi-fi",
+      "heading": "Mesh Wi-Fi",
+      "body": "A mesh system uses two or more units that act as one network with one name. Devices move between units automatically as you walk around. Tri-band mesh systems use a dedicated radio band to link the units, called backhaul, preserving speed for your devices. Many also support wired backhaul, connecting the units with Ethernet cable for the best performance.\n\nMesh suits medium and large homes, homes over several floors, and anyone wanting consistent Wi-Fi everywhere. Some broadband providers offer mesh boosters that work with their router."
+    },
+    {
+      "id": "powerline-adapters",
+      "heading": "Powerline adapters",
+      "body": "Powerline adapters plug into wall sockets and send network data through your home's electrical wiring. One connects to the router with a cable; another, in the room that needs a connection, provides an Ethernet port, Wi-Fi or both.\n\nPerformance varies widely. Speeds can be good between sockets on the same circuit and poor across different circuits, through old wiring, or when adapters are plugged into extension leads or near noisy appliances. Powerline can be a good fix where walls block Wi-Fi, but test it in your home and keep the receipt."
+    },
+    {
+      "id": "which-suits-you",
+      "heading": "Which suits you",
+      "body": "- **Small flat, one weak spot:** reposition the router, or a single extender.\n- **House over two or three floors:** a mesh system, with wired backhaul if you can run cable.\n- **Garden office or outbuilding:** an outdoor mesh unit, a powerline adapter if it is on the same electrical supply, or a direct Ethernet run.\n- **Thick stone walls:** wired backhaul mesh or powerline.\n- **Gaming PC or TV near the router:** a simple Ethernet cable beats any wireless option."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Are Wi-Fi extenders worth it?",
+      "a": "For a small flat or one problem room on a tight budget, yes. For larger homes, mesh Wi-Fi gives more consistent speed and a single network name."
+    },
+    {
+      "q": "Does powerline work well?",
+      "a": "It can, but results depend on your electrical wiring. Performance is usually best on the same circuit and worse through extension leads."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-mesh",
+      "name": "Wikipedia: Wireless mesh network",
+      "url": "https://en.wikipedia.org/wiki/Wireless_mesh_network",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-plc",
+      "name": "Wikipedia: Power-line communication",
+      "url": "https://en.wikipedia.org/wiki/Power-line_communication",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

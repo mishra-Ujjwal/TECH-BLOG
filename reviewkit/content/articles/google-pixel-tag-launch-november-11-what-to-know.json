@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "google-pixel-tag-launch-november-11-what-to-know",
+  "locale": "en-US",
+  "status": "published",
+  "title": "Google Pixel Tag: Price, Specs & Who Should Buy",
+  "metaDescription": "Google's Pixel Tag goes on sale November 11 for $29. See how it works, what's missing, how it compares with AirTag and who should buy it.",
+  "excerpt": "Google is finally making its own tracker for keys, bags and wallets. Here is a full, practical guide to the Pixel Tag before it goes on sale, with setup steps, safety details and a plain verdict.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-29"
+  },
+  "tags": [
+    "pixel-tag",
+    "google-find-hub",
+    "item-tracker",
+    "google-pixel",
+    "android-accessories"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "format": "explainer",
+  "category": "phones",
+  "answer": "The Google Pixel Tag is Google’s first tracking device. Priced at $29, or $99 for a 4-pack, it uses your Android phone to track items with Find Hub. The Pixel Tag includes a built-in speaker, a button to ring your phone, precise finding technology using Ultra Wideband and Left Behind alerts. You can’t attach it to your keys without an accessory.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-is-the-pixel-tag",
+      "heading": "What is the Pixel Tag?",
+      "body": "If you’ve ever lost your keys at home, you’ll know how useful a tracking device can be. A tracking device is simply a small tag that you can attach to items you don’t want to lose. The Pixel Tag uses an app to find your items.\n\nThe Pixel Tag was announced at the Made by Google event in August along with the Pixel 11 phone and Pixel Watch 5. It’s Google’s first tracking device and uses Find Hub to track items. This uses a network of over a billion Android devices to help find your item.\n\nIt’s easy to see why this is often called the Google AirTag. While it offers similar functionality, there are a few differences. These can be found below.",
+      "media": [
+        {
+          "src": "/images/google-pixel-tag-launch-november-11-what-to-know/images.webp",
+          "alt": "google-pixel-tag-launch",
+          "credit": "Own screenshot",
+          "width": 554,
+          "height": 554
+        }
+      ]
+    },
+    {
+      "id": "why-its-a-big-deal",
+      "heading": "Why it’s a big deal",
+      "body": "Google has been working on tracking items for some time now. As noted by MacRumors, they set up their tracking network two years ago and third-party tracking devices have been using it. However, there has never been a tracking device made by Google.\n\nThis makes it much more likely to work well with your phone. It’s easy to set up and can be updated with new features. If you have an issue you know where to go.\n\nApple has had its own tracking device for some time now. For Android users wanting something similar there were a mix of other brands. This makes it a default option for Pixel owners and Android users."
+    },
+    {
+      "id": "price-and-release-date",
+      "heading": "Price & Release Date",
+      "body": "The Pixel Tag is priced at $29 for one, or $99 for a 4-pack. It will be available to purchase from the Google Store on November 11, as noted by 9to5Google and many others.\n\nAs noted by MacRumors, it’s priced the same as the second generation AirTag. Google isn’t trying to price itself lower than Apple. It’s simply a tracking device that fits well with Android.\n\nAs with any product, you might find different prices at other retailers. When it’s released, check the current price. If you’re going to be tracking lots of items (keys, backpack, wallet, suitcase) the 4-pack will save you money. Each tag will cost around $25."
+    },
+    {
+      "id": "how-does-it-work",
+      "heading": "How does it work?",
+      "body": "The Pixel Tag is easy to set up. Simply remove the battery tab, put the tag close to your Android phone and use Google Fast Pair to pair with your phone. Once paired, you can name your tag and select a category using the Find Hub app.\n\nWhen your item is close to you, you can make the tag play a sound using the built-in speaker. When it’s out of Bluetooth range the Find Hub app can use nearby Android devices to help you track your item. This creates a crowdsourced network of over a billion devices. So if you leave your item somewhere busy there is a good chance someone will find it using their phone.\n\nThe Pixel Tag can be used with Android phones running Android 9 or higher."
+    },
+    {
+      "id": "easy-setup",
+      "heading": "Easy setup",
+      "body": "Below is how easy it should be to set up your Pixel Tag. We haven’t had a chance to try it yet, so the exact screens may vary.\n\n1. Remove the battery tab from your tag.\n2. Put the tag close to your Android phone and wait for the Fast Pair prompt to appear.\n3. Follow the prompts to pair your tag.\n4. Open the Find Hub app and select your tag. Choose a category or name your tag (e.g. Car Keys).\n5. Enable Left Behind alerts if desired.\n\nYou can share your tag with up to 10 people using Find Hub. This can be done from the app once your tag is set up."
+    },
+    {
+      "id": "precise-finding",
+      "heading": "Precise Finding",
+      "body": "One of the main features is precise finding. When your item is close to you, it will show you how far away it is and which way to go. It’s similar to a compass finding your keys.\n\nThis uses Ultra Wideband (often referred to as UWB), which is great for measuring distances. As noted by Latestly, it also has Bluetooth 6.0 Channel Sounding, which is another way of measuring distances. According to 9to5Google, it will work within roughly 50 meters and will show you the distance and direction visually.\n\nNote that you will need a phone that supports this feature. If your phone doesn’t support Ultra Wideband you may only be able to track using Bluetooth. This will tell you the item is nearby and allow you to ring the tag, but you won’t get the arrow."
+    },
+    {
+      "id": "key-features",
+      "heading": "Key Features",
+      "body": "There are a few key features that stand out.\n\nButton – By pressing the button on your tag your phone will ring. This is great if you’re trying to find your phone. This is one of the key differences between the Pixel Tag and AirTag, as noted by MacRumors.\n\nLeft Behind Alerts – If you walk away from your item, your phone will notify you. 9to5Google also reported this week that there has been an update to the Find Hub app showing how Left Behind and ring your phone alerts will work. This is just weeks away from release.\n\nSharing – You can share your tag with up to 10 people. Great for family members or shared bags.\n\nDurability & Battery – The Pixel Tag is rated IP67, making it water and dust resistant. It has a replaceable CR2032 battery, meaning it should last around a year. It only comes in one color (Fog). The body is made from stainless steel, as noted by some outlets, while 9to5Google mentions it’s made from polycarbonate and metal. Either way it’s a metal design, so check the final spec sheet. One outlet mentioned there is no plastic in the packaging."
+    },
+    {
+      "id": "integration-with-other-google-products",
+      "heading": "Integration with other Google Products",
+      "body": "One of the main selling points of this product is how it integrates with other Google products. As noted by reports, you can track or ring your item using the Find Hub app on your Pixel Watch, or via the web version of Find Hub.\n\nGemini – If you own Pixel Buds you can ask Gemini to ring your tag. Compatible Pixel devices can also trigger the speaker using voice commands. This could be useful if your hands are full or you’re trying to find something under your sofa cushions.\n\nAs this is a first-party tracking device, it should integrate better with Google’s own products than third-party trackers do. This means it may work best with Pixel devices. If you don’t use a Pixel phone, check which features work with your phone."
+    },
+    {
+      "id": "security-and-unknown-tracking-devices",
+      "heading": "Security & Unknown Tracking Devices",
+      "body": "A common concern with tracking devices is whether they can be used to stalk you. Google has said that if an unknown Pixel Tag appears to be following you, your Android phone will notify you.\n\nAs noted by MacRumors, this will work across platforms due to the collaboration between Apple and Google. If you own an iPhone you will be notified if a Pixel Tag you don’t own is nearby. The other way round also applies. As noted by one of the outlets we read, this covers anyone outside of Google’s ecosystem from day one.\n\nThis is a good starting point but no notification system is perfect. If you ever receive a notification about an unknown tracking device, take it seriously. Try to find the device and, if you’re feeling unsafe, contact your local authorities. If you ever lend your tracking device to someone, let them know so they aren’t alarmed by the notification."
+    },
+    {
+      "id": "pixel-tag-vs-airtag",
+      "heading": "Pixel Tag vs AirTag",
+      "body": "Many will compare these two. Here’s a fair summary based on MacRumors’ reporting.\n\nThey are the same price: $29 for one and $99 for four. They both have a replaceable battery that should last around a year. They both have Left Behind alerts and can be shared with others.\n\nThe Pixel Tag has a button to ring your phone. The key difference is the network. The AirTag uses Apple’s network while the Pixel Tag uses Find Hub. This means you should choose based on which phone you have.\n\nWe haven’t tested these side by side so we can’t say which one will find items quicker. Independent testing will help once it’s out."
+    },
+    {
+      "id": "whats-missing",
+      "heading": "What’s Missing / Things to Note",
+      "body": "There are a few things to note.\n\nNo hole or loop – The Pixel Tag does not have a built-in loop or clip. You will need an accessory to attach it to your keys. As noted by 9to5Google, Google will be offering a keychain loop to attach it to. We don’t know how much this will cost.\n\nNo NFC – There is no NFC.\n\nCompatibility – It works with Android 9 and above. The Find Hub network is Android only. If you have an iPhone you won’t get the full experience."
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "body": "Here are our tips.\n\nDecide what you want to track. The most common items to track are keys and a wallet. However, you can track bags, suitcases, bikes and pet collars. Just make sure you can attach it securely and that it isn’t too small.\n\nConsider buying an accessory. As there is no built-in loop, you’ll need to buy a keychain holder. Check how much Google is charging for its keychain loop and compare this with third-party options.\n\nIf you’re buying a 4-pack, make sure you know where you’re going to put each one.\n\nBe careful with the Left Behind alerts. If you enable them in places you visit often (home) you might get annoying alerts. Look for settings that allow you to mark safe locations."
+    },
+    {
+      "id": "who-should-buy",
+      "heading": "Who should buy?",
+      "body": "If you have an Android phone and often lose small items, this looks like a great option. It has a button to ring your phone and Left Behind alerts. It also has a replaceable battery lasting a year.\n\nIf you have an iPhone, then an AirTag is likely a better option.\n\nIf you already have a tracking device from another brand that works with Find Hub, there may be less reason to purchase. However, a first-party tracking device from Google could offer better integration with your Pixel devices (phone, watch, earbuds).\n\nWe haven’t tested this device, so this is based on the specs and details from the reports. We’ll add our notes once we have one."
+    },
+    {
+      "id": "things-we-dont-know",
+      "heading": "Things we don’t know",
+      "body": "We don’t know how well it works in real life. How quickly will it find your lost item in a quiet area? We don’t know how much the keychain accessory from Google will cost. We haven’t seen any independent testing on the battery.\n\nThese features are from Google’s announcement and initial reports. The software may change by the time it’s released on November 11.\n\nWe’ll update this article once it’s launched with our hands-on notes. We’ll also correct any issues."
+    },
+    {
+      "id": "overall",
+      "heading": "Overall",
+      "body": "The Pixel Tag is a simple concept and makes sense. It costs $29 and will be available to purchase on November 11. It has a button to ring your phone, precise finding using Ultra Wideband and Left Behind alerts.\n\nIt’s not revolutionary and it’s the same price as the AirTag. However, it’s a great option for Android users as it’s from Google. If you often lose items, it’s a cheap way to save you a lot of stress.\n\nCheck the final price and accessories on release. Read a few independent reviews."
+    },
+    {
+      "id": "sources",
+      "heading": "Sources",
+      "body": "9to5Google, Made by Google 2026: Pixel Tag details and November 11 release: https://9to5google.com/?p=724433\nMacRumors, Google Unveils $29 Pixel Tag to Take On Apple’s AirTag: https://macrumors.com/2026/08/12/google-pixel-tag\nThurrott, Google Pixel Tag Launches on November 11 for $29: https://www.thurrott.com/google/340364/google-pixel-tag-launches-on-november-11-for-29\nDroid Life, Google’s Pixel Tag is the Android AirTag competitor: https://www.droid-life.com/2026/08/12/googles-pixel-tag-is-the-android-airtag-competitor-for-29/\niGeeksBlog, Google announces Pixel Tag: https://www.igeeksblog.com/google-pixel-tag-announced/\nMalaysian Wireless, Google Pixel Tag and Find Hub: https://www.malaysianwireless.com/2026/08/google-pixel-tag-find-hub-uwb/\nLatestly, Google Pixel Tag debuts as a rival to Apple AirTag: https://www.latestly.com/technology/google-pixel-tag-debuts-at-usd-29-as-new-rival-to-apple-airtag-7557348.html\nSmartprix, Google’s Pixel Tag offers smart tracking: https://us.smartprix.com/bytes/googles-pixel-tag-offers-smart-tracking-deep-find-hub-integration-but-arrives-november-2026/\n9to5Google, Find Hub app update: https://9to5google.com/"
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "When will the Google Pixel Tag be available?",
+      "a": "It will be available to purchase from the Google Store on November 11, as noted by Google, 9to5Google and others."
+    },
+    {
+      "q": "How much is the Pixel Tag?",
+      "a": "It costs $29 for a single tag or $99 for a 4-pack."
+    },
+    {
+      "q": "Will it work with iPhone?",
+      "a": "Not fully. It is designed for Android and the Find Hub network. However, it will notify you of unknown tracking devices on both Android and iPhone."
+    },
+    {
+      "q": "Does it come with a keyring?",
+      "a": "No. It doesn’t have a built-in loop or clip. Google will be offering a keychain loop."
+    },
+    {
+      "q": "How long will the battery last?",
+      "a": "It should last around a year. It has a replaceable CR2032 battery."
+    },
+    {
+      "q": "Which phones will it work with?",
+      "a": "It will work with Android phones running Android 9 or higher. Precise finding will require a phone with Ultra Wideband."
+    },
+    {
+      "q": "How is it different to an AirTag?",
+      "a": "It has a button to ring your phone and uses Find Hub from Google. It costs the same: $29 for one and $99 for a 4-pack."
+    }
+  ],
+  "sources": []
+}

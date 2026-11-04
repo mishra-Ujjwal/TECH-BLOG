@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "what-size-tv-viewing-distance",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "What size TV should you buy? Screen size and viewing distance explained",
+  "metaDescription": "How to choose a TV size for your room using viewing distance, why 4K makes bigger screens practical, and the measurements to take before you buy.",
+  "excerpt": "Most people who upgrade wish they had gone bigger. Here is how to pick a screen size that suits your sofa distance, your room and your budget.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "tv-size",
+    "tv-buying",
+    "home-cinema"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "tvs",
+  "answer": "Measure from your seat to where the TV will go. For a 4K TV, a common guide is a screen diagonal of roughly half to two thirds of that distance: about 55 to 65 inches at 2.5 metres. Sharper 4K pictures mean you can sit closer than with older HD sets without seeing pixels. Then check the stand, the wall and the room.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why-viewing-distance-matters",
+      "heading": "Why viewing distance matters",
+      "body": "What matters is not the screen size alone but how much of your field of view it fills. A 65 inch TV across a large room can look smaller than a 50 inch TV in a compact flat. Film and TV standards bodies recommend a viewing angle of roughly 30 to 40 degrees for an immersive picture; most living rooms end up well below that, which is why bigger screens rarely feel too big once they are in place."
+    },
+    {
+      "id": "a-practical-rule-of-thumb",
+      "heading": "A practical rule of thumb",
+      "body": "Measure the distance from your eyes, sitting normally, to where the screen will be. Then:\n\n- **4K TV:** a screen diagonal of about half to two thirds of the viewing distance.\n- **HD TV:** a little smaller, around 40 per cent of the distance, because pixels become visible sooner.\n\nSome worked examples for 4K: at 2 metres, 43 to 55 inches; at 2.5 metres, 55 to 65 inches; at 3 metres, 65 to 77 inches. Treat these as starting points; personal preference, room shape and how much you watch films versus news all matter."
+    },
+    {
+      "id": "why-4k-changed-the-answer",
+      "heading": "Why 4K changed the answer",
+      "body": "With an HD television, sitting close made the pixel structure visible, so people chose smaller screens. A 4K panel has four times as many pixels, so you can sit much closer before the picture breaks down. Combined with falling prices, that is why 55 and 65 inches have become the most popular sizes. At typical UK living room distances, 8K offers little visible benefit over 4K and there is very little 8K content to watch."
+    },
+    {
+      "id": "measurements-to-take-before-you-buy",
+      "heading": "Measurements to take before you buy",
+      "body": "- **Width of the TV unit or wall space.** Screen sizes are diagonal; check the TV's actual width in the specification, plus space for speakers or a soundbar.\n- **Foot position.** Many TVs have feet at the far edges, so the TV needs a unit nearly as wide as itself. Some offer a central stand or adjustable feet.\n- **Height and eye level.** The centre of the screen should be roughly at eye level when seated. Mounting high above a fireplace causes neck strain and puts heat near the TV.\n- **Wall mounting.** Check the VESA mounting pattern and weight, and the wall type. Plasterboard needs suitable fixings or a mount anchored into studs.\n- **Delivery route.** A 75 inch TV in its box may not fit up a narrow staircase or into a small lift."
+    },
+    {
+      "id": "other-things-that-change-the-choice",
+      "heading": "Other things that change the choice",
+      "body": "- **Bright room:** a bigger screen shows reflections more; consider an anti-glare finish or a brighter set.\n- **Budget:** a good 55 inch TV usually beats a poor 65 inch one. Picture quality per pound matters more than size beyond a point.\n- **Gaming at a desk:** smaller 42 or 48 inch TVs work well as large monitors.\n- **Sound:** bigger TVs do not necessarily sound better; budget for a soundbar if dialogue clarity matters.\n\nIf in doubt, mark out the screen size on the wall with masking tape or cardboard and live with it for a day."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is 65 inches too big for a living room?",
+      "a": "Usually not at a viewing distance of 2.5 metres or more with a 4K TV. Try marking out the size with tape to see how it feels."
+    },
+    {
+      "q": "Is 8K worth it?",
+      "a": "For most UK living rooms, no. At normal viewing distances the extra detail is hard to see, and there is very little 8K content."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-optimum-hdtv",
+      "name": "Wikipedia: Optimum HDTV viewing distance",
+      "url": "https://en.wikipedia.org/wiki/Optimum_HDTV_viewing_distance",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

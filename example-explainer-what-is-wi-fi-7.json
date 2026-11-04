@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "format": "explainer",
+  "slug": "what-is-wi-fi-7",
+  "locale": "en-GB",
+  "status": "draft",
+  "title": "What is Wi-Fi 7, and do you need it?",
+  "metaDescription": "What Wi-Fi 7 adds over Wi-Fi 6 and 6E, which devices can use it, and whether upgrading your router will make any difference at home.",
+  "excerpt": "Wi-Fi 7 routers are now on sale. Here is what the new standard adds, and when it is worth upgrading.",
+  "author": { "name": "TechWorld Blog Editorial Team", "slug": "editorial-team" },
+  "dates": { "published": "2026-10-27" },
+  "tags": ["wi-fi", "routers"],
+  "category": "networking",
+  "editorial": { "aiAssisted": false, "updates": [] },
+  "answer": "Wi-Fi 7 adds wider channels, faster modulation and the ability to use several bands at once. You only benefit if your phone or laptop also supports it and your broadband is fast.",
+  "media": [
+    {
+      "src": "/images/what-is-wi-fi-7/router.jpg",
+      "alt": "A Wi-Fi 7 router on a shelf with its status lights on",
+      "credit": "Own photo",
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-changes",
+      "heading": "What changes",
+      "body": "Wi-Fi 7 doubles the widest channel to **320MHz** in the 6GHz band.\n\n- Faster modulation\n- Multi-link operation"
+    }
+  ],
+  "faq": [
+    { "q": "Will a Wi-Fi 7 router work with old devices?", "a": "Yes. Older devices connect using the standard they support." }
+  ],
+  "sources": [
+    {
+      "id": "wiki-wifi7",
+      "name": "Wikipedia: Wi-Fi 7",
+      "url": "https://en.wikipedia.org/wiki/Wi-Fi_7",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

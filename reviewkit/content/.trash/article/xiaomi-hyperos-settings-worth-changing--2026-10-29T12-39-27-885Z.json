@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "xiaomi-hyperos-settings-worth-changing",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Xiaomi phones pack in more than most. Here is what to turn off first",
+  "metaDescription": "HyperOS ships with more preinstalled software and more notification permissions switched on than most Android phones. Here is the day-one settings pass.",
+  "excerpt": "A Xiaomi phone genuinely offers excellent hardware for the price, which is why the brand has grown as fast as it has. It also ships with more going on in the background than most owners realise, and almost all of it is adjustable in about fifteen minutes.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "xiaomi",
+    "hyperos",
+    "android",
+    "setup"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: PAS. Problem = more bloat and ad permissions than most Android phones. Agitate = the settings are scattered with unhelpful names, and some defaults silently break notifications. Solution = the ordered fifteen-minute pass.\n\nVERIFY BEFORE PUBLISHING:\n1. Menu names and paths on HyperOS, naming your exact model and HyperOS version. This changes meaningfully between versions and between regions, more than most manufacturer skins.\n2. Confirm current lock-screen advertising behaviour for UK-region Xiaomi phones specifically rather than assuming it matches other markets.\n3. Verify MSA's current name and settings location, since Xiaomi has adjusted this service's naming and permission structure across HyperOS updates.\n\nIMAGES: screenshot the Autostart permissions list and the Ad Services toggle on your own phone, with the model and HyperOS version visible or stated in the caption. 1200px minimum.\n\nFIRST-HAND UPGRADE: name a specific app that stopped notifying you correctly until you fixed Autostart, and how long it took you to diagnose it. That specific failure story is the single most useful and most original thing you can add to this topic.\n\nPut your own name on it.",
+  "format": "explainer",
+  "category": "phones",
+  "answer": "Xiaomi's HyperOS defaults to more preinstalled apps and more permissive notification and personalisation settings than most Android skins. The main fixes are: disable ad personalisation and MSA (Mi Push) notification permissions in Settings, Passwords and Security; go through preinstalled apps individually and uninstall what you do not want; and check Autostart permissions, since HyperOS is aggressive about restricting background apps in a way that can silently break notifications from apps you actually use.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why",
+      "heading": "Why Xiaomi phones need more setup than most",
+      "body": "Xiaomi's hardware-to-price ratio is genuinely one of the best in the industry, and it is not an accident: part of the margin on a budget-priced flagship-spec phone comes from advertising and bundled software elsewhere in the experience.\n\nThat is a legitimate business model, the same one Samsung and others use to varying degrees, but Xiaomi has historically leaned on it more heavily than most, and HyperOS inherited most of MIUI's settings structure, which spreads the relevant controls across several menus with names that do not describe what they do.\n\nFifteen to twenty minutes on day one, roughly in this order."
+    },
+    {
+      "id": "ads",
+      "heading": "First: advertising and personalisation",
+      "body": "Settings, Passwords and Security, Privacy, Ad Services. Turn off ad recommendations and personalised advertising here.\n\nThen Settings, Passwords and Security, Privacy, and look for MSA, which is Xiaomi's push notification and system message service. It has its own permission settings for personalised recommendations, separate from the ad settings above. Turn those off too.\n\nThen the individual Xiaomi apps: the browser, the themes app, the file manager and several others each carry their own setting for recommended content or personalised ads, found inside each app's own settings menu rather than a single central switch. This is the single most common complaint about Xiaomi phones and it is almost entirely fixable, just not from one place."
+    },
+    {
+      "id": "bloat",
+      "heading": "Second: the apps you did not choose",
+      "body": "Long-press and uninstall what is not Xiaomi's own system software. Most third-party preinstalled apps on a Xiaomi phone can be removed cleanly, more so than on some other brands, because Xiaomi's own app ecosystem is less dependent on third-party bundling for its core function.\n\nFor Xiaomi's own apps, such as GetApps, the Mi Browser or Mi Video, use your judgement: if you already use Chrome and another video app, there is no reason to keep Xiaomi's versions running in the background sending their own notifications."
+    },
+    {
+      "id": "autostart",
+      "heading": "Third: Autostart, which breaks more than it protects",
+      "body": "This is the setting most likely to cause a problem you will blame on the wrong thing.\n\nHyperOS aggressively restricts which apps can run in the background by default, as part of its battery management. Settings, Permissions, Autostart, shows every app and whether it is allowed to start itself in the background.\n\nIf a messaging app's notifications arrive late, or an alarm app fails silently, or a fitness tracker stops logging overnight, the cause is very often this list. Go through it and switch on Autostart for anything you genuinely depend on for timely notifications: messaging apps, alarms, calendar apps, banking apps that send security codes.\n\nThis is the Xiaomi equivalent of a problem Samsung and several other Chinese-software Android phones share, and it is worth checking even if nothing currently seems broken, because the failure is often silent until the one time it matters."
+    },
+    {
+      "id": "lock-screen",
+      "heading": "Fourth: lock screen adverts",
+      "body": "On some models and in some regions, the lock screen can show promotional wallpapers or content through Xiaomi's own services. If you see this, it is usually controlled through the lock screen magazine or wallpaper carousel settings, and there is a toggle to turn off rotating or sponsored content specifically.\n\nWhether this applies to your specific model and region varies, and Xiaomi has reduced this in some markets over time, so check what your own phone is actually showing rather than assuming either way."
+    },
+    {
+      "id": "worth-keeping",
+      "heading": "What is actually good underneath all this",
+      "body": "It is worth saying plainly: the hardware is usually excellent for the price, and a handful of HyperOS features are genuinely well built.\n\n**Second Space** creates a fully separate environment with its own apps and files, similar in concept to Samsung's Secure Folder, and it is a solid option for keeping work and personal use apart on one device.\n\n**Mi Remote**, built into many models, turns the phone's infrared port, where present, into a universal remote for a surprising range of televisions and air conditioning units. It is the kind of feature that sounds minor and then genuinely earns its place the first time you lose the actual remote.\n\nSo the honest summary: do the fifteen-minute pass above, and you are left with a phone that is very good value for what it costs, running software that behaves considerably better than its reputation suggests once you have actually gone through the menus."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "How do I remove ads from a Xiaomi phone?",
+      "a": "Turn off ad personalisation under Settings, Passwords and Security, Privacy, Ad Services, then do the same for MSA push notifications in the same privacy menu, then go through Xiaomi's own apps individually, since each carries its own separate recommendation setting."
+    },
+    {
+      "q": "Why are my notifications late on a Xiaomi phone?",
+      "a": "Check Settings, Permissions, Autostart. HyperOS restricts background activity aggressively by default, and an app not allowed to autostart can fail to deliver timely notifications or alarms without any error being shown."
+    },
+    {
+      "q": "Is it safe to uninstall preinstalled apps on Xiaomi phones?",
+      "a": "Most third-party preinstalled apps uninstall cleanly. For Xiaomi's own apps, uninstall or disable whichever duplicate something you already use, such as a browser or video player, and leave core system components alone."
+    },
+    {
+      "q": "Does Xiaomi still show ads on the lock screen?",
+      "a": "It varies by model and region, and the practice has reduced in some markets over time. Check your own phone's lock screen wallpaper or magazine settings for a toggle covering rotating or sponsored content."
+    }
+  ],
+  "sources": []
+}

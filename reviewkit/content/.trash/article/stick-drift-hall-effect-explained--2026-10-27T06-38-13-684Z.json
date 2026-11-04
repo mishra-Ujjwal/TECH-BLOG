@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "stick-drift-hall-effect-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Controller stick drift explained: causes, fixes and Hall effect sticks",
+  "metaDescription": "Why game controller thumbsticks drift over time, quick checks and fixes, your UK consumer rights, and how Hall effect and TMR sticks avoid the problem.",
+  "excerpt": "Stick drift makes your character or camera move on its own. Here is why it happens, what you can try, and why Hall effect sticks help.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "controllers",
+    "stick-drift",
+    "repairs"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "gaming",
+  "answer": "Stick drift happens when a controller reports movement even though the thumbstick is centred. In most controllers the sticks use potentiometers, which wear as contacts rub and dust gets in. Calibration and cleaning sometimes help. Hall effect and TMR sticks measure position with magnets rather than rubbing contacts, so they resist this wear.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-stick-drift-is",
+      "heading": "What stick drift is",
+      "body": "Each thumbstick reports its position on two axes. When you let go, it should report the centre. Drift is when it reports a slight push instead, so the camera slowly turns or your character creeps forward. It usually starts subtly and worsens over time."
+    },
+    {
+      "id": "why-it-happens",
+      "heading": "Why it happens",
+      "body": "Most controllers use potentiometers to measure stick position. A small wiper slides across a resistive track as the stick moves, and the electrical resistance changes. Over thousands of hours the wiper and track wear, debris and dust get inside, and the reading at rest shifts away from the true centre.\n\nHeavy use, games that need constant stick movement, and dusty environments speed this up. It is a mechanical wear issue rather than a fault in any one brand."
+    },
+    {
+      "id": "things-to-try",
+      "heading": "Things to try",
+      "body": "- **Check it is the stick.** Use the console or PC's controller test screen to see whether the stick reports movement at rest.\n- **Calibrate.** Many consoles, Windows and Steam include calibration tools that reset the centre point.\n- **Adjust the dead zone.** Many games let you increase the stick dead zone, so small unintended inputs are ignored. This hides mild drift at the cost of a little precision.\n- **Clean around the stick base** with compressed air, rotating the stick while you do. Avoid spraying liquids into the controller.\n- **Update the controller firmware.**\n\nOpening a controller to replace stick modules involves soldering and voids warranties, so it is best left to repair shops or confident hobbyists."
+    },
+    {
+      "id": "your-rights-in-the-uk",
+      "heading": "Your rights in the UK",
+      "body": "If a controller drifts within the warranty period, contact the maker or retailer. Under the Consumer Rights Act 2015, goods should be of satisfactory quality and durable; a controller that develops drift unreasonably early may be considered faulty even after the first months. Citizens Advice has guidance on how to make a claim."
+    },
+    {
+      "id": "hall-effect-and-tmr-sticks",
+      "heading": "Hall effect and TMR sticks",
+      "body": "Hall effect sticks use magnets and Hall effect sensors to measure position, with no parts rubbing together to wear out. TMR (tunnelling magnetoresistance) sticks also use magnetic sensing and are designed to use less power. Both are widely used in third-party controllers and some handheld gaming PCs, and replacement Hall effect modules are available for some popular controllers.\n\nThey are not immune to every problem: springs and the plastic parts of the stick can still wear, and sensor quality varies. But they remove the main cause of drift, so if it has plagued your controllers, look for Hall effect or TMR sticks when buying."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Can stick drift be fixed?",
+      "a": "Sometimes. Calibration, a larger dead zone and cleaning can help with mild drift. Badly worn sticks need replacing, which usually means a repair or a replacement controller."
+    },
+    {
+      "q": "Do Hall effect sticks prevent drift?",
+      "a": "They avoid the main cause, because they measure position with magnets instead of rubbing contacts. Other parts can still wear, but drift is much less likely."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-hall",
+      "name": "Wikipedia: Hall effect sensor",
+      "url": "https://en.wikipedia.org/wiki/Hall_effect_sensor",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "citizens-advice",
+      "name": "Citizens Advice: if something you bought is faulty",
+      "url": "https://www.citizensadvice.org.uk/consumer/something-wrong-with-a-purchase/",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

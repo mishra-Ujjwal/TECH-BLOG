@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "ev-charging-speeds-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "EV charging speeds explained: kW, kWh, AC and DC charging",
+  "metaDescription": "What kW and kWh mean for electric cars, how home, public AC and rapid DC charging compare, and why cars rarely charge at their advertised maximum.",
+  "excerpt": "Charging an electric car is simple once the jargon is clear. Here is how kilowatts, kilowatt-hours and the different types of charger fit together.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "ev-charging",
+    "electric-cars",
+    "charging-speeds"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "evs",
+  "answer": "Battery size is measured in kilowatt-hours (kWh): how much energy it stores. Charging speed is measured in kilowatts (kW): how fast energy flows in. A typical UK home charger supplies 7kW, adding roughly 20 to 30 miles of range an hour. Public rapid and ultra-rapid DC chargers supply 50kW to 350kW, but the car limits the speed, which drops as the battery fills.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "kw-and-kwh",
+      "heading": "kW and kWh",
+      "body": "Think of the battery as a tank and charging as filling it. A kilowatt-hour is an amount of energy, so a 60kWh battery stores 60 units. A kilowatt is a rate, so a 7kW charger delivers about 7kWh every hour. In theory, charging a 60kWh battery from empty on a 7kW charger takes around nine hours, though some energy is lost as heat.\n\nEfficiency turns energy into miles. Many electric cars travel roughly three to four miles per kWh in mild weather, less in winter and at motorway speeds."
+    },
+    {
+      "id": "ac-charging-at-home-and-in-town",
+      "heading": "AC charging at home and in town",
+      "body": "Home chargers and many public chargers in car parks and on streets supply alternating current (AC). The car's own on-board charger converts it to direct current for the battery, and its capacity limits the speed.\n\n- **Three-pin plug:** around 2.3kW. Very slow, for occasional use, and not ideal for daily charging.\n- **Home wallbox:** usually 7kW on a standard UK single-phase supply.\n- **22kW AC posts:** need a three-phase supply and a car whose on-board charger accepts 22kW; many cars accept 11kW or less on AC, so they charge more slowly than the post's rating."
+    },
+    {
+      "id": "dc-rapid-charging",
+      "heading": "DC rapid charging",
+      "body": "Rapid and ultra-rapid chargers supply direct current (DC) straight to the battery, bypassing the on-board charger. Speeds range from 50kW to 350kW at the charger. The car sets the real limit: a car with a maximum DC charging rate of 100kW will not go faster on a 350kW unit.\n\nMost cars charge fastest when the battery is low and warm, then slow down as it fills, following a charging curve, to protect the battery. Charging from 10 to 80 per cent is usually quoted because the last 20 per cent is much slower. On long journeys, several short stops at low charge are often quicker than one long stop."
+    },
+    {
+      "id": "connectors",
+      "heading": "Connectors",
+      "body": "In the UK, almost all new electric cars use Type 2 connectors for AC charging and CCS (Combined Charging System) for DC rapid charging. Public AC posts often require you to bring your own Type 2 cable, while rapid chargers have tethered cables. Some older cars use CHAdeMO for rapid charging, which is becoming less common at public sites."
+    },
+    {
+      "id": "cost-differences",
+      "heading": "Cost differences",
+      "body": "Charging at home on an off-peak electric vehicle tariff is usually far cheaper per mile than public charging. Public AC charging costs more, and rapid charging costs the most, reflecting the expensive equipment and grid connection. Check prices per kWh in the network's app before plugging in, and note that some networks charge different rates for members and contactless payment."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "How long does it take to charge an electric car at home?",
+      "a": "On a typical 7kW home charger, many cars charge from low to full overnight, roughly eight to twelve hours depending on the battery size."
+    },
+    {
+      "q": "Why is my car not charging at the charger's full speed?",
+      "a": "The car limits the rate. It may have a lower maximum charging speed, and charging slows as the battery fills or when it is cold."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-ev-charging",
+      "name": "Wikipedia: Charging station",
+      "url": "https://en.wikipedia.org/wiki/Charging_station",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-ccs",
+      "name": "Wikipedia: Combined Charging System",
+      "url": "https://en.wikipedia.org/wiki/Combined_Charging_System",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "aperture-shutter-speed-iso-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Aperture, shutter speed and ISO explained: the exposure triangle",
+  "metaDescription": "How aperture, shutter speed and ISO work together to set exposure, what each one does to a photo beyond brightness, and how to use priority modes.",
+  "excerpt": "Three settings control every exposure. Here is what each does to your photos, and how to use them without leaving automatic mode behind entirely.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "exposure",
+    "photography-basics",
+    "settings"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "cameras",
+  "answer": "Exposure is set by three things: aperture (how wide the lens opens), shutter speed (how long the sensor is exposed) and ISO (how much the signal is amplified). Each also changes the picture: aperture controls background blur, shutter speed controls motion blur, and ISO controls noise. Changing one means adjusting another to keep the same brightness.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "aperture",
+      "heading": "Aperture",
+      "body": "The aperture is the opening in the lens that lets light through, described by f-numbers such as f/1.8, f/4 and f/11. Smaller numbers mean a wider opening and more light. Each full stop, for example from f/4 to f/5.6, halves the light.\n\nAperture also controls depth of field, how much of the scene is in focus. A wide aperture such as f/1.8 gives a shallow depth of field, with a sharp subject and a blurred background, ideal for portraits. A narrow aperture such as f/11 keeps more of the scene sharp, useful for landscapes and groups. Most lenses are sharpest a couple of stops down from their widest setting."
+    },
+    {
+      "id": "shutter-speed",
+      "heading": "Shutter speed",
+      "body": "Shutter speed is how long the sensor collects light, from thousandths of a second to many seconds. Doubling the time doubles the light.\n\nIt also controls motion. Fast speeds such as 1/1000 second freeze sport and wildlife. Slow speeds blur movement, which can be creative (silky waterfalls, light trails) or unwanted (camera shake). A rough guide to avoid shake without stabilisation is a shutter speed of at least 1 divided by the full-frame equivalent focal length: 1/50 second at 50mm, 1/200 second at 200mm. Image stabilisation lets you go slower for static subjects, but not for moving ones."
+    },
+    {
+      "id": "iso",
+      "heading": "ISO",
+      "body": "ISO sets how much the camera amplifies the signal from the sensor. Doubling the ISO from 400 to 800 brightens the image by one stop without changing aperture or shutter speed.\n\nThe cost is noise. Higher ISO amplifies random variation in the signal as well as the image, adding grain and blotchy colour, particularly in shadows. Modern cameras produce clean results at surprisingly high ISO settings, and larger sensors handle it better. Raising ISO is usually better than accepting a blurred photo."
+    },
+    {
+      "id": "putting-them-together",
+      "heading": "Putting them together",
+      "body": "Because each setting changes brightness by stops, you can trade one for another. If you open the aperture by one stop for more background blur, you can use a shutter speed one stop faster and keep the same exposure. In dim light, you might need to open the aperture fully, slow the shutter as far as you dare, and then raise ISO for the rest.\n\nThe camera's light meter suggests a correct exposure; exposure compensation lets you deliberately go brighter or darker, for example for snow scenes, which meters tend to make grey."
+    },
+    {
+      "id": "using-semi-automatic-modes",
+      "heading": "Using semi-automatic modes",
+      "body": "You do not need full manual control to take charge:\n\n- **Aperture priority (A or Av):** you choose the aperture, the camera picks the shutter speed. The best everyday mode for controlling background blur.\n- **Shutter priority (S or Tv):** you choose the shutter speed, the camera picks the aperture. Useful for sport and moving subjects.\n- **Auto ISO with a minimum shutter speed:** lets the camera raise ISO only when needed to keep shots sharp.\n\nManual mode is useful when light is constant, such as studio work, or when you want identical exposures across a sequence."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "What is a good shutter speed to avoid blur?",
+      "a": "For handheld shots without stabilisation, at least 1 divided by the equivalent focal length. For moving subjects, 1/500 second or faster is a good start."
+    },
+    {
+      "q": "Should I use auto ISO?",
+      "a": "Yes in most situations, combined with a minimum shutter speed. It lets the camera raise ISO only when needed to avoid blur."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-exposure",
+      "name": "Wikipedia: Exposure (photography)",
+      "url": "https://en.wikipedia.org/wiki/Exposure_(photography)",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-fnumber",
+      "name": "Wikipedia: F-number",
+      "url": "https://en.wikipedia.org/wiki/F-number",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

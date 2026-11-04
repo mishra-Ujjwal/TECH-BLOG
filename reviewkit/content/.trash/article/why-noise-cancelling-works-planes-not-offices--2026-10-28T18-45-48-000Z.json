@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "why-noise-cancelling-works-planes-not-offices",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Why noise cancelling kills engine roar but not office chat",
+  "metaDescription": "Noise cancelling works by predicting a sound wave and playing its opposite. That is easy for a steady engine hum and nearly impossible for speech.",
+  "excerpt": "Your headphones can erase the roar of a jet engine and barely touch the person talking two desks away. That is not a flaw in the product. It is the physics of what cancellation can and cannot predict, and it explains what to buy for which problem.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "headphones",
+    "noise-cancelling",
+    "audio",
+    "buying-advice"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: FAB (Features, Advantages, Benefits). Feature = inverse wave cancellation. Advantage = it excels at predictable low-frequency noise. Benefit = knowing which tool to buy for your actual problem, which saves real money.\n\nBEFORE PUBLISHING:\n1. The physics here is standard and verifiable. Link one reputable reference on active noise control for the cancellation explanation.\n2. The hearing FAQ deliberately avoids medical claims and points to an audiologist. Keep it that way. Do not add advice about safe listening levels or durations.\n3. IMAGES: photograph your own headphones with the different tip sizes laid out beside them. Your own kit, your own photo, directly illustrates the article's most useful point. 1200px minimum.\n4. BEST UPGRADE AVAILABLE: if you own ANC headphones, use them on a train and in a cafe on the same day and add two sentences each on what you actually noticed. That converts this from a good explainer into a first-hand one, which is the difference that matters for approval.\n5. Do not name or compare specific models without having used them.\n6. Put your own name on it.",
+  "format": "explainer",
+  "category": "audio",
+  "answer": "Active noise cancelling works by measuring incoming sound and playing the inverse wave to cancel it out. That requires predicting what the wave will do next, which is straightforward for steady low-frequency noise like an engine or air conditioning, and close to impossible for speech, which changes pitch and volume constantly. If your problem is an open-plan office, you want isolation and masking rather than cancellation.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "the-feature",
+      "heading": "What the feature actually is",
+      "body": "A microphone on the outside of the earcup listens to the noise arriving. A processor works out what that sound wave is doing. The driver then plays a second wave shaped as the exact opposite: where the incoming wave pushes, the generated one pulls.\n\nWhen the two meet, they cancel. Not metaphorically. The air pressure changes genuinely sum to something close to nothing, and the noise stops existing at your eardrum rather than being covered up.\n\nThat is the feature. Everything that follows is a consequence of one requirement buried in it: to cancel a wave, the headphone has to know what that wave is about to do."
+    },
+    {
+      "id": "the-advantage",
+      "heading": "Why engine noise is the easy case",
+      "body": "An aircraft cabin is close to the ideal problem. The dominant noise is low-frequency, loud, and almost unchanging. A wave like that is highly predictable: having seen the last few cycles, the processor can be confident about the next one.\n\nLow frequencies also have long wavelengths, which gives the system more time to do the work and makes small timing errors matter less.\n\nThe result is the effect everyone remembers from the first time they tried a decent pair. You put them on, and the aircraft seems to move away from you. Same with a train, a bus, the hum of air conditioning, the drone of a motorway. All steady, all low, all predictable.\n\nThis is also why cancellation makes long journeys genuinely less tiring, which is a real benefit rather than a marketing one. Sustained low-frequency noise is wearing in a way people tend not to notice until it stops."
+    },
+    {
+      "id": "the-hard-case",
+      "heading": "Why the person two desks away defeats it",
+      "body": "Speech is the opposite problem in every dimension.\n\nIt is irregular, so there is no steady pattern to extrapolate from. It jumps in pitch and volume several times a second. Much of its energy sits in higher frequencies, where wavelengths are short and the system has less time to respond. And crucially, our hearing is tuned to prioritise speech. We pick a voice out of background noise automatically, which means a small amount of residual speech is far more distracting than a much larger amount of residual hum.\n\nSo the headphone that erased a jet engine reduces your colleague's phone call by a modest amount, and your brain goes looking for what is left.\n\nThis is not a shortcoming you can buy your way out of. No amount of money fixes a prediction problem that is fundamentally unpredictable."
+    },
+    {
+      "id": "the-benefit",
+      "heading": "What to buy for which problem",
+      "body": "Match the solution to the noise and this all becomes simple.\n\n**For travel, commuting, air conditioning and general drone:** active cancellation, and this is where the expensive over-ear models earn their price. Buy for cancellation quality.\n\n**For an open-plan office or a flatmate's television:** you want **passive isolation**, which is physical. A tight seal blocks higher frequencies far better than cancellation does. Well-fitting in-ear tips, or over-ears with a proper clamp, do more than any processing. Buy for fit.\n\n**For concentrating while people talk:** add **masking**. Steady background sound, brown noise or rain, gives your hearing something uniform to settle on so speech no longer stands out. Cheap, effective, and it works with any headphones.\n\n**For sleeping or for genuine hearing protection:** foam earplugs beat every pair of headphones made, at a fraction of the price.\n\nThe common mistake is spending several hundred pounds on cancellation to solve an office problem, then concluding the headphones are overrated. They were not. They were the wrong tool."
+    },
+    {
+      "id": "fit",
+      "heading": "The part that decides everything",
+      "body": "One practical note worth more than any specification comparison: with in-ear models, the tips decide your result.\n\nA poor seal loses the low frequencies that cancellation handles best, and loses the isolation that handles the rest. Most people use the tips that came fitted in the box without trying the other sizes, and most people have two differently sized ear canals.\n\nTry every size, including a different size in each ear. If a good seal eludes you, foam tips usually solve it. The difference this makes is larger than the difference between two price tiers of headphone, which is a slightly inconvenient thing for the industry to admit."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Why does noise cancelling work better on planes than in the office?",
+      "a": "Cancellation requires predicting what a sound wave will do next. Engine noise is steady and low, so it is highly predictable. Speech changes pitch and volume constantly and sits at higher frequencies, so there is far less to predict and far less time to respond."
+    },
+    {
+      "q": "Do more expensive headphones cancel speech better?",
+      "a": "Only marginally, because the limit is the predictability of the sound rather than the quality of the processor. For voices, physical isolation from a good seal does more than any amount of extra processing."
+    },
+    {
+      "q": "Does noise cancelling damage your hearing?",
+      "a": "The cancellation itself adds very little sound. The indirect risk is that quieter surroundings let people listen at volumes that feel comfortable but are not, especially for long periods. If anything about your hearing concerns you, see an audiologist rather than relying on an article."
+    },
+    {
+      "q": "What is the cheapest way to block an open-plan office?",
+      "a": "Well-fitting in-ear tips for isolation, plus steady background sound such as brown noise for masking. Together those cost very little and address the problem more directly than cancellation does."
+    }
+  ],
+  "sources": []
+}

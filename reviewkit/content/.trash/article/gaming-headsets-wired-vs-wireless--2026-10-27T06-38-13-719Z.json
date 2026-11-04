@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "gaming-headsets-wired-vs-wireless",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Gaming headsets explained: wired vs wireless, dongles and latency",
+  "metaDescription": "How wired, 2.4GHz wireless and Bluetooth gaming headsets differ for latency and compatibility with PS5, Xbox, Switch and PC, plus what matters for the microphone.",
+  "excerpt": "Not all wireless headsets suit gaming, and some will not work on every console. Here is how to choose the right connection and features.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "headsets",
+    "consoles",
+    "wireless-audio"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "gaming",
+  "answer": "Wired headsets have no delay and no batteries. Wireless headsets that use a 2.4GHz USB dongle have very low delay and suit gaming. Bluetooth alone usually adds too much delay for competitive games, and Xbox consoles do not support Bluetooth headsets at all. Check which consoles the dongle supports, because PlayStation and Xbox versions often differ.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "wired",
+      "heading": "Wired",
+      "body": "A wired headset plugged into the controller's 3.5mm socket or a USB port has effectively no added delay, never needs charging and is usually cheapest for its sound quality. The cable is the trade-off. A 3.5mm headset works with almost every console and controller, which makes it the most flexible option."
+    },
+    {
+      "id": "2-4ghz-wireless-with-a-dongle",
+      "heading": "2.4GHz wireless with a dongle",
+      "body": "Most dedicated wireless gaming headsets use a small USB transmitter on the 2.4GHz band. The connection is designed for gaming, with latency low enough that sound stays in sync with the action. Battery life is typically tens of hours.\n\nThe catch is compatibility. Xbox consoles use Microsoft's own wireless protocol, so Xbox headsets need a specific Xbox version, which may also work with PC. PlayStation and Switch accept many USB dongles. Many headsets come in separate PlayStation and Xbox editions; make sure you buy the right one."
+    },
+    {
+      "id": "bluetooth",
+      "heading": "Bluetooth",
+      "body": "Bluetooth headsets and earbuds connect to phones and PCs without a dongle, but standard Bluetooth audio adds a noticeable delay, often enough to put footsteps and gunshots slightly out of sync. That matters in competitive games, less so in single-player ones.\n\nConsole support varies. Xbox consoles do not support Bluetooth audio. The PS5 does not support most Bluetooth headsets directly. The Switch supports Bluetooth audio with limits. Many headsets now offer both a 2.4GHz dongle for gaming and Bluetooth for a phone, sometimes simultaneously, which is handy for chatting on a phone app while playing."
+    },
+    {
+      "id": "the-microphone",
+      "heading": "The microphone",
+      "body": "Game chat depends as much on the microphone as on the speakers. Look for:\n\n- a boom microphone that sits close to your mouth for clearer speech\n- noise reduction that cuts keyboard clatter and background noise\n- a mute indicator or flip-to-mute boom\n- sidetone, which lets you hear your own voice so you do not shout\n\nBuilt-in microphones on earbuds and minimalist headsets are usually less clear than a boom."
+    },
+    {
+      "id": "sound-and-comfort",
+      "heading": "Sound and comfort",
+      "body": "- **Comfort** matters most for long sessions: weight, clamp force and cushion material.\n- **Virtual surround and 3D audio** can help locate sounds; PS5's Tempest 3D audio and Windows Sonic or Dolby Atmos for Headphones work with ordinary stereo headsets.\n- **Open-back gaming headsets** sound more spacious but leak sound.\n- **Simultaneous connections** and **multi-platform dongles** help if you play on several systems.\n\nCheck reviews that measure latency and microphone quality rather than relying on marketing terms like zero latency."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Can I use Bluetooth headphones on a PS5 or Xbox?",
+      "a": "Xbox consoles do not support Bluetooth audio. The PS5 does not support most Bluetooth headsets directly. Use a wired connection or a compatible 2.4GHz headset."
+    },
+    {
+      "q": "Is a wireless gaming headset as good as wired?",
+      "a": "A good 2.4GHz wireless headset has latency low enough for gaming. Wired is simpler, cheaper and never needs charging."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-latency-audio",
+      "name": "Wikipedia: Latency (audio)",
+      "url": "https://en.wikipedia.org/wiki/Latency_(audio)",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "xbox-headsets",
+      "name": "Xbox Support",
+      "url": "https://support.xbox.com/en-GB",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "_note": "TEMPLATE, close to publishable. UK advertising rules expect disclosure that is clear and upfront, not buried.",
+  "schemaVersion": 1,
+  "type": "page",
+  "slug": "affiliate-disclosure",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Affiliate disclosure and how we make money",
+  "metaDescription": "How this site earns money from advertising and affiliate commission, which links earn it, and why it never changes a review verdict.",
+  "excerpt": "How this site earns money, which links earn commission, and why that never changes a verdict.",
+  "footer": true,
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-20"
+  },
+  "sections": [
+    {
+      "id": "the-short-version",
+      "heading": "The short version",
+      "body": "Some links on this site earn us a commission if you buy through them. It costs you nothing extra, and it never changes what we write.\n\nWe also show advertising. Advertisers have no say over our reviews and no sight of them before publication."
+    },
+    {
+      "id": "which-links",
+      "heading": "Which links earn commission",
+      "body": "Any link that earns us money is marked where it appears, and any price next to it carries the date we checked it.\n\nWe have not joined any affiliate programmes yet. When we do, we will name each programme on this page and use any wording the programme requires."
+    },
+    {
+      "id": "what-we-do-not-do",
+      "heading": "What we will not do",
+      "body": "We do not accept payment for a review, a score, a placement or a link. We do not publish sponsored posts or guest posts, and we do not let a brand see a review before it goes live.\n\nIf we ever accept a paid arrangement, it will be labelled on the page itself as an advertisement."
+    },
+    {
+      "id": "free-samples",
+      "heading": "Review samples",
+      "body": "We aim to buy what we review. Where a product was supplied free or on loan, the review says so at the top, and loans are returned when the test ends. A free sample never guarantees coverage or a positive verdict."
+    }
+  ],
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  }
+}

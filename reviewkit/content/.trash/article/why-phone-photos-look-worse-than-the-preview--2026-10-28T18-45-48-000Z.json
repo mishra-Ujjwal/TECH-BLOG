@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "why-phone-photos-look-worse-than-the-preview",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "The photo looked great on your phone. Then you opened it",
+  "metaDescription": "The shot that looked perfect on your phone falls apart on a laptop. The screen, the processing and the moment of capture all explain part of it.",
+  "excerpt": "You take the photo. On the phone it looks superb. You open it on a laptop later and it is soft, oddly coloured, and nothing like what you remember seeing. Three separate things are happening, and two of them you can fix today.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "photography",
+    "smartphone-cameras",
+    "computational-photography"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: Star-Story-Solution, with the reader as the star. Star = you, in the moment the photo looked great. Story = the three reasons it did not survive. Solution = the five fixes.\n\nBEFORE PUBLISHING:\n1. THIS IS THE EASIEST ARTICLE OF THE TEN TO MAKE FIRST-HAND, AND YOU SHOULD. Take one photo in poor light. Screenshot it on your phone. Open the same file on a laptop at 100 per cent and screenshot that. Put the two side by side. That single comparison proves the whole article and no competitor has your version of it.\n2. Also worth doing: photograph the same scene with a clean and a smeared lens. Thirty seconds of work, very persuasive image.\n3. VERIFY the multi-frame capture explanation against a reputable reference on computational photography and link it.\n4. Name the exact phone you used and the conditions. 'Taken on a Pixel 9a indoors at dusk' is worth more than any amount of general explanation.\n5. IMAGES: your own comparison shots, 1200px minimum for Discover. This is a visual topic and Discover strongly favours visual articles with large original images.\n6. Put your own name on it.",
+  "format": "explainer",
+  "category": "cameras",
+  "answer": "Three things combine. Your phone screen is small, bright and heavily saturated, which flatters any image. The photo you reviewed was often a processed preview rather than the final file, which is still being assembled when you swipe to it. And phone cameras lean on computational processing that makes a great thumbnail and falls apart when enlarged. The fixes are to judge photos on the screen you will actually view them on, to wait a moment before deciding a shot worked, and to hold still for longer than feels necessary.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "the-star",
+      "heading": "The moment you already know",
+      "body": "You are somewhere worth photographing. The light is doing something you want to keep. You take the shot, glance at the thumbnail, and it looks wonderful: punchy, sharp, exactly what you saw.\n\nA week later you open the same file on a laptop to print it or send it to someone, and it has quietly fallen apart. The sharpness is mushy at the edges. The sky has gone an odd shade. Faces look slightly plastic.\n\nNothing happened to the file in between. What changed is that you finally looked at it properly."
+    },
+    {
+      "id": "the-screen",
+      "heading": "Part one: your phone screen is flattering you",
+      "body": "A phone display is small, extremely bright, and tuned to be vivid rather than accurate. Manufacturers do this deliberately, because saturated images look better in a shop and in sunlight.\n\nA 6-inch screen also hides a great deal. The same image at 15 inches shows every soft edge and every noise artefact the small version concealed. You are not seeing more detail on the phone, you are seeing less of the problem.\n\nThis is why the first discipline of judging your own photos is to judge them somewhere neutral. If a shot matters, look at it on a laptop before deciding you got it. The phone is an optimistic reviewer."
+    },
+    {
+      "id": "the-preview",
+      "heading": "Part two: you were often looking at a preview",
+      "body": "On a modern phone, pressing the shutter does not capture a photograph in the way a film camera did. It captures a burst of frames and starts assembling them.\n\nThe device aligns several exposures, picks the sharpest regions from each, merges them for dynamic range, reduces noise, and applies its tone and colour treatment. On a busy scene that takes a noticeable moment, sometimes a second or more.\n\nIf you swipe straight into the gallery, you can be looking at an interim version. Phones are good at hiding this. The image you glance at can genuinely differ from the one that ends up stored, which is why a photo occasionally looks worse later in ways you are sure you did not see at the time. You did not. It was not finished.\n\nThe practical response is unglamorous: after an important shot, wait a beat before deciding it worked."
+    },
+    {
+      "id": "the-processing",
+      "heading": "Part three: the processing is tuned for small screens",
+      "body": "Computational photography is why a phone can produce usable images from a sensor the size of a fingernail. It is also why those images behave strangely when enlarged.\n\nNoise reduction removes grain, and with it fine texture. Hair, fabric and foliage are where this shows first, because they are detail that looks statistically like noise. Sharpening is then applied to compensate, which can leave halos along high-contrast edges. Skies get smoothed. Faces get softened and brightened, sometimes considerably.\n\nAt thumbnail size this is invisible and the result looks crisp and clean. At full size it reads as waxy. The tuning is not a mistake. It is optimised for the size at which the overwhelming majority of photographs are now viewed, which is a phone screen, and your laptop is outside the design target.\n\nThis is also why photos taken in poor light disappoint most. Less light means more noise, which means more aggressive reduction, which means more of the texture you wanted removed."
+    },
+    {
+      "id": "the-solution",
+      "heading": "What actually improves your photos",
+      "body": "Five things, in order of how much difference they make.\n\n**Give it more light.** Everything above gets better with light and worse without it. Moving a subject towards a window does more than any setting.\n\n**Hold still for longer than feels necessary.** The phone is combining several frames. Movement during that window is the single commonest cause of softness that you blame on the camera. Keep holding after the shutter sound.\n\n**Clean the lens.** It is in a pocket all day. A smeared lens produces exactly the hazy, low-contrast result people attribute to a bad camera, and a wipe on a shirt fixes it in a second.\n\n**Turn on the highest quality setting.** Most phones default to a compressed format and sometimes a lower resolution than the sensor offers. If you are keeping photos long term, find the quality setting and raise it. Storage is cheaper than a missed shot.\n\n**Shoot RAW for photos that matter.** Most flagship phones offer it. You get the sensor data before the heavy processing, which means noise reduction and sharpening are your decisions rather than the phone's. Files are much larger and need editing to look right, so it is not for everyday use. For a photo you intend to print, it is the difference between an image that enlarges and one that does not."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Why do my photos look worse on a computer than on my phone?",
+      "a": "The phone screen is small, bright and deliberately saturated, which flatters images and hides softness. A larger, more neutral display shows the noise reduction and sharpening artefacts the small screen concealed."
+    },
+    {
+      "q": "Why do faces look plastic in phone photos?",
+      "a": "Noise reduction removes fine texture, including skin texture, and many phones additionally smooth and brighten faces. It looks clean at thumbnail size and waxy at full size."
+    },
+    {
+      "q": "Should I shoot in RAW on a phone?",
+      "a": "For photos you intend to print or edit properly, yes, because you get the sensor data before heavy processing. For everyday snaps, no. The files are much larger and look flat until edited."
+    },
+    {
+      "q": "Does cleaning the lens really matter?",
+      "a": "More than people expect. A smeared lens scatters light and produces hazy, low-contrast images that are easy to mistake for a poor camera. It lives in a pocket, so wipe it before anything you care about."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "uk-drone-rules-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "UK drone rules explained: Flyer ID, Operator ID and the 2026 changes",
+  "metaDescription": "What UK drone pilots need since the rule changes of 1 January 2026: Flyer ID and Operator ID from 100g, UK class marks, Remote ID and where you can fly.",
+  "excerpt": "UK drone rules tightened on 1 January 2026. Here is what you need before flying, including drones under 250g, according to the CAA's guidance.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "drones",
+    "uk-law",
+    "caa"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "cameras",
+  "answer": "Since 1 January 2026, anyone flying a drone weighing 100g or more in the UK needs a Flyer ID from the CAA's free online test. You also need an Operator ID, displayed on the drone, for any drone of 100g or more with a camera, or 250g or more without. New drones carry UK class marks, and Remote ID applies to new class UK1 to UK3 drones.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "who-regulates-drones-in-the-uk",
+      "heading": "Who regulates drones in the UK",
+      "body": "The Civil Aviation Authority (CAA) sets the rules for drones and model aircraft in the UK, and publishes the Drone and Model Aircraft Code. Most hobby flying falls in the open category, which covers lower-risk flying with limits on height, distance from people and where you can fly. This article summarises the CAA's guidance as of October 2026; always check the CAA website before flying, because the rules change."
+    },
+    {
+      "id": "flyer-id-and-operator-id",
+      "heading": "Flyer ID and Operator ID",
+      "body": "There are two separate registrations:\n\n- **Flyer ID** is for the person flying. You get it by passing a free online theory test on the CAA's website. Since 1 January 2026 it is needed for drones weighing 100g or more; previously the threshold was 250g.\n- **Operator ID** is for the person or organisation responsible for the drone. It is needed for drones of 100g or more with a camera, and for any drone of 250g or more. It must be displayed on the drone, and the registration has an annual fee.\n\nThe change to 100g means many small, lightweight camera drones that previously needed nothing now need both."
+    },
+    {
+      "id": "uk-class-marks-and-remote-id",
+      "heading": "UK class marks and Remote ID",
+      "body": "From 1 January 2026, new drones placed on the UK market carry a UK class mark from UK0 to UK6, which indicates which rules apply when flying them. Drones with EU C class marks are recognised under the equivalent UK class.\n\nRemote ID, a system that broadcasts identification and location information while flying, is required on new drones in classes UK1, UK2 and UK3 from that date. Older drones without class marks, known as legacy drones, can still be flown, with rules that depend on their weight."
+    },
+    {
+      "id": "basic-rules-in-the-open-category",
+      "heading": "Basic rules in the open category",
+      "body": "The Drone Code sets out the essentials. In summary:\n\n- Keep the drone in direct sight at all times.\n- Do not fly higher than 120 metres (400 feet) above the surface.\n- Keep a safe distance from people and do not fly over crowds; exact distances depend on the drone's weight and class.\n- Do not fly near airports and airfields without permission; check flight restriction zones.\n- Respect privacy and data protection rules when filming people.\n\nMany places, including some parks and land owned by local councils or the National Trust, have their own rules on taking off and landing."
+    },
+    {
+      "id": "before-your-first-flight",
+      "heading": "Before your first flight",
+      "body": "- Check the drone's weight and class mark, and whether it has a camera.\n- Take the CAA's free Flyer ID test and register for an Operator ID if required, through the CAA's official website only.\n- Label the drone with your Operator ID.\n- Read the current Drone Code and use an approved airspace app or map to check restrictions.\n- Consider insurance; it is not compulsory for most hobby flying in the open category but is sensible.\n\nFines for flying without the required IDs can be substantial, so it is worth sorting registrations before buying a drone as a gift."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do I need to register a drone under 250g in the UK?",
+      "a": "Since 1 January 2026, you need a Flyer ID for drones of 100g or more, and an Operator ID if the drone has a camera and weighs 100g or more."
+    },
+    {
+      "q": "Is the CAA drone test free?",
+      "a": "The Flyer ID test is free online on the CAA website. The Operator ID registration has an annual fee."
+    }
+  ],
+  "sources": [
+    {
+      "id": "caa-legal",
+      "name": "CAA: Getting what you need to fly legally",
+      "url": "https://www.caa.co.uk/drones/open-category/drone-code/getting-what-you-need-to-fly-legally/",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "caa-drones",
+      "name": "CAA: Drones and model aircraft",
+      "url": "https://www.caa.co.uk/drones/",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

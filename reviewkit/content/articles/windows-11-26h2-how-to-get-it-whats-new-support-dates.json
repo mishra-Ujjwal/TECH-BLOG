@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "windows-11-26h2-how-to-get-it-whats-new-support-dates",
+  "locale": "en-US",
+  "status": "published",
+  "title": "Windows 11 26H2 Has Been Released - How To Get, What's New & Support Dates",
+  "metaDescription": "Windows 11 26H2 began rolling out September 29, 2026. Who gets it, how to install it, what changed, support end dates and why some PCs are blocked.",
+  "excerpt": "Microsoft's Windows 11 2026 Update is a small enablement package with little new on screen but a big change to support dates. Here is what it means for your PC.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-29"
+  },
+  "tags": [
+    "windows-11",
+    "windows-11-26h2",
+    "windows-update",
+    "microsoft",
+    "pc-support",
+    "how-to"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "format": "explainer",
+  "category": "computing",
+  "answer": "Microsoft has begun a gradual rollout of Windows 11 26H2 otherwise known as the 2026 Update, on 29th September 2026. This is a very small update for PC's running the 24H2 and 25H2 versions of Windows 11. Whilst there isn't much new visually it does give you a fresh start on the support timeline, and it can be downloaded via the Settings app and Windows Update by enabling the ‘Get the latest updates as soon as they're available’ option.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "quick-summary",
+      "heading": "Quick Summary",
+      "body": "As reported by Windows Latest and Thurrott, Microsoft has begun the rollout of the Windows 11 26H2 update (otherwise known as the Windows 11 2026 Update). PC World also covered the update and said it came earlier than expected on September 30th.\n\nIf you're running 24H2 or 25H2 on your PC you're going to get a very small optional update. This update is an \"enablement package\" meaning you already have the code installed from previous monthly updates. Windows Latest said it's a very small update (around 174KB) for PCs with all the latest cumulative updates and will only take a few minutes to install with one reboot.\n\nWhilst there aren't huge visual changes, this update does provide a fresh start with a new support timeline. This is the main reason many will want this update at some point.\n\nBelow you'll find information on who can get the update, how to install it, what's inside it, how long each version will be supported for and why you may not get it. This article has been based on reports from Windows Latest, Thurrott and PC World. The dates have also been taken from the sources."
+    },
+    {
+      "id": "enablement-package",
+      "heading": "What is an Enablement Package?",
+      "body": "Most people will think an updated Windows version will be a large download. However, this isn't the case for most PC's running Windows 11 26H2. As stated by Windows Latest, this is just a light update to enable new features already present in the OS.\n\nAs Thurrott reported, the 26H2 version shares the same core code as the 25H2 and 24H2 version. All three versions also use the same servicing branch (Called Germanium). This means your PC already has most of the new code. This update will just change the version and build number and enable the new features.\n\nA bonus of this update is that Microsoft have said the bugs and fixes are shared between the versions (as stated by Windows Latest). This means any issues affecting the 26H2 will also affect the 25H2 and vice versa. This makes it a much safer update.\n\nMicrosoft have said it's a well-controlled feature rollout. However Thurrott has stated that devices with known compatibility issues may have safeguard holds preventing it from showing. PC World has also said that if there is any issues detected, windows will prevent it installing."
+    },
+    {
+      "id": "who-can-get-it",
+      "heading": "Who Can Get 26H2?",
+      "body": "Windows 11 24H2/25H2 PC's will get the 26H2 update.\n\nHowever, Arm PC's will not get this update. As stated by Windows Latest, new Arm PC's using the Snapdragon X2 or Nvidia RTX Spark will come with Windows 11 26H1 and won't be able to update. PC World also said 26H1 (Arm PC) isn't supported. If you have bought a new laptop with this version you won't miss out.\n\n23H2\n\nWindows 11 23H2 PC's will get a full OS update. This means a much larger download. PC World said you will need to do a clean install from Microsoft's download page if you're running an older version such as 23H2. As the information is conflicting we wouldn't advise doing this on a 23H2 PC. Always check Microsoft's guidance.\n\nThurrott has also stated that this update has been available to Windows Insiders in the Release Preview ring.\n\nNo new hardware requirements have been reported by Windows Latest or Thurrott. If you're currently running 24H2 or 25H2 on your PC it should be eligible. Although you may have safeguard holds."
+    },
+    {
+      "id": "how-to-install",
+      "heading": "How To Install",
+      "body": "As reported by Windows Latest, you can install this update by going to Settings > Windows Update. Toggle on ‘Get the latest updates as soon as they're available’. Click ‘Check for updates’ and when the update is available click ‘Download and install’. Reboot your PC.\n\nYou can check the update has installed by heading to Settings > System > About. PC World said after enabling the setting you should see the Windows 11 2026 Update.\n\nJust because you've enabled the setting doesn't mean you'll get the update immediately. Microsoft may have set safeguard holds on devices with known compatibility issues. This update is also being rolled out in waves. Windows Latest has also said that ISO's are available if you want to install via this method.\n\nIT Admins\n\nThurrott has said this update is available via Windows Autopatch, Microsoft 365 admin centre and other popular Windows update tools.\n\nAs always, ensure you have the latest monthly cumulative updates installed. This update is only 174KB if you have the latest updates (As stated by Windows Latest). Back up any important files. Ensure that your PC is plugged in. As this update is small you shouldn't need to free up too much space."
+    },
+    {
+      "id": "whats-new",
+      "heading": "What's New?",
+      "body": "Not much. As stated by Windows Latest there are no new features for the consumer. The features are already being rolled out to 24H2/25H2 PC's. These include the moveable taskbar, resizeable Start menu and Bing free Windows Search.\n\nMicrosoft have stated in their changelog (as reported by Windows Latest) there are new features including File Explorer AI actions for supported images, OneDrive file summary and improved Windows Search with typos and partial app names.\n\nThurrott has summarised the Microsoft IT Pro blog and said there are new archive formats in File Explorer, improved Windows Search, more taskbar locations, NPU usage shown in Task Manager, Windows Hello Enhanced Sign-in Security for third party fingerprint sensors and a Point-in-time restore recovery option.\n\nWindows settings backup, app specific taskbar actions and improved File Explorer features are now turned on by default as they were previously under temporary commercial control.\n\nMicrosoft have said this is a predictable and low impact update. If you're already running 24H2/25H2 with recent updates there won't be much change to your PC. This seems to be the case based on the reports."
+    },
+    {
+      "id": "support-dates",
+      "heading": "Support Dates – Why This Matters",
+      "body": "The most useful table in this article shows how long each version of Windows will be supported. Windows 11 24H2 Home/Pro ends on 13th October 2026. Windows 11 25H2 Home/Pro ends on 12th October 2027. Windows 11 26H2 Home/Pro ends on 9th October 2028. Windows 11 24H2 Enterprise/Education ends on 12th October 2027. Windows 11 25H2 Enterprise/Education ends on 10th October 2028. Windows 11 26H2 Enterprise/Education ends on 8th October 2029.\n\nWindows Latest has also said that the 26H2 IoT Enterprise version ends on 8th October 2029. Thurrott has summarised this and said that Home/Pro are supported for 24 months and Enterprise/Education are supported for 36 months. PC World has also said that 26H2 ends on 9th October 2028.\n\nAs mentioned above, the 24H2 Home/Pro version will reach end of updates on 13th October 2026 (As stated by Thurrott). This has passed today (29th October). If you're running a Home/Pro PC on 24H2 it is no longer within the supported group. Always check Microsoft's lifecycle page to see if your PC is supported.\n\nOverall, the main reason to update to 26H2 is to give you a fresh start on the support timeline. Whilst this isn't a Microsoft statement this is an opinion based on the dates in the table.\n\nHome Users\n\nIf you're running 24H2, you should update. If you're running 25H2 you have until 12th October 2027. However, by updating you will get an extra year.\n\nBusiness & Managed Devices\n\nWindows Latest has said that Point-in-time restore is now turned on by default for enterprise devices with a Windows partition of 200GB or higher. Windows settings backup (Previously called Windows Backup for Organizations) is also turned on by default. This will back up your settings and list of Microsoft Store apps.\n\nThurrott has said that this update can be deployed by IT professionals via Windows Autopatch and the Microsoft 365 admin centre. As this is a small update and uses the same servicing branch it should be easier to test.\n\nHowever, you should still test any changes to the default settings. Especially if you have devices with limited storage or strict data policies. The 200GB partition means devices with a smaller storage won't have this enabled by default.\n\nThurrott has also said that Microsoft haven't said what the build number is. Monthly release notes will be added to the update history page on 13th October. The first Patch Tuesday update will also be on 13th October 2026."
+    },
+    {
+      "id": "known-issues",
+      "heading": "Known Issues",
+      "body": "PC World has said there are known issues and you may want to wait before updating. They have linked to an article about the issues but we have not read it so we can't say what they are.\n\nThis should be taken seriously however it's not a huge issue. This is a small update, the code is already on your device and it is being rolled out in waves. The only real issue would be if you have a specific compatibility issue with your drivers/software. This should be picked up by the safeguard holds.\n\nIf your PC is working well and you use it for work it would be a good idea to wait a week or two after seeing the update. Look at recent articles about any issues and then install. If you're on 24H2 Home/Pro the support date means you wouldn't want to wait.\n\nNone of the sources have said how to roll back this update. Always check Microsoft's support pages to see what options you have currently. Back up your files."
+    },
+    {
+      "id": "older-windows-versions",
+      "heading": "Older Windows Versions",
+      "body": "The sources have focused on Windows 11 24H2, 25H2, 23H2 and the 26H1 (Arm) version. There is no information on Windows 10 so we won't make any claims.\n\nAs mentioned above, Windows Latest and PC World have conflicting information on how to update from 23H2. If you're running this version always check Microsoft's download page and licensing terms. Back up your files.\n\nPC World's article has links to a software store where you can buy Windows 11 Home for $59.99 and a Pro upgrade at $59.99. This may earn them commission. We have mentioned this as the prices have been published but always check Microsoft's official options."
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "body": "Check your version\n\nGo to Settings > System > About. This will tell you if you have 24H2, 25H2 or an older version.\n\nEnsure you have the latest monthly updates installed.\n\nOnly enable the early update toggle if you're happy to get updates quicker. This will make it quicker to get but you will be earlier in the rollout.\n\nEnsure your drivers are up to date. Especially graphics/network/storage. If you have a safeguard hold set by Microsoft you may be able to update your drivers from your PC manufacturer.\n\nCreate a restore point or full backup. Whilst this is a small update it's always best to back up. It's cheap and can't be replicated.\n\nOnce your PC has rebooted check you have the correct version in About. Open a few of your applications and check everything is working. If something isn't working note exactly what is wrong and search Microsoft's support pages or your PC manufacturers site."
+    },
+    {
+      "id": "important-dates",
+      "heading": "Important Dates",
+      "body": "29th September 2026 – As reported by Windows Latest and Thurrott, Microsoft began a gradual rollout of the Windows 11 26H2 update. PC World reported this came earlier than expected on September 30th.\n\n13th October 2026 – The first Patch Tuesday update will be on this date (As reported by Thurrott). Monthly release notes will be added to the update history page. This is also when 24H2 Home/Pro will reach end of updates.\n\n12th October 2027 – 25H2 Home/Pro will reach end of support. 24H2 Enterprise/Education will reach end of support.\n\n10th October 2028 – 25H2 Enterprise/Education will reach end of support.\n\n9th October 2028 – 26H2 Home/Pro will reach end of support.\n\n8th October 2029 – 26H2 Enterprise/Education will reach end of support. The 26H2 IoT Enterprise will also reach end of support.\n\nAs you can see each new version gives you an extra year or so of support. 26H2 has the longest support."
+    },
+    {
+      "id": "version-comparison",
+      "heading": "24H2 vs 25H2 vs 26H2",
+      "body": "Technically these versions are very similar. Thurrott has said they all share the same core code. Windows Latest has said they all use the same servicing branch. Microsoft have even said they share the fixes and bugs (As reported by Windows Latest).\n\nFunctionally there isn't much difference. The moveable taskbar, resizeable Start menu and Bing free Windows Search were already being rolled out on 24H2/25H2. The 26H2 package just enables these features (And a few others such as settings backup and app specific taskbar actions).\n\nHowever there is a big difference in the support. 24H2 Home/Pro has a set end date which has already passed. 25H2 will be supported until 12th October 2027. 26H2 will be supported until 9th October 2028.\n\nThis means for most people if you're running 24H2 you should update as soon as possible. If you're running 25H2 it's up to you. If you're running a new Arm PC on 26H1 you don't need to do anything.\n\nBusiness users should also note the enterprise dates. 24H2 ends on 12th October 2027. 25H2 ends on 10th October 2028. 26H2 ends on 8th October 2029."
+    },
+    {
+      "id": "conclusion",
+      "heading": "Conclusion",
+      "body": "Overall Windows 11 26H2 is a tidy update. As mentioned by the sources there isn't much visible change. The real benefit is the fresh start on the support. This means for most people it is worth installing. Once it has been released for you and there doesn't seem to be any issues in the first few weeks. If you're running 24H2 Home/Pro it is more important to update as the end date has passed.\n\nWe haven't tested this update. The information has been taken from the sources. Always check Microsoft's pages for the exact dates and if you're eligible."
+    },
+    {
+      "id": "sources",
+      "heading": "Sources",
+      "body": "Windows Latest, Windows 11 26H2 is now rolling to everyone, September 29, 2026: https://www.windowslatest.com/2026/09/29/windows-11-26h2-is-now-rolling-to-everyone-how-to-get-it-right-now-and-is-it-even-worth-installing/\n\nThurrott, Microsoft Starts Rolling Out Windows 11 Version 26H2: https://thurrott.com/windows/342194/microsoft-starts-rolling-out-windows-11-version-26h2\n\nPCWorld, Windows 11 26H2 is here earlier than expected, September 30, 2026: https://www.pcworld.com/article/3247669/windows-11-26h2-is-here-earlier-than-expected-heres-how-to-get-it.html"
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "When was Windows 11 26H2 released?",
+      "a": "Microsoft began a gradual public rollout on September 29, 2026, according to Windows Latest and Thurrott. PCWorld reported on September 30 that it arrived earlier than expected."
+    },
+    {
+      "q": "Is Windows 11 26H2 a big update?",
+      "a": "No. It is a small enablement package of about 174KB for PCs with the latest monthly updates. Windows Latest says it adds no new consumer features of its own."
+    },
+    {
+      "q": "How do I get Windows 11 26H2?",
+      "a": "Open Settings, then Windows Update, turn on Get the latest updates as soon as they are available, click Check for updates, select Download and install when 26H2 appears and restart."
+    },
+    {
+      "q": "Why do I not see the update yet?",
+      "a": "The rollout is staged and optional, and Microsoft can place safeguard holds on devices with known compatibility issues. Arm PCs that shipped with 26H1 are not eligible."
+    },
+    {
+      "q": "When does support end for Windows 11 26H2?",
+      "a": "October 9, 2028 for Home and Pro, and October 8, 2029 for Enterprise and Education, according to Windows Latest and PCWorld."
+    },
+    {
+      "q": "What happens to Windows 11 24H2?",
+      "a": "Thurrott reported that Home and Pro support for 24H2 ends October 13, 2026, which has now passed. Enterprise and Education support for 24H2 ends October 12, 2027."
+    },
+    {
+      "q": "Should I wait before installing 26H2?",
+      "a": "PCWorld says you might want to wait, citing known issues it covers in a separate article. If your PC works well, waiting a week or two is reasonable, but 24H2 Home and Pro users have a published support date that has already passed."
+    }
+  ],
+  "sources": []
+}

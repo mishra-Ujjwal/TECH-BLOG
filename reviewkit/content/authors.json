@@ -1,0 +1,19 @@
+{
+  "_note": "Author profiles. The slug must match author.slug in your posts. To sign posts with your own name, add a profile for yourself here and set it on each post in the studio.",
+  "authors": [
+    {
+      "slug": "editorial-team",
+      "name": "TechWorld Blog Editorial Team",
+      "role": "Editorial team",
+      "bio": "The TechWorld Blog editorial team writes plain-English explainers, guides and reviews on consumer technology for readers in the UK.",
+      "about": "We cover phones, computing, gaming and electric vehicles, with a focus on what matters to people buying and using tech in the UK.\n\nExplainers are researched from primary sources such as standards bodies, GOV.UK and regulators, and every article lists the sources it relied on. Some articles are drafted with AI assistance; when they are, the page says so, and an editor checks them before publication. Reviews only cover products we have used ourselves, and say how and for how long we tested them.\n\nIf you spot a mistake, please tell us through the contact page and we will correct it and note the change on the article.",
+      "expertise": [
+        "Phones",
+        "Computing",
+        "Gaming",
+        "Electric vehicles"
+      ],
+      "sameAs": []
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "ssd-vs-hdd-nvme-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "SSD vs HDD, SATA vs NVMe: storage drives explained",
+  "metaDescription": "The difference between hard drives and SSDs, SATA and NVMe, PCIe generations and M.2 sizes, and which kind of storage drive suits each job.",
+  "excerpt": "Storage drive jargon explained: why an SSD transforms an old computer, what NVMe and PCIe Gen 4 mean, and when a hard drive still makes sense.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "ssd",
+    "storage",
+    "upgrades"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "computing",
+  "answer": "An SSD stores data on flash memory chips and is many times faster than a spinning hard drive, which makes a computer start and open files far quicker. NVMe SSDs, which connect over PCIe, are faster again than SATA SSDs. Hard drives are slower but still the cheapest way to store large amounts of data, such as backups and media libraries.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "hard-drives",
+      "heading": "Hard drives",
+      "body": "A hard disk drive (HDD) stores data magnetically on spinning platters, read by a head on a moving arm. That mechanical design is reliable and cheap per terabyte, but slow: the head has to physically move to the right place before it can read. Opening many small files, which is most of what a computer does when starting up, is where hard drives struggle most.\n\nHard drives remain the cheapest way to store several terabytes, so they are still used for backups, network storage and large film or photo archives."
+    },
+    {
+      "id": "solid-state-drives",
+      "heading": "Solid-state drives",
+      "body": "A solid-state drive (SSD) stores data in flash memory chips with no moving parts. It can find any piece of data almost instantly, so a computer with an SSD starts in seconds and opens apps and files without waiting. Replacing an old hard drive with an SSD is the single biggest speed upgrade for an older computer.\n\nSSDs are also silent, use less power, and cope better with being knocked, which is why every modern laptop uses one."
+    },
+    {
+      "id": "sata-and-nvme",
+      "heading": "SATA and NVMe",
+      "body": "SSDs connect to the computer in one of two main ways:\n\n- **SATA** is the same connection hard drives use. SATA SSDs come in a 2.5 inch case or as an M.2 stick, and top out at around 550MB per second because of the SATA link.\n- **NVMe** drives connect over PCIe, the same high-speed lanes used by graphics cards. They are much faster, from a few thousand MB per second upwards.\n\nFor everyday use, the jump from a hard drive to any SSD is dramatic, while the jump from SATA to NVMe is noticeable mainly when copying large files, loading big games or editing video."
+    },
+    {
+      "id": "pcie-generations-and-m-2-sizes",
+      "heading": "PCIe generations and M.2 sizes",
+      "body": "NVMe drives are labelled with a PCIe generation. Each generation roughly doubles the maximum speed: PCIe Gen 3 drives reach about 3,500MB/s, Gen 4 about 7,000MB/s and Gen 5 more again. A drive works in an older slot, but only at that slot's speed.\n\nMost NVMe drives use the M.2 format, a small stick that plugs into the motherboard. Its size is given as a four or five digit number: 2280 means 22mm wide and 80mm long, the most common size in desktops and many laptops. Smaller 2230 and 2242 drives are used in compact laptops and handheld gaming PCs. Check both the generation and the length your device supports before buying."
+    },
+    {
+      "id": "which-to-choose",
+      "heading": "Which to choose",
+      "body": "- **Boot drive in any computer:** an NVMe SSD if supported, SATA SSD otherwise.\n- **Upgrading an old laptop with a 2.5 inch bay:** a 2.5 inch SATA SSD.\n- **Games library:** a large NVMe SSD; fast loading matters.\n- **Backups and media archives:** hard drives, ideally more than one copy, with one stored away from home.\n\nSSDs do wear out after a very large amount of writing, given on the specification as TBW (terabytes written), but for normal home use a modern SSD will usually outlast the computer it is in."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is NVMe noticeably faster than SATA?",
+      "a": "For starting the computer and opening apps the difference is small. It shows when copying large files, loading big games and editing high-resolution video."
+    },
+    {
+      "q": "Will a PCIe Gen 4 SSD work in a Gen 3 slot?",
+      "a": "Yes, but only at Gen 3 speeds. The drives are backward compatible."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-ssd",
+      "name": "Wikipedia: Solid-state drive",
+      "url": "https://en.wikipedia.org/wiki/Solid-state_drive",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-m2",
+      "name": "Wikipedia: M.2",
+      "url": "https://en.wikipedia.org/wiki/M.2",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "uk-e-bike-rules-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "UK e-bike rules explained: what counts as a legal electric bike",
+  "metaDescription": "What makes an electric bike legal to ride without a licence in Great Britain: the 250W motor, 15.5mph assistance limit, pedals and minimum age of 14.",
+  "excerpt": "Many bikes sold online do not meet UK e-bike rules. Here is what the law requires, and what happens if an e-bike does not comply.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "e-bikes",
+    "uk-law",
+    "safety"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "evs",
+  "answer": "In Great Britain, an electric bike can be ridden without a licence, registration, tax or insurance if it is an electrically assisted pedal cycle (EAPC): its motor has a continuous rated power of no more than 250 watts, it stops assisting above 15.5mph, and it has pedals that can propel it. Riders must be 14 or over. Bikes that exceed these limits are treated as motor vehicles.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-counts-as-an-eapc",
+      "heading": "What counts as an EAPC",
+      "body": "GOV.UK sets out the rules for electrically assisted pedal cycles in Great Britain. To count as an EAPC, an electric bike must:\n\n- have pedals that can be used to propel it\n- have an electric motor with a maximum continuous rated power of 250 watts\n- not be able to propel the bike when it is travelling faster than 15.5mph\n\nAn EAPC can have more than two wheels, for example a tricycle. The bike should show either the power output or the manufacturer of the motor, and either the battery's voltage or the maximum speed of the bike."
+    },
+    {
+      "id": "what-riders-need",
+      "heading": "What riders need",
+      "body": "If the bike meets the EAPC rules, you can ride it on roads and cycle paths wherever ordinary bicycles are allowed, without a driving licence, registration, vehicle tax or insurance. You must be 14 or over. Northern Ireland has its own rules; check NI Direct if you live there."
+    },
+    {
+      "id": "twist-throttles",
+      "heading": "Twist throttles",
+      "body": "Bikes with a twist or push throttle that can power the bike without pedalling are treated differently. In general, throttle assistance up to 6km/h (about 3.7mph) without pedalling is permitted for walking assistance; bikes with throttles that work above that speed without pedalling may need type approval as a motor vehicle. Check the bike's documentation and the current GOV.UK guidance before buying a bike with a throttle."
+    },
+    {
+      "id": "bikes-that-do-not-comply",
+      "heading": "Bikes that do not comply",
+      "body": "If an electric bike has a motor above 250 watts, assists above 15.5mph, or can be propelled by the motor without pedalling beyond the permitted throttle limit, it is not an EAPC. It is treated as a motor vehicle, which means it must be registered and taxed, the rider needs a licence and insurance, and it needs appropriate approval. Riding a non-compliant bike on public roads without these is illegal and can lead to penalties, including on a driving licence.\n\nMany powerful bikes and conversion kits sold online do not meet the EAPC rules. Kits that remove the speed limit, sometimes called derestriction kits, make an EAPC illegal to ride on the road."
+    },
+    {
+      "id": "battery-safety",
+      "heading": "Battery safety",
+      "body": "Fire services in the UK warn about fires involving e-bike and e-scooter batteries, particularly with cheap, modified or damaged batteries and incompatible chargers. Buy from reputable sellers, use the charger supplied by the maker, do not charge overnight or while you are out, keep the bike out of escape routes, and stop using a battery that is damaged, swollen or overheating. Look for bikes and batteries that meet recognised safety standards."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do I need a licence for an electric bike in the UK?",
+      "a": "Not if it is an electrically assisted pedal cycle: 250W maximum continuous rated power, assistance cutting off at 15.5mph, pedals that propel it, and you are 14 or over."
+    },
+    {
+      "q": "Are e-bikes with throttles legal in the UK?",
+      "a": "Throttles that work only up to about 3.7mph without pedalling are generally allowed. Bikes with throttles working above that may need approval as a motor vehicle."
+    }
+  ],
+  "sources": [
+    {
+      "id": "govuk-ebike",
+      "name": "GOV.UK: Riding an electric bike: the rules",
+      "url": "https://www.gov.uk/electric-bike-rules",
+      "licence": "Open Government Licence v3.0",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "govuk-eapc-sheet",
+      "name": "GOV.UK: Electrically assisted pedal cycles (EAPCs) in Great Britain: information sheet",
+      "url": "https://www.gov.uk/government/publications/electrically-assisted-pedal-cycles-eapcs/electrically-assisted-pedal-cycles-eapcs-in-great-britain-information-sheet",
+      "licence": "Open Government Licence v3.0",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "lfb-ebike",
+      "name": "London Fire Brigade: E-bike and e-scooter laws",
+      "url": "https://www.london-fire.gov.uk/safety/e-bikes-and-e-scooters/e-bike-and-e-scooter-laws-in-the-uk/",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

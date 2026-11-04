@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "phone-battery-health-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Phone battery health explained: why capacity drops and how to slow it",
+  "metaDescription": "Why a phone battery loses capacity over time, what the battery health figure means, and the charging habits that genuinely slow the decline.",
+  "excerpt": "Every phone battery wears out. Here is what the battery health percentage means, what speeds up the decline, and which charging habits are worth adopting.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "battery",
+    "charging",
+    "phone-care"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "phones",
+  "answer": "A phone battery loses capacity every time it is charged and discharged, and faster when it is hot or kept at 100 per cent. The battery health figure compares today's maximum capacity with the capacity when new. You cannot stop the decline, but avoiding heat and long spells at full charge slows it noticeably.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-is-inside-a-phone-battery",
+      "heading": "What is inside a phone battery",
+      "body": "Almost every phone sold in the UK uses a lithium-ion battery, usually in a flat pouch format. Charging pushes lithium ions from the positive electrode (the cathode) into the negative electrode (the anode); using the phone lets them flow back, and that flow is the current that powers the phone.\n\nThe process is not perfectly reversible. Each cycle leaves a little lithium trapped in a thin layer that grows on the anode, and the electrodes themselves slowly crack and change shape. Less lithium in circulation means less energy the battery can hold. That is the whole story of battery wear: a slow, one-way loss of the material that stores charge."
+    },
+    {
+      "id": "what-the-battery-health-percentage-means",
+      "heading": "What the battery health percentage means",
+      "body": "Most phones now report a battery health or maximum capacity figure. It compares the most charge the battery can hold today with what it held when it left the factory. A reading of 85 per cent means a full charge now gives you roughly 85 per cent of the running time it did on day one, all else being equal.\n\nThe figure is an estimate the phone calculates from how the battery behaves while charging and discharging, so it can move up or down by a point or two after a software recalibration. Treat it as a trend rather than a precise measurement.\n\nMany makers describe a battery as worn once it falls to around 80 per cent of its original capacity, and that is often the point at which a battery replacement under warranty or a paid service becomes worthwhile."
+    },
+    {
+      "id": "what-wears-a-battery-out-fastest",
+      "heading": "What wears a battery out fastest",
+      "body": "Three things matter far more than anything else:\n\n- **Heat.** High temperatures speed up the chemical reactions that cause wear. Gaming while charging, leaving a phone on a car dashboard in summer, or charging under a pillow all add up.\n- **Time spent at high charge.** A lithium-ion cell sitting at 100 per cent is under more stress than one sitting at 50 per cent. Charging overnight means hours at full charge.\n- **Deep discharges.** Running the battery right down to zero regularly is harder on it than shallow top-ups.\n\nFast charging is often blamed, but its main cost is the heat it produces. Modern phones slow the charging rate as the battery fills and as it warms up, which limits the damage."
+    },
+    {
+      "id": "habits-that-genuinely-help",
+      "heading": "Habits that genuinely help",
+      "body": "You do not need to baby a phone, but a few habits make a real difference over two or three years:\n\n- Use the built-in charge limit or optimised charging feature if your phone has one. iPhone, Pixel and Samsung Galaxy phones all offer a way to stop at 80 per cent or to delay the last part of the charge until just before you usually wake up.\n- Keep the phone out of direct sun and take it out of a thick case if it gets hot while charging.\n- Top up when convenient rather than waiting for the low-battery warning.\n- If you are storing a spare phone, leave it at around half charge rather than full or empty.\n\nWhat does not help: closing apps constantly, or fully draining the battery once a month. Those tips date from older battery types."
+    },
+    {
+      "id": "when-to-replace-the-battery-rather-than-the-phone",
+      "heading": "When to replace the battery rather than the phone",
+      "body": "A worn battery is the most common reason a phone feels old, and it is usually the cheapest thing to fix. If the rest of the phone still does what you need, a battery replacement from the maker or a reputable repairer costs a fraction of a new handset and can add years of use. Check that the repairer uses a battery of the right specification and offers a warranty on the work.\n\nReplacing the battery also tends to fix sudden shutdowns at 20 or 30 per cent, which are a classic sign of a battery that can no longer deliver enough power when the phone asks for it."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Does charging overnight damage my phone battery?",
+      "a": "Leaving a phone at 100 per cent for hours adds a little stress, which is why most phones now offer optimised or limited charging that holds the battery at 80 per cent until near your usual unplug time."
+    },
+    {
+      "q": "Is fast charging bad for the battery?",
+      "a": "Fast charging mainly costs battery life through heat. Phones manage the charging rate to limit this, so the effect is small for most people, especially if the phone stays cool."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-li-ion",
+      "name": "Wikipedia: Lithium-ion battery",
+      "url": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

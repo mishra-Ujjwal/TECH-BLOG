@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "how-smartwatch-heart-rate-sensors-work",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "How smartwatch heart rate sensors work, and when to trust them",
+  "metaDescription": "How the green lights on a smartwatch measure heart rate, why readings go wrong during some workouts, and when a chest strap is the better choice.",
+  "excerpt": "Smartwatches estimate heart rate by shining light into your skin. Here is how it works, where it is accurate, and where it struggles.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "heart-rate",
+    "smartwatches",
+    "fitness-tracking"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "wearables",
+  "answer": "Smartwatches measure heart rate optically: LEDs shine light into your wrist and a sensor measures how much is reflected as blood volume changes with each beat. This is called photoplethysmography (PPG). It is accurate at rest and during steady exercise, but less reliable during interval training, weightlifting and in cold weather. A chest strap is more accurate for training.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "the-green-lights",
+      "heading": "The green lights",
+      "body": "The flashing lights on the back of a smartwatch or fitness tracker are part of an optical heart rate sensor. With every heartbeat, a little more blood passes through the tiny vessels in your wrist, then less. Blood absorbs green light strongly, so the amount of light reflected back to the sensor rises and falls with your pulse. The watch counts those rises and falls to calculate heart rate.\n\nThe technique is called photoplethysmography, or PPG. Many watches also use red and infrared light for other measurements, such as blood oxygen estimates, and some use different wavelengths during sleep."
+    },
+    {
+      "id": "where-optical-sensors-work-well",
+      "heading": "Where optical sensors work well",
+      "body": "Optical sensors are generally accurate when you are still or moving steadily: resting heart rate, sleep, walking, steady running and cycling at an even effort. Because they measure continuously, they are excellent for spotting trends over days and weeks, such as a resting heart rate creeping up when you are run down."
+    },
+    {
+      "id": "where-they-struggle",
+      "heading": "Where they struggle",
+      "body": "- **Rapid changes.** In interval sessions the watch can lag behind sudden rises and falls in heart rate.\n- **Cadence lock.** During running, the sensor can mistake the rhythm of your steps for your pulse, especially when the two are similar.\n- **Wrist movement and tension.** Gripping handlebars, weights or a racket flexes the wrist and changes blood flow, confusing readings.\n- **Cold.** Blood flow to the skin falls in cold weather, weakening the signal.\n- **Fit.** A loose strap lets light leak in and the sensor move.\n- **Skin and tattoos.** Wrist tattoos, particularly dark ink, can block light and reduce accuracy."
+    },
+    {
+      "id": "chest-straps",
+      "heading": "Chest straps",
+      "body": "A chest strap measures the heart's electrical activity directly, the same principle as an ECG, rather than inferring it from blood flow. It responds immediately to changes and is not fooled by arm movement, which makes it the standard for serious training. Most sports watches can pair with a chest strap over Bluetooth or ANT+ and will use it in place of the wrist sensor. Some armband optical sensors worn on the upper arm also perform better than wrist sensors, because the arm moves less."
+    },
+    {
+      "id": "getting-better-readings",
+      "heading": "Getting better readings",
+      "body": "- Wear the watch a finger's width above the wrist bone, snug but comfortable.\n- Tighten the strap a notch for workouts, then loosen it afterwards.\n- Keep the sensor clean.\n- Warm up before hard efforts, especially in winter.\n- Use a chest strap for interval training and strength sessions if heart rate data matters to you.\n\nRemember that consumer wearables are not medical devices unless certified as such. Features such as irregular rhythm notifications and ECG apps have specific approvals and limits; if a reading worries you, speak to a GP rather than relying on the watch."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Are smartwatch heart rate readings accurate?",
+      "a": "Generally yes at rest and during steady exercise. They are less reliable during intervals, weight training and in the cold, where a chest strap is better."
+    },
+    {
+      "q": "Why does my watch show the wrong heart rate when running?",
+      "a": "It may be locking onto your running cadence instead of your pulse, or the strap may be too loose. Tighten it a notch, or pair a chest strap."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-ppg",
+      "name": "Wikipedia: Photoplethysmogram",
+      "url": "https://en.wikipedia.org/wiki/Photoplethysmogram",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

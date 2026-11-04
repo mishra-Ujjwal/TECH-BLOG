@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "tv-refresh-rate-hdmi-2-1-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "TV refresh rates and HDMI 2.1 explained: 120Hz, VRR and ALLM",
+  "metaDescription": "What a TV's real refresh rate is, how motion-rate marketing differs, and which HDMI 2.1 features matter for PS5, Xbox and PC gaming on a UK TV.",
+  "excerpt": "Is the TV really 120Hz, and do you need HDMI 2.1? Here is how to see through motion marketing and which gaming features are worth paying for.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "hdmi-2-1",
+    "gaming",
+    "refresh-rate"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "tvs",
+  "answer": "A TV's native refresh rate is usually 50/60Hz or 100/120Hz. Labels such as Motion Rate 200 describe processing, not the panel. A true 120Hz panel helps smooth motion and is needed for 120 frames per second gaming on PS5, Xbox Series X and PCs, along with HDMI 2.1 features such as VRR and ALLM.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "native-refresh-rate-and-marketing-numbers",
+      "heading": "Native refresh rate and marketing numbers",
+      "body": "A TV panel refreshes a fixed number of times per second. In the UK, TVs are either 50/60Hz or 100/120Hz panels; the lower figure in each pair covers UK broadcast frame rates and the higher one covers other content.\n\nBrands also advertise numbers such as Motion Rate 200, Motionflow XR 800 or Clear Motion Index. These combine the panel's refresh rate with frame interpolation and backlight tricks. They do not mean the panel shows more distinct images per second. To find the native rate, look for 100Hz or 120Hz panel in a detailed specification, or in an independent review."
+    },
+    {
+      "id": "why-120hz-matters",
+      "heading": "Why 120Hz matters",
+      "body": "For films and broadcast TV, a 100/120Hz panel gives the processor more room to handle motion smoothly. For gaming, it is essential if you want to play at 120 frames per second, which many PS5, Xbox Series X and PC games offer. Higher frame rates make fast games look smoother and feel more responsive.\n\nBudget TVs often use 60Hz panels. They are perfectly fine for TV and films, but cap games at 60 frames per second."
+    },
+    {
+      "id": "hdmi-2-1-features",
+      "heading": "HDMI 2.1 features",
+      "body": "HDMI 2.1 is the version of HDMI that supports the bandwidth for 4K at 120Hz, plus several gaming features. Not every port on a TV is necessarily HDMI 2.1, and TVs sometimes list the features rather than the version, so check:\n\n- **4K at 120Hz:** needs a port with enough bandwidth (often listed as 40Gbps or 48Gbps) and an HDMI cable labelled Ultra High Speed.\n- **VRR (variable refresh rate):** the TV matches its refresh rate to the frame rate the console is producing, removing tearing and stutter when games fluctuate. You may see HDMI Forum VRR, FreeSync or G-Sync Compatible.\n- **ALLM (auto low latency mode):** the TV switches to game mode automatically when a console starts a game.\n- **eARC:** sends high-quality audio, including lossless Dolby Atmos, from the TV to a soundbar or AV receiver."
+    },
+    {
+      "id": "input-lag",
+      "heading": "Input lag",
+      "body": "Input lag is the delay between pressing a button and seeing the result. TVs do a lot of picture processing, which adds delay, so game mode switches most of it off. Good modern TVs in game mode have input lag of around 10 milliseconds or less at 120Hz, which is low enough for competitive play. Look for measured figures in reviews rather than relying on marketing."
+    },
+    {
+      "id": "setting-it-up",
+      "heading": "Setting it up",
+      "body": "- Plug the console into an HDMI port that supports 4K 120Hz; the TV's manual or the port label will say which.\n- Turn on the TV's enhanced HDMI or input signal plus setting for that port.\n- Use the Ultra High Speed cable supplied with the console, or a certified one.\n- In the console's video settings, enable 120Hz output and VRR.\n- Turn on ALLM, sometimes called auto game mode, in the TV settings.\n\nIf a game still runs at 60Hz, check that it offers a 120Hz or performance mode; not every game does."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is a 60Hz TV fine for PS5?",
+      "a": "Yes, for most games, which run at 60 frames per second or less. You will miss out on 120Hz modes that some games offer."
+    },
+    {
+      "q": "Do I need a special HDMI cable for 4K 120Hz?",
+      "a": "You need a cable certified as Ultra High Speed. Consoles that support 120Hz include one in the box."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-hdmi",
+      "name": "Wikipedia: HDMI",
+      "url": "https://en.wikipedia.org/wiki/HDMI",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-input-lag",
+      "name": "Wikipedia: Input lag",
+      "url": "https://en.wikipedia.org/wiki/Input_lag",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

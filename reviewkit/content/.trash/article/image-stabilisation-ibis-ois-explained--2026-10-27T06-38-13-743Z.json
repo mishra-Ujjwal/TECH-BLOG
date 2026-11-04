@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "image-stabilisation-ibis-ois-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Image stabilisation explained: IBIS, OIS and electronic stabilisation",
+  "metaDescription": "How in-body, optical and electronic image stabilisation reduce camera shake, how many stops they really give, and what they cannot fix.",
+  "excerpt": "Stabilisation lets you shoot handheld in dim light and film steady video. Here is how each type works and where its limits are.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "stabilisation",
+    "video",
+    "photography-basics"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "cameras",
+  "answer": "Image stabilisation counteracts the small movements of your hands. Optical stabilisation (OIS) moves elements inside the lens; in-body stabilisation (IBIS) moves the sensor; electronic stabilisation crops and shifts video frames digitally. Each lets you use slower shutter speeds without blur, but none can freeze a moving subject.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "the-problem-stabilisation-solves",
+      "heading": "The problem stabilisation solves",
+      "body": "Even steady hands move slightly. At fast shutter speeds that movement does not show, but at slower speeds, especially with telephoto lenses, it blurs the whole picture. In video, the same tremor makes footage jittery.\n\nStabilisation detects movement with gyroscopic sensors and counteracts it in real time. Manufacturers rate it in stops: a system rated at five stops lets you use a shutter speed roughly 32 times longer than without it for the same sharpness, in ideal conditions."
+    },
+    {
+      "id": "optical-stabilisation-in-the-lens",
+      "heading": "Optical stabilisation in the lens",
+      "body": "Optical image stabilisation (OIS) moves a group of lens elements to shift the image back into place on the sensor. Brands call it VR, IS, OSS or OIS. It works especially well with telephoto lenses, because the lens can correct large angular movements efficiently, and you see the stabilised image through the viewfinder. Phone cameras use a miniature version, moving the lens or the whole camera module."
+    },
+    {
+      "id": "in-body-stabilisation",
+      "heading": "In-body stabilisation",
+      "body": "In-body image stabilisation (IBIS) moves the sensor itself on several axes, usually five: shifting up, down and sideways, and rotating in three directions. Because it is in the camera, it stabilises every lens you attach, including old manual lenses. Many cameras combine IBIS with lens OIS, each handling the movements it is best at, for the highest ratings."
+    },
+    {
+      "id": "electronic-stabilisation",
+      "heading": "Electronic stabilisation",
+      "body": "Electronic image stabilisation (EIS) is mainly for video. The camera records a slightly larger area than the final frame, then shifts and crops each frame to cancel movement. Action cameras and phones use it heavily, often combined with motion data from gyroscopes, and the results can be remarkably smooth. The costs are a narrower field of view, some loss of detail, and occasional warping in low light, where long exposures blur within each frame before the software can correct it."
+    },
+    {
+      "id": "what-stabilisation-cannot-do",
+      "heading": "What stabilisation cannot do",
+      "body": "- **Freeze moving subjects.** It cancels your movement, not your subject's. A running dog still needs a fast shutter speed.\n- **Replace a tripod entirely.** For very long exposures, a tripod is still more reliable.\n- **Match the rating everywhere.** Stop ratings are measured under standard conditions; you may get less, especially at long focal lengths.\n\nTurn stabilisation off on a tripod if your camera does not detect it automatically, as some systems can introduce slight blur while trying to correct movement that is not there. For panning shots of moving vehicles, use a panning mode that stabilises only vertical movement."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is IBIS better than lens stabilisation?",
+      "a": "Each has strengths. Lens stabilisation is very effective with telephoto lenses; in-body stabilisation works with every lens. Combined systems give the best results."
+    },
+    {
+      "q": "Does image stabilisation help with moving subjects?",
+      "a": "No. It reduces blur from camera shake. To freeze a moving subject you need a faster shutter speed."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-is",
+      "name": "Wikipedia: Image stabilization",
+      "url": "https://en.wikipedia.org/wiki/Image_stabilization",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

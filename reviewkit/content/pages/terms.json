@@ -1,0 +1,66 @@
+{
+  "_note": "Plain-English terms for a UK review site. Not legal advice: the liability section in particular is worth having checked by someone qualified.",
+  "schemaVersion": 1,
+  "type": "page",
+  "slug": "terms",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Terms of use and editorial disclaimer",
+  "metaDescription": "The terms that apply when you use this site, what our reviews are and are not, how prices work, and the limits of our liability for buying decisions.",
+  "excerpt": "The terms that apply when you use this site, what our reviews can and cannot tell you, and how you may quote our work.",
+  "footer": true,
+  "author": {
+    "name": "{{publisher.name}}",
+    "slug": "publisher"
+  },
+  "dates": { "published": "2026-10-26" },
+  "sections": [
+    {
+      "id": "who-we-are",
+      "heading": "Who these terms are with",
+      "body": "This website, {{site.name}}, is run by {{publisher.name}} (\"we\", \"us\"). By using the site you agree to these terms. If you do not agree, please do not use it.\n\nYou can contact us at [{{publisher.email}}](mailto:{{publisher.email}})."
+    },
+    {
+      "id": "our-reviews",
+      "heading": "What our reviews are, and are not",
+      "body": "Our reviews are our honest opinion, based on our own testing of a particular product, version and setup at a particular time. Each review says when and how we tested and what we did not test.\n\nProducts change. Software updates, firmware changes and new models can make a review out of date, and your experience may differ from ours. Our reviews are general information to help you decide. They are not professional, financial, legal or safety advice, and they do not replace checking the details with the seller or maker before you buy."
+    },
+    {
+      "id": "prices",
+      "heading": "Prices and availability",
+      "body": "Every price on this site shows the retailer and the date we checked it. Prices and stock change often and without notice, so the price shown may no longer be right. The price the retailer shows at checkout is the one that applies.\n\nWe do not sell anything ourselves. Any purchase you make is between you and the retailer, under the retailer's terms, and your consumer rights are against the retailer."
+    },
+    {
+      "id": "affiliate-and-ads",
+      "heading": "Affiliate links and advertising",
+      "body": "Some links earn us a commission if you buy through them. They are marked where they appear, and the commission never affects a verdict or a score. Details are in our [affiliate disclosure](/affiliate-disclosure).\n\nAdverts on the site, when shown, are chosen by the ad network, not by us. An advert is not a recommendation."
+    },
+    {
+      "id": "our-content",
+      "heading": "Our content and how you may use it",
+      "body": "The text, photographs, screenshots, measurements and design of this site belong to us unless stated otherwise.\n\nYou are welcome to quote a short extract, or one of our measurements, if you credit {{site.name}} and link to the page it came from. You may not copy whole reviews or substantial parts of them, republish our photographs, or use our content to train or feed automated systems, without our written permission.\n\nSome material, such as product specifications, comes from other sources. Each review lists its sources, and any material used under someone else's licence stays under that licence."
+    },
+    {
+      "id": "using-the-site",
+      "heading": "Using the site",
+      "body": "Please do not try to disrupt the site, gain access to parts of it that are not public, or scrape it in bulk. We may change, suspend or remove any part of the site at any time.\n\nWe link to other websites, such as retailers and makers. We are not responsible for their content, their products or their privacy practices."
+    },
+    {
+      "id": "liability",
+      "heading": "Limits of our liability",
+      "body": "We take care to make our reviews accurate, but we cannot promise that everything on the site is complete, correct or up to date at the moment you read it.\n\nTo the extent the law allows, we are not liable for any loss arising from your use of the site or from relying on its content, including a buying decision. We are not liable for any business losses, such as lost profit or lost opportunity.\n\nNothing in these terms limits or excludes our liability for death or personal injury caused by our negligence, for fraud, or for anything else that cannot be limited or excluded under the law of England and Wales. Nothing here affects your legal rights as a consumer."
+    },
+    {
+      "id": "changes",
+      "heading": "Changes to these terms",
+      "body": "We may update these terms from time to time. The date at the top of this page shows when they last changed. The version on this page when you use the site is the one that applies."
+    },
+    {
+      "id": "law",
+      "heading": "Governing law",
+      "body": "These terms are governed by the law of England and Wales, and the courts of England and Wales have jurisdiction. If you live in Scotland or Northern Ireland, you may also bring proceedings in your local courts."
+    }
+  ],
+  "editorial": { "aiAssisted": false, "updates": [] },
+  "seo": { "noindex": false, "alternates": [] }
+}

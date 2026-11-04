@@ -1,0 +1,49 @@
+{
+  "_note": "TEMPLATE. A real, monitored contact route is required. An email address is enough; a form is not required.",
+  "schemaVersion": 1,
+  "type": "page",
+  "slug": "contact",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Contact us about a review or a correction",
+  "metaDescription": "How to reach us about a correction, a review request, a press enquiry or a privacy request, and how long a reply usually takes.",
+  "excerpt": "How to reach us about corrections, review requests, press enquiries and privacy requests.",
+  "footer": true,
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-20"
+  },
+  "sections": [
+    {
+      "id": "email",
+      "heading": "Email",
+      "body": "Email [{{publisher.email}}](mailto:{{publisher.email}}). Corrections, questions about an article, review requests and privacy requests all go to the same inbox.\n\nWe read every message and aim to reply within a week. Corrections are prioritised."
+    },
+    {
+      "id": "corrections",
+      "heading": "Corrections and complaints",
+      "body": "If something on this site is wrong, tell us and include the page address. We will check it against our notes and either correct the page with a dated note or explain why we stand by it."
+    },
+    {
+      "id": "pr",
+      "heading": "For PR and brands",
+      "body": "We do not accept paid posts, guest posts, link insertions or payment for coverage, scores or placement.\n\nWe may consider review samples. Any review of a product that was supplied free or on loan says so at the top, and accepting a sample never guarantees coverage or a positive verdict. Brands do not see reviews before they are published."
+    },
+    {
+      "id": "privacy-requests",
+      "heading": "Privacy requests",
+      "body": "To exercise your rights under UK GDPR, including access to, correction of or deletion of your personal data, or to object to how we use it, email [{{publisher.email}}](mailto:{{publisher.email}}) with the subject line Privacy request.\n\nWe will respond within one month, as the law requires. If you are not happy with our response, you can complain to the Information Commissioner's Office (ico.org.uk). Our [privacy policy](/privacy-policy) explains what we collect and why."
+    }
+  ],
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  }
+}

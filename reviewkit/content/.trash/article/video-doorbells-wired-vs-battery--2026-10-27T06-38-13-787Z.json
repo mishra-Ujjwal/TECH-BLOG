@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "video-doorbells-wired-vs-battery",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Video doorbells explained: wired vs battery, subscriptions and privacy",
+  "metaDescription": "How wired and battery video doorbells differ, what subscriptions pay for, local storage, and the UK privacy rules if your camera sees beyond your property.",
+  "excerpt": "A video doorbell is one of the most popular smart home upgrades. Here is how to choose between wired and battery models, and what the running costs are.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "doorbells",
+    "security-cameras",
+    "privacy"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "smart-home",
+  "answer": "Battery video doorbells are easiest to fit but need recharging and may react more slowly. Wired doorbells use your existing bell wiring for constant power, so they can record continuously and respond faster. Many brands charge a monthly subscription for recorded video; others store clips locally. If your camera records beyond your property, UK data protection rules apply.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "battery-doorbells",
+      "heading": "Battery doorbells",
+      "body": "Battery models screw to the door frame and connect over Wi-Fi, so they suit renters and homes without existing doorbell wiring. The battery typically lasts weeks to a few months, depending on how busy your door is and the settings. Cold weather shortens it.\n\nTo save power, battery doorbells sleep until their motion sensor wakes them, which can mean a slight delay before recording starts and before you can see a live view. Some can also be wired for trickle charging."
+    },
+    {
+      "id": "wired-doorbells",
+      "heading": "Wired doorbells",
+      "body": "Wired doorbells connect to the low-voltage wiring and transformer of a traditional doorbell. Constant power allows faster wake times, more sensitive motion detection and, on some models, continuous recording. Many UK homes have battery-powered wireless chimes rather than wired ones, so check before buying; adding a transformer may need an electrician. Some wired models need a compatible chime or a plug-in chime instead."
+    },
+    {
+      "id": "subscriptions-and-storage",
+      "heading": "Subscriptions and storage",
+      "body": "Most doorbells show a live view and send notifications for free. Storing recorded clips, reviewing history and features such as person or package detection often need a subscription from the maker. Prices vary and add up over the years, so include them in the cost.\n\nAlternatives include doorbells with local storage on a microSD card or a home hub, which avoid monthly fees and keep footage in your home. Check how long clips are kept and how they are protected, including whether end-to-end encryption is available."
+    },
+    {
+      "id": "privacy-and-the-law-in-the-uk",
+      "heading": "Privacy and the law in the UK",
+      "body": "If your doorbell captures images or audio beyond your own property, such as the street, a neighbour's garden or a shared path, UK data protection law applies to you as the person controlling the recording. The Information Commissioner's Office advises that you should:\n\n- position the camera and set privacy zones so it captures as little beyond your property as possible\n- consider turning audio recording off, which often captures far more than video\n- put up a sign saying recording is taking place\n- keep footage only as long as needed and keep it secure\n- respond to requests from people asking for footage of themselves\n\nNeighbour disputes over doorbell cameras are common, and courts have found against owners whose cameras recorded excessively."
+    },
+    {
+      "id": "choosing-one",
+      "heading": "Choosing one",
+      "body": "- **Wiring:** use a wired model if you have suitable bell wiring; otherwise battery.\n- **Field of view:** a head-to-toe view helps see parcels left on the step.\n- **Running costs:** compare subscription prices or choose local storage.\n- **Ecosystem:** check it works with your smart displays or speakers if you want the picture on a screen.\n- **Security:** check the support period and two-factor authentication on the account.\n- **Fitting:** a wedge or corner mount can angle the camera towards the path and away from the street."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do video doorbells need a subscription?",
+      "a": "Many work for live view and alerts without one, but recording and reviewing clips often needs a monthly plan. Some models store video locally instead."
+    },
+    {
+      "q": "Is it legal to have a video doorbell that films the street in the UK?",
+      "a": "Yes, but data protection rules apply if it captures beyond your property. Limit what it sees, consider turning off audio and put up a sign."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ico-cctv",
+      "name": "ICO: Domestic CCTV systems",
+      "url": "https://ico.org.uk/for-the-public/domestic-cctv-systems/",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

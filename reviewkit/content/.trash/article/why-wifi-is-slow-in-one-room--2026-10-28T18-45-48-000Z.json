@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "why-wifi-is-slow-in-one-room",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "One room with terrible Wi-Fi: what actually fixes it",
+  "metaDescription": "Before you buy a mesh system, three free changes fix most dead spots: router position, the right frequency band, and finding a clearer channel.",
+  "excerpt": "Every house has one room where Wi-Fi gives up. The instinct is to buy something. Three free changes fix most dead spots, and knowing which one applies tells you whether you need to spend anything at all.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "wifi",
+    "networking",
+    "broadband",
+    "troubleshooting"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: PPPP (Picture, Promise, Prove, Push). Picture = the lightbulb image. Promise = three free fixes. Prove = the two-speed-test diagnostic. Push = what to buy, in order, only if the free fixes failed.\n\nBEFORE PUBLISHING:\n1. DO THE TEST IN YOUR OWN HOME AND PUBLISH THE NUMBERS. Speed test next to the router, then in your worst room, on both bands. Four numbers, ten minutes, and they turn this from an explainer into something with evidence. Say which router and which broadband package.\n2. If you own a Wi-Fi analyser app, screenshot the channel congestion in your area. In a UK terrace that image is usually striking and makes the congestion point immediately.\n3. VERIFY the non-overlapping 2.4GHz channel point (1, 6 and 11) and the general propagation claims against a reputable networking reference, and link it.\n4. Be careful with powerline advice. It genuinely varies by property, so keep it hedged as written.\n5. IMAGES: your own speed test screenshots side by side, and a photo of your router where it currently sits. 1200px minimum.\n6. Put your own name on it.",
+  "format": "explainer",
+  "category": "networking",
+  "answer": "Usually it is the router's position, the frequency band your device picked, or interference from neighbouring networks. Move the router higher and more central, make sure distant devices use the 2.4GHz band rather than 5GHz, and check whether your channel is congested. These cost nothing. If the dead spot survives all three, the cause is almost certainly a wall you cannot move, and that is when a mesh system or a wired access point is the right answer.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "picture",
+      "heading": "Picture what is actually happening",
+      "body": "Wi-Fi is radio, and it behaves like light more than people expect. It travels in straight lines from the aerial, it reflects off hard surfaces, and it is absorbed by things in its way.\n\nThe things that absorb it most are the things your house is made of. Water absorbs it strongly, which makes a full bathroom tank, a boiler and even a dense bookcase more of an obstacle than they look. Metal reflects it completely, so a foil-backed insulation board, a radiator or a metal stud wall can cast a shadow as sharply as a wall casts one from a lamp.\n\nSo picture a lightbulb where your router sits. The dim corners of that house are your dead spots. That mental image predicts coverage better than any number on a box, and it immediately explains why the router in a cupboard under the stairs, on the floor, behind a boiler, performs the way it does."
+    },
+    {
+      "id": "promise",
+      "heading": "Three free changes fix most of it",
+      "body": "In order of how much difference they make.\n\n**Move the router.** Higher and more central. Off the floor, out of the cupboard, away from the boiler and the fish tank and the mirror. Radio spreads downward and outward more usefully than upward, so shelf height in a central room beats floor level at the end of the house by a wide margin. If the master socket limits you, a longer cable from it is cheap.\n\n**Check which band the device is using.** Modern routers broadcast 2.4GHz and 5GHz, and often 6GHz. The higher bands are much faster and much worse at passing through walls. A phone in a distant room may be clinging to 5GHz at a weak signal when it would be faster on 2.4GHz. Some routers let you separate the bands into different network names so you can choose. For the far corners of a house, 2.4GHz is usually the right answer despite the lower headline speed.\n\n**Find a clearer channel.** In a flat or a terrace you share the airwaves with every neighbour. If six routers are on the same channel, they take turns, and your speed falls even with full signal strength. A free Wi-Fi analyser app shows which channels are busy. Most routers let you set the channel manually, and on 2.4GHz channels 1, 6 and 11 are the ones that do not overlap."
+    },
+    {
+      "id": "prove",
+      "heading": "How to tell which problem you have",
+      "body": "Test before you spend, because the symptoms differ and they point at different fixes.\n\n**Stand in the bad room and run a speed test. Then stand next to the router and run the same test.**\n\nIf it is fast at the router and slow in the room, that is coverage. Position, band and obstacles are your problem, and the three free changes apply.\n\nIf it is slow in both places, your Wi-Fi is not the issue. That is your broadband line, and no amount of equipment inside the house will fix it. Test with a cable plugged directly into the router to confirm, then take it up with your provider.\n\nIf it is fast sometimes and terrible at others, particularly in the evening, that is congestion, either from neighbours sharing channels or from your own household saturating the connection. The channel change addresses the first. Only more bandwidth addresses the second.\n\nThat one comparison saves most people from buying the wrong thing, which is usually a mesh system for a problem that was a slow line all along."
+    },
+    {
+      "id": "push",
+      "heading": "When buying something is the right answer",
+      "body": "If the three free changes do not fix it, the cause is physical: a thick wall, a long house, a chimney breast, or a floor you cannot broadcast through. That is a real problem and it needs hardware.\n\n**Wired access point, if you can run a cable.** The best answer by a distance. A second access point connected by ethernet gives full speed at the far end with none of the compromises. If a cable run is possible, do this.\n\n**Mesh system, if you cannot.** Several units that hand devices between them. Good, convenient, and worth the money for a larger house. Be aware that units talking to each other wirelessly use capacity to do it, so the further unit is slower than the first. Place them where each still has a decent signal from the last, not in the dead spot itself, which is the commonest setup mistake.\n\n**Powerline adapters, as a qualified option.** They send data over your mains wiring. On a good circuit they work well and they are cheap. On an older installation, or across different circuits, they can be poor. They are worth trying if the shop will take a return.\n\n**Avoid simple repeaters.** They rebroadcast what they hear, which typically halves throughput and often makes devices cling to the repeater when the router would serve them better. They are cheap for a reason.\n\nOne more thing before you spend: check how old your router is. If it came free with a broadband contract five years ago, it is a generation or two behind, and replacing it sometimes solves the problem on its own."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Why is my Wi-Fi slow in one room only?",
+      "a": "Almost always the signal path. Walls, water and metal absorb or reflect it, so a router low down or in a cupboard casts shadows. Position, the frequency band your device chose, and channel congestion explain most dead spots."
+    },
+    {
+      "q": "Should I use 2.4GHz or 5GHz?",
+      "a": "5GHz is faster but much worse at passing through walls. Close to the router, use 5GHz. In distant rooms, 2.4GHz is usually faster in practice despite the lower headline speed."
+    },
+    {
+      "q": "Will a mesh system fix slow broadband?",
+      "a": "No. If a speed test is slow while standing next to the router, the problem is your line rather than your Wi-Fi, and no equipment inside the house will change it. Test next to the router before buying anything."
+    },
+    {
+      "q": "Are Wi-Fi extenders any good?",
+      "a": "Simple repeaters typically halve throughput and encourage devices to stay connected to the weaker unit. A mesh system or, better, a wired access point gives a much better result."
+    }
+  ],
+  "sources": []
+}

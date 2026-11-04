@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "smart-thermostats-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Smart thermostats explained: how they work with UK heating systems",
+  "metaDescription": "How smart thermostats control combi boilers and system boilers, what features such as geofencing and load compensation do, and how to judge energy saving claims.",
+  "excerpt": "Smart thermostats can make heating easier to control and sometimes cheaper. Here is how they work with UK systems and what to check first.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "heating",
+    "thermostats",
+    "energy"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "smart-home",
+  "answer": "A smart thermostat lets you control your heating from a phone, set schedules more easily and switch off when everyone is out. Savings depend on how wasteful your old routine was. Check compatibility with your boiler, whether you need a separate hot water controller, and whether the thermostat supports OpenTherm for better boiler control.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-a-smart-thermostat-does",
+      "heading": "What a smart thermostat does",
+      "body": "A traditional thermostat switches the boiler on when the room is colder than the set temperature. A smart thermostat does that too, but connects to the internet and your phone so you can control it remotely, set detailed schedules and see your heating history.\n\nMost UK smart thermostats consist of a receiver wired near the boiler, a thermostat or temperature sensor in your living space, and a bridge or hub connected to your router, though some combine parts."
+    },
+    {
+      "id": "uk-heating-systems",
+      "heading": "UK heating systems",
+      "body": "- **Combi boilers** heat hot water on demand, so the thermostat only controls central heating.\n- **System and regular boilers** with a hot water cylinder need control of both heating and hot water. Many smart thermostats offer a version with hot water control; check you buy the right one.\n- **Heat pumps** have different control needs, often with lower, steadier flow temperatures. Use a controller designed or approved for your heat pump.\n\nIf your current thermostat is wireless or the boiler wiring is unusual, professional installation is often worthwhile. Gas boiler work must be done by a Gas Safe registered engineer, though most thermostat installations only involve low-voltage control wiring."
+    },
+    {
+      "id": "features-that-matter",
+      "heading": "Features that matter",
+      "body": "- **Geofencing:** uses your phone's location to turn the heating down when everyone has left, and back up as someone approaches.\n- **Multi-room control:** smart radiator valves let you heat rooms to different temperatures on different schedules.\n- **OpenTherm and load compensation:** rather than switching the boiler fully on and off, the thermostat tells it to run at lower power as the room approaches temperature. Condensing boilers are more efficient at lower flow temperatures, so this can save energy. The boiler must support OpenTherm or the maker's own protocol.\n- **Weather compensation:** adjusts flow temperature based on outdoor temperature.\n- **Open window detection, holiday modes and integration with voice assistants.**"
+    },
+    {
+      "id": "will-it-save-money",
+      "heading": "Will it save money?",
+      "body": "Savings depend on your habits before and after. If you already set your heating carefully, a smart thermostat may save little. If the heating often runs when nobody is home, or rooms are heated that are not used, the savings can be meaningful. Manufacturer claims are often based on specific studies and homes; be cautious about headline percentages.\n\nThe biggest gains usually come from lower flow temperatures on condensing boilers, zoning with radiator valves, and simply being able to adjust heating when plans change."
+    },
+    {
+      "id": "before-buying",
+      "heading": "Before buying",
+      "body": "- Check boiler compatibility on the maker's website, including OpenTherm support if you want load compensation.\n- Decide whether you need hot water control.\n- Check whether the system still works if the internet or the maker's servers are down.\n- Check the security update period and whether features need a subscription.\n- If you rent, ask your landlord before changing the heating controls."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do smart thermostats work with combi boilers?",
+      "a": "Yes, most do, controlling the central heating. Hot water on a combi boiler is heated on demand and does not need scheduling."
+    },
+    {
+      "q": "Will a smart thermostat lower my energy bills?",
+      "a": "It can if your heating was running when it was not needed, or if it enables lower boiler flow temperatures. If you already managed your heating carefully, savings may be small."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-opentherm",
+      "name": "Wikipedia: OpenTherm",
+      "url": "https://en.wikipedia.org/wiki/OpenTherm",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-smart-thermostat",
+      "name": "Wikipedia: Smart thermostat",
+      "url": "https://en.wikipedia.org/wiki/Smart_thermostat",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "what-a-smartwatch-can-and-cannot-measure",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "What your smartwatch measures, and what it estimates",
+  "metaDescription": "Some numbers on your watch are measured directly. Others are estimates built on assumptions. Knowing which is which changes how much weight to give each one.",
+  "excerpt": "Your watch shows heart rate, calories, sleep stages and stress on the same screen, in the same font, with the same confidence. Behind that uniform display, some figures come from a sensor and others from a model making assumptions about you.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "smartwatch",
+    "wearables",
+    "sensors",
+    "fitness-tracking"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "FRAMEWORK: 4 C's (Clear, Concise, Compelling, Credible). Credibility is the point of this piece, so every claim is bounded and the limits are stated plainly rather than buried.\n\nBEFORE PUBLISHING:\n1. HEALTH TOPIC. Keep it as written: describe what sensors do, never advise on health. Do not add anything about target heart rates, safe ranges, what a reading might indicate, or when something is or is not serious. The line this article holds is 'what the device measures' versus 'what your body is doing', and that line is what keeps it both honest and safe.\n2. VERIFY the photoplethysmography explanation and the point about sleep staging against a reputable medical or academic source, and link it. This is the one article of the ten where a weak source would actually matter.\n3. Do not name specific regulator-cleared features for specific brands without checking current status in the UK, which differs from the US.\n4. IMAGES: photograph the underside of your own watch with the sensor array visible, and screenshot your own sleep breakdown. Both yours, both free. 1200px minimum.\n5. If you have worn two different brands and seen them disagree about the same night, that anecdote is the single most valuable paragraph you could add, and no competitor has it.\n6. Put your own name on it.",
+  "format": "explainer",
+  "category": "wearables",
+  "answer": "Heart rate and movement are measured directly and are generally reliable at rest. Steps, calories burned, sleep stages and stress scores are estimates produced by algorithms working from those few raw signals plus assumptions about your body. The useful rule is to trust the direction a number moves over weeks, and to be sceptical of the number itself. Nothing on a consumer watch is a diagnosis, and anything that worries you belongs with a GP rather than an app.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "measured",
+      "heading": "What is genuinely measured",
+      "body": "Two things, essentially, and everything else is built from them.\n\n**Movement.** An accelerometer detects acceleration, and a gyroscope detects rotation. These are mature, cheap and accurate at what they do, which is sensing how the thing on your wrist is moving through space.\n\n**Blood flow at the skin.** Green LEDs shine into your wrist and a sensor measures how much light comes back. Blood absorbs green light, so the reflected amount varies with each pulse. That gives heart rate. This is called photoplethysmography, and at rest on a well-fitted watch it is genuinely good.\n\nSome watches add real measurements on top: skin temperature, blood oxygen estimated from a second wavelength of light, and on some models an electrical heart signal taken when you touch the crown, which is a different and better method than the optical one.\n\nThat is the raw material. A couple of motion signals and some light bouncing off blood."
+    },
+    {
+      "id": "estimated",
+      "heading": "What is estimated, and from what",
+      "body": "Everything else is inference, and the gap between the raw signal and the displayed number is often wide.\n\n**Steps** come from pattern-matching wrist motion. Reliable while walking. It also counts some of what you do while washing up, and misses steps when you push a trolley or hold a handrail.\n\n**Calories burned** is the least reliable figure on the watch, and the one people act on most. It combines heart rate and movement with your height, weight, age and sex, then applies a population model. Your actual metabolism is not the population's. Treat it as a relative measure, useful for comparing your Tuesday to your Wednesday, and not as a budget to eat against.\n\n**Sleep stages** are inferred from movement and heart rate variability. The clinical method for distinguishing light, deep and REM sleep measures brain activity, which your watch cannot see. Total time asleep is reasonably good. The coloured breakdown of stages is a model's best guess, and different brands given the same night will disagree.\n\n**Stress and readiness scores** are derived mostly from heart rate variability. HRV is a real physiological signal with genuine meaning, but it is affected by caffeine, alcohol, illness, dehydration, how you slept, and where you are in your menstrual cycle. A single day's score carries little information."
+    },
+    {
+      "id": "why-it-matters",
+      "heading": "Why the distinction matters more than accuracy",
+      "body": "The problem is not that estimates exist. Estimates are useful. The problem is presentation.\n\nA directly measured resting heart rate and a modelled stress score appear on the same screen, in the same typeface, with the same air of authority. Nothing in the design tells you that one is a reading and the other is a guess with error bars that the interface has quietly removed.\n\nSo here is the rule that makes wearables genuinely useful: **trust trends, not values.**\n\nYour resting heart rate rising from 58 to 66 over three weeks is meaningful, because the method is consistent even if the absolute figure is imperfect. Your sleep score being 72 last night means very little. The direction a number travels over time is where the signal lives. The number itself is where the marketing lives."
+    },
+    {
+      "id": "getting-better-data",
+      "heading": "Four things that improve what you get",
+      "body": "**Wear it properly.** A finger's width above the wrist bone, snug enough not to slide. Optical heart rate is highly sensitive to fit, and a loose watch produces bad data that looks exactly like good data.\n\n**Keep the sensor clean.** Sweat, sun cream and dried skin all scatter the light. A wipe makes a measurable difference.\n\n**Enter your details honestly.** The calorie and effort models use your height, weight, age and sex. Wrong inputs give confidently wrong outputs.\n\n**Do not change watches mid-experiment.** Different brands use different algorithms, so your sleep score dropping when you switch brands tells you about the algorithm, not your sleep."
+    },
+    {
+      "id": "limits",
+      "heading": "Where to stop relying on it",
+      "body": "A consumer smartwatch is a wellbeing device, not a medical instrument, and the sensible boundary is clearer than the marketing suggests.\n\nIf something it shows you worries you, that is a reason to speak to a GP, not a reason to buy a better watch or to dig deeper into the app. Equally, if you feel unwell but your watch says everything is fine, the watch does not overrule how you feel. It has no idea how you feel. It has a model and some light bouncing off your wrist.\n\nSome watches do carry features cleared by regulators for specific purposes, such as irregular rhythm notifications. Those are narrow, specific claims, and they are not the same as the general health dashboard. If one of those features alerts you, take it to a doctor rather than to a forum.\n\nUsed with that boundary clear, these devices are genuinely good at what they are good at: noticing that something has changed, consistently, over time. That is a real contribution, and it is a smaller claim than the one on the box."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "How accurate is smartwatch heart rate?",
+      "a": "At rest, on a well-fitted watch, generally good. During intense or irregular movement it is less reliable, because the optical sensor is disturbed by motion. A chest strap remains more accurate for exercise."
+    },
+    {
+      "q": "Can a smartwatch really track sleep stages?",
+      "a": "It estimates them from movement and heart rate variability. The clinical method measures brain activity, which a watch cannot do. Total sleep time is reasonably reliable; the breakdown into light, deep and REM is a model's estimate, and different brands disagree about the same night."
+    },
+    {
+      "q": "Are the calorie numbers accurate?",
+      "a": "They are the least reliable figure the watch shows, because they rest on a population model rather than your own metabolism. Use them to compare one of your days to another, not as an absolute figure."
+    },
+    {
+      "q": "Should I see a doctor about something my watch showed?",
+      "a": "If it worries you, yes. A consumer wearable is not a diagnostic device, and the right response to a concerning reading or to feeling unwell is a GP rather than another app."
+    }
+  ],
+  "sources": []
+}

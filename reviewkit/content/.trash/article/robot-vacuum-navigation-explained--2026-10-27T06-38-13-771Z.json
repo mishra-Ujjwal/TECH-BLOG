@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "robot-vacuum-navigation-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Robot vacuum navigation explained: lidar, cameras and obstacle avoidance",
+  "metaDescription": "How robot vacuums map a home with lidar or cameras, what obstacle avoidance can and cannot spot, and what self-emptying and mopping docks add.",
+  "excerpt": "Robot vacuums range from random bumpers to precise mappers. Here is how navigation works and which features make the most difference.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "robot-vacuums",
+    "cleaning",
+    "buying-advice"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "smart-home",
+  "answer": "Modern robot vacuums map your home with lidar (a spinning laser) or cameras, so they clean in neat lines, return to the dock and let you mark no-go zones. Obstacle avoidance uses cameras or structured light to dodge cables and socks, but no robot avoids everything. Docks that empty the bin and wash mop pads reduce maintenance.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "from-bumping-to-mapping",
+      "heading": "From bumping to mapping",
+      "body": "Early robot vacuums moved randomly, changing direction when their bumper hit something. They eventually covered most of a room but took a long time and often missed areas.\n\nToday's models build a map of your home and plan efficient routes. Mapping also enables the features most owners find most useful: cleaning one room on demand, scheduling different rooms on different days, and blocking areas such as a dog bowl or a tangle of cables."
+    },
+    {
+      "id": "lidar",
+      "heading": "Lidar",
+      "body": "Most mapping robots use lidar: a laser in a turret on top spins and measures the distance to walls and furniture many times a second. Lidar maps are accurate and work in the dark. The turret adds height, which can stop the robot getting under low sofas and beds; some newer models use retractable or side-mounted lidar to reduce this."
+    },
+    {
+      "id": "cameras",
+      "heading": "Cameras",
+      "body": "Camera-based navigation, sometimes called vSLAM, uses a camera pointing forwards or upwards to recognise features and track position. It can be accurate and allows a lower profile, but generally needs some light to work well. Cameras also enable object recognition, identifying specific obstacles rather than just detecting that something is there."
+    },
+    {
+      "id": "obstacle-avoidance",
+      "heading": "Obstacle avoidance",
+      "body": "Robots detect small obstacles in front of them using a combination of structured light (projected lines or dots), front-facing cameras and sometimes time-of-flight sensors. The best can recognise common hazards such as charging cables, socks, shoes and pet mess, and steer around them.\n\nNo system is perfect. Thin cables, dark objects on dark floors, and items near furniture legs are still commonly missed. Tidying the floor before a run makes any robot more effective. Consider privacy too: camera-equipped robots capture images of your home, so check how images are processed and stored, and whether processing is done on the device."
+    },
+    {
+      "id": "docks-mopping-and-other-features",
+      "heading": "Docks, mopping and other features",
+      "body": "- **Self-emptying docks** suck the robot's dust bin into a bag in the dock, so you empty it every few weeks instead of after every run. Bags are an ongoing cost.\n- **Mopping** ranges from a damp pad dragged behind the robot to rotating pads with water tanks. Docks that wash and dry pads reduce smells and effort.\n- **Carpet detection** raises the mop or boosts suction on rugs.\n- **Climbing ability** matters for thresholds between rooms; check the maximum height.\n- **Brush design:** rubber rollers tangle less with long hair than bristle brushes.\n\nCheck the cost and availability of replacement brushes, filters and bags, and the security update period, before buying."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is lidar better than camera navigation on a robot vacuum?",
+      "a": "Lidar is very accurate and works in the dark. Camera navigation allows a lower profile and object recognition but usually needs some light. Both can work well."
+    },
+    {
+      "q": "Do robot vacuums avoid cables and socks?",
+      "a": "Models with good obstacle avoidance usually do, but none is perfect. Thin or dark objects are still sometimes missed."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-robot-vacuum",
+      "name": "Wikipedia: Robotic vacuum cleaner",
+      "url": "https://en.wikipedia.org/wiki/Robotic_vacuum_cleaner",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-lidar",
+      "name": "Wikipedia: Lidar",
+      "url": "https://en.wikipedia.org/wiki/Lidar",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

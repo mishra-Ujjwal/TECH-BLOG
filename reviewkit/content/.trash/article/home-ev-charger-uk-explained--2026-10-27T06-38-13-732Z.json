@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "home-ev-charger-uk-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Home EV chargers in the UK explained: smart rules, grants and installation",
+  "metaDescription": "What UK smart charge point rules require, who can get the government chargepoint grant in 2026, and what to check before a home EV charger is installed.",
+  "excerpt": "Most electric car owners with a driveway charge at home. Here is what the UK rules require of chargers, who can get a grant, and what installation involves.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "ev-charging",
+    "home-charger",
+    "grants"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "evs",
+  "answer": "Home EV chargers sold in Great Britain since 30 June 2022 must be smart, under the Electric Vehicles (Smart Charge Points) Regulations 2021, with features such as scheduled charging. The government's chargepoint grant now supports renters, flat owners and landlords rather than homeowners with driveways, at up to £500 per socket from 1 April 2026.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why-most-people-use-a-wallbox",
+      "heading": "Why most people use a wallbox",
+      "body": "You can charge from a three-pin socket with the cable many cars come with, but it is slow and puts a sustained load on household wiring not designed for it. A dedicated wallbox charger, usually 7kW, is faster, safer and lets you take advantage of cheaper off-peak electricity tariffs."
+    },
+    {
+      "id": "the-smart-charge-point-rules",
+      "heading": "The smart charge point rules",
+      "body": "The Electric Vehicles (Smart Charge Points) Regulations 2021 apply to most charge points sold for homes and workplaces in Great Britain since 30 June 2022. In summary, charge points must:\n\n- be able to connect to a communications network and keep working as a charger if the connection drops\n- allow the owner to schedule charging, with off-peak default charging hours set during setup that the owner can change\n- include a randomised delay, so many chargers do not all switch on at exactly the same moment, which could strain the grid\n- keep their smart functions if you change electricity supplier\n- meet security requirements and measure or calculate energy use\n\nPublic rapid chargers of 50kW and above are not covered by these rules."
+    },
+    {
+      "id": "government-grants",
+      "heading": "Government grants",
+      "body": "The EV chargepoint grant is aimed at people who would otherwise find it hard to install a charger: renters, people who own and live in a flat, and landlords. Homeowners in houses with their own driveways are no longer eligible. According to GOV.UK guidance, maximum grant rates rose from £350 to £500 per socket from 1 April 2026, and the schemes are open until 31 March 2027.\n\nEligibility conditions include having private off-street parking and owning, leasing or having ordered an eligible electric or plug-in hybrid vehicle. Installers apply on your behalf, so use an installer authorised for the scheme. Check GOV.UK for the current terms, as they change."
+    },
+    {
+      "id": "installation",
+      "heading": "Installation",
+      "body": "A qualified electrician or specialist installer will:\n\n- check your electricity supply and consumer unit; some homes need an upgraded main fuse or a new consumer unit\n- notify your distribution network operator, which may need to approve the connection or upgrade the supply\n- run a cable from the consumer unit to the charger location, ideally close to where you park\n- set up earthing protection appropriate to the charger\n- register the installation and demonstrate the app\n\nIf you do not have off-street parking, you cannot run a cable across the pavement without permission from your council, as it creates a trip hazard. Some councils allow approved cable channels."
+    },
+    {
+      "id": "choosing-a-charger",
+      "heading": "Choosing a charger",
+      "body": "- **Tethered or untethered:** a fixed cable is convenient; a socket is neater and suits different cars.\n- **Tariff integration:** some chargers work with smart EV tariffs that charge when electricity is cheapest or greenest.\n- **Solar:** if you have solar panels, look for a solar matching mode.\n- **Load balancing:** protects your main fuse by reducing charging when the house is using lots of power.\n- **Security and support:** check the security update period and whether the app works without a subscription."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Can I get a government grant for a home EV charger?",
+      "a": "If you rent, own and live in a flat, or are a landlord, you may be eligible for up to £500 per socket from 1 April 2026. Homeowners in houses are no longer eligible. Check GOV.UK for current terms."
+    },
+    {
+      "q": "Do I need a smart charger?",
+      "a": "Home charge points sold in Great Britain since 30 June 2022 must meet the smart charge point regulations, so new chargers are smart by default."
+    }
+  ],
+  "sources": [
+    {
+      "id": "govuk-grant",
+      "name": "GOV.UK: Electric vehicle chargepoint grant for renters or flat owners",
+      "url": "https://www.gov.uk/electric-vehicle-chargepoint-grant-household/what-you-can-get",
+      "licence": "Open Government Licence v3.0",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "smart-regs",
+      "name": "The Electric Vehicles (Smart Charge Points) Regulations 2021",
+      "url": "https://www.legislation.gov.uk/uksi/2021/1467/contents/made",
+      "licence": "Open Government Licence v3.0",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

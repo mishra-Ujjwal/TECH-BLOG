@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "ev-battery-health-degradation-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "EV battery health explained: how much capacity electric cars lose",
+  "metaDescription": "How electric car batteries degrade over time, what speeds it up, typical warranty terms, and how to check battery health on a used electric car.",
+  "excerpt": "Battery life is one of the biggest worries about electric cars. Here is how degradation works, what warranties cover and what to check on a used EV.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "electric-cars",
+    "battery",
+    "used-cars"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "evs",
+  "answer": "Electric car batteries lose capacity gradually, usually a few per cent in the early years and more slowly after that. Heat, frequent rapid charging and long periods at 100 per cent speed it up. Most makers warranty the battery for around eight years and a set mileage against falling below about 70 per cent capacity. On a used EV, ask for a battery health report.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "how-ev-batteries-age",
+      "heading": "How EV batteries age",
+      "body": "Electric car batteries use lithium-ion cells, like phones, but with much larger capacity and active thermal management that heats and cools the cells. Because a car battery is cycled less deeply relative to its size and kept at a controlled temperature, it usually ages far more gently than a phone battery.\n\nDegradation tends to be quicker at first, then slows to a steady, gradual decline. Large studies of real-world vehicles have found most batteries retain the large majority of their capacity after many years and high mileage, though results vary by model and climate."
+    },
+    {
+      "id": "what-speeds-it-up",
+      "heading": "What speeds it up",
+      "body": "- **Heat.** High temperatures accelerate wear; cars with liquid cooling manage this better than those with air cooling.\n- **High state of charge for long periods.** Keeping the battery at 100 per cent for days stresses it. Many makers recommend a daily limit of around 80 per cent for some battery types.\n- **Frequent rapid charging.** Regular DC rapid charging creates more heat and stress than AC charging, though modern cars manage it well.\n- **Deep discharge.** Regularly running very low adds wear.\n\nSome battery chemistries, such as lithium iron phosphate (LFP), tolerate regular charging to 100 per cent; makers of cars using them often recommend it. Follow the guidance for your car."
+    },
+    {
+      "id": "warranties",
+      "heading": "Warranties",
+      "body": "Most manufacturers warranty the battery separately from the rest of the car, typically for around eight years and a set mileage, against capacity falling below a threshold, often around 70 per cent. Terms vary between brands, so check the specific warranty, whether it transfers to later owners, and any conditions, such as servicing requirements."
+    },
+    {
+      "id": "checking-a-used-ev",
+      "heading": "Checking a used EV",
+      "body": "- **Ask for a battery health report.** Some dealers and specialist companies provide independent state of health checks using diagnostic tools.\n- **Check the car's own information.** Some cars show battery health or capacity in menus or the app.\n- **Compare range.** A full charge range estimate is influenced by recent driving style and weather, so treat it as a rough guide only.\n- **Check warranty remaining** on the battery and drivetrain.\n- **Ask about charging history,** such as whether the car was mainly rapid charged.\n\nA battery at 85 or 90 per cent of its original capacity is normal for an older car and still provides most of its original range."
+    },
+    {
+      "id": "habits-that-help",
+      "heading": "Habits that help",
+      "body": "- Set a daily charge limit as recommended for your car, often 80 per cent, and charge to 100 per cent before long trips.\n- Use AC charging for everyday needs and rapid charging for journeys.\n- Avoid leaving the car at very high or very low charge for long periods, especially in hot weather.\n- Keep the car's software up to date, as battery management can improve.\n\nBattery replacement is rare within the warranty period, and failures in individual modules can often be repaired without replacing the whole pack."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "How long does an electric car battery last?",
+      "a": "Most last many years and well over 100,000 miles with gradual capacity loss. Manufacturers typically warranty the battery for around eight years and a set mileage."
+    },
+    {
+      "q": "Should I charge my electric car to 100 per cent?",
+      "a": "Follow your car's guidance. Many recommend around 80 per cent for daily use, with 100 per cent before long trips. Some LFP batteries are designed to be charged to 100 per cent regularly."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-ev-battery",
+      "name": "Wikipedia: Electric vehicle battery",
+      "url": "https://en.wikipedia.org/wiki/Electric_vehicle_battery",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-lfp",
+      "name": "Wikipedia: Lithium iron phosphate battery",
+      "url": "https://en.wikipedia.org/wiki/Lithium_iron_phosphate_battery",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

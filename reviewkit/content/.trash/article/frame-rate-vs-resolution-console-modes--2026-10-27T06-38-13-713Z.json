@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "frame-rate-vs-resolution-console-modes",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Frame rate vs resolution: console performance and quality modes explained",
+  "metaDescription": "What performance and quality modes mean on PS5 and Xbox, how frame rate and resolution trade off, what upscaling does, and which mode to choose.",
+  "excerpt": "Many console games ask you to choose performance or quality. Here is what each sacrifices and how to decide.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "consoles",
+    "frame-rate",
+    "graphics-settings"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "gaming",
+  "answer": "Consoles have a fixed amount of power, so games trade frame rate against resolution and effects. Performance modes target 60 frames per second or more for smoother, more responsive play at a lower resolution. Quality or fidelity modes target sharper images and extra effects at 30 or 40 frames per second. Most players prefer performance for fast games.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "frame-rate",
+      "heading": "Frame rate",
+      "body": "Frame rate is how many new images the game draws each second. At 30 frames per second motion looks less smooth, especially when panning the camera, and the delay between pressing a button and seeing the result is longer. At 60 frames per second, games feel more fluid and responsive. 120 frames per second, on a compatible TV or monitor, is smoother still and suits competitive shooters.\n\nConsistency matters as much as the number. A game that holds 30 steadily can feel better than one that swings between 45 and 60."
+    },
+    {
+      "id": "resolution-and-effects",
+      "heading": "Resolution and effects",
+      "body": "Resolution is how many pixels make up each frame. Higher resolution looks sharper, especially on large 4K TVs. Quality modes may also add ray-traced lighting and reflections, more detailed shadows and denser scenery. These all cost processing power, which is why quality modes run at lower frame rates."
+    },
+    {
+      "id": "upscaling-and-dynamic-resolution",
+      "heading": "Upscaling and dynamic resolution",
+      "body": "Few console games render a true 4K image in every frame. Most use dynamic resolution, which lowers the resolution during demanding moments to hold the frame rate, and upscaling, which reconstructs a higher-resolution image from a lower one. Techniques such as AMD FSR, PlayStation Spectral Super Resolution on supported hardware, and developers' own temporal reconstruction can produce results close to native 4K at a fraction of the cost.\n\nThis is why a performance mode can still look sharp on a 4K TV."
+    },
+    {
+      "id": "40fps-modes-and-vrr",
+      "heading": "40fps modes and VRR",
+      "body": "Some games offer a 40 frames per second balanced mode for TVs that support 120Hz. Because 40 divides evenly into 120, the frames are paced smoothly, and the game feels noticeably better than 30 while keeping much of the quality mode's detail.\n\nVariable refresh rate (VRR) lets the TV follow the game's frame rate as it fluctuates, removing judder and tearing. With VRR on, some games offer unlocked frame rate options above 60."
+    },
+    {
+      "id": "which-to-choose",
+      "heading": "Which to choose",
+      "body": "- **Shooters, racing, action and anything competitive:** performance mode.\n- **Slow-paced exploration and photo modes:** quality mode is worth trying.\n- **TV supports 120Hz:** look for balanced 40fps modes and VRR options.\n- **Smaller TV or sitting far back:** extra resolution is harder to see, so performance makes more sense.\n\nYou can usually switch modes at any time, so try both in a demanding scene and see which you prefer."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is 60fps better than 4K?",
+      "a": "For most fast games, players prefer the smoothness and responsiveness of 60fps. 4K quality modes suit slower games where image detail matters more."
+    },
+    {
+      "q": "What is a 40fps mode?",
+      "a": "A mode that targets 40 frames per second on 120Hz TVs, offering smoother play than 30fps while keeping more detail than a performance mode."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-frame-rate",
+      "name": "Wikipedia: Frame rate",
+      "url": "https://en.wikipedia.org/wiki/Frame_rate",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-dynamic-res",
+      "name": "Wikipedia: Dynamic resolution scaling",
+      "url": "https://en.wikipedia.org/wiki/Dynamic_resolution_scaling",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

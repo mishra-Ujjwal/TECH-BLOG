@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "open-back-vs-closed-back-headphones",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Open-back vs closed-back headphones: which should you buy?",
+  "metaDescription": "How open-back and closed-back headphones differ in sound, isolation and leakage, where each works best, and what semi-open designs offer.",
+  "excerpt": "Open-back headphones sound airy and natural but leak sound both ways. Closed-back models isolate you. Here is how to choose.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "headphones",
+    "hi-fi",
+    "buying-advice"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "audio",
+  "answer": "Closed-back headphones have solid ear cups that keep sound in and outside noise out, which suits commuting, offices and recording. Open-back headphones have vented cups that let sound pass freely, giving a more spacious, natural presentation but leaking sound and blocking almost no noise. Open-backs are for quiet rooms at home.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "the-basic-difference",
+      "heading": "The basic difference",
+      "body": "Every headphone driver pushes sound towards your ear and also backwards, away from it. Closed-back headphones trap the backward sound inside a sealed cup. Open-back headphones let it escape through a grille or mesh on the outside.\n\nThat one design choice changes three things: how the headphones sound, how much they isolate you from the world, and how much the world hears what you are listening to."
+    },
+    {
+      "id": "how-each-sounds",
+      "heading": "How each sounds",
+      "body": "Because air moves freely, open-back headphones tend to sound more spacious, with instruments placed further out around your head rather than inside it. Reflections inside the cup are reduced, which many listeners describe as more natural or speaker-like. Bass can feel less forceful, since the open back lets low-frequency pressure escape.\n\nClosed-back headphones can deliver strong, punchy bass because the sealed cup holds pressure. The trade-off is that the soundstage can feel more enclosed, and poorly damped cups can colour the sound. Well-designed closed-backs narrow the gap considerably."
+    },
+    {
+      "id": "isolation-and-leakage",
+      "heading": "Isolation and leakage",
+      "body": "This is the practical deciding factor for most people.\n\n- **Open-back:** you will hear the room around you almost as if you were not wearing headphones, and people near you will hear your music clearly. They are unsuitable for trains, open-plan offices, libraries or a bedroom while someone sleeps.\n- **Closed-back:** much better at blocking outside noise and keeping your music to yourself. Many are also available with active noise cancelling.\n\nMusicians and podcasters recording with a microphone use closed-back headphones so the microphone does not pick up the monitoring mix."
+    },
+    {
+      "id": "semi-open-designs",
+      "heading": "Semi-open designs",
+      "body": "Some headphones sit between the two, with partially vented cups. They aim to keep some of the open sound while reducing leakage. In practice they still leak enough to be noticed in a quiet room, so treat them as closer to open-back for where you can use them."
+    },
+    {
+      "id": "choosing",
+      "heading": "Choosing",
+      "body": "- **Commuting, travel, shared spaces:** closed-back, ideally with noise cancelling.\n- **Recording and podcasting:** closed-back.\n- **Listening at home in a quiet room, mixing, long gaming sessions:** open-back is often more comfortable and natural, and the open cups keep your ears cooler.\n- **Gaming:** many players like open-backs for the sense of space and positional cues, as long as the room is quiet.\n\nAlso consider comfort over hours, the weight, clamping force and whether the headphones need an amplifier. Some open-back models have high impedance and sound quiet or thin when plugged straight into a phone or laptop."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Are open-back headphones better quality?",
+      "a": "Not inherently. They sound more spacious and natural to many listeners, but closed-back headphones can sound excellent and are far more practical in shared spaces."
+    },
+    {
+      "q": "Can people hear open-back headphones?",
+      "a": "Yes. Open-back headphones leak a lot of sound, so anyone nearby in a quiet room will hear what you are listening to."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-headphones",
+      "name": "Wikipedia: Headphones",
+      "url": "https://en.wikipedia.org/wiki/Headphones",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

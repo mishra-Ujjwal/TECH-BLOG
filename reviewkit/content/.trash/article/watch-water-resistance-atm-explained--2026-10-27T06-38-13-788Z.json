@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "watch-water-resistance-atm-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Watch water resistance explained: what 5 ATM and 10 ATM really mean",
+  "metaDescription": "What ATM and metre water resistance ratings mean on smartwatches and fitness trackers, which are safe for swimming, and what damages the seals.",
+  "excerpt": "A watch rated to 50 metres is not meant for diving to 50 metres. Here is what the ratings mean and which activities each one covers.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "water-resistance",
+    "swimming",
+    "smartwatches"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "wearables",
+  "answer": "ATM ratings describe the pressure a watch withstood in a static test, not a safe diving depth. 5 ATM (50 metres) is generally fine for swimming in a pool or the sea. 10 ATM (100 metres) adds margin for snorkelling and water sports. Neither covers scuba diving unless the watch is specifically certified as a dive watch, and hot water and soap are hazards for any watch.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "two-rating-systems",
+      "heading": "Two rating systems",
+      "body": "Smartwatches and fitness trackers use two kinds of water rating:\n\n- **IP ratings** (such as IP68) from IEC 60529, the same as phones. They describe resistance to dust and water immersion under the maker's test conditions, but are not designed for swimming.\n- **ATM ratings** (such as 5 ATM) or a depth in metres, based on the international standard for water-resistant watches, ISO 22810. One ATM is roughly the pressure of the atmosphere at sea level; each additional ATM is about 10 metres of still water.\n\nMany watches carry both: an ATM rating for swimming and an IP rating for dust."
+    },
+    {
+      "id": "why-50-metres-does-not-mean-50-metres",
+      "heading": "Why 50 metres does not mean 50 metres",
+      "body": "The ratings come from static pressure tests, with the watch held still in a chamber. Movement in water creates bursts of higher pressure. Diving in, swimming fast strokes or jumping from a board generate pressure spikes well above the still-water figure for the depth you are at. That is why a watch rated to 30 metres is not recommended for swimming at all, and 50 metres is the usual minimum."
+    },
+    {
+      "id": "what-each-rating-is-good-for",
+      "heading": "What each rating is good for",
+      "body": "- **IP67/IP68 only, or 3 ATM (30 metres):** rain, hand washing, splashes. Not for swimming.\n- **5 ATM (50 metres):** swimming in a pool or the sea, showering in cool water. The most common rating on fitness watches with swim tracking.\n- **10 ATM (100 metres):** swimming, snorkelling and surface water sports with more margin.\n- **Dive rated (ISO 6425, or EN13319 for dive computers):** scuba diving. Only watches specifically certified for diving should be used underwater beyond snorkelling depth."
+    },
+    {
+      "id": "what-damages-the-seals",
+      "heading": "What damages the seals",
+      "body": "- **Hot water** in saunas, hot tubs and hot showers makes materials expand and can let steam in.\n- **Soap, shampoo and sun cream** can degrade seals and the water-repellent coatings around speaker and microphone holes.\n- **Salt and chlorine** leave deposits; rinse the watch in fresh water afterwards.\n- **Impacts and age.** Drops and years of wear weaken seals. Water resistance is not permanent.\n- **Pressing buttons underwater** on watches not designed for it can let water past the button seal."
+    },
+    {
+      "id": "looking-after-a-water-resistant-watch",
+      "heading": "Looking after a water-resistant watch",
+      "body": "- Rinse in fresh water after the sea or pool and dry it, including under the strap.\n- Use the water lock or swim mode if your watch has one; it prevents accidental touches and can eject water from the speaker afterwards.\n- Avoid charging until the charging contacts are dry.\n- Check the warranty, as many exclude water damage despite the rating.\n\nFor swimming, look for a watch with dedicated pool and open water modes, which count lengths and track strokes using motion sensors."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Can I swim with a 5 ATM watch?",
+      "a": "Yes. 5 ATM is generally rated for swimming in a pool or the sea, but not for diving, high-speed water sports or hot tubs."
+    },
+    {
+      "q": "Is IP68 the same as waterproof for swimming?",
+      "a": "No. IP68 tests still-water immersion and is not designed for the pressure changes of swimming. Look for a 5 ATM rating or higher for swimming."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-water-resistant",
+      "name": "Wikipedia: Water Resistant mark",
+      "url": "https://en.wikipedia.org/wiki/Water_Resistant_mark",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "iec-ip",
+      "name": "IEC: IP ratings",
+      "url": "https://www.iec.ch/ip-ratings",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

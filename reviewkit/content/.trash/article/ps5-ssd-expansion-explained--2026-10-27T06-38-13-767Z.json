@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "ps5-ssd-expansion-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "PS5 SSD expansion explained: which M.2 drives work and why",
+  "metaDescription": "What an M.2 SSD needs to work in a PS5: PCIe Gen 4 NVMe, the read speed Sony recommends, supported sizes and why a heatsink matters.",
+  "excerpt": "Running out of space on a PS5 is common. Here is what Sony requires from an internal M.2 SSD upgrade, and when external storage is enough.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "ps5",
+    "storage",
+    "upgrades"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "gaming",
+  "answer": "A PS5 can take an extra internal M.2 SSD. Sony's requirements are a PCIe Gen 4 x4 NVMe drive, a recommended sequential read speed of 5,500MB/s or faster, a supported length such as 2280, and effective cooling such as a compact heatsink that fits the slot's height limit. External USB drives can store PS5 games but cannot play them.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why-storage-runs-out",
+      "heading": "Why storage runs out",
+      "body": "The PS5's built-in SSD is fast but modest in usable capacity once the system software is accounted for, and big games can take well over 100GB each. Many players fill it within months. You have two options: an external USB drive or an internal M.2 SSD in the console's expansion slot."
+    },
+    {
+      "id": "sony-s-requirements-for-internal-ssds",
+      "heading": "Sony's requirements for internal SSDs",
+      "body": "Sony publishes requirements on its PS5 support pages. In summary:\n\n- **Interface:** PCIe Gen 4 x4 M.2 NVMe SSD. Gen 3 drives are not supported.\n- **Speed:** Sony recommends sequential read speeds of 5,500MB/s or faster. Slower Gen 4 drives may work but games that rely on the fast SSD could suffer.\n- **Size:** M.2 type 2230, 2242, 2260, 2280 or 22110. 2280 is by far the most common.\n- **Capacity:** within the minimum and maximum Sony currently lists; the maximum has been raised by system updates before, so check the current page.\n- **Cooling:** Sony states that effective heat dissipation, such as a heatsink or heat transfer sheet, is required. The drive plus heatsink must fit within the slot's width and height limits.\n\nMany SSDs are sold in a PS5 edition with a slim heatsink already fitted, which is the simplest choice."
+    },
+    {
+      "id": "fitting-it",
+      "heading": "Fitting it",
+      "body": "Installing an M.2 SSD involves turning the console off fully, unplugging it, removing the cover panel, unscrewing the expansion slot cover, inserting the drive and securing it with the screw and spacer provided. The PS5 then formats the drive and checks its speed. Sony's support page has step-by-step instructions and diagrams. The process is designed for users to do themselves, but take care with static and small screws."
+    },
+    {
+      "id": "external-drives",
+      "heading": "External drives",
+      "body": "USB drives connected to the PS5 can store PS5 games, but those games must be moved back to internal storage before you can play them. PS4 games can be played directly from an external drive. An external drive is therefore a cheap way to archive games you are not playing, saving long downloads later, while the internal M.2 slot is for games you play."
+    },
+    {
+      "id": "choosing-a-drive",
+      "heading": "Choosing a drive",
+      "body": "- Buy a Gen 4 NVMe drive that meets or exceeds Sony's recommended read speed.\n- Choose a PS5 edition with a heatsink, or buy a slim heatsink that fits within the height limit.\n- Size for your habits; very large drives can cost far more per gigabyte.\n- Check reviews that test the drive in a PS5, as sustained speed and temperature matter.\n- Keep the receipt and check the warranty, which is usually given as years or terabytes written.\n\nThe same type of drive also suits many PCs, so it remains useful if you move on from the console."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Can I use a PCIe Gen 3 SSD in a PS5?",
+      "a": "No. The PS5 requires a PCIe Gen 4 x4 M.2 NVMe SSD for its expansion slot."
+    },
+    {
+      "q": "Do I need a heatsink for a PS5 SSD?",
+      "a": "Sony states that effective cooling such as a heatsink is required. Many drives are sold with a slim PS5-compatible heatsink fitted."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ps-m2",
+      "name": "PlayStation: How to add M.2 SSD storage to PS5 consoles",
+      "url": "https://www.playstation.com/en-gb/support/hardware/ps5-install-m2-ssd/",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

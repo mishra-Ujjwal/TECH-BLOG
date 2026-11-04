@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "bluetooth-audio-codecs-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Bluetooth audio codecs explained: SBC, AAC, aptX and LDAC",
+  "metaDescription": "What Bluetooth audio codecs do, how SBC, AAC, aptX and LDAC differ, why your phone decides which one you get, and whether you can hear the difference.",
+  "excerpt": "Wireless headphones advertise codec names like aptX and LDAC. Here is what they do, which phones support which, and how much they matter.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "bluetooth",
+    "codecs",
+    "wireless-audio"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "audio",
+  "answer": "Bluetooth cannot send music uncompressed, so the phone squeezes it with a codec before sending it to your headphones. SBC is the universal basic codec, AAC is what iPhones use, aptX is common on Android, and LDAC offers the highest bit rate. Both the phone and headphones must support a codec to use it, and a good fit often matters more than the codec.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why-codecs-exist",
+      "heading": "Why codecs exist",
+      "body": "Bluetooth has limited bandwidth, especially in busy places full of other wireless devices. Music files, particularly lossless ones, contain more data than a standard Bluetooth audio connection can reliably carry. So the source device encodes the audio with a codec, a method of compressing and decompressing sound, and the headphones decode it.\n\nEvery codec makes trade-offs between sound quality, the amount of data sent, delay (latency) and how robust the connection is."
+    },
+    {
+      "id": "the-main-codecs",
+      "heading": "The main codecs",
+      "body": "- **SBC:** the mandatory codec that every Bluetooth audio device supports. Older reputation is poor, but at its higher settings it sounds reasonable.\n- **AAC:** widely used by Apple. iPhones and iPads use AAC with compatible headphones, and it performs well there. Android support exists but quality varies by phone.\n- **aptX family:** from Qualcomm, common on Android phones with Qualcomm chips. aptX HD raises the bit rate; aptX Adaptive adjusts it to the connection and aims for lower latency; aptX Lossless can send CD-quality audio under good conditions on supported devices.\n- **LDAC:** from Sony, supported by many Android phones. Its highest setting, 990 kbps, is the highest common Bluetooth bit rate, but it is the least stable in crowded places, so phones often drop to a lower setting automatically.\n- **LC3:** the newer codec for Bluetooth LE Audio, designed to sound better than SBC at lower bit rates and use less power. Support is growing on recent phones and earbuds."
+    },
+    {
+      "id": "both-ends-have-to-agree",
+      "heading": "Both ends have to agree",
+      "body": "The codec used is the best one both devices support, chosen by the phone. Buying LDAC headphones for an iPhone gains nothing, because iPhones do not support LDAC and will use AAC. Android phones let you see and sometimes change the codec in developer options, though the phone may override it.\n\nStreaming services matter too. If you stream at a modest bit rate, a higher-bit-rate codec cannot add back detail that was never in the file."
+    },
+    {
+      "id": "can-you-hear-the-difference",
+      "heading": "Can you hear the difference?",
+      "body": "In careful listening on good headphones in a quiet room, some people can hear differences between low-bit-rate SBC and high-bit-rate codecs. In everyday use on a bus or at the gym, the fit of the earbuds, the tuning of the headphones and any background noise make a much bigger difference than the codec.\n\nLatency is where codecs make a more obvious difference. For video, phones and apps compensate for delay, but in games a high-latency codec can make sound lag behind the picture. Low-latency modes and codecs such as aptX Adaptive or LE Audio help."
+    },
+    {
+      "id": "what-to-prioritise",
+      "heading": "What to prioritise",
+      "body": "- Match codec support to your phone: AAC for iPhone, aptX or LDAC for many Android phones.\n- Prioritise fit, comfort and tuning before the codec list.\n- For gaming, look for a low-latency mode or a dedicated wireless dongle.\n- For genuinely lossless listening at home, a wired connection is still the most reliable route."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is LDAC better than AAC?",
+      "a": "LDAC can send more data, but only Android phones support it, and it often drops to lower rates in busy places. AAC on an iPhone is well implemented and sounds very good."
+    },
+    {
+      "q": "Can Bluetooth headphones play lossless audio?",
+      "a": "Mostly not with traditional codecs. aptX Lossless and some newer systems can on supported devices under good conditions. Wired listening remains the dependable option."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-bt-codecs",
+      "name": "Wikipedia: List of Bluetooth profiles (A2DP codecs)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-ldac",
+      "name": "Wikipedia: LDAC (codec)",
+      "url": "https://en.wikipedia.org/wiki/LDAC_(codec)",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "type": "pillar",
+  "slug": "best-note-apps-students-uk",
+  "locale": "en-GB",
+  "status": "draft",
+  "title": "Best note apps for UK students, tested on real coursework",
+  "metaDescription": "We tested note apps on a 4,200-note vault and on real coursework, with UK prices checked this month and student discounts noted where they exist.",
+  "excerpt": "Every app here was used for at least two weeks on real coursework. Prices are UK prices, checked this month, and we say when a student discount exists.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team",
+    "url": "https://example.co.uk/about"
+  },
+  "dates": {
+    "published": "2026-10-22",
+    "lastChecked": "2026-10-24"
+  },
+  "tags": [
+    "note-taking",
+    "students"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "editedBy": "TODO Your Name",
+    "updates": []
+  },
+  "_note": "EXAMPLE pillar page. A pillar links out to the cluster of reviews underneath it.",
+  "category": "computing",
+  "sections": [
+    {
+      "id": "how-we-chose",
+      "heading": "How we chose these apps",
+      "body": "Every app on this page was used for at least two weeks on real coursework, not demoed for an afternoon. Each one was tested with the same 4,200-note vault so the search timings can be compared directly.\n\nWe pay for our own subscriptions. Where an app offers a student discount we say so, and the price shown is what you would pay in the UK on the date given."
+    },
+    {
+      "id": "what-matters",
+      "heading": "What actually matters for coursework",
+      "body": "Three things, in this order. Can you get your notes out again, because degrees last longer than apps do. Does search work on a few thousand notes, since that is what a year of lectures produces. Does it sync without losing edits when you are on a train with no signal.\n\nHandwriting, templates and AI summaries are further down the list. Test the three above first."
+    }
+  ],
+  "picks": [
+    {
+      "award": "Fastest on a big vault",
+      "reviewSlug": "notely-3-review",
+      "oneLiner": "Searched 4,200 notes in 0.4 seconds, but budget for the paid plan."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need to pay for a note app as a student?",
+      "a": "No. Plain Markdown files in a synced folder cost nothing and are the safest option for keeping your notes long term. Pay only when search or sync on a free plan starts getting in your way."
+    }
+  ],
+  "sources": []
+}

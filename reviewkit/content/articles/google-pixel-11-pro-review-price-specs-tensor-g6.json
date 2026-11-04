@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "google-pixel-11-pro-review-price-specs-tensor-g6",
+  "locale": "en-US",
+  "status": "published",
+  "title": "Google Pixel 11 Prices, Specifications, Tensor G6 and Verdict",
+  "metaDescription": "Pixel 11 starts at $899, the Pro at $1,099, with Tensor G6, seven years of updates and HiLight. See specs, battery tests, reviews and where sources disagree.",
+  "excerpt": "Google's Pixel 11 line brings Tensor G6, a new Pro camera sensor and the HiLight light bar. Here is what it costs, how it tests and where reports conflict.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-29"
+  },
+  "tags": [
+    "pixel-11",
+    "pixel-11-pro",
+    "tensor-g6",
+    "google-pixel",
+    "android-17",
+    "gemini"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "format": "explainer",
+  "category": "phones",
+  "answer": "Google announced the Pixel 11 line on August 12, 2026 with US starting prices of $899 for the Pixel 11, $1,099 for the Pro and $1,299 for the Pro XL, and retail sales from August 20. All models use the Tensor G6 chip and get seven years of OS and security updates, while the Pro models add a new 50 megapixel main camera and a HiLight notification light. Reviewers call the Pro competent and compact, with battery life and raw performance as the main weak points.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "tldr",
+      "heading": "TL;DR",
+      "body": "The Pixel 11 series was announced on August 12, 2026. Pre-ordering started on the same day, and retail availability began on August 20 (Android Central/SQ Magazine).\n\nStarting prices in the US are $899 for the Pixel 11, $1,099 for the Pixel 11 Pro and $1,299 for the Pixel 11 Pro XL. Every model starts at 256GB of storage with 12GB of RAM. Android Central says that is a $100 increase across the board. However, Digital Trends states the 256GB models of the base and Pro are priced the same as last year. See the pricing section for why.\n\nAll models use Google's Tensor G6 on a 2nm process with a new MediaTek modem. All three models receive 7 years of OS and security updates (SQ Magazine). The Pro models also gain a new 50mp main camera, brighter Super Actua display (up to 3,600 nits) and new HiLight light bar.\n\nReviewers agree the Pixel 11 Pro is a solid and compact phone but suffers from battery life and performance. Below you can see all the specifications, benchmarks and discrepancies. We have not tested any of the phones.",
+      "media": [
+        {
+          "src": "/images/google-pixel-11-pro-review-price-specs-tensor-g6/google-pixel-11-256gb-frost1-1.webp",
+          "alt": "google-pixel-11-pro-review-price-specs-tensor-g6",
+          "credit": "Own screenshot",
+          "width": 1440,
+          "height": 812
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "heading": "Pricing",
+      "body": "Android Central lists starting prices of $899 for the Pixel 11, $1,099 for the Pixel 11 Pro and $1,299 for the Pixel 11 Pro XL, and says they are up $100 across the board. SQ Magazine also lists the same prices. Pre-ordering started on August 12 and retail availability began on August 20.\n\nHowever, Digital Trends states the Pixel 11 starts at $899 with 256GB, against $799 with 128GB for the Pixel 10, so at 256GB the two cost the same. The Pixel 11 Pro also costs the same as the 256GB Pixel 10 Pro, at $1,099, while the Pro XL and the Pro Fold rose by $100 each. Android Central's own Pixel 11 vs Pixel 10 piece says the same about the base model: the 256GB price is unchanged and the headline rise comes from dropping the 128GB tier.\n\nBoth can be correct. If you compare the starting prices then the cheapest Pixel 11 is $100 more expensive than the cheapest Pixel 10, because the 128GB option is gone. If you compare like for like at 256GB, the base model costs the same. The Pro XL is the clearest case of a real rise, according to Digital Trends. We could not find the exact figures for everything so double-check pricing in the Google Store.\n\nDroid Life, in a roundup dated August 11 before the event, listed likely prices of $899 and $1,019 for the 256GB and 512GB Pixel 11, $1,099, $1,219 and $1,449 for the Pro at 256GB, 512GB and 1TB, and $1,299, $1,419 and $1,649 for the Pro XL. It labeled these as likely and based on a retailer listing them early, not as confirmed by Google, so use them as a guide to the storage steps and not as official prices.\n\nIn India the Pixel 11 Pro costs 119,999 rupees for the 12gb/256gb model (Business Today), up from 109,999 rupees."
+    },
+    {
+      "id": "models-and-colours",
+      "heading": "Models and Colours",
+      "body": "Four phones were expected in the series. Android Central covers the Pixel 11, Pixel 11 Pro and Pixel 11 Pro XL. Digital Trends adds the Pixel 11 Pro Fold at $1,899, up from $1,799, with a ceramic outer cover glass and a revised hinge that Google says is three times more durable. Digital Trends gives its weight as 239g, down from 258g, and its battery as 4,806mAh, down from 5,015mAh.\n\nThe Pixel 11 is available in Pistachio, Hibiscus, Frost and Obsidian. The Pro models are available in Canyon, Fog, Olive and Obsidian (all matte). Android Central also mentions Canyon, which it describes as orange, for the Pro models. The Pixel 11 colours are different from the Pixel 10 models which had Indigo, Frost, Lemongrass and Obsidian.\n\nThe Pro and Pro XL models have new hardware whereas the base model has only received a minor update. Keeping the same cameras, similar connectivity and similar battery (Android Central)."
+    },
+    {
+      "id": "tensor-g6-and-performance",
+      "heading": "Tensor G6 and Performance",
+      "body": "The Tensor G6 pairs with a TPU offering 50% more compute (Google). On-device AI is 3.5 times faster and uses 3.5 times less power (Google). Web browsing is 25% faster and app launching is 15% faster (SQ Magazine).\n\nAll models use the Tensor G6 on a 2nm process. It also includes a new MediaTek modem to hopefully solve connectivity issues (Android Central). Android Central says it had not verified that yet.\n\nIndependent benchmarks from 91mobiles state the Pixel 11 Pro had an AnTuTu score of 1,421,232. This is much lower than the vivo X300 Pro and Oppo Find X9 Pro which had scores of 3,536,552 and 3,406,260. The phone does run smoothly with everyday tasks and animations but the Tensor G6 does not perform as well as flagship Snapdragon and MediaTek processors.\n\nBusiness Today agrees on the feel: apps and multitasking are smooth. Demanding games run without stutter, but long sessions cause noticeable heating and a gradual performance dip. The reviewer calls the Pixel limited for gaming.\n\nIf you play intensive games for long periods of time then this is a warning. However, if you mainly use your phone for browsing, messaging, photography and using Google's AI tools then it will be fine.\n\nAs usual with Google phones the Tensor is not designed for high benchmark performance but AI features and efficiency. The reviews back this up."
+    },
+    {
+      "id": "camera",
+      "heading": "Camera",
+      "body": "The Pro and Pro XL models gain a new 50mp main camera. The ultra wide and telephoto remain the same at 48mp. The base model has the same as the Pixel 10. New features include Magic Capture, Camera Looks and Circle to Search.\n\nThe Pixel 11 includes a 48mp main sensor with 56% more light capture. The 5x telephoto offers 30x Super Zoom. The Pro models include an upgraded 48mp telephoto with 30% more light capture. It offers 5x Portrait Mode and Pro Zoom up to 120x. Night Sight is up to 4.5 times faster (Google). No baseline is mentioned.\n\n91mobiles tested the Pro against the vivo X300 Pro. It performed better in daylight with more realistic images, higher dynamic range and contrast. The ultra wide was consistent with the main camera but had less dynamic range and more distortion. The portrait mode had issues separating subjects. The selfies were more realistic. However, in low-light the vivo performed better with exposure and flare. The Pixel had more realistic images. The increased zoom from 100x to 120x does not really affect image quality.\n\nBusiness Today state the images are sharp and vibrant with great dynamic range. The low light images are realistic with good highlight and shadow control. The portrait mode is natural but not perfect. The optical quality is limited with only up to 10x zoom with slight detail.\n\nThe battery will suffer when filming. 91mobiles stated the battery dropped by roughly 20%."
+    },
+    {
+      "id": "display-and-design",
+      "heading": "Display and Design",
+      "body": "SQ Magazine says the Pixel 11 retains the Actua display with a satin metal frame and gloss glass back. The Pro models include a Super Actua display with up to 3,600 nits. It also includes a new coating that Google says makes it more than double as scratch resistant as the previous generation. The camera bar is 40% thinner. Android Central doubts that the 3,600 nit peak will be seen in everyday use.\n\n91mobiles lists the Pixel 11 Pro at 204g and 8.4mm thick. It has IP68 protection and Gorilla Glass Victus 2 on both sides. It has a 6.3 inch LTPO display (up to 120Hz). It has an ultrasonic fingerprint scanner. The reviewer wishes for a matte finish instead of the glossy aluminium frame.\n\nBusiness Today state the videos have great quality with lots of detail and colour. They also have great visibility outdoors. However, the bezels are thick and are quite distracting for the price. The design is the same as the Pixel 9 and 10 series. The sizes are the same and the camera bar is horizontal.\n\nDigital Trends notes that the base Pixel 11 is slightly lighter at 197g, down from 204g on the Pixel 10. The two sources give different Pro and base weights because they describe different models."
+    },
+    {
+      "id": "hilight-bar",
+      "heading": "New HiLight Bar",
+      "body": "The most noticeable design change on the Pro models is the HiLight bar. Droid Life stated before launch it has a multicoloured bar in the camera bar which acts as a notification bar. It glows during Gemini sessions. The HiLight bar is a coloured ring surrounding the flash. It notifies you of calls and Gemini use when the phone is face down. Google promises more functionality (SQ Magazine).\n\nBusiness Today state the HiLight bar replaces the temperature sensor. This is limited at the moment but they hope it will improve with software updates. 91mobiles state the negatives are it cannot be set for notifications/alerts for anything except certain contacts and Gemini.\n\nOverall this is a work-in-progress feature at launch. If you want a notification LED for all apps then you won't get it."
+    },
+    {
+      "id": "battery-and-charging",
+      "heading": "Battery",
+      "body": "Google state the battery will last longer than 30 hours (SQ Magazine). The battery sizes are 4985mAh on the Pixel 11, 4850mAh on the Pro and 5115mAh on the Pro XL (Droid Life pre-launch leak). Digital Trends also state these sizes. It also notes the Pro and Pro XL batteries are slightly smaller than their predecessors.\n\nBenchmarking the phone, 91mobiles found the battery lasted 17.8 hours in the PCMark test. This is better than the vivo and Oppo models which lasted 16.0 hours. However, it uses an average of 7% when streaming and gaming for an hour. This is 3 points higher than other Android Pro models mentioned. The screen-on time is around 6 hours which is not as good as today's standard of 7-8 hours.\n\nBusiness Today state it will last a full day with moderate usage. However, heavy users may get 15-16 hours which isn't quite enough.\n\nThe phone charges at 30W wired. It will take almost 90 minutes to fully charge with an extra charger (91mobiles). It charges at 25W wirelessly with Qi 2.2. This is 25% faster than the Pixel 10 (SQ Magazine). They could not confirm if the Pro XL charges at 25W."
+    },
+    {
+      "id": "software-gemini-updates",
+      "heading": "Software, Gemini and Updates",
+      "body": "All three models have 7 years of OS and security updates. They also have a new Titan M3 security chip with post-quantum cryptography added to secure boot. The Pro models come with 6 months of Google AI Pro (SQ Magazine).\n\nAndroid Central calls Gemini Intelligence the centerpiece, including an agent feature that completes tasks. That task-handling feature is limited to the US. Other countries will have some Gemini features but won't have this.\n\n91mobiles highlight the Rambler feature which offers speech-to-text in 11 languages. It also has Camera Coach, Magic Capture and Proactive Suggestions. It runs on Android 17 with 42 pre-loaded apps. There are no third-party apps. Business Today also highlights Gemini Live, Circle to Search and Call Assist. Business Today says Google is well ahead of Apple in AI integration, which is that reviewer's opinion.\n\nIf you are not in the US check what Gemini features you will get."
+    },
+    {
+      "id": "verdict",
+      "heading": "Verdict",
+      "body": "91mobiles gave the Pixel 11 Pro an 8.4/10. They state it is a solid phone but not outstanding. It doesn't offer enough to upgrade from the Pixel 10 Pro. The positives are it is compact, has some great AI features, larger main and telephoto sensors and decent screen-on time. The negatives are it has limitations with the HiLight bar and doesn't have flagship performance.\n\nBusiness Today state it is an upgrade on the previous model with a sharp display, reliable performance, great software integration and a refined camera. The negatives are the thick bezels, average battery life for heavy users and slower 30W charging. It is not great for gaming.\n\nWe saw two other headlines but did not open the reviews. BGR have a review for the Pixel 11 Pro XL with the headline 'The Best, With An Asterisk'. TechRadar have a review with the headline 'After a week with the Pixel 11 Pro I think Google has perfected the Pixel'. We cite them only as headlines, since we do not know what the asterisk or the formula refers to.\n\nOverall the reviews are positive but cautious. They like the software and compactness but are not as impressed with the performance, battery and price."
+    },
+    {
+      "id": "who-should-buy",
+      "heading": "Who Should Buy",
+      "body": "Buy the Pro if you want a compact flagship with great AI features, a good camera system and 7 years of updates, and you do not need the fastest benchmark performance.\n\nIf you want the Pixel software and extra storage but don't want the Pro camera hardware then the base model is a good choice. It is a minor upgrade (Android Central).\n\nIf you want a larger phone or foldable then the XL or Fold models are worth considering. The Pro XL has the largest battery. The Fold has new weight and hinge figures (Digital Trends).\n\nIf you already own a Pixel 10 or Pixel 10 Pro then skip this. 91mobiles state the Pro model does not justify an upgrade from the Pixel 10 Pro. The Pixel 10 is still a great flagship (Digital Trends).\n\nIf you are a heavy gamer then look elsewhere. The review data shows it heats up after long sessions and has below average battery life for heavy users."
+    },
+    {
+      "id": "what-we-could-not-confirm",
+      "heading": "What We Could Not Confirm",
+      "body": "The price increase. Android Central state there is a $100 increase across the board. Digital Trends state the 256gb models of the base and Pro are the same price as last year. Double check the Google Store.\n\nWired charging: Digital Trends' text and table disagree about the Pixel 10's wired speed, so we do not compare wired charging across generations.\n\nThe Pro XL charging at 25W wirelessly. SQ Magazine could not confirm.\n\nSensor. The resolution of the new main sensor on the Pro model was not mentioned in the article. However, two reviews mention it is 50mp.\n\nMany full reviews were found in the search. Android Authority, TechRadar and PhoneArena all have reviews. We did not read them."
+    },
+    {
+      "id": "sources",
+      "heading": "Sources",
+      "body": "Android Central, The Pixel 11 series is here, but Google saved the big upgrades for the Pro models: https://www.androidcentral.com/phones/google-pixel/the-pixel-11-series-is-here-but-google-saved-the-big-upgrades-for-the-pro-models\n\nSQ Magazine, Google Pixel 11 lineup starts at $899: https://sqmagazine.co.uk/google-pixel-11-lineup-starts-at-899/\n\nDigital Trends, Pixel 11 vs Pixel 10 series: do Google's new phones offer enough for an upgrade: https://www.digitaltrends.com/phones/pixel-11-vs-pixel-10-series-do-googles-new-phones-offer-enough-for-an-upgrade/\n\nDroid Life, Pixel 11 series: everything we know about Google's new phones, August 11, 2026: https://www.droid-life.com/2026/08/11/pixel-11-series-everything-we-know-about-googles-new-phones/\n\n91mobiles, Google Pixel 11 Pro review: feels competent enough: https://www.91mobiles.com/reviews/google-pixel-11-pro-review/\n\nBusiness Today, Google Pixel 11 Pro review: smarter flagship with familiar flaws, September 28, 2026: https://www.businesstoday.in/technology/reviews/story/google-pixel-11-pro-review-smarter-flagship-with-familiar-flaws-558281-2026-09-28"
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "How much is the Pixel 11?",
+      "a": "Android Central lists $899 for the Pixel 11, $1,099 for the Pro and $1,299 for the Pro XL, all with 256GB. Digital Trends says the 256GB base and Pro prices are unchanged from last year."
+    },
+    {
+      "q": "When was the Pixel 11 available to buy?",
+      "a": "Pre-ordering started on August 12, 2026. Retail availability began on August 20."
+    },
+    {
+      "q": "What chip does the Pixel 11 use?",
+      "a": "It uses the Tensor G6 from Google. It is on a 2nm process and has a MediaTek modem. It runs smoothly but is slower than the fastest Snapdragon and MediaTek chips (reviews)."
+    },
+    {
+      "q": "How long will it receive updates?",
+      "a": "All three models will receive 7 years of OS and security updates (SQ Magazine)."
+    },
+    {
+      "q": "What is the HiLight?",
+      "a": "It is a light bar on the Pro models. It notifies you of calls and Gemini use. This is limited at the moment (reviewers)."
+    },
+    {
+      "q": "How is the battery on the Pixel 11 Pro?",
+      "a": "91mobiles found the battery lasted 17.8 hours in the PCMark test. It had around 6 hours of screen-on time. Business Today state it will last 15-16 hours for heavy users."
+    },
+    {
+      "q": "Should I upgrade from the Pixel 10?",
+      "a": "Most reviews state no. 91mobiles state the Pro model does not justify upgrading from the Pixel 10 Pro."
+    }
+  ],
+  "sources": []
+}

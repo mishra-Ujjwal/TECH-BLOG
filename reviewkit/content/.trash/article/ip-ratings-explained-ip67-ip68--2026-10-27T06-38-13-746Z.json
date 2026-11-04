@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "ip-ratings-explained-ip67-ip68",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "IP ratings explained: what IP67 and IP68 really mean for your phone",
+  "metaDescription": "What the two digits in an IP rating mean, the difference between IP67 and IP68, and why a water-resistant phone can still be damaged by water.",
+  "excerpt": "IP67 and IP68 appear on almost every phone box. Here is what each digit means, how the tests work, and the limits manufacturers do not always spell out.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "water-resistance",
+    "ip-rating",
+    "durability"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "phones",
+  "answer": "An IP rating tells you how well a device keeps out dust (the first digit, up to 6) and water (the second digit, up to 8). IP67 means dust-tight and survives immersion to 1 metre for 30 minutes; IP68 means the maker has set a tougher immersion test, often 1.5 to 6 metres. Neither means waterproof, and neither covers salt water, hot water or pressure jets.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "where-ip-ratings-come-from",
+      "heading": "Where IP ratings come from",
+      "body": "IP stands for ingress protection. The ratings come from an international standard, IEC 60529, which sets out how to test an enclosure against solid objects and water and how to label the result. The same system is used for outdoor lights, electrical sockets and industrial equipment, which is why some of the test conditions seem odd when applied to a phone.\n\nThe code is always the letters IP followed by two digits. If a product has only been tested for one of the two, the other digit is replaced with an X, so IPX4 means splash resistance was tested but dust resistance was not."
+    },
+    {
+      "id": "the-first-digit-dust-and-solids",
+      "heading": "The first digit: dust and solids",
+      "body": "The first digit runs from 0 to 6. The lower numbers are about keeping fingers and tools out of electrical equipment, so they are not very relevant to phones. The two that matter are:\n\n- **5, dust protected:** some dust may get in, but not enough to stop the device working.\n- **6, dust tight:** no dust gets in during a test in a chamber of fine powder.\n\nAlmost every phone with a rating is rated 6, which is good news for anyone who takes a phone to the beach or a building site."
+    },
+    {
+      "id": "the-second-digit-water",
+      "heading": "The second digit: water",
+      "body": "The second digit runs from 0 to 9, and this is where most of the confusion lies. Ratings 1 to 6 cover dripping, spraying and jets of water. Ratings 7 and 8 cover immersion:\n\n- **7:** survives immersion to a depth of up to 1 metre for 30 minutes.\n- **8:** survives continuous immersion under conditions agreed by the manufacturer, which must be more severe than for 7. Many phones are tested at 1.5 metres for 30 minutes; some makers quote 4 or 6 metres.\n\nBecause the conditions for 8 are set by the maker, two IP68 phones are not necessarily equal. Check the depth and time in the specification rather than relying on the code alone.\n\nRating 9 (often written 9K) covers close-range, high-pressure and high-temperature jets, the kind used to clean vehicles. It is rare on phones and is a separate test, not a step above 8."
+    },
+    {
+      "id": "what-an-ip-rating-does-not-cover",
+      "heading": "What an IP rating does not cover",
+      "body": "The tests are done in fresh water, at room temperature, on a new device with its seals intact. Real life is harder:\n\n- **Salt water and chlorine** are more corrosive than tap water. Rinse a phone in fresh water after the sea or a pool.\n- **Hot water** in a bath, sauna or shower makes seals expand and lets steam in.\n- **Pressure** from a jet, a wave or diving deeper than the rated depth can force water past the seals.\n- **Age and damage.** Seals wear, and a drop that cracks the frame or a screen repair can compromise them.\n\nThis is why most manufacturers exclude water damage from their warranties even on IP68 phones. The rating is a safety margin for accidents, not permission to take the phone swimming."
+    },
+    {
+      "id": "if-your-phone-gets-wet",
+      "heading": "If your phone gets wet",
+      "body": "Dry the outside with a lint-free cloth, then leave the phone to dry with the charging port facing down. Do not charge it until the port is completely dry; many phones will warn you if they detect moisture in the port. Skip the bag of rice: it does little to draw water out, and grains or dust can end up in the port. Gentle airflow at room temperature is safer."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is IP68 better than IP67?",
+      "a": "IP68 means the maker tested immersion under conditions tougher than IP67's 1 metre for 30 minutes, often deeper or longer. Check the stated depth, because IP68 phones are not all tested the same way."
+    },
+    {
+      "q": "Can I take an IP68 phone swimming?",
+      "a": "It is not recommended. The rating covers still fresh water in a test tank, not chlorine, salt water, waves or the pressure of diving, and most warranties exclude water damage."
+    }
+  ],
+  "sources": [
+    {
+      "id": "iec-ip",
+      "name": "IEC: IP ratings",
+      "url": "https://www.iec.ch/ip-ratings",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-ip-code",
+      "name": "Wikipedia: IP code",
+      "url": "https://en.wikipedia.org/wiki/IP_code",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

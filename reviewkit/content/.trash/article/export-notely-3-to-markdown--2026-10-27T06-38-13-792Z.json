@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "export-notely-3-to-markdown",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "How to export Notely 3 notes to Markdown",
+  "metaDescription": "Export every Notely 3 note to plain Markdown files with images intact, in about two minutes on a Mac, then spot-check that nothing broke on the way.",
+  "excerpt": "I exported a 4,200-note vault from Notely 3 to plain Markdown in 73 seconds. Here are the steps, and how to check the result before you trust it.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-26"
+  },
+  "tags": [
+    "note-taking",
+    "export"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "_note": "EXAMPLE FILE. Notely 3 is invented. The figures (4,200 notes, 73 seconds, 50 spot-checked, version 3.2.1 on macOS 15.2) come from the example review; the menu names in the steps are illustrative only. Copy the shape for your own how-tos, then delete this file.",
+  "format": "how-to",
+  "category": "computing",
+  "answer": "Open the export screen, choose Markdown, and export the whole vault in one go. On a 4,200-note vault this took 73 seconds, and the 50 notes I spot-checked kept their images and links. You end up with a folder of ordinary Markdown files that any editor can open.",
+  "testing": {
+    "testedOn": "2026-10-18",
+    "duration": "One full export, then a spot check of 50 notes",
+    "setup": "MacBook Air M2 (16GB, macOS 15.2), Notely 3.2.1 desktop, a 4,200-note vault of about 180MB on the paid Plus plan.",
+    "versionTested": "Notely 3.2.1 on macOS 15.2",
+    "notTested": [
+      "The Windows and Linux builds",
+      "Exporting from the mobile apps"
+    ],
+    "measurements": [
+      {
+        "label": "Full export of 4,200 notes",
+        "value": 73,
+        "unit": "s",
+        "method": "Single export to Markdown, stopwatch"
+      }
+    ]
+  },
+  "products": [],
+  "timeNeeded": "About five minutes, plus the export itself",
+  "requirements": [
+    "Notely 3.2 or later on a desktop computer",
+    "Free disk space at least equal to your vault size",
+    "A recent backup of your vault, in case you change anything afterwards"
+  ],
+  "steps": [
+    {
+      "id": "open-export",
+      "title": "Open the export screen",
+      "body": "In the desktop app, open **Settings** and choose **Export**."
+    },
+    {
+      "id": "choose-format",
+      "title": "Choose Markdown",
+      "body": "Set the format to **Markdown**. HTML and PDF are also offered, but Markdown gives you plain files that are not locked to Notely."
+    },
+    {
+      "id": "run-export",
+      "title": "Export the whole vault",
+      "body": "Choose an empty folder as the destination and select **Export all**. Leave the app open until the progress bar finishes. On my vault this took 73 seconds."
+    },
+    {
+      "id": "check-result",
+      "title": "Check a sample of notes",
+      "body": "Open a handful of exported notes in a plain text editor, including some with images and links between notes. I checked 50 and none were broken."
+    }
+  ],
+  "sections": [
+    {
+      "id": "undo",
+      "heading": "How to undo it",
+      "body": "Exporting does not change your notes in Notely, so there is nothing to undo. Delete the export folder if you no longer need it."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Does exporting remove my notes from Notely?",
+      "a": "No. The export is a copy. Your vault in Notely stays exactly as it was."
+    }
+  ],
+  "sources": []
+}

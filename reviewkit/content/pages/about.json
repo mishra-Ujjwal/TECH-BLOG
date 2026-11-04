@@ -1,0 +1,65 @@
+{
+  "_note": "Names and the email come from content/site.json through {{publisher.name}}-style tokens. If you want to sign the site with your own name, change the first section.",
+  "schemaVersion": 1,
+  "type": "page",
+  "slug": "about",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "About us: who runs this site and how it works",
+  "metaDescription": "Who runs {{site.name}}, what we review, how products are tested, how the site is paid for, and how to report a mistake or get in touch.",
+  "excerpt": "An independent UK tech site. We explain how technology works, list our sources, label AI-assisted articles, and only review products we have used ourselves.",
+  "footer": true,
+  "author": {
+    "name": "{{publisher.name}}",
+    "slug": "publisher"
+  },
+  "dates": {
+    "published": "2026-10-20",
+    "updated": "2026-10-26"
+  },
+  "sections": [
+    {
+      "id": "who-runs-it",
+      "heading": "Who runs this site",
+      "body": "{{site.name}} is run by {{publisher.name}}, a small independent editorial team. No brand, retailer or manufacturer owns any part of it, and none of them sees an article or review before it is published.\n\nWe write for people in the UK who want to understand technology before they buy it or while they use it: what the jargon on the box means, which UK rules apply, and which features actually make a difference."
+    },
+    {
+      "id": "what-we-review",
+      "heading": "What we review",
+      "body": "We cover four areas of consumer technology, and nothing outside them:\n\n- [Phones](/categories/phones): Android phones, iPhones, foldables and tablets\n- [Computing](/categories/computing): laptops, desktops, monitors and PC parts\n- [Gaming](/categories/gaming): consoles, handheld PCs, controllers and headsets\n- [EVs](/categories/evs): electric cars, e-bikes and home chargers\n\nAlongside [reviews](/reviews) we publish [explainers, how-tos and comparisons](/articles), each researched from primary sources and listing them, and [buying guides](/guides) that only recommend products we have reviewed.\n\nWhat we do not publish matters as much. We do not review anything we have not used, we do not publish rumours or rewritten press releases, and we never cover piracy, cracked software, ways around DRM or paywalls, or anything that breaks a law or a service's terms."
+    },
+    {
+      "id": "how-we-test",
+      "heading": "How products get tested",
+      "body": "Every review starts with the product in use, the way you would use it. We record measurements as we go, such as search times, battery life or export speed, and we repeat the same tests across a category so the numbers can be compared.\n\nEach review opens with a test record showing when we tested, for how long, on which device and version, and what we did not test. Figures we measured ourselves are marked as ours. Figures taken from the maker are marked as theirs.\n\nThe full method, and what our scores mean, is on the [how we test](/how-we-test) page."
+    },
+    {
+      "id": "how-we-make-money",
+      "heading": "How the site is paid for",
+      "body": "The site is paid for by advertising and, on some links, affiliate commission. If you buy through an affiliate link we may earn a small commission at no extra cost to you.\n\nThat money never decides a verdict, a score or which products we cover. We do not accept payment for reviews, placements or links, and we do not publish sponsored posts. Where a product was supplied free or on loan, the review says so at the top.\n\nThe details are in our [affiliate disclosure](/affiliate-disclosure)."
+    },
+    {
+      "id": "ai",
+      "heading": "Where AI fits in",
+      "body": "Some of our explainers are drafted with the help of an AI assistant, working from the public sources listed at the end of each article, such as standards bodies, regulators and GOV.UK. An editor checks every draft against those sources before it is published, and any article where an assistant helped carries a note saying so.\n\nReviews are different. A review only exists if a person used the product, and its test record, measurements and verdict come from that use. AI is never used to invent test results, experiences or opinions."
+    },
+    {
+      "id": "corrections",
+      "heading": "Corrections and updates",
+      "body": "If we get something wrong, we fix it on the page and add a dated note explaining what changed. We also re-check prices and links on our most-read reviews every month, and the date of the last check is shown on each review.\n\nTo report a mistake, email us with the page address and what you think is wrong."
+    },
+    {
+      "id": "get-in-touch",
+      "heading": "Get in touch",
+      "body": "Email [{{publisher.email}}](mailto:{{publisher.email}}). Corrections, questions about a review and privacy requests all go to the same inbox. More detail, including our policy for brands and PR, is on the [contact page](/contact)."
+    }
+  ],
+  "editorial": {
+    "aiAssisted": false,
+    "updates": []
+  },
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  }
+}

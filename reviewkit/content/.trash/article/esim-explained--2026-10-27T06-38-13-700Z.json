@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "esim-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "eSIM explained: how it works and whether you should switch",
+  "metaDescription": "What an eSIM is, how it differs from a physical SIM card, how switching phones and networks works in the UK, and the downsides to know about first.",
+  "excerpt": "An eSIM does the job of a SIM card without the plastic. Here is how it works, how to move it to a new phone, and when a physical SIM is still the easier choice.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "esim",
+    "sim",
+    "networks"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "phones",
+  "answer": "An eSIM is a SIM built into the phone as a chip, which your network programs over the air instead of posting you a card. It does everything a physical SIM does, makes it easy to hold two numbers, and cannot fall out. The trade-off is that moving your number to a new phone takes a few steps in settings rather than swapping a card.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-a-sim-actually-does",
+      "heading": "What a SIM actually does",
+      "body": "A SIM, physical or embedded, holds a small amount of secure information that identifies you to a mobile network: a subscriber identity and the keys used to prove it. When your phone connects, the network checks those details and links the phone to your number and plan.\n\nA traditional SIM card stores that profile on a removable chip. An eSIM, short for embedded SIM, is a chip soldered into the phone that can store one or more profiles. Instead of a card arriving in the post, the network sends the profile to your phone, usually by asking you to scan a QR code or by activating it through its app."
+    },
+    {
+      "id": "the-advantages",
+      "heading": "The advantages",
+      "body": "- **Nothing to lose or damage.** There is no tray to open and no card to slip out.\n- **Two numbers on one phone.** Most eSIM phones can run a physical SIM and an eSIM together, or several eSIM profiles with one or two active at once. That suits anyone with separate work and personal numbers.\n- **Quicker sign-up.** Many UK networks and virtual networks let you join and activate the same day without waiting for post.\n- **Travel.** You can add a local or roaming data eSIM before you leave and keep your usual number active for calls and texts.\n- **Better sealing.** Phones without a SIM tray have one less opening to protect against water and dust."
+    },
+    {
+      "id": "the-drawbacks",
+      "heading": "The drawbacks",
+      "body": "- **Moving to a new phone takes more steps.** With a card you swap it over. With an eSIM you transfer it in settings, which works smoothly between phones of the same brand but can mean contacting your network when switching between iPhone and Android.\n- **A broken phone is a bigger problem.** If your phone dies, you cannot pop the SIM into a spare handset. You need the network to issue a new eSIM, which usually means logging into your account or calling them.\n- **Older and cheaper phones may not support it.** Check the specification before you switch.\n- **Some plans or networks still treat eSIM as an extra.** Most major UK networks now support it, but smaller providers vary."
+    },
+    {
+      "id": "switching-to-esim-in-the-uk",
+      "heading": "Switching to eSIM in the UK",
+      "body": "Your number stays the same when you move from a physical SIM to an eSIM on the same network; you are just changing how the profile is stored. Most networks let you request the change in their app or online account, then you scan the code or follow the prompt on your phone. The old card stops working once the eSIM activates.\n\nIf you want to change networks as well, the usual UK process for keeping your number still applies: text PAC to 65075 to get your porting code, then give it to your new provider. The new network can then supply an eSIM instead of a card."
+    },
+    {
+      "id": "is-it-worth-switching",
+      "heading": "Is it worth switching?",
+      "body": "If you keep phones for years, use two numbers, or travel abroad regularly, eSIM is a genuine convenience. If you swap phones often, lend handsets to family, or tend to break phones, a physical SIM is still the simpler option, and nothing forces you to change while your phone has a tray. Some recent phones sold in other countries have dropped the SIM tray completely, so check the UK model's specification before you buy."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do I keep my number when I switch to eSIM?",
+      "a": "Yes. Moving from a SIM card to an eSIM with the same network keeps your number. You only need a PAC code if you are moving to a different network."
+    },
+    {
+      "q": "Can a phone use an eSIM and a SIM card at the same time?",
+      "a": "Most eSIM phones can, which is how many people run a work and a personal number on one handset. Check that both lines can be active at once on your model."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ofcom-switching",
+      "name": "Ofcom: switching mobile provider",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider",
+      "licence": "Facts only, linked to the original",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-esim",
+      "name": "Wikipedia: eSIM",
+      "url": "https://en.wikipedia.org/wiki/ESIM",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

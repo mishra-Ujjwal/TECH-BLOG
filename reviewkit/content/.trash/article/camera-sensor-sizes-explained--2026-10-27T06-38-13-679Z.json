@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "camera-sensor-sizes-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Camera sensor sizes explained: full frame, APS-C, Micro Four Thirds and 1-inch",
+  "metaDescription": "How full frame, APS-C, Micro Four Thirds and 1-inch camera sensors compare, what crop factor means for lenses, and which size suits which photographer.",
+  "excerpt": "Sensor size shapes image quality, lens choice and the size of your kit. Here is how the common formats compare and what crop factor means.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "sensors",
+    "cameras",
+    "buying-advice"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "cameras",
+  "answer": "Larger sensors collect more light, which means cleaner photos in dim light and easier background blur. Full frame (36 x 24mm) is the largest common format; APS-C is about 1.5 times smaller in each direction, Micro Four Thirds 2 times, and 1-inch sensors about 2.7 times. Smaller sensors allow smaller, lighter cameras and lenses.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "why-sensor-size-matters",
+      "heading": "Why sensor size matters",
+      "body": "A camera sensor records light. A larger sensor has more area to collect it, so at the same framing and exposure it captures more light in total. More light means less visible noise, particularly at high ISO settings in dim places, and usually a wider dynamic range from shadows to highlights.\n\nSensor size also changes depth of field. To frame the same shot, a larger sensor needs a longer focal length, which at the same aperture gives shallower depth of field: blurrier backgrounds for portraits."
+    },
+    {
+      "id": "the-common-formats",
+      "heading": "The common formats",
+      "body": "- **Full frame:** about 36 x 24mm, the same as a 35mm film frame. The reference point for comparing formats; used in professional and enthusiast cameras.\n- **APS-C:** about 23.5 x 15.6mm (slightly smaller on Canon). Widely used in enthusiast and travel cameras.\n- **Micro Four Thirds:** about 17.3 x 13mm, used by OM System and Panasonic Lumix G cameras. Its 4:3 shape suits video and a compact system.\n- **1-inch:** about 13.2 x 8.8mm, found in premium compact cameras, some drones and the largest phone sensors.\n- **Phone sensors:** usually far smaller, which is why phones rely so heavily on processing.\n\nThe 1-inch name comes from old video tube sizes, not the sensor's diagonal, which is about 16mm."
+    },
+    {
+      "id": "crop-factor",
+      "heading": "Crop factor",
+      "body": "Crop factor compares a sensor with full frame. APS-C is about 1.5x (1.6x for Canon), Micro Four Thirds 2x, and 1-inch about 2.7x. Multiply a lens's focal length by the crop factor to find the field of view it gives in full-frame terms.\n\nSo a 50mm lens on APS-C frames like a 75mm lens on full frame, and a 25mm lens on Micro Four Thirds frames like a 50mm. That is an advantage for wildlife and sport: a smaller sensor gets more reach from smaller, cheaper telephoto lenses. It is a disadvantage for wide-angle work, which needs very short focal lengths."
+    },
+    {
+      "id": "trade-offs-in-practice",
+      "heading": "Trade-offs in practice",
+      "body": "Bigger sensors cost more and need bigger lenses to cover them. A full-frame camera with a set of fast lenses is heavy, and the lenses are expensive. APS-C and Micro Four Thirds systems are lighter, cheaper and easier to carry all day, and modern sensors in those sizes produce excellent results in all but the most demanding light.\n\nImage stabilisation, autofocus, lenses and your own skill often matter more than sensor size for everyday photography."
+    },
+    {
+      "id": "which-suits-whom",
+      "heading": "Which suits whom",
+      "body": "- **Low light, events, weddings, shallow focus portraits:** full frame.\n- **Travel, family, general enthusiast photography on a budget:** APS-C.\n- **Hiking, wildlife on a budget, video, compact kit:** Micro Four Thirds.\n- **A pocket camera better than a phone for zoom and control:** a 1-inch compact.\n\nConsider the lenses you will want in five years, not just the camera body, because the lens system is the long-term commitment."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is full frame always better than APS-C?",
+      "a": "It is better in low light and for shallow depth of field, but APS-C cameras are smaller, cheaper and give more telephoto reach for the same lens. Many photographers are better served by APS-C."
+    },
+    {
+      "q": "What does crop factor mean?",
+      "a": "It is how much smaller a sensor is than full frame. Multiply the lens focal length by the crop factor to find the equivalent full-frame field of view."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-sensor-format",
+      "name": "Wikipedia: Image sensor format",
+      "url": "https://en.wikipedia.org/wiki/Image_sensor_format",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-crop-factor",
+      "name": "Wikipedia: Crop factor",
+      "url": "https://en.wikipedia.org/wiki/Crop_factor",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

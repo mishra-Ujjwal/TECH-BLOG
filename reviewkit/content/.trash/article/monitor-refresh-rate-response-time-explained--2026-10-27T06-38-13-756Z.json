@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "monitor-refresh-rate-response-time-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Monitor refresh rate and response time explained",
+  "metaDescription": "What refresh rate, response time and adaptive sync mean on a monitor, whether 144Hz is worth it for office work, and how to set it up properly.",
+  "excerpt": "Monitor boxes are covered in hertz and milliseconds. Here is what each number means, when a high refresh rate helps, and the setting most people forget.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "monitors",
+    "refresh-rate",
+    "displays"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "computing",
+  "answer": "Refresh rate is how many times a second a monitor redraws the picture: 60Hz is standard, 120Hz and above feels noticeably smoother. Response time is how quickly each pixel changes colour; slow pixels cause blur and trails. A high refresh rate helps gaming most, but it also makes scrolling and moving windows feel smoother for everyday work.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "refresh-rate",
+      "heading": "Refresh rate",
+      "body": "A monitor's refresh rate, measured in hertz (Hz), is how many times per second it draws a new image. A 60Hz monitor updates 60 times a second, a 144Hz monitor 144 times. Higher refresh rates make motion look smoother and reduce the delay between moving the mouse and seeing the cursor move.\n\nIn games, the benefit depends on the computer producing enough frames per second to match. A 240Hz monitor shows no extra smoothness if the graphics card only manages 70 frames per second. On the desktop, though, even a modest computer can drive 120Hz or more, and scrolling web pages and dragging windows becomes visibly smoother."
+    },
+    {
+      "id": "response-time",
+      "heading": "Response time",
+      "body": "Response time is how long a pixel takes to change from one shade to another, usually given in milliseconds. If pixels change too slowly for the refresh rate, moving objects leave a smear or ghost behind them.\n\nBe wary of the headline figure. Many monitors quote a grey-to-grey time measured under the most favourable conditions, often with the overdrive setting at its maximum. Aggressive overdrive pushes pixels to change faster but can overshoot, creating bright or dark halos called inverse ghosting. Independent reviews that measure response times across many transitions give a truer picture. OLED monitors have near-instant pixel response, which is one of their main advantages for fast motion."
+    },
+    {
+      "id": "adaptive-sync",
+      "heading": "Adaptive sync",
+      "body": "Without help, a monitor refreshes on a fixed schedule while a graphics card produces frames at a varying rate. When the two fall out of step you see tearing (a horizontal split in the image) or, with traditional vertical sync, stutter and extra lag.\n\nAdaptive sync lets the monitor wait for each new frame, so the refresh rate follows the frame rate. It goes by several names: VESA Adaptive-Sync, AMD FreeSync and Nvidia G-Sync, with G-Sync Compatible monitors using the open standard. For gaming it is worth having on any monitor."
+    },
+    {
+      "id": "panel-types-in-brief",
+      "heading": "Panel types in brief",
+      "body": "- **IPS:** good colours and viewing angles; the most common choice for mixed work and play. Contrast is modest, so blacks look grey in a dark room.\n- **VA:** much higher contrast, so better for films in dim rooms, but often slower in dark transitions, which can cause smearing.\n- **OLED:** perfect blacks and very fast response. Watch for brightness limits on large white areas and follow the maker's advice on avoiding burn-in with static taskbars and toolbars.\n\nResolution and size matter too: 27 inches at 1440p is a popular balance of sharpness and performance, while 4K at 27 or 32 inches suits text-heavy work and photo editing."
+    },
+    {
+      "id": "the-setting-people-forget",
+      "heading": "The setting people forget",
+      "body": "Plugging in a 144Hz monitor does not guarantee 144Hz. Many computers default to 60Hz. In Windows, open Settings, System, Display, Advanced display and choose the highest refresh rate. On a Mac, open System Settings, Displays. Use a cable that supports the rate you want: DisplayPort, or an HDMI version and cable rated for that resolution and refresh rate. A cheap old cable is a common reason a monitor will not run at its advertised speed."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is 144Hz worth it for office work?",
+      "a": "It is not essential, but scrolling and moving windows feel smoother and many people find it easier on the eyes. The extra cost over 60Hz is now small."
+    },
+    {
+      "q": "Why is my 144Hz monitor running at 60Hz?",
+      "a": "The computer often defaults to 60Hz. Change it in display settings and use a DisplayPort or suitably rated HDMI cable."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-refresh",
+      "name": "Wikipedia: Refresh rate",
+      "url": "https://en.wikipedia.org/wiki/Refresh_rate",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-vrr",
+      "name": "Wikipedia: Variable refresh rate",
+      "url": "https://en.wikipedia.org/wiki/Variable_refresh_rate",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

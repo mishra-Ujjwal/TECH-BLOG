@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "smartwatch-gps-accuracy-dual-band-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Smartwatch GPS accuracy explained: dual-band, GNSS and why tracks wander",
+  "metaDescription": "Why GPS tracks on a running watch drift near tall buildings and trees, what dual-band and multi-GNSS do, and the settings that improve accuracy.",
+  "excerpt": "Running watches can draw your route through buildings or add distance you did not run. Here is why, and how newer GPS modes help.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "gps",
+    "running-watches",
+    "accuracy"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "wearables",
+  "answer": "A watch works out its position from satellite signals. Tall buildings, tree cover and the small antenna in a watch cause errors, so tracks wander and distances drift. Multi-GNSS uses more satellite systems, and dual-band GPS receives two frequencies, which together cut errors significantly in cities and woods, at a cost of battery life.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "how-satellite-positioning-works",
+      "heading": "How satellite positioning works",
+      "body": "Satellite navigation systems broadcast precise timing signals. A receiver that picks up signals from at least four satellites can work out its position from the tiny differences in when each signal arrives. GPS is the American system; Europe's Galileo, Russia's GLONASS and China's BeiDou work in the same way. The general term for all of them is GNSS, global navigation satellite systems.\n\nPhones and watches usually combine several systems, which means more satellites in view and a better chance of a good fix."
+    },
+    {
+      "id": "why-tracks-go-wrong",
+      "heading": "Why tracks go wrong",
+      "body": "- **Reflections.** In cities, signals bounce off buildings before reaching you. The receiver measures a longer path and puts you in the wrong place. This multipath error is the main reason tracks cut through buildings.\n- **Obstruction.** Dense trees, deep valleys and tunnels weaken or block signals.\n- **The antenna.** A watch has a tiny antenna on a moving wrist, so it receives weaker signals than a phone or a car system.\n- **Smoothing and sampling.** To save battery, some modes record your position less often, cutting corners off bends and shortening the distance.\n\nDistance errors of a few per cent are normal, and track lines that drift a few metres are expected even with good equipment."
+    },
+    {
+      "id": "dual-band-and-multi-band",
+      "heading": "Dual-band and multi-band",
+      "body": "Satellites broadcast on more than one frequency. Older consumer receivers used only the L1 band. Dual-band receivers also use the L5 band (E5a on Galileo), which has a stronger, more modern signal that is better at rejecting reflections. Combining both lets the receiver correct for errors and identify reflected signals more reliably.\n\nIn practice, dual-band makes the biggest difference in cities and under tree cover, producing tracks that follow the pavement rather than wandering into buildings. In open countryside the improvement is smaller."
+    },
+    {
+      "id": "the-battery-trade-off",
+      "heading": "The battery trade-off",
+      "body": "More satellite systems and two frequencies use more power. Most watches let you choose between modes such as GPS only, all systems, and all systems with dual-band, and some offer an automatic mode that switches to dual-band only when it detects difficult conditions. For a long hike or ultra-marathon you may prefer a lower-power mode to make the battery last."
+    },
+    {
+      "id": "tips-for-better-tracks",
+      "heading": "Tips for better tracks",
+      "body": "- Wait for the watch to confirm a satellite fix before starting, ideally standing still in the open.\n- Use dual-band or all-systems mode in cities and woods.\n- Set recording to every second for short races where accuracy matters.\n- Keep the watch firmware up to date; satellite data and algorithms improve.\n- For track running, use the dedicated track mode, which snaps to the lanes.\n- Accept small differences: two good watches worn on each wrist will rarely agree exactly."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is dual-band GPS worth it?",
+      "a": "Yes if you run or ride in cities or under trees, where it greatly reduces wandering tracks. In open countryside the benefit is smaller and it costs battery life."
+    },
+    {
+      "q": "Why does my watch record a different distance from the race?",
+      "a": "Courses are measured on the shortest possible line, while you weave around other runners. GPS error adds a little more. A few per cent difference is normal."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-gnss",
+      "name": "Wikipedia: Satellite navigation",
+      "url": "https://en.wikipedia.org/wiki/Satellite_navigation",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-gps-l5",
+      "name": "Wikipedia: GPS signals",
+      "url": "https://en.wikipedia.org/wiki/GPS_signals",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

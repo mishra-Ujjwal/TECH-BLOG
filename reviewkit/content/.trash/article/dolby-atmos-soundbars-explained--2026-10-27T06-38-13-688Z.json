@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "dolby-atmos-soundbars-explained",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "Dolby Atmos and soundbars explained: what you actually hear",
+  "metaDescription": "What Dolby Atmos is, how soundbars create height effects with upfiring speakers, what channel numbers like 5.1.2 mean, and how to connect one properly.",
+  "excerpt": "Soundbars promise cinema sound from one box. Here is what Dolby Atmos adds, what the channel numbers mean, and how to get it working.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "soundbars",
+    "dolby-atmos",
+    "home-cinema"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "tvs",
+  "answer": "Dolby Atmos is a surround sound format that places sounds in three-dimensional space, including overhead. Soundbars recreate the height effect with upward-firing drivers that bounce sound off the ceiling or with processing. A number such as 5.1.2 means five main channels, one subwoofer and two height channels. You need eARC or optical setup that passes the Atmos signal.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-dolby-atmos-is",
+      "heading": "What Dolby Atmos is",
+      "body": "Traditional surround sound assigns audio to fixed channels: left, centre, right, surrounds and a subwoofer. Dolby Atmos adds height channels and treats many sounds as objects with a position in space. The playback system works out how to reproduce each object using whatever speakers it has, whether that is a full cinema, a home setup with ceiling speakers, a soundbar or headphones.\n\nAtmos content is common on streaming services, 4K Blu-ray and some games. Streaming apps often need a premium subscription tier for Atmos."
+    },
+    {
+      "id": "channel-numbers",
+      "heading": "Channel numbers",
+      "body": "Soundbar specifications describe channels as three numbers:\n\n- The **first** is the main ear-level channels: left, right, centre and surrounds.\n- The **second** is the subwoofer for low bass.\n- The **third** is the height channels.\n\nSo 3.1 is left, centre and right with a subwoofer; 5.1.2 adds two surround and two height channels. More channels give a more convincing surround effect, but placement, room shape and the quality of the drivers matter as much as the count. A separate centre channel is the single most important feature for clear dialogue."
+    },
+    {
+      "id": "how-a-single-bar-creates-height-and-surround",
+      "heading": "How a single bar creates height and surround",
+      "body": "Soundbars use two main tricks. Upward-firing drivers on the top of the bar aim sound at the ceiling, which reflects it down to you so it seems to come from above. Side-firing drivers bounce sound off the walls to widen the effect. Both work best with a flat ceiling between about 2.2 and 3 metres high and walls nearby; vaulted ceilings, open-plan rooms and soft furnishings weaken them.\n\nSome bars without upfiring drivers use processing, often called virtual Atmos, to simulate height. It can widen the sound but is less convincing. For a true surround effect, many systems let you add rear speakers."
+    },
+    {
+      "id": "connecting-it-properly",
+      "heading": "Connecting it properly",
+      "body": "Connect the soundbar to the TV's HDMI port marked eARC, using a good HDMI cable. eARC can carry lossless audio, including Dolby Atmos from TrueHD sources, and lets the TV remote control the soundbar's volume. Older ARC can carry Atmos only in compressed Dolby Digital Plus form, which is what most streaming services use anyway. Optical cables cannot carry Atmos at all.\n\nThen, in the TV's sound settings, set the output to the soundbar and the digital audio format to auto or passthrough, so the TV sends the Atmos signal untouched rather than converting it to stereo."
+    },
+    {
+      "id": "what-matters-most-for-most-people",
+      "heading": "What matters most for most people",
+      "body": "- **Dialogue clarity.** A dedicated centre channel and a speech enhancement mode help far more than height effects.\n- **Size relative to the TV.** A bar roughly as wide as the screen looks and sounds balanced.\n- **Night mode.** Compresses loud explosions so you can hear speech without waking the house.\n- **Room calibration.** Bars that measure the room with a microphone adjust better to awkward spaces.\n\nIf your room is not suited to bounced sound, a well-made 3.1 bar with a subwoofer may serve you better than an ambitious Atmos model."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Do I need eARC for Dolby Atmos?",
+      "a": "Not always. ARC can carry the compressed Atmos used by most streaming services. eARC is needed for lossless Atmos from Blu-ray and some devices. Optical cannot carry Atmos."
+    },
+    {
+      "q": "Is a soundbar better than TV speakers?",
+      "a": "Almost always. Thin TVs leave little room for speakers, and even an affordable soundbar usually improves dialogue and bass."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-atmos",
+      "name": "Wikipedia: Dolby Atmos",
+      "url": "https://en.wikipedia.org/wiki/Dolby_Atmos",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-soundbar",
+      "name": "Wikipedia: Soundbar",
+      "url": "https://en.wikipedia.org/wiki/Soundbar",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

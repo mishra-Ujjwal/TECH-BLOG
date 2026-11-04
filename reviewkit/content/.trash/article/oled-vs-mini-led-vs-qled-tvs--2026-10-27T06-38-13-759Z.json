@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "oled-vs-mini-led-vs-qled-tvs",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "OLED vs Mini LED vs QLED: TV screen types explained",
+  "metaDescription": "How OLED, Mini LED and QLED TVs create a picture, where each one is strongest, and which type suits a bright living room, a dark room or gaming.",
+  "excerpt": "TV makers use a confusing mix of acronyms for screen types. Here is how each technology works and which one fits your room.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "oled",
+    "mini-led",
+    "tv-buying"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "tvs",
+  "answer": "OLED TVs light each pixel individually, so they show perfect blacks and excellent contrast, which suits dark rooms and films. Mini LED and QLED TVs are LCD screens lit from behind; Mini LED uses thousands of tiny LEDs for better contrast and higher brightness, which suits bright rooms. QLED refers to a quantum dot layer that improves colour on LCD TVs.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "two-basic-approaches",
+      "heading": "Two basic approaches",
+      "body": "Almost every TV on sale uses one of two approaches. Self-emissive screens, mainly OLED, make light in each pixel. LCD screens use a layer of liquid crystals that act like shutters in front of a separate backlight. Most of the marketing names, including QLED, Neo QLED, QNED and Mini LED, describe different kinds of LCD TV with different backlights and colour layers."
+    },
+    {
+      "id": "oled",
+      "heading": "OLED",
+      "body": "OLED stands for organic light-emitting diode. Each pixel produces its own light and can switch off completely, so black is truly black, and a bright object can sit right next to a dark one with no glow around it. Viewing angles are excellent and motion is very clear because pixels change almost instantly.\n\nThe trade-offs are brightness and burn-in risk. OLED TVs are less bright than the best LCDs, especially across large bright areas, which matters in a sunny room. Static images left on screen for very long periods, such as news tickers or game interfaces, can leave a permanent faint mark. Modern sets use pixel shifting and refresh routines to reduce this, and normal varied viewing rarely causes problems. QD-OLED is a variation that adds quantum dots for brighter, more saturated colours."
+    },
+    {
+      "id": "lcd-with-led-backlight-qled-and-mini-led",
+      "heading": "LCD with LED backlight, QLED and Mini LED",
+      "body": "On an LCD TV, a backlight shines through the liquid crystal layer. Because liquid crystals cannot block all of the light, blacks look slightly grey in a dark room unless the backlight itself can dim in areas.\n\n- **QLED** means the TV has a quantum dot layer that produces purer colours from the backlight. It says nothing about the backlight's design.\n- **Local dimming** splits the backlight into zones that dim independently, improving contrast. More zones means less glow around bright objects, known as blooming.\n- **Mini LED** uses many thousands of very small LEDs, allowing far more dimming zones. The best Mini LED TVs get very bright and approach OLED contrast, with some blooming around small bright objects on dark backgrounds.\n\nBudget LCD TVs without local dimming are the least capable at contrast, but are bright and affordable."
+    },
+    {
+      "id": "which-suits-your-room",
+      "heading": "Which suits your room",
+      "body": "- **Dark or dimly lit room, mostly films and drama:** OLED, for its contrast and black levels.\n- **Bright room with windows, daytime viewing, sport:** Mini LED, for its brightness and resistance to glare.\n- **Gaming:** both can be excellent. OLED's instant response and Mini LED's brightness each have fans; check for 120Hz and HDMI 2.1 features either way.\n- **Tight budget:** an LCD with a decent backlight and good processing from a reputable brand.\n\nScreen finish matters too. Some TVs have anti-reflective coatings that make a real difference opposite a window."
+    },
+    {
+      "id": "what-the-brochures-leave-out",
+      "heading": "What the brochures leave out",
+      "body": "Peak brightness figures are usually measured on a small patch of the screen in the brightest mode, which looks unnatural. Contrast ratios for LCD TVs can be quoted in ways that are hard to compare. Processing, which handles upscaling, motion and how HD broadcasts look, varies more between brands than panel type does. Reviews that measure brightness in accurate picture modes, and judge real broadcast content, tell you more than any acronym."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is OLED better than QLED?",
+      "a": "OLED has better contrast and black levels, so it usually looks better in a dark room. A good Mini LED QLED TV is brighter, which suits a bright room."
+    },
+    {
+      "q": "Will an OLED TV get burn-in?",
+      "a": "With normal varied viewing, it is unlikely on modern sets, which have protective features. The risk rises if the same static image stays on screen for many hours a day."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-oled",
+      "name": "Wikipedia: OLED",
+      "url": "https://en.wikipedia.org/wiki/OLED",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-mini-led",
+      "name": "Wikipedia: Mini LED",
+      "url": "https://en.wikipedia.org/wiki/Mini_LED",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

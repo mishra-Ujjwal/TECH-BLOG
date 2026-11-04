@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "how-much-ram-do-you-need",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "How much RAM do you need in a laptop or desktop?",
+  "metaDescription": "How much memory a laptop or desktop really needs for everyday use, creative work and gaming, why 8GB is now tight, and when RAM can be upgraded.",
+  "excerpt": "RAM is one of the easiest specifications to get wrong, and on many laptops it cannot be added later. Here is how much you need and why.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "ram",
+    "memory",
+    "buying-advice"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "computing",
+  "answer": "For a Windows laptop or desktop bought today, 16GB of RAM is the sensible minimum for comfortable everyday use, and 32GB makes sense for video editing, large photo libraries, virtual machines or heavy gaming. 8GB still works for light use but leaves little headroom. Check whether the memory is soldered, because on many thin laptops you cannot add more later.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "what-ram-does",
+      "heading": "What RAM does",
+      "body": "RAM, or random access memory, is the computer's short-term workspace. Everything you have open, including the operating system, every browser tab and every document, lives in RAM while you work, because it is far faster to read than the storage drive.\n\nWhen RAM fills up, the computer starts moving less recently used data out to the storage drive to make room. Even a fast SSD is much slower than RAM, so switching between apps starts to stutter and tabs reload when you return to them. That slowdown, rather than a crash, is the usual sign you are short of memory."
+    },
+    {
+      "id": "how-much-for-what",
+      "heading": "How much for what",
+      "body": "- **8GB:** enough for web browsing, email, documents and video calls one or two at a time. Modern browsers and operating systems use a lot, so 8GB fills quickly with many tabs open.\n- **16GB:** the comfortable choice for most people. Plenty of tabs, office apps, photo editing and a video call at once, plus room to grow over a laptop's lifetime.\n- **32GB:** for 4K video editing, large raw photo libraries, music production with many tracks, software development with containers or virtual machines, and demanding games alongside other apps.\n- **64GB and above:** specialist work such as large 3D scenes, scientific data and big local AI models.\n\nComputers that share memory between the processor and graphics, as most laptops with integrated graphics do, use part of the RAM as video memory. That is another reason to lean towards 16GB."
+    },
+    {
+      "id": "speed-and-type",
+      "heading": "Speed and type",
+      "body": "RAM also has a type and a speed. The type, such as DDR4, DDR5 or LPDDR5X, must match what the computer supports; you cannot mix generations. The speed, given in megatransfers per second (MT/s), affects performance a little, most noticeably for integrated graphics, which rely on system memory.\n\nFor most buyers the amount matters far more than the speed. Treat speed as a tiebreaker between otherwise similar machines."
+    },
+    {
+      "id": "can-you-upgrade-it-later",
+      "heading": "Can you upgrade it later?",
+      "body": "On desktop PCs, almost always: memory sits in slots on the motherboard and adding more is one of the simplest upgrades.\n\nOn laptops, it depends. Many thin and light laptops use LPDDR memory soldered to the motherboard for space and efficiency, which means the amount you buy is the amount you keep. Others use removable SO-DIMM modules or the newer CAMM2 format. The specification or the maker's service manual will say whether memory is soldered. If it is, buy enough at the start, because a laptop usually lasts longer than its memory feels sufficient."
+    },
+    {
+      "id": "single-and-dual-channel",
+      "heading": "Single and dual channel",
+      "body": "Memory works faster when it is spread across two channels, for example two 8GB modules rather than one 16GB module. A laptop shipped with a single module can lose a noticeable amount of graphics performance. If you are buying a laptop with upgradeable memory and plan to add more, check whether there is a free slot and match the new module's size and speed to the existing one."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Is 8GB of RAM enough in 2026?",
+      "a": "For light use such as browsing, email and documents, yes, but it leaves little headroom. 16GB is the more comfortable choice for a computer you plan to keep for several years."
+    },
+    {
+      "q": "Does more RAM make a computer faster?",
+      "a": "Only if you were running out. Extra RAM you never use does nothing, but adding memory to a computer that was swapping to its drive makes a big difference."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-ram",
+      "name": "Wikipedia: Random-access memory",
+      "url": "https://en.wikipedia.org/wiki/Random-access_memory",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-camm",
+      "name": "Wikipedia: CAMM (memory module)",
+      "url": "https://en.wikipedia.org/wiki/CAMM_(memory_module)",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}

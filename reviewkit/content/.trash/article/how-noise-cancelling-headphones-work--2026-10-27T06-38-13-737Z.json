@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "article",
+  "slug": "how-noise-cancelling-headphones-work",
+  "locale": "en-GB",
+  "status": "published",
+  "title": "How noise-cancelling headphones work, and what they cannot block",
+  "metaDescription": "How active noise cancelling uses microphones and anti-noise to quieten engines and trains, why voices still get through, and what transparency mode does.",
+  "excerpt": "Active noise cancelling can make a train or plane far quieter. Here is how it works, why it struggles with voices, and what to look for when buying.",
+  "author": {
+    "name": "TechWorld Blog Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-10-27"
+  },
+  "tags": [
+    "noise-cancelling",
+    "headphones",
+    "earbuds"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "AI-assisted draft from public sources. Check every fact, add your own experience and photos, then publish from /studio.",
+  "format": "explainer",
+  "category": "audio",
+  "answer": "Active noise cancelling uses microphones to listen to the sound around you and plays an inverted copy of it through the speakers, so the two cancel out. It works best on steady, low-pitched noise such as engines, trains and air conditioning. Higher, changing sounds such as voices are left mostly to the physical seal of the ear cups or ear tips.",
+  "products": [],
+  "requirements": [],
+  "steps": [],
+  "sections": [
+    {
+      "id": "two-kinds-of-noise-reduction",
+      "heading": "Two kinds of noise reduction",
+      "body": "All headphones block some sound passively, by physically sealing your ears: thick ear cushions on over-ear headphones, and silicone or foam tips in earbuds. Passive isolation is good at higher frequencies, like chatter and clattering cutlery.\n\nActive noise cancelling (ANC) adds electronics. It is good at the low, steady rumble that passive seals struggle with, like the drone of a jet engine or the hum of a bus. The best headphones combine both, which is why a good fit matters even on expensive ANC models."
+    },
+    {
+      "id": "how-anti-noise-works",
+      "heading": "How anti-noise works",
+      "body": "Sound travels as waves of pressure. If you add a wave that is the exact mirror image of another, with peaks where the original has troughs, the two cancel each other out. This is called destructive interference.\n\nANC headphones use small microphones to measure incoming noise, a processor to calculate the opposite wave, and the headphone speaker to play that anti-noise alongside your music. Feedforward microphones on the outside hear noise before it reaches you. Feedback microphones inside the ear cup or earbud hear what is actually reaching your ear and correct what is left over. Hybrid systems use both and generally perform best."
+    },
+    {
+      "id": "why-voices-and-sudden-sounds-get-through",
+      "heading": "Why voices and sudden sounds get through",
+      "body": "To cancel a sound, the headphones must predict it. Low, steady sounds are easy: they change slowly and repeat. High-pitched and unpredictable sounds, such as speech, a baby crying or a door slamming, change too quickly for the processing to follow accurately, and their short wavelengths make precise cancellation at the ear much harder.\n\nThat is why ANC headphones make a train carriage sound distant but still let through nearby conversations, more quietly. Passive isolation does most of the work above the lower midrange."
+    },
+    {
+      "id": "transparency-and-adaptive-modes",
+      "heading": "Transparency and adaptive modes",
+      "body": "Most ANC headphones also offer a transparency or ambient mode. Here the outside microphones feed surrounding sound into the headphones on purpose, so you can hear announcements or talk to someone without taking them off. Good transparency modes sound natural; poorer ones make your own voice sound boomy or add hiss.\n\nAdaptive modes adjust the amount of cancellation to your surroundings or to how well the ear tips seal. Some also reduce the pressure sensation some people feel with strong ANC, a feeling similar to being on a plane during descent."
+    },
+    {
+      "id": "buying-advice",
+      "heading": "Buying advice",
+      "body": "- **Fit first.** Earbuds with the wrong size tip lose much of their noise cancelling. Try every size supplied, and use any fit test the companion app offers.\n- **Over-ear for travel.** Over-ear headphones generally block more noise than earbuds, especially on long flights.\n- **Battery life with ANC on.** Quoted battery life often assumes ANC is off; check the figure with it on.\n- **Wind noise.** Outdoor microphones can pick up wind; some models handle this better than others.\n- **Microphone quality for calls** depends on different processing again, so check reviews that test it outdoors.\n\nFor safety, use transparency mode or remove headphones when crossing roads and cycling."
+    }
+  ],
+  "prices": [],
+  "media": [],
+  "faq": [
+    {
+      "q": "Can noise-cancelling headphones block voices?",
+      "a": "They reduce voices, but much less than engine and traffic rumble. Blocking speech relies mainly on a good passive seal."
+    },
+    {
+      "q": "Do noise-cancelling headphones protect your hearing?",
+      "a": "They can help, because you no longer need to turn the volume up to drown out background noise. Keep the volume moderate."
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-anc",
+      "name": "Wikipedia: Active noise control",
+      "url": "https://en.wikipedia.org/wiki/Active_noise_control",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    },
+    {
+      "id": "wiki-nc-headphones",
+      "name": "Wikipedia: Noise-cancelling headphones",
+      "url": "https://en.wikipedia.org/wiki/Noise-cancelling_headphones",
+      "licence": "CC BY-SA 4.0 (facts only; no text reused)",
+      "attribution": null,
+      "fetchedAt": "2026-10-27"
+    }
+  ]
+}
