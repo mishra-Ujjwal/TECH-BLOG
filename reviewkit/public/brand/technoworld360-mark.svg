@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- The globe from the TechnoWorld360 wordmark, redrawn as a vector for icons. -->
+  <rect width="512" height="512" rx="112" fill="#fff6f0"/>
+  <defs><clipPath id="g"><circle cx="256" cy="256" r="150"/></clipPath></defs>
+  <circle cx="256" cy="256" r="150" fill="#ee7642"/>
+  <g clip-path="url(#g)" fill="none" stroke="#ffffff" stroke-width="16">
+    <line x1="256" y1="96" x2="256" y2="416"/>
+    <ellipse cx="256" cy="256" rx="62" ry="150"/>
+    <line x1="96" y1="256" x2="416" y2="256"/>
+    <line x1="96" y1="186" x2="416" y2="186"/>
+  </g>
+  <g transform="rotate(-22 256 256)">
+    <ellipse cx="256" cy="256" rx="214" ry="76" fill="none" stroke="#12182b" stroke-width="22"/>
+    <circle cx="450" cy="226" r="22" fill="#12182b"/>
+  </g>
+</svg>

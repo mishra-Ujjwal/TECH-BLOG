@@ -117,7 +117,7 @@ export function AdminShell({
   const brand = (
     <Link href="/studio" className="flex items-center gap-2.5">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/brand/tw-badge.png" alt="" width={36} height={36} className="size-9 rounded-[9px]" />
+      <img src="/brand/technoworld360-mark.svg" alt="" width={36} height={36} className="size-9" />
       <span className="leading-tight">
         <span className="block text-small font-bold tracking-[-0.01em] text-ink">{siteName}</span>
         <span className="block text-micro text-ink-3">Admin</span>
