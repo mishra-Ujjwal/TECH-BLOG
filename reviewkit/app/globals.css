@@ -32,6 +32,8 @@
      text and links use the darker --accent so they stay readable on white. */
   --brand-orange: #ff6b2c;
   --brand-navy: #0e1424;
+  /* The logo artwork's own background. Fixed in both themes: the tile carries it. */
+  --brand-cream: #fff6f0;
 
   /* Type scale, 1.25 from a 17px interface base. */
   --t-micro: 0.75rem;
@@ -117,6 +119,7 @@
   --color-caution-wash: var(--caution-wash);
   --color-brand-orange: var(--brand-orange);
   --color-brand-navy: var(--brand-navy);
+  --color-brand-cream: var(--brand-cream);
 
   --text-micro: var(--t-micro);
   --text-small: var(--t-small);

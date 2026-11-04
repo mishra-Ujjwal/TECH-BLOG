@@ -6,35 +6,22 @@ import { ConsentResetLink } from "./consent";
 import { CategoryStrip, MainNav } from "./nav";
 
 /**
- * The TechWorld Blog lock-up: the TW badge (an image cut from the supplied logo, on
- * its own orange tile) with the name and the Blog badge set as text, so they stay
- * sharp at every size and follow dark mode outside the orange masthead.
+ * The TechnoWorld360 wordmark, the supplied artwork on its own cream tile. The tile
+ * keeps the orange "360" and globe visible on the orange masthead, and the navy
+ * letters readable on the dark-mode footer.
  */
 export function BrandLogo({ size = "md" }: { size?: "md" | "lg" }) {
   const lg = size === "lg";
   return (
-    <span className="flex items-center gap-3">
+    <span className={`inline-flex rounded-[10px] bg-brand-cream ${lg ? "px-3 py-2.5" : "px-3 py-2.5 sm:px-3.5 sm:py-3"}`}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/brand/tw-badge.png"
+        src="/brand/technoworld360-logo.png"
         alt=""
-        width={lg ? 60 : 52}
-        height={lg ? 60 : 52}
-        className={`${lg ? "size-[3.75rem]" : "size-[3.25rem]"} shrink-0 rounded-[12px]`}
+        width={997}
+        height={88}
+        className={lg ? "h-auto w-[12.5rem]" : "h-[1.3rem] w-auto max-w-none sm:h-[1.75rem]"}
       />
-      <span aria-hidden="true" className="flex flex-col items-start leading-none">
-        <span className={`${lg ? "text-[1.8rem]" : "text-[1.55rem]"} tracking-[-0.035em] text-brand-navy`}>
-          <span className="font-bold">Tech</span>
-          <span className="font-normal">World</span>
-        </span>
-        <span
-          className={`mt-1.5 rounded-[5px] bg-brand-navy px-1.5 py-[3px] font-bold tracking-[0.3em] text-paper ${
-            lg ? "text-[0.6rem]" : "text-[0.55rem]"
-          }`}
-        >
-          BLOG
-        </span>
-      </span>
     </span>
   );
 }
