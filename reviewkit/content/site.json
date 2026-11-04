@@ -1,16 +1,16 @@
 {
-  "name": "TechWorld Blog",
-  "shortName": "TechWorld",
-  "url": "https://techworldblog.com",
+  "name": "TechnoWorld360",
+  "shortName": "TechnoWorld360",
+  "url": "https://technoworld360.com",
   "tagline": "Hands-on tech reviews, how-tos and explainers, tested in the UK.",
-  "homeTitle": "TechWorld Blog: hands-on tech reviews, how-tos and fixes",
+  "homeTitle": "TechnoWorld360: hands-on tech reviews, how-tos and fixes",
   "description": "Tech reviews, how-tos and fixes from a UK tester who buys the kit, uses it for weeks, and publishes the measurements, screenshots and dated prices.",
   "defaultLocale": "en-GB",
   "publisher": {
-    "name": "TechWorld Blog",
+    "name": "TechnoWorld360",
     "email": "hello@example.co.uk",
     "country": "GB",
-    "logo": "/brand/techworld-logo.png"
+    "logo": "/brand/technoworld360-logo.png"
   },
   "adsense": {
     "publisherId": "",

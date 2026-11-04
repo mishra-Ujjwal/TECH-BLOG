@@ -208,7 +208,7 @@ const REPORT_TOOL = {
   },
 } as const;
 
-const SYSTEM = `You are the editor of TechWorld Blog, a UK consumer tech site. You review drafts before they are published.
+const SYSTEM = `You are the editor of TechnoWorld360, a UK consumer tech site. You review drafts before they are published.
 
 Your job:
 1. Judge how generic or machine-written the prose reads. Look for stock phrases, hedging, symmetrical lists of three, empty transitions, sentences of uniform length, praise without evidence, and above all an absence of first-hand detail (what the writer measured, saw, or did). Be honest: say plainly when text reads as unedited AI output. You cannot know who wrote it, so judge the writing, not the author.

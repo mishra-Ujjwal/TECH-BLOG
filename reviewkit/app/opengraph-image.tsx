@@ -6,17 +6,18 @@ import { getSite } from "@/lib/site";
 /**
  * The default share card, used by any page without a picture of its own.
  * ImageResponse cannot read CSS custom properties, so the colours below mirror the
- * brand tokens in app/globals.css (--brand-orange, --brand-navy). Change them together.
+ * brand tokens in app/globals.css (--brand-cream, --brand-orange, --brand-navy).
+ * Change them together.
  */
 
-export const alt = "TechWorld Blog";
+export const alt = "TechnoWorld360";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default function OpenGraphImage() {
   const site = getSite();
   const logo = `data:image/png;base64,${fs
-    .readFileSync(path.join(process.cwd(), "public/brand/techworld-logo.png"))
+    .readFileSync(path.join(process.cwd(), "public/brand/technoworld360-logo.png"))
     .toString("base64")}`;
   return new ImageResponse(
     (
@@ -27,14 +28,14 @@ export default function OpenGraphImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          background: "#ff6b2c",
+          background: "#fff6f0",
           color: "#0e1424",
           padding: "64px 80px",
         }}
       >
-        {/* The supplied logo on its own orange, 821 x 321 at source. */}
+        {/* The supplied wordmark on its own cream, 997 x 88 at source. */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={logo} alt={site.name} width={460} height={180} style={{ marginLeft: -24, marginTop: -24 }} />
+        <img src={logo} alt={site.name} width={560} height={49} />
         <div
           style={{
             display: "flex",

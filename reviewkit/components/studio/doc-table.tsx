@@ -119,7 +119,7 @@ export function DocTable({
     const data = await res.json();
     const docs = data.docs ?? [];
     downloadJson(
-      docs.length === 1 ? `${docs[0].slug}.json` : `techworld-posts-${new Date().toISOString().slice(0, 10)}.json`,
+      docs.length === 1 ? `${docs[0].slug}.json` : `technoworld360-posts-${new Date().toISOString().slice(0, 10)}.json`,
       docs.length === 1 ? docs[0] : { docs },
     );
   }

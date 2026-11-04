@@ -6,22 +6,33 @@ import { ConsentResetLink } from "./consent";
 import { CategoryStrip, MainNav } from "./nav";
 
 /**
- * The TechnoWorld360 wordmark, the supplied artwork. The masthead is already the
- * artwork's cream; in the footer it sits on its own cream tile so the navy letters
- * stay readable in dark mode.
+ * The TechnoWorld360 wordmark: the supplied artwork with its background removed, so
+ * it sits on any surface. The masthead keeps a light palette in both themes and uses
+ * the navy version; elsewhere (the footer) a light-lettered version takes over in
+ * dark mode.
  */
 export function BrandLogo({ size = "md" }: { size?: "md" | "lg" }) {
   const lg = size === "lg";
+  const img = (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src="/brand/technoworld360-logo.png"
+      alt=""
+      width={997}
+      height={88}
+      className={lg ? "h-auto w-[13.5rem]" : "h-[1.3rem] w-auto max-w-none sm:h-[1.75rem]"}
+    />
+  );
   return (
-    <span className={`inline-flex ${lg ? "rounded-[10px] bg-brand-cream px-3 py-2.5" : "py-2.5 sm:py-3"}`}>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src="/brand/technoworld360-logo.png"
-        alt=""
-        width={997}
-        height={88}
-        className={lg ? "h-auto w-[12.5rem]" : "h-[1.3rem] w-auto max-w-none sm:h-[1.75rem]"}
-      />
+    <span className="inline-flex py-2.5 sm:py-3">
+      {lg ? (
+        <picture>
+          <source srcSet="/brand/technoworld360-logo-dark.png" media="(prefers-color-scheme: dark)" />
+          {img}
+        </picture>
+      ) : (
+        img
+      )}
     </span>
   );
 }
