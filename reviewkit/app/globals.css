@@ -610,14 +610,15 @@ h4 {
   display: none;
 }
 
-/* The masthead's top bar sits on the logo's orange in both light and dark mode, so
-   it fixes its own palette: navy text, white fields. Everything inside it that uses
-   the usual tokens (links, the menu panel, the search box) picks these up. */
+/* The masthead's top bar sits on the logo's own cream in both light and dark mode,
+   so the wordmark needs no tile there. It fixes its own palette: navy text, white
+   fields. Everything inside it that uses the usual tokens (links, the menu panel,
+   the search box) picks these up. */
 .brand-bar {
   color-scheme: light;
-  background: var(--brand-orange);
+  background: var(--brand-cream);
   --paper: #ffffff;
-  --paper-2: rgb(255 255 255 / 0.28);
+  --paper-2: rgb(14 20 36 / 0.06);
   --ink: #0e1424;
   --ink-2: #0e1424;
   --ink-3: #3b2418;
