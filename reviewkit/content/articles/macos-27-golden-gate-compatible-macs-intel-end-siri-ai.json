@@ -40,7 +40,17 @@
     {
       "id": "tldr",
       "heading": "TL;DR",
-      "body": "As reported by 9to5Mac and MacRumors, Apple released macOS 27 (Golden Gate) on Monday September 14th, 2026. This will be a free upgrade for compatible Mac users and will be released alongside iOS 27, iPadOS 27, watchOS 27, tvOS 27 and visionOS 27.\n\nThe main thing to know here is that it's the last macOS release for Intel Macs. As stated by MacRumors, macOS 26 Tahoe is the last macOS version to run on Intel Macs. TechRadar also mentions that Golden Gate can only run on Apple Silicon Macs so anyone with an Intel MacBook, iMac or Mac Pro is now stuck.\n\nIn terms of features, you'll see a whole Siri overhaul with the addition of an app, Liquid Glass transparency slider, quicker app opening, search overhaul and new parental controls. However, some advanced Siri AI features require an M3 or higher chip and at least 12GB (9to5Mac).\n\nThis article shows all the compatibility details, what Intel Macs are no longer supported, what new features there are, what Apple says about performance and any discrepancies. We haven't used macOS 27 ourselves. Everything has been taken from the sources below."
+      "body": "As reported by 9to5Mac and MacRumors, Apple released macOS 27 (Golden Gate) on Monday September 14th, 2026. This will be a free upgrade for compatible Mac users and will be released alongside iOS 27, iPadOS 27, watchOS 27, tvOS 27 and visionOS 27.\n\nThe main thing to know here is that it's the last macOS release for Intel Macs. As stated by MacRumors, macOS 26 Tahoe is the last macOS version to run on Intel Macs. TechRadar also mentions that Golden Gate can only run on Apple Silicon Macs so anyone with an Intel MacBook, iMac or Mac Pro is now stuck.\n\nIn terms of features, you'll see a whole Siri overhaul with the addition of an app, Liquid Glass transparency slider, quicker app opening, search overhaul and new parental controls. However, some advanced Siri AI features require an M3 or higher chip and at least 12GB (9to5Mac).\n\nThis article shows all the compatibility details, what Intel Macs are no longer supported, what new features there are, what Apple says about performance and any discrepancies. We haven't used macOS 27 ourselves. Everything has been taken from the sources below.",
+      "media": [
+        {
+          "src": "https://pxrj6ihewyeyflcj.public.blob.vercel-storage.com/images/macos-27-golden-gate-compatible-macs-intel-end-siri-ai/macos-27-golden-gate-compatible-macs-intel-end-siri-ai-1-Wo6f9GXgXAisKi2yRcuvlT8l4haRjq.webp",
+          "alt": "A MacBook showing a Golden Gate Bridge wallpaper, with notes on Intel support ending and Siri AI",
+          "caption": "AI-generated illustration.",
+          "credit": "AI-generated image",
+          "width": 1600,
+          "height": 900
+        }
+      ]
     },
     {
       "id": "release-date-and-beta",
