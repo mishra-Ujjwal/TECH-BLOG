@@ -6,9 +6,9 @@ import { ConsentResetLink } from "./consent";
 import { CategoryStrip, MainNav } from "./nav";
 
 /**
- * The TechWorld Blog lock-up: the TW badge (an image cut from the supplied logo, on
- * its own orange tile) with the name and the Blog badge set as text, so they stay
- * sharp at every size and follow dark mode outside the orange masthead.
+ * The TechnoWorld360 lock-up: the TW badge (an image cut from the supplied logo, on
+ * its own orange tile) with the name set as text, so it stays sharp at every size
+ * and follows dark mode outside the orange masthead.
  */
 export function BrandLogo({ size = "md" }: { size?: "md" | "lg" }) {
   const lg = size === "lg";
@@ -22,18 +22,12 @@ export function BrandLogo({ size = "md" }: { size?: "md" | "lg" }) {
         height={lg ? 60 : 52}
         className={`${lg ? "size-[3.75rem]" : "size-[3.25rem]"} shrink-0 rounded-[12px]`}
       />
-      <span aria-hidden="true" className="flex flex-col items-start leading-none">
-        <span className={`${lg ? "text-[1.8rem]" : "text-[1.55rem]"} tracking-[-0.035em] text-brand-navy`}>
-          <span className="font-bold">Tech</span>
-          <span className="font-normal">World</span>
-        </span>
-        <span
-          className={`mt-1.5 rounded-[5px] bg-brand-navy px-1.5 py-[3px] font-bold tracking-[0.3em] text-paper ${
-            lg ? "text-[0.6rem]" : "text-[0.55rem]"
-          }`}
-        >
-          BLOG
-        </span>
+      <span
+        aria-hidden="true"
+        className={`${lg ? "text-[1.8rem]" : "text-[1.55rem]"} leading-none tracking-[-0.035em] text-brand-navy`}
+      >
+        <span className="font-bold">Techno</span>
+        <span className="font-normal">World360</span>
       </span>
     </span>
   );
