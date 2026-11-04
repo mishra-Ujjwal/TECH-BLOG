@@ -3,7 +3,7 @@ import path from "node:path";
 import { revalidatePath } from "next/cache";
 import { adminGuard } from "@/lib/admin-auth";
 import { siteSchema } from "@/lib/content/schema";
-import { studioEnabled } from "@/lib/studio";
+import { CONFIG_READ_ONLY_MESSAGE, configEditable, studioEnabled } from "@/lib/studio";
 import { clean, plain } from "@/lib/studio-shared";
 
 /**
@@ -15,6 +15,9 @@ export async function POST(request: Request) {
   if (!studioEnabled()) return new Response("Not found", { status: 404 });
   const denied = await adminGuard();
   if (denied) return denied;
+  if (!configEditable()) {
+    return Response.json({ ok: false, errors: [{ path: "", message: CONFIG_READ_ONLY_MESSAGE }] }, { status: 409 });
+  }
 
   let body: { site?: unknown };
   try {

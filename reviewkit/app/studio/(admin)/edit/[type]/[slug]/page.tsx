@@ -2,7 +2,7 @@ import { requireAdmin } from "@/lib/admin-auth";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Editor } from "@/components/studio/editor";
-import { readRawDoc, type DocType } from "@/lib/content/files";
+import { readRawDoc, type DocType } from "@/lib/content/store";
 import { DOC_TYPES, formSchemaFor, publicPath, TYPE_LABELS } from "@/lib/studio";
 import { contentDriver, studioOptions } from "../../../options";
 
@@ -10,7 +10,7 @@ export default async function EditDoc({ params }: { params: Promise<{ type: stri
   await requireAdmin();
   const { type, slug } = await params;
   if (!DOC_TYPES.includes(type as DocType)) notFound();
-  const raw = readRawDoc(type as DocType, slug) as Record<string, unknown> | null;
+  const raw = (await readRawDoc(type as DocType, slug)) as Record<string, unknown> | null;
   if (!raw) notFound();
 
   return (
@@ -39,7 +39,7 @@ export default async function EditDoc({ params }: { params: Promise<{ type: stri
           schema={formSchemaFor(type as DocType) as never}
           initial={raw}
           originalSlug={slug}
-          options={studioOptions()}
+          options={await studioOptions()}
           typeLabel={TYPE_LABELS[type as DocType]}
           driver={contentDriver()}
         />

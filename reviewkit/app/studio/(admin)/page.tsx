@@ -1,45 +1,25 @@
-import fs from "node:fs";
-import path from "node:path";
 import Link from "next/link";
 import { btnPrimary, btnSecondary, PageHeader, Panel } from "@/components/studio/page-header";
 import { requireAdmin } from "@/lib/admin-auth";
+import { imageStats } from "@/lib/media";
 import { getAuthors, getCategories, getSite } from "@/lib/site";
 import { studioRows } from "./rows";
 
 /**
  * Dashboard: what is on the site, what is waiting, and what still needs setting up
  * before the site is ready for readers and AdSense. Every figure is read from the
- * files in content/ and public/images/, nothing is estimated.
+ * stored posts and images, nothing is estimated.
  */
-
-function imageStats(): { count: number; kb: number } {
-  const dir = path.join(process.cwd(), "public", "images");
-  let count = 0;
-  let bytes = 0;
-  const walk = (d: string) => {
-    if (!fs.existsSync(d)) return;
-    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-      const full = path.join(d, e.name);
-      if (e.isDirectory()) walk(full);
-      else if (/\.(png|jpe?g|webp|avif|gif)$/i.test(e.name)) {
-        count++;
-        bytes += fs.statSync(full).size;
-      }
-    }
-  };
-  walk(dir);
-  return { count, kb: Math.round(bytes / 1024) };
-}
 
 export default async function Dashboard() {
   await requireAdmin();
   const site = getSite();
-  const rows = studioRows();
+  const rows = (await studioRows());
   const posts = rows.filter((r) => r.type !== "page");
   const pages = rows.filter((r) => r.type === "page");
   const published = posts.filter((r) => r.status === "published");
   const drafts = posts.filter((r) => r.status !== "published");
-  const images = imageStats();
+  const images = await imageStats();
 
   const byCategory = getCategories().map((c) => ({
     slug: c.slug,

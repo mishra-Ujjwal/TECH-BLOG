@@ -1,7 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
-import { docFilePath, loadAllDocs, writeDocFile, type DocType } from "./content/files";
+import { contentDriver } from "./content";
+import type { DocType } from "./content/files";
+import { docExists, loadAllDocs, trashStoredDoc, writeDoc } from "./content/store";
 import {
   ARTICLE_FORMATS,
   articleSchema,
@@ -17,16 +19,20 @@ import { clean } from "./studio-shared";
 
 /**
  * The writing studio at /studio: a form for every document type, generated from the
- * content contract, that saves JSON into content/ exactly as if you had written the
- * file by hand. The same schema and the same checks apply either way.
+ * content contract. The same schema and the same checks apply however a post is saved.
  *
- * It writes to disk, so it only runs where the disk is yours: `npm run dev`, or a
- * server you control with STUDIO_ENABLED=true. On a serverless host the filesystem is
- * read-only; write locally, then commit and deploy.
+ * Where it saves depends on the content driver (lib/content/store.ts):
+ *   files  JSON into content/, exactly as if you had written the file by hand
+ *   neon   the content table, so the studio works on a serverless host
+ *
+ * It runs under `npm run dev`, or anywhere STUDIO_ENABLED=true. On a serverless host
+ * the disk is read-only, so there it only switches on with CONTENT_SOURCE=neon.
  */
 
 export function studioEnabled(): boolean {
-  return process.env.NODE_ENV === "development" || process.env.STUDIO_ENABLED === "true";
+  if (process.env.NODE_ENV === "development") return true;
+  if (process.env.STUDIO_ENABLED !== "true") return false;
+  return !process.env.VERCEL || contentDriver() === "neon";
 }
 
 export const DOC_TYPES: DocType[] = ["article", "review", "pillar", "page"];
@@ -178,8 +184,8 @@ function wordCount(...parts: string[]): number {
   return parts.join(" ").split(/\s+/).filter(Boolean).length;
 }
 
-/** Validate, run the cross-file checks, and write the file. */
-export function saveDoc(input: unknown, originalSlug?: string): SaveResult {
+/** Validate, run the cross-file checks, and store the document. */
+export async function saveDoc(input: unknown, originalSlug?: string): Promise<SaveResult> {
   const errors: Issue[] = [];
   const warnings: Issue[] = [];
 
@@ -198,12 +204,12 @@ export function saveDoc(input: unknown, originalSlug?: string): SaveResult {
   // pages already show it, so keep the copy stored on the post in step with it.
   const profile = getAuthors().find((a) => a.slug === doc.author.slug);
   if (profile) doc.author = { ...doc.author, name: profile.name };
-  const others = loadAllDocs()
+  const others = (await loadAllDocs())
     .map((l) => l.doc)
     .filter((d) => !(d.type === doc.type && d.slug === (originalSlug ?? doc.slug)));
 
   /* the slug is the file name and the URL, so it must be free */
-  if (doc.slug !== originalSlug && fs.existsSync(docFilePath(doc.type, doc.slug))) {
+  if (doc.slug !== originalSlug && (await docExists(doc.type, doc.slug))) {
     errors.push({ path: "slug", message: `a ${doc.type} called "${doc.slug}" already exists` });
   }
   if (doc.type === "page" && RESERVED_SLUGS.has(doc.slug)) {
@@ -265,9 +271,10 @@ export function saveDoc(input: unknown, originalSlug?: string): SaveResult {
     errors.push({ path: "dates.updated", message: "is before the published date" });
   }
 
-  /* images referenced from /public must exist */
+  /* images referenced from /public must exist (only checkable where public/ is on disk) */
   const blob = JSON.stringify(doc);
-  for (const m of blob.matchAll(/"(?:src|ogImage|avatar)":"(\/[^"]+)"/g)) {
+  const localImages = contentDriver() === "files" ? blob.matchAll(/"(?:src|ogImage|avatar)":"(\/[^"]+)"/g) : [];
+  for (const m of localImages) {
     if (!fs.existsSync(path.join(process.cwd(), "public", m[1]))) {
       warnings.push({ path: "media", message: `image not found at public${m[1]}` });
     }
@@ -308,19 +315,10 @@ export function saveDoc(input: unknown, originalSlug?: string): SaveResult {
 
   if (errors.length) return { ok: false, errors, warnings };
 
-  const file = writeAndMove(doc, originalSlug);
+  // Renamed, not deleted: the old copy is kept (see writeDoc), so a slug change can
+  // always be undone.
+  const file = await writeDoc(doc, originalSlug);
   return { ok: true, doc, file, url: live ? publicPath(doc) : null, warnings };
-}
-
-function writeAndMove(doc: Doc, originalSlug?: string): string {
-  const file = writeDocFile(doc);
-  if (originalSlug && originalSlug !== doc.slug) {
-    // Renamed, not deleted: the old file is kept beside it with a .bak suffix, which
-    // the loader ignores, so a slug change can always be undone.
-    const old = docFilePath(doc.type, originalSlug);
-    if (fs.existsSync(old)) fs.renameSync(old, `${old}.bak`);
-  }
-  return file;
 }
 
 export function publicPath(doc: Pick<Doc, "type" | "slug">): string {
@@ -336,6 +334,18 @@ export function publicPath(doc: Pick<Doc, "type" | "slug">): string {
   }
 }
 
+/**
+ * site.json, authors.json and categories.json are config that every page reads from
+ * the repo, so they are only editable where the repo is on disk. On a database-backed
+ * site, change them locally, commit and deploy.
+ */
+export const CONFIG_READ_ONLY_MESSAGE =
+  "Settings and author profiles are saved in the repo, so edit them in the studio on your computer (npm run dev), then commit and deploy.";
+
+export function configEditable(): boolean {
+  return contentDriver() === "files";
+}
+
 export function isArticleFormat(v: unknown): v is ArticleFormat {
   return typeof v === "string" && (ARTICLE_FORMATS as readonly string[]).includes(v);
 }
@@ -343,17 +353,15 @@ export function isArticleFormat(v: unknown): v is ArticleFormat {
 /* ---------------------------------- delete ---------------------------------- */
 
 /**
- * Where deleted documents go. Deleting from the studio moves the file here rather
- * than erasing it, so a mistake can be undone by moving the file back into its
- * folder. The loader only reads the four content folders, so nothing in here is
- * published, listed or validated.
+ * Deleting from the studio never erases: on disk the file moves to content/.trash/
+ * (which the loader never reads), in the database the row moves to content_trash.
+ * Either way a mistake can be undone by moving it back.
  */
-export const TRASH_DIR = path.join(process.cwd(), "content", ".trash");
 
 /** Other documents that link to this one, which would break if it disappeared. */
-function referencesTo(type: DocType, slug: string): string[] {
+async function referencesTo(type: DocType, slug: string): Promise<string[]> {
   const out: string[] = [];
-  for (const { doc } of loadAllDocs()) {
+  for (const { doc } of await loadAllDocs()) {
     if (doc.type === type && doc.slug === slug) continue;
     if (type === "review") {
       if (doc.type === "pillar" && doc.picks.some((p) => p.reviewSlug === slug)) out.push(doc.slug);
@@ -367,17 +375,11 @@ function referencesTo(type: DocType, slug: string): string[] {
   return out;
 }
 
-export function trashDoc(type: DocType, slug: string): { ok: true; movedTo: string } | { ok: false; reason: string } {
-  const file = docFilePath(type, slug);
-  if (!fs.existsSync(file)) return { ok: false, reason: "file not found" };
-  const refs = referencesTo(type, slug);
+export async function trashDoc(type: DocType, slug: string): Promise<{ ok: true; movedTo: string } | { ok: false; reason: string }> {
+  if (!(await docExists(type, slug))) return { ok: false, reason: "not found" };
+  const refs = await referencesTo(type, slug);
   if (refs.length) {
     return { ok: false, reason: `still linked from ${refs.slice(0, 3).join(", ")}${refs.length > 3 ? " and more" : ""}; remove those links first` };
   }
-  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
-  const dir = path.join(TRASH_DIR, type);
-  fs.mkdirSync(dir, { recursive: true });
-  const dest = path.join(dir, `${slug}--${stamp}.json`);
-  fs.renameSync(file, dest);
-  return { ok: true, movedTo: path.relative(process.cwd(), dest) };
+  return trashStoredDoc(type, slug);
 }

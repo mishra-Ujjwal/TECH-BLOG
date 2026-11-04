@@ -21,10 +21,10 @@ export async function POST(request: Request) {
   }
   const edit = { type: String(body.type), slug: String(body.slug), path: String(body.path), oldText: String(body.oldText), newText: String(body.newText) };
 
-  const check = previewEdit(edit);
+  const check = await previewEdit(edit);
   if (!check.ok) return Response.json({ ok: false, error: check.reason }, { status: 409 });
 
-  const result = saveDoc(check.doc, edit.slug);
+  const result = await saveDoc(check.doc, edit.slug);
   if (!result.ok) {
     const first = result.errors[0];
     return Response.json({ ok: false, error: first ? `${first.path}: ${first.message}` : "could not save" }, { status: 422 });

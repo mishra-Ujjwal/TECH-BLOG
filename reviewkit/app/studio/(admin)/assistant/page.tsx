@@ -2,7 +2,7 @@ import { AssistantChat } from "@/components/studio/assistant-chat";
 import { PageHeader } from "@/components/studio/page-header";
 import { requireAdmin } from "@/lib/admin-auth";
 import { assistantConfigured } from "@/lib/assistant";
-import { readRawDoc, type DocType } from "@/lib/content/files";
+import { readRawDoc, type DocType } from "@/lib/content/store";
 import { DOC_TYPES } from "@/lib/studio";
 
 /**
@@ -16,7 +16,7 @@ export default async function AssistantPage({ searchParams }: { searchParams: Pr
   let focus: { type: string; slug: string; title: string } | undefined;
   const [type, slug] = (post ?? "").split("/");
   if (type && slug && DOC_TYPES.includes(type as DocType)) {
-    const raw = readRawDoc(type as DocType, slug) as Record<string, unknown> | null;
+    const raw = (await readRawDoc(type as DocType, slug)) as Record<string, unknown> | null;
     if (raw) focus = { type, slug, title: String(raw.title ?? slug) };
   }
 

@@ -15,7 +15,7 @@ const RISK_ORDER: Record<Risk, number> = { high: 0, medium: 1, low: 2 };
 
 export default async function AdsensePage() {
   await requireAdmin();
-  const { site, posts } = auditSite();
+  const { site, posts } = await auditSite();
 
   const mustFix = site.filter((c) => c.level === "fail").length;
   const shouldFix = site.filter((c) => c.level === "warn").length;

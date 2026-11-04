@@ -7,7 +7,7 @@ import { studioRows, tableOptions } from "../rows";
 /** About, contact, policies: the static pages linked from the header and footer. */
 export default async function StaticPagesPage() {
   await requireAdmin();
-  const rows = studioRows().filter((r) => r.type === "page");
+  const rows = (await studioRows()).filter((r) => r.type === "page");
   return (
     <>
       <PageHeader

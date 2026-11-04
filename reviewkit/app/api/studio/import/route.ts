@@ -1,8 +1,7 @@
 import { revalidatePath } from "next/cache";
 import { adminGuard } from "@/lib/admin-auth";
-import { docFilePath, type DocType } from "@/lib/content/files";
+import { docExists, type DocType } from "@/lib/content/store";
 import { DOC_TYPES, publicPath, saveDoc, studioEnabled } from "@/lib/studio";
-import fs from "node:fs";
 import { getCategories } from "@/lib/site";
 import { plain, slugify } from "@/lib/studio-shared";
 
@@ -34,10 +33,10 @@ export async function POST(request: Request) {
   const saved: { slug: string; type: string; status: string; url: string | null; warnings: string[] }[] = [];
   const failed: { index: number; slug: string; errors: string[] }[] = [];
 
-  body.docs.slice(0, 500).forEach((input, index) => {
+  for (const [index, input] of body.docs.slice(0, 500).entries()) {
     if (!input || typeof input !== "object" || Array.isArray(input)) {
       failed.push({ index, slug: "", errors: ["not a JSON object"] });
-      return;
+      continue;
     }
     const doc = { ...(input as Record<string, unknown>) };
     if (body.status === "draft" || body.status === "published") doc.status = body.status;
@@ -46,15 +45,15 @@ export async function POST(request: Request) {
 
     const type = doc.type as DocType;
     const slug = typeof doc.slug === "string" ? doc.slug : "";
-    const exists = DOC_TYPES.includes(type) && slug !== "" && fs.existsSync(docFilePath(type, slug));
+    const exists = DOC_TYPES.includes(type) && slug !== "" && (await docExists(type, slug));
     if (exists && !body.overwrite) {
       failed.push({ index, slug, errors: [`a ${type} called "${slug}" already exists; tick "Replace existing" to update it`] });
-      return;
+      continue;
     }
 
     const moved = fixCategory(doc);
 
-    const r = saveDoc(doc, exists ? slug : undefined);
+    const r = await saveDoc(doc, exists ? slug : undefined);
     if (r.ok) {
       saved.push({
         slug: r.doc.slug,
@@ -67,7 +66,7 @@ export async function POST(request: Request) {
     } else {
       failed.push({ index, slug, errors: r.errors.map((e) => `${e.path || "document"}: ${plain(e.message)}`) });
     }
-  });
+  }
 
   if (saved.length) {
     for (const p of ["/", "/reviews", "/articles", "/guides", "/categories", "/sitemap.xml"]) revalidatePath(p);

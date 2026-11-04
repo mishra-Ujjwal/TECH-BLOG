@@ -1,9 +1,9 @@
 import { checkPost, checkSite, type Check, type PostReport, type Sibling } from "./adsense-check";
-import { listRawDocs } from "./content/files";
+import { listRawDocs } from "./content/store";
 import { getAuthors, getSite } from "./site";
 
 /**
- * Reads every file in content/ and runs the AdSense checks over the whole site.
+ * Reads every document and runs the AdSense checks over the whole site.
  * Server only. Free rules, no API calls, so the studio page can run it on every load.
  */
 
@@ -17,15 +17,15 @@ export type AuditRow = {
 
 type Raw = Record<string, unknown>;
 
-function rawDocs(): Raw[] {
-  return listRawDocs()
+async function rawDocs(): Promise<Raw[]> {
+  return (await listRawDocs())
     .map((f) => f.raw)
     .filter((r): r is Raw => Boolean(r) && typeof r === "object" && typeof (r as Raw).slug === "string");
 }
 
 /** Titles of every post, for the duplicate check. */
-export function siblings(): Sibling[] {
-  return rawDocs()
+export async function siblings(): Promise<Sibling[]> {
+  return (await rawDocs())
     .filter((d) => d.type !== "page")
     .map((d) => ({ slug: String(d.slug), title: String(d.title ?? "") }));
 }
@@ -35,9 +35,9 @@ function pageText(doc: Raw): string {
   return [doc.title, doc.excerpt, ...sections.flatMap((s) => [s.heading, s.body])].filter(Boolean).join("\n");
 }
 
-export function auditSite(): { site: Check[]; posts: AuditRow[] } {
-  const docs = rawDocs();
-  const sibs = siblings();
+export async function auditSite(): Promise<{ site: Check[]; posts: AuditRow[] }> {
+  const docs = await rawDocs();
+  const sibs = await siblings();
   const posts: AuditRow[] = docs
     .filter((d) => d.type !== "page")
     .map((d) => ({

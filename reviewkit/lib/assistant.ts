@@ -2,7 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { checkPost } from "./adsense-check";
 import { auditSite, siblings } from "./adsense-audit";
-import { listRawDocs, readRawDoc, type DocType } from "./content/files";
+import { listRawDocs, readRawDoc, type DocType } from "./content/store";
 import { docSchema } from "./content/schema";
 import { getSite } from "./site";
 
@@ -79,10 +79,10 @@ export function editRaw(raw: Raw, path: string, oldText: string, newText: string
   return { ok: true, doc: copy };
 }
 
-/** Check an edit against the file on disk and the content contract, without saving. */
-export function previewEdit(e: EditRequest): { ok: true; doc: Raw; title: string; published: boolean } | { ok: false; reason: string } {
+/** Check an edit against the stored post and the content contract, without saving. */
+export async function previewEdit(e: EditRequest): Promise<{ ok: true; doc: Raw; title: string; published: boolean } | { ok: false; reason: string }> {
   if (!DOC_TYPES.includes(e.type as DocType)) return { ok: false, reason: `unknown type "${e.type}"` };
-  const raw = readRawDoc(e.type as DocType, e.slug) as Raw | null;
+  const raw = (await readRawDoc(e.type as DocType, e.slug)) as Raw | null;
   if (!raw) return { ok: false, reason: `no ${e.type} with slug "${e.slug}"` };
   const edited = editRaw(raw, e.path, e.oldText, e.newText);
   if (!edited.ok) return edited;
@@ -184,18 +184,18 @@ export type AssistantEvent =
   | { kind: "error"; message: string }
   | { kind: "done" };
 
-function rawDocs(): Raw[] {
-  return listRawDocs()
+async function rawDocs(): Promise<Raw[]> {
+  return (await listRawDocs())
     .map((f) => f.raw)
     .filter((r): r is Raw => Boolean(r) && typeof r === "object" && typeof (r as Raw).slug === "string");
 }
 
-function runTool(name: string, input: unknown, emit: (e: AssistantEvent) => void): { content: string; isError?: boolean } {
+async function runTool(name: string, input: unknown, emit: (e: AssistantEvent) => void): Promise<{ content: string; isError?: boolean }> {
   switch (name) {
     case "list_posts": {
       emit({ kind: "activity", text: "Listing every post" });
-      const { posts } = auditSite();
-      const pages = rawDocs()
+      const { posts } = await auditSite();
+      const pages = (await rawDocs())
         .filter((d) => d.type === "page")
         .map((d) => ({ type: "page", slug: d.slug, title: d.title, status: d.status }));
       const rows = posts.map((p) => ({
@@ -213,7 +213,7 @@ function runTool(name: string, input: unknown, emit: (e: AssistantEvent) => void
     case "read_post": {
       const parsed = TypeSlug.safeParse(input);
       if (!parsed.success) return { content: `invalid input: ${parsed.error.message}`, isError: true };
-      const raw = readRawDoc(parsed.data.type, parsed.data.slug) as Raw | null;
+      const raw = (await readRawDoc(parsed.data.type, parsed.data.slug)) as Raw | null;
       if (!raw) return { content: `no ${parsed.data.type} with slug "${parsed.data.slug}"`, isError: true };
       emit({ kind: "activity", text: `Reading "${String(raw.title ?? parsed.data.slug)}"` });
       return { content: JSON.stringify(raw, null, 1) };
@@ -223,20 +223,20 @@ function runTool(name: string, input: unknown, emit: (e: AssistantEvent) => void
       if (!parsed.success) return { content: `invalid input: ${parsed.error.message}`, isError: true };
       const { type, slug } = parsed.data;
       if (type && slug) {
-        const raw = readRawDoc(type, slug) as Raw | null;
+        const raw = (await readRawDoc(type, slug)) as Raw | null;
         if (!raw) return { content: `no ${type} with slug "${slug}"`, isError: true };
         emit({ kind: "activity", text: `Checking "${String(raw.title ?? slug)}"` });
-        return { content: JSON.stringify(checkPost(raw, siblings())) };
+        return { content: JSON.stringify(checkPost(raw, await siblings())) };
       }
       emit({ kind: "activity", text: "Checking the whole site" });
-      const { site } = auditSite();
+      const { site } = await auditSite();
       return { content: JSON.stringify({ siteChecks: site }) };
     }
     case "propose_edit": {
       const parsed = EditInput.safeParse(input);
       if (!parsed.success) return { content: JSON.stringify({ INVALID_JSON: JSON.stringify(input) }), isError: true };
       const e = parsed.data;
-      const check = previewEdit({ type: e.type, slug: e.slug, path: e.path, oldText: e.old_text, newText: e.new_text });
+      const check = await previewEdit({ type: e.type, slug: e.slug, path: e.path, oldText: e.old_text, newText: e.new_text });
       if (!check.ok) return { content: `edit not proposed: ${check.reason}`, isError: true };
       const proposal: Proposal = {
         id: crypto.randomUUID().slice(0, 8),
@@ -353,14 +353,14 @@ export async function runTurn(history: BetaMessageParam[], emit: (e: AssistantEv
         throw new Error("The reply was cut off. Ask for less at once, for example one post at a time.");
       }
 
-      const results: Anthropic.Beta.BetaToolResultBlockParam[] = toolUses.map((t) => {
+      const results: Anthropic.Beta.BetaToolResultBlockParam[] = await Promise.all(toolUses.map(async (t): Promise<Anthropic.Beta.BetaToolResultBlockParam> => {
         try {
-          const r = runTool(t.name, t.input, emit);
+          const r = await runTool(t.name, t.input, emit);
           return { type: "tool_result", tool_use_id: t.id, content: r.content, is_error: r.isError };
         } catch (err) {
           return { type: "tool_result", tool_use_id: t.id, content: `tool failed: ${err instanceof Error ? err.message : String(err)}`, is_error: true };
         }
-      });
+      }));
       const resultTurn: BetaMessageParam = { role: "user", content: results };
       messages.push(resultTurn);
       added.push(resultTurn);
@@ -405,8 +405,8 @@ function describeError(err: unknown): string {
 }
 
 /** Pages of the site, for the welcome screen. */
-export function siteSummary(): { posts: number; published: number } {
-  const docs = rawDocs().filter((d) => d.type !== "page");
+export async function siteSummary(): Promise<{ posts: number; published: number }> {
+  const docs = (await rawDocs()).filter((d) => d.type !== "page");
   return { posts: docs.length, published: docs.filter((d) => d.status === "published").length };
 }
 

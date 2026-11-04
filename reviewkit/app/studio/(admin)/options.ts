@@ -1,11 +1,11 @@
 import { contentDriver } from "@/lib/content";
-import { loadAllDocs } from "@/lib/content/files";
+import { loadAllDocs } from "@/lib/content/store";
 import { getAuthors, getCategories } from "@/lib/site";
 import type { StudioOptions } from "@/components/studio/editor";
 
 /** The choices the form offers: categories, author profiles and existing slugs. */
-export function studioOptions(): StudioOptions {
-  const docs = loadAllDocs().map((l) => l.doc);
+export async function studioOptions(): Promise<StudioOptions> {
+  const docs = (await loadAllDocs()).map((l) => l.doc);
   return {
     categories: getCategories().map((c) => ({ slug: c.slug, name: c.name })),
     authors: getAuthors().map((a) => ({ slug: a.slug, name: a.name })),

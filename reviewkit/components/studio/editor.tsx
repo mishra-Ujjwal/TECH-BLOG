@@ -1018,13 +1018,15 @@ export function Editor({
                     Delete this post
                   </button>
                 )}
-                <p className="mt-1.5 text-micro text-ink-3">The file moves to content/.trash/ and can be restored.</p>
+                <p className="mt-1.5 text-micro text-ink-3">
+                  {driver === "neon" ? "The post moves to the database trash and can be restored." : "The file moves to content/.trash/ and can be restored."}
+                </p>
               </div>
             )}
             {driver === "neon" && (
-              <p className="mt-3 text-micro text-caution">
-                This site reads from Neon. Run <code>npm run content:import</code> after saving, or set
-                CONTENT_SOURCE=files.
+              <p className="mt-3 text-micro text-ink-3">
+                Saved to the live database. Run <code>npm run content:pull</code> on your computer to copy it into
+                content/ for git.
               </p>
             )}
           </div>

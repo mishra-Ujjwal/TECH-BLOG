@@ -20,7 +20,7 @@ export async function POST(request: Request) {
     return Response.json({ ok: false, errors: [{ path: "", message: "expected JSON" }] }, { status: 400 });
   }
 
-  const result = saveDoc(body.doc, body.originalSlug || undefined);
+  const result = await saveDoc(body.doc, body.originalSlug || undefined);
   if (!result.ok) return Response.json(result, { status: 422 });
 
   // Refresh every page that can list this document.

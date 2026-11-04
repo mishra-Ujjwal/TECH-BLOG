@@ -1,6 +1,6 @@
 import { revalidatePath } from "next/cache";
 import { adminGuard } from "@/lib/admin-auth";
-import { readRawDoc, type DocType } from "@/lib/content/files";
+import { readRawDoc, type DocType } from "@/lib/content/store";
 import { DOC_TYPES, publicPath, saveDoc, studioEnabled, trashDoc } from "@/lib/studio";
 
 /**
@@ -9,7 +9,7 @@ import { DOC_TYPES, publicPath, saveDoc, studioEnabled, trashDoc } from "@/lib/s
  *   POST { items: [{ type, slug }], status: "published" | "draft" }
  *   POST { items: [{ type, slug }], action: "delete" }
  *
- * Delete moves each file to content/.trash/ (see trashDoc), so it can be restored.
+ * Delete moves each post to the trash (see trashDoc), so it can be restored.
  * Each document goes through saveDoc, the same validation and publishing checks as
  * the editor's Publish button, so a bulk publish cannot skip anything. Documents
  * that fail are reported back and left unchanged.
@@ -42,7 +42,7 @@ export async function POST(request: Request) {
       continue;
     }
     if (remove) {
-      const r = trashDoc(type, slug);
+      const r = await trashDoc(type, slug);
       if (r.ok) {
         done.push(slug);
         revalidatePath(publicPath({ type, slug }));
@@ -50,16 +50,16 @@ export async function POST(request: Request) {
       else failed.push({ slug, reason: r.reason });
       continue;
     }
-    const raw = readRawDoc(type, slug) as Record<string, unknown> | null;
+    const raw = (await readRawDoc(type, slug)) as Record<string, unknown> | null;
     if (!raw) {
-      failed.push({ slug, reason: "file not found" });
+      failed.push({ slug, reason: "not found" });
       continue;
     }
     if (raw.status === status) {
       done.push(slug);
       continue;
     }
-    const result = saveDoc({ ...raw, status }, slug);
+    const result = await saveDoc({ ...raw, status }, slug);
     if (result.ok) done.push(slug);
     else failed.push({ slug, reason: result.errors.map((e) => `${e.path ? `${e.path}: ` : ""}${e.message}`).join("; ") });
   }

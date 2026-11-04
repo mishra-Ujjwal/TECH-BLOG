@@ -2,9 +2,9 @@ import fs from "node:fs";
 import path from "node:path";
 import { revalidatePath } from "next/cache";
 import { adminGuard } from "@/lib/admin-auth";
-import { loadAllDocs } from "@/lib/content/files";
+import { loadAllDocs } from "@/lib/content/store";
 import { authorsFileSchema } from "@/lib/content/schema";
-import { studioEnabled } from "@/lib/studio";
+import { CONFIG_READ_ONLY_MESSAGE, configEditable, studioEnabled } from "@/lib/studio";
 import { clean, plain } from "@/lib/studio-shared";
 
 /**
@@ -15,6 +15,9 @@ export async function POST(request: Request) {
   if (!studioEnabled()) return new Response("Not found", { status: 404 });
   const denied = await adminGuard();
   if (denied) return denied;
+  if (!configEditable()) {
+    return Response.json({ ok: false, errors: [{ path: "", message: CONFIG_READ_ONLY_MESSAGE }] }, { status: 409 });
+  }
 
   const body = (await request.json().catch(() => ({}))) as { file?: unknown };
   const parsed = authorsFileSchema.safeParse(clean(body.file));
@@ -30,7 +33,7 @@ export async function POST(request: Request) {
     return Response.json({ ok: false, errors: [{ path: "", message: "two profiles have the same slug" }] }, { status: 422 });
   }
   const orphaned = new Set(
-    loadAllDocs()
+    (await loadAllDocs())
       .map((l) => l.doc)
       .filter((d) => d.type !== "page" && !slugs.has(d.author.slug))
       .map((d) => d.author.slug),

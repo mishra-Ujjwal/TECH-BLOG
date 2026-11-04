@@ -66,7 +66,7 @@ export default async function NewDoc({
         <Editor
           schema={formSchemaFor(type) as never}
           initial={blankDoc(type, format)}
-          options={studioOptions()}
+          options={await studioOptions()}
           typeLabel={TYPE_LABELS[type]}
           driver={contentDriver()}
         />

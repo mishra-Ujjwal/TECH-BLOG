@@ -58,10 +58,12 @@ no restart. Publishing is refused while anything says TODO, [GAP: ...] or
 The JSON tab shows the file exactly as it will be saved, and accepts a whole pasted
 document. Files written by hand and files written in the studio are the same thing.
 
-The studio writes to disk, so it only exists under `npm run dev`, or on a server you
-control with `STUDIO_ENABLED=true`. Anywhere else it is a 404. On a serverless host,
-write locally, commit, and deploy. If the site reads from Neon, run
-`npm run content:import` after saving.
+Locally the studio writes to disk, under `npm run dev`. To run it on the live site,
+set `CONTENT_SOURCE=neon`, `STUDIO_ENABLED=true`, the admin login and a Neon database
+on the host: posts then save into Neon and uploads into Vercel Blob
+(`BLOB_READ_WRITE_TOKEN`). Run `npm run content:pull` to copy posts written on the
+site into content/ before you commit. Global settings and author profiles stay in the
+repo, so edit those locally. Anywhere the studio is not switched on, it is a 404.
 
 ## Adding a how-to, comparison or explainer by hand
 

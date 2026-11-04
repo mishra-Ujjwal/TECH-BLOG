@@ -35,7 +35,7 @@ export async function POST(request: Request) {
     return Response.json({ error: "There is no text to check yet." }, { status: 422 });
   }
   const local = localCheck(segments);
-  const adsense = checkPost(doc, siblings());
+  const adsense = checkPost(doc, await siblings());
 
   if (!useClaude || !claudeConfigured()) return Response.json({ local, adsense });
   try {

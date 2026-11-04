@@ -7,7 +7,7 @@ import { studioRows } from "../rows";
 /** The categories, with how many posts each holds. */
 export default async function CategoriesPage() {
   await requireAdmin();
-  const rows = studioRows().filter((r) => r.type !== "page");
+  const rows = (await studioRows()).filter((r) => r.type !== "page");
   return (
     <>
       <PageHeader

@@ -1,12 +1,12 @@
 import type { StudioRow } from "@/components/studio/doc-table";
-import { listRawDocs, type DocType } from "@/lib/content/files";
+import { listRawDocs, type DocType } from "@/lib/content/store";
 import { ARTICLE_FORMATS, FORMAT_LABELS } from "@/lib/content/schema";
 import { categoryName, getCategories } from "@/lib/site";
 import { publicPath, TYPE_LABELS } from "@/lib/studio";
 
-/** Every file in content/, shaped for the studio tables and the dashboard. */
-export function studioRows(): (StudioRow & { aiAssisted: boolean; format: string | null })[] {
-  return listRawDocs()
+/** Every document, shaped for the studio tables and the dashboard. */
+export async function studioRows(): Promise<(StudioRow & { aiAssisted: boolean; format: string | null })[]> {
+  return (await listRawDocs())
     .map((f) => {
       const raw = (f.raw ?? {}) as Record<string, unknown>;
       const type = raw.type as DocType | undefined;

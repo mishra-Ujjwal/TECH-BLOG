@@ -53,24 +53,36 @@ content/                 the source of truth, hand-authored JSON
 lib/content/schema.ts    THE CONTENT CONTRACT (zod). Strict objects: typos fail.
 lib/content/files.ts     file driver, reads content/ off disk
 lib/content/neon-driver.ts  Neon driver, published rows only, filters in SQL
-lib/content/index.ts     one API over both drivers
+lib/content/index.ts     one API over both drivers (public pages, published only)
+lib/content/store.ts     the studio's read/write store, drafts included: files or Neon
+lib/content/neon-write.ts  one upsert, shared by content:import and the live studio
+lib/media.ts             images on disk (public/images) or in Vercel Blob
 lib/db/migrations/*.sql  schema, applied in order by scripts/migrate.ts
 lib/{site,markdown,format,jsonld}.ts
 scripts/validate-content.ts  schema plus cross-file checks
 scripts/import-content.ts    content/ -> Neon, appends price history
+scripts/pull-content.ts      Neon -> content/, after writing in the live studio
 scripts/migrate.ts
 app/                     App Router pages
 components/              primitives, review-parts, chrome, consent
 ```
 
 **Flow:** author JSON -> `npm run content:validate` -> `npm run content:import` ->
-Neon -> Next.js renders. The JSON files stay authoritative; the database is the read
-store. `CONTENT_SOURCE=files` bypasses the database entirely, which is how local dev
-and CI builds work.
+Neon -> Next.js renders. `CONTENT_SOURCE=files` bypasses the database entirely, which
+is how local dev and CI builds work.
+
+**Live studio.** With `CONTENT_SOURCE=neon` and `STUDIO_ENABLED=true` the studio runs
+on the deployed site and saves straight into Neon (images into Vercel Blob when
+`BLOB_READ_WRITE_TOKEN` is set). Posts written there exist only in the database until
+`npm run content:pull` copies them into content/ for git. `content:import` will not
+overwrite a row the studio changed after its file, nor prune a row the studio
+created, without `--force`. site.json, authors.json and categories.json stay
+repo-only config, edited locally.
 
 **Two database roles on purpose.** `DATABASE_URL` should be a SELECT-only role used by
-the site. `DATABASE_URL_ADMIN` is the owner role, used only by `db:migrate` and
-`content:import`. The site cannot write, so a bug in the app cannot publish a draft.
+the public pages. `DATABASE_URL_ADMIN` is the owner role, used by `db:migrate`,
+`content:import`, `content:pull` and the studio behind its login. Public pages never
+write, so a bug in a page cannot publish a draft; only a signed-in person can.
 
 **Storage shape.** Each document is stored whole in `content.doc` (jsonb), with the
 fields used for filtering and sorting copied into real columns, plus a `summary` jsonb
@@ -107,6 +119,7 @@ npm run content:validate -- --strict warnings fail too; run before going live
 npm run db:migrate                   apply SQL migrations (needs DATABASE_URL_ADMIN)
 npm run content:import               load content/ into Neon
 npm run content:import -- --prune    also delete rows whose file is gone
+npm run content:pull                 copy posts written in the live studio into content/
 npm run check                        validate, typecheck, build
 ```
 

@@ -5,7 +5,7 @@ import { listMedia } from "@/lib/media";
 
 export default async function MediaPage() {
   await requireAdmin();
-  const items = listMedia();
+  const items = await listMedia();
   const kb = items.reduce((n, i) => n + i.kb, 0);
   return (
     <>
