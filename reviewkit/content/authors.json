@@ -4,14 +4,15 @@
     {
       "slug": "editorial-team",
       "name": "TechnoWorld360 Editorial Team",
-      "role": "Editorial team",
-      "bio": "The TechnoWorld360 editorial team writes plain-English explainers, guides and reviews on consumer technology for readers in the UK.",
-      "about": "We cover phones, computing, gaming and electric vehicles, with a focus on what matters to people buying and using tech in the UK.\n\nExplainers are researched from primary sources such as standards bodies, GOV.UK and regulators, and every article lists the sources it relied on. Some articles are drafted with AI assistance; when they are, the page says so, and an editor checks them before publication. Reviews only cover products we have used ourselves, and say how and for how long we tested them.\n\nIf you spot a mistake, please tell us through the contact page and we will correct it and note the change on the article.",
+      "role": "News, reviews and buying advice",
+      "bio": "The TechnoWorld360 editorial team covers phones, laptops, gaming and electric vehicles. We explain what is new, what it costs and whether it is worth your money, in plain English.",
+      "about": "We follow the launches, price changes and software updates that affect what people buy and use every day, from new iPhones, Pixels and Galaxy phones to MacBooks, Windows laptops, consoles and EVs.\n\nEach article starts from the primary source, such as the company announcement, the official spec sheet, the regulator filing or the price on the retailer page. We then check it against hands-on testing and reporting from established outlets, and name every source on the page so you can read it yourself. When we have not tested something ourselves, we say so instead of guessing.\n\nPrices and release dates change quickly. Every article shows when it was published and when it was last updated, and we revise our most-read guides when the facts change.\n\nSome articles are drafted with AI assistance. When they are, the page says so, and an editor checks the facts, figures and sources before it goes live.\n\nSpotted a mistake or have a tip? Contact us through the contact page. We correct errors on the page and add a dated note explaining what changed.",
       "expertise": [
-        "Phones",
-        "Computing",
+        "Smartphones",
+        "Laptops and computing",
         "Gaming",
-        "Electric vehicles"
+        "Electric vehicles",
+        "Software updates"
       ],
       "sameAs": []
     }
