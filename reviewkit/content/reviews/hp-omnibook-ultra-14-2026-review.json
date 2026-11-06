@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "type": "review",
+  "slug": "hp-omnibook-ultra-14-2026-review",
+  "locale": "en-US",
+  "status": "published",
+  "title": "HP OmniBook Ultra 14 (2026) review: thin, fast and expensive",
+  "metaDescription": "Our HP OmniBook Ultra 14 (2026) review: Snapdragon X2 Elite or Intel Panther Lake, the 3K OLED, battery life, the new keyboard and missing USB-A port.",
+  "excerpt": "HP's slimmest premium laptop comes with a 3K OLED and a choice of Snapdragon X2 Elite or Intel chips. The price is high, and the new keyboard will not suit everyone.",
+  "author": {
+    "name": "TechnoWorld360 Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-11-06",
+    "lastChecked": "2026-11-06"
+  },
+  "tags": [
+    "hp-omnibook",
+    "windows-laptops",
+    "snapdragon-x2-elite",
+    "laptop-reviews"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "Research review built from published testing. If you test it yourself, add measurements and rewrite How we tested.",
+  "category": "computing",
+  "product": {
+    "name": "HP OmniBook Ultra 14 (2026)",
+    "brand": "HP",
+    "model": "OmniBook Ultra 14 G2",
+    "homepage": "https://www.hp.com/",
+    "image": {
+      "src": "/images/hp-omnibook-ultra-14-2026-snapdragon-x2-elite-vs-intel/323523-0-uyx-xuc3m.webp",
+      "alt": "HP OmniBook Ultra 14 (2026) laptop open, showing the 3K OLED screen and keyboard",
+      "credit": "Product image",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  "verdict": {
+    "summary": "The OmniBook Ultra 14 is one of the thinnest and best-looking Windows laptops of 2026, with a sharp 120Hz OLED and a choice of Snapdragon or Intel chips. The Snapdragon model is the better value if your apps run on Arm. But the price climbs past $2,000 quickly, there is no USB-A or SD slot, and the new keyboard is softer than the one it replaces.",
+    "scoreMax": 10,
+    "bestFor": [
+      "People who want a very thin and light Windows laptop with an OLED touchscreen",
+      "Snapdragon buyers whose apps all run on Arm"
+    ],
+    "skipIf": [
+      "You need USB-A or an SD card slot without dongles",
+      "You rely on older Windows software that may not run on Arm"
+    ],
+    "pros": [
+      {
+        "text": "Slim 0.42 inch, 2.8lb aluminum body",
+        "evidence": "Windows Central"
+      },
+      {
+        "text": "Sharp 3K 120Hz OLED touchscreen",
+        "evidence": "IBTimes Australia lists 3K, 120Hz and 100% DCI-P3"
+      },
+      {
+        "text": "Snapdragon model is cheaper than a comparable Intel model",
+        "evidence": "Windows Central: about $290 less"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Keyboard is spongier than the 2024 model",
+        "evidence": "Notebookcheck found it spongier with shallower travel"
+      },
+      {
+        "text": "No USB-A port or SD card reader",
+        "evidence": "Notebookcheck and IBTimes Australia"
+      },
+      {
+        "text": "Expensive, at $2,000 or more for the well-equipped models",
+        "evidence": "Notebookcheck"
+      }
+    ]
+  },
+  "scores": [],
+  "testing": {
+    "testedOn": "2026-11-06",
+    "duration": "Not tested hands-on: research review",
+    "setup": "Research review. We have not used this product ourselves. Findings come from published testing by Windows Central, IBTimes Australia and Notebookcheck, and each claim names its source.",
+    "notTested": [
+      "We did not have an OmniBook Ultra 14 unit, so there are no measurements of our own",
+      "The other chip option",
+      "HP's 44-hour battery claim under its own test conditions"
+    ],
+    "measurements": []
+  },
+  "prices": [
+    {
+      "retailer": "Best Buy",
+      "amount": 2049.99,
+      "currency": "USD",
+      "url": "https://www.bestbuy.com/",
+      "affiliate": false,
+      "checkedAt": "2026-11-06",
+      "note": "Snapdragon X2 Elite, 32GB, 1TB, introductory price reported by Windows Central in April 2026"
+    },
+    {
+      "retailer": "HP",
+      "amount": 1699.99,
+      "currency": "USD",
+      "url": "https://www.hp.com/",
+      "affiliate": false,
+      "checkedAt": "2026-11-06",
+      "note": "Intel Core Ultra 7 365H, 16GB, 512GB starting price, reported by Windows Central"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Hardware",
+      "items": [
+        {
+          "label": "Processor options",
+          "value": "Snapdragon X2 Elite (X2E-90) or Intel Core Ultra Series 3 up to X9 388H",
+          "sourceId": "windows-central",
+          "verified": false
+        },
+        {
+          "label": "Memory and storage",
+          "value": "Up to 64GB and 2TB",
+          "sourceId": "windows-central",
+          "verified": false
+        },
+        {
+          "label": "Display",
+          "value": "14 inch 3K OLED touch, 16:10, 120Hz",
+          "sourceId": "ibtimes",
+          "verified": false
+        },
+        {
+          "label": "Battery",
+          "value": "70Wh, HP claims up to 44 hours",
+          "sourceId": "ibtimes",
+          "verified": false
+        },
+        {
+          "label": "Weight and thickness",
+          "value": "2.83lb, 0.42 inches",
+          "sourceId": "windows-central",
+          "verified": false
+        },
+        {
+          "label": "Ports",
+          "value": "3 x Thunderbolt 4 (Intel) or USB4 (Snapdragon), headphone jack",
+          "sourceId": "windows-central",
+          "verified": false
+        },
+        {
+          "label": "Wireless",
+          "value": "Wi-Fi 7",
+          "sourceId": "ibtimes",
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "What the OmniBook Ultra 14 is",
+      "body": "HP's OmniBook Ultra 14 for 2026 launched at CES 2026 and is the first HP laptop with Qualcomm's Snapdragon X2 Elite chip (Windows Central). It is also sold with Intel Core Ultra Series 3 Panther Lake processors.\n\nWindows Central reported the Snapdragon model at $2,049.99 at Best Buy as an introductory price, with the Intel model starting at $1,699.99 from HP."
+    },
+    {
+      "id": "how-we-tested",
+      "heading": "How we tested it",
+      "body": "We have not tested the OmniBook Ultra 14 ourselves. This review brings together reporting and testing from Windows Central, IBTimes Australia and Notebookcheck. Every figure on this page names where it came from. No source we read had independently measured battery life or display brightness.\n\nWhen we get a unit, we will add our own battery and performance results here and update the verdict."
+    },
+    {
+      "id": "snapdragon-or-intel",
+      "heading": "Snapdragon or Intel?",
+      "body": "The Snapdragon X2 Elite is an Arm chip, so check that your key apps and drivers run on Windows on Arm. The Intel version gives the widest compatibility and Thunderbolt 4. Windows Central found the Snapdragon model about $290 cheaper than an Intel model with similar memory and storage.\n\nFor most people the Snapdragon model is the better buy, as long as nothing you rely on needs an x86 driver. Choose Intel if you use specialist software, older games or Thunderbolt docks."
+    },
+    {
+      "id": "design-and-display",
+      "heading": "Design and display",
+      "body": "The aluminum body is 0.42 inches thick and weighs about 2.8lb. HP rates the 3K OLED at about 500 nits in standard mode and 1,100 nits in HDR. There is no USB-A port, a first for the OmniBook line (Notebookcheck), and no SD card reader.\n\nThis is the strongest part of the laptop. It is light enough to carry all day, and the 120Hz OLED gives it an edge over many rivals at this price."
+    },
+    {
+      "id": "battery-and-performance",
+      "heading": "Battery and performance",
+      "body": "HP claims up to 44 hours of battery life, measured under its own test conditions. IBTimes Australia reported Cinebench 2026 scores of 4,646 multi-core and 632 single-core for the Snapdragon model, and found it handled 4K video editing without problems.\n\nTreat the 44-hour figure as a best case. No independent battery test was available when we wrote this, so we cannot say how close real use gets."
+    },
+    {
+      "id": "keyboard",
+      "heading": "Keyboard",
+      "body": "Notebookcheck's main complaint is the redesigned keyboard, which it found spongier and shallower than the 2024 model's. IBTimes Australia reported more positive impressions, so try one in a store if you can.\n\nIf you type for a living, try it before you buy."
+    },
+    {
+      "id": "should-you-buy",
+      "heading": "Should you buy the OmniBook Ultra 14?",
+      "body": "It suits people who want a very thin Windows laptop with an OLED touchscreen and can afford the premium. Choose the Snapdragon model for value if your apps run on Arm, and the Intel model for compatibility and Thunderbolt.\n\nThe OmniBook Ultra 14 is a very good laptop at a high price.",
+      "opinion": true
+    }
+  ],
+  "media": [],
+  "alternatives": [
+    {
+      "name": "Dell XPS 14 (2026)",
+      "reviewSlug": "dell-xps-14-2026-review",
+      "why": "Similar price with strong Intel Arc graphics and a classic XPS design."
+    },
+    {
+      "name": "Apple MacBook Air",
+      "why": "Thinner, fanless and cheaper, if you do not need Windows or a touchscreen."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does the HP OmniBook Ultra 14 (2026) cost?",
+      "a": "Windows Central reported $1,699.99 for the Intel base model at HP and $2,049.99 for the Snapdragon X2 Elite model at Best Buy. Prices vary by configuration and retailer."
+    },
+    {
+      "q": "Does the HP OmniBook Ultra 14 have a USB-A port?",
+      "a": "No. It has three USB-C ports (Thunderbolt 4 on Intel, USB4 on Snapdragon) and a headphone jack, so you need an adapter for USB-A devices."
+    }
+  ],
+  "sources": [
+    {
+      "id": "windows-central",
+      "name": "Windows Central: HP OmniBook Ultra 14 (G2) with Snapdragon X2 Elite now available",
+      "url": "https://www.windowscentral.com/hardware/hp/hp-omnibook-ultra-14-g2-x2-elite-available-intel",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    },
+    {
+      "id": "ibtimes",
+      "name": "IBTimes Australia: HP OmniBook Ultra 14 review",
+      "url": "https://ibtimes.com.au/hp-omnibook-ultra-14-premium-windows-laptop-1870854",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    },
+    {
+      "id": "notebookcheck",
+      "name": "Notebookcheck: Latest HP OmniBook Ultra 14",
+      "url": "https://www.notebookcheck.net/Latest-HP-OmniBook-Ultra-14-is-an-almost-perfect-successor-to-the-Spectre-series.1320185.0.html",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    }
+  ]
+}

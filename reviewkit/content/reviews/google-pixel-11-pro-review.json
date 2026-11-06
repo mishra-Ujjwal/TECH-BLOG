@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "type": "review",
+  "slug": "google-pixel-11-pro-review",
+  "locale": "en-US",
+  "status": "published",
+  "title": "Google Pixel 11 Pro review: compact, clever, short on stamina",
+  "metaDescription": "Our Google Pixel 11 Pro review: the Tensor G6, 50MP main camera, HiLight bar, battery life and whether it is worth $1,099 over the Pixel 10 Pro.",
+  "excerpt": "The Pixel 11 Pro is a compact flagship with excellent AI features and seven years of updates. Battery life and gaming performance are where it falls short.",
+  "author": {
+    "name": "TechnoWorld360 Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-11-06",
+    "lastChecked": "2026-11-06"
+  },
+  "tags": [
+    "google-pixel",
+    "pixel-11",
+    "android-phones",
+    "phone-reviews"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "Research review built from published testing. If you test it yourself, add measurements and rewrite How we tested.",
+  "category": "phones",
+  "product": {
+    "name": "Google Pixel 11 Pro",
+    "brand": "Google",
+    "model": "Pixel 11 Pro",
+    "homepage": "https://store.google.com/",
+    "image": {
+      "src": "/images/google-pixel-11-pro-review-price-specs-tensor-g6/google-pixel-11-256gb-frost1-1.webp",
+      "alt": "Google Pixel 11 in Frost, showing the horizontal camera bar on the back",
+      "credit": "Product image",
+      "width": 1440,
+      "height": 812
+    }
+  },
+  "verdict": {
+    "summary": "The Pixel 11 Pro is the most refined compact Pixel yet. Its software, camera and seven-year update promise are excellent, and at $1,099 it costs the same as the 256GB Pixel 10 Pro did. But the Tensor G6 trails rival flagship chips, battery life is only average for heavy users, and Pixel 10 Pro owners gain too little to upgrade.",
+    "scoreMax": 10,
+    "bestFor": [
+      "People who want a compact flagship with seven years of updates",
+      "Anyone who uses Google's AI features and camera every day"
+    ],
+    "skipIf": [
+      "You already own a Pixel 10 Pro",
+      "You play demanding games for long sessions"
+    ],
+    "pros": [
+      {
+        "text": "Compact size with a bright 6.3 inch LTPO display",
+        "evidence": "91mobiles and Business Today both praise the size and display"
+      },
+      {
+        "text": "Seven years of OS and security updates",
+        "evidence": "Google, via SQ Magazine"
+      },
+      {
+        "text": "Natural, detailed daylight photos",
+        "evidence": "91mobiles and Business Today on daylight photo quality"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Battery life is only average for heavy users",
+        "evidence": "91mobiles measured about 6 hours of screen-on time"
+      },
+      {
+        "text": "Heats up and slows in long gaming sessions",
+        "evidence": "91mobiles and Business Today on heat in long sessions"
+      },
+      {
+        "text": "HiLight bar only works for Gemini and chosen contacts",
+        "evidence": "91mobiles review"
+      }
+    ]
+  },
+  "scores": [],
+  "testing": {
+    "testedOn": "2026-11-06",
+    "duration": "Not tested hands-on: research review",
+    "setup": "Research review. We have not used this product ourselves. Findings come from published testing by Android Central, SQ Magazine, Digital Trends, 91mobiles and Business Today, and each claim names its source.",
+    "notTested": [
+      "We did not have a Pixel 11 Pro unit, so there are no measurements of our own",
+      "Pixel 11 Pro XL and Pro Fold",
+      "Gemini agent features outside the US"
+    ],
+    "measurements": []
+  },
+  "prices": [
+    {
+      "retailer": "Google Store",
+      "amount": 1099,
+      "currency": "USD",
+      "url": "https://store.google.com/",
+      "affiliate": false,
+      "checkedAt": "2026-11-06",
+      "note": "256GB, US price at launch, before sales tax"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Hardware",
+      "items": [
+        {
+          "label": "Chip",
+          "value": "Google Tensor G6 (2nm) with MediaTek modem",
+          "sourceId": "android-central",
+          "verified": false
+        },
+        {
+          "label": "Memory and storage",
+          "value": "12GB RAM, from 256GB",
+          "sourceId": "android-central",
+          "verified": false
+        },
+        {
+          "label": "Display",
+          "value": "6.3 inch LTPO, up to 120Hz, up to 3,600 nits",
+          "sourceId": "91mobiles",
+          "verified": false
+        },
+        {
+          "label": "Battery",
+          "value": "4,850mAh",
+          "sourceId": "digital-trends",
+          "verified": false
+        },
+        {
+          "label": "Charging",
+          "value": "30W wired, 25W wireless (Qi 2.2)",
+          "sourceId": "sq-magazine",
+          "verified": false
+        },
+        {
+          "label": "Weight and thickness",
+          "value": "204g, 8.4mm",
+          "sourceId": "91mobiles",
+          "verified": false
+        },
+        {
+          "label": "Protection",
+          "value": "IP68, Gorilla Glass Victus 2",
+          "sourceId": "91mobiles",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "group": "Cameras and software",
+      "items": [
+        {
+          "label": "Main camera",
+          "value": "50MP",
+          "sourceId": "91mobiles",
+          "verified": false
+        },
+        {
+          "label": "Ultra wide and telephoto",
+          "value": "48MP each, 5x telephoto, up to 120x Pro Zoom",
+          "sourceId": "android-central",
+          "verified": false
+        },
+        {
+          "label": "Software",
+          "value": "Android 17, seven years of OS and security updates",
+          "sourceId": "sq-magazine",
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "What the Pixel 11 Pro is",
+      "body": "Google announced the Pixel 11 series on August 12, 2026, with sales from August 20. The Pixel 11 Pro starts at $1,099 with 12GB of memory and 256GB of storage, the same price as the 256GB Pixel 10 Pro (Digital Trends).\n\nThe Pro gets most of this year's new hardware: a 50MP main camera, a brighter Super Actua display, a thinner camera bar and the new HiLight light bar. The base Pixel 11 is a much smaller update (Android Central)."
+    },
+    {
+      "id": "how-we-tested",
+      "heading": "How we tested it",
+      "body": "We have not tested the Pixel 11 Pro ourselves. This review brings together the published testing from 91mobiles and Business Today with Google's specifications as reported by Android Central, SQ Magazine and Digital Trends. Every figure on this page names where it came from.\n\nWhen we get a unit, we will add our own battery, charging and camera results here and update the verdict."
+    },
+    {
+      "id": "performance",
+      "heading": "Tensor G6 performance",
+      "body": "For context, 91mobiles measured an AnTuTu score of 1,421,232, well behind the vivo X300 Pro and Oppo Find X9 Pro, which both scored over 3.4 million. Business Today found demanding games ran smoothly at first but heated up and slowed down during long sessions.\n\nFor everyday use the Tensor G6 is fast enough. Both reviews found apps, animations and multitasking smooth. Google's chips are built for on-device AI and efficiency rather than benchmark wins, and that shows in the numbers."
+    },
+    {
+      "id": "camera",
+      "heading": "Camera",
+      "body": "91mobiles found the Pixel 11 Pro beat the vivo X300 Pro in daylight with more realistic color and dynamic range, but fell behind in low light. Business Today called the photos sharp and vibrant, with natural but imperfect portrait mode.\n\nThe camera remains the main reason to buy a Pixel. The new 50MP main sensor on the Pro brings it closer to the best Android camera phones in good light."
+    },
+    {
+      "id": "battery",
+      "heading": "Battery and charging",
+      "body": "Google claims more than 30 hours of battery life. 91mobiles measured 17.8 hours in PCMark but only about 6 hours of screen-on time, below the 7 to 8 hours now common on flagships. A full charge at 30W took close to 90 minutes in its test.\n\nBattery life is the Pixel 11 Pro's weakest point. Expect to get through a normal day, but heavy users and gamers should plan to charge before evening."
+    },
+    {
+      "id": "hilight",
+      "heading": "The HiLight bar",
+      "body": "The HiLight bar is a colored ring around the flash that lights up for calls and Gemini sessions while the phone is face down. At launch it cannot show alerts from other apps, which 91mobiles lists as its main limitation. Google says more uses will come in software updates.\n\nThe HiLight bar is a nice idea that feels unfinished at launch. Do not buy the phone for it."
+    },
+    {
+      "id": "should-you-buy",
+      "heading": "Should you buy the Pixel 11 Pro?",
+      "body": "Buy it if you want a compact phone with Google's best software and seven years of updates. Skip it if you already own a Pixel 10 Pro or care most about gaming and battery life; 91mobiles says the upgrade from the 10 Pro is hard to justify.\n\nThe Pixel 11 Pro is a strong choice if you want a compact phone with the best of Google's software.",
+      "opinion": true
+    }
+  ],
+  "media": [],
+  "alternatives": [
+    {
+      "name": "Google Pixel 10 Pro",
+      "why": "Most of the same software and camera quality, often discounted now the 11 Pro is out."
+    },
+    {
+      "name": "Google Pixel 11 Pro XL",
+      "why": "The same features with a larger screen and the biggest battery in the range, at $1,299."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does the Pixel 11 Pro cost?",
+      "a": "It starts at $1,099 in the US with 12GB of memory and 256GB of storage. Check the Google Store for current prices and deals."
+    },
+    {
+      "q": "How long will the Pixel 11 Pro get updates?",
+      "a": "Google promises seven years of Android OS and security updates for every Pixel 11 model."
+    }
+  ],
+  "sources": [
+    {
+      "id": "android-central",
+      "name": "Android Central: The Pixel 11 series is here",
+      "url": "https://www.androidcentral.com/phones/google-pixel/the-pixel-11-series-is-here-but-google-saved-the-big-upgrades-for-the-pro-models",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    },
+    {
+      "id": "sq-magazine",
+      "name": "SQ Magazine: Google Pixel 11 lineup starts at $899",
+      "url": "https://sqmagazine.co.uk/google-pixel-11-lineup-starts-at-899/",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    },
+    {
+      "id": "digital-trends",
+      "name": "Digital Trends: Pixel 11 vs Pixel 10 series",
+      "url": "https://www.digitaltrends.com/phones/pixel-11-vs-pixel-10-series-do-googles-new-phones-offer-enough-for-an-upgrade/",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    },
+    {
+      "id": "91mobiles",
+      "name": "91mobiles: Google Pixel 11 Pro review",
+      "url": "https://www.91mobiles.com/reviews/google-pixel-11-pro-review/",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    },
+    {
+      "id": "business-today",
+      "name": "Business Today: Google Pixel 11 Pro review",
+      "url": "https://www.businesstoday.in/technology/reviews/story/google-pixel-11-pro-review-smarter-flagship-with-familiar-flaws-558281-2026-09-28",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    }
+  ]
+}

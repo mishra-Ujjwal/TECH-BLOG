@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "type": "review",
+  "slug": "samsung-galaxy-z-flip-8-review",
+  "locale": "en-US",
+  "status": "published",
+  "title": "Samsung Galaxy Z Flip 8 review: the best flip, still slow to charge",
+  "metaDescription": "Our Samsung Galaxy Z Flip 8 review: the 4.1 inch cover screen, Exynos 2600, battery, charging, cameras and whether to upgrade from the Flip 7.",
+  "excerpt": "The Galaxy Z Flip 8 is thinner and lighter, with a brighter cover screen and seven years of updates. Charging is still slow and it heats up under long gaming sessions.",
+  "author": {
+    "name": "TechnoWorld360 Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-11-06",
+    "lastChecked": "2026-11-06"
+  },
+  "tags": [
+    "samsung-galaxy",
+    "foldable-phones",
+    "galaxy-z-flip",
+    "phone-reviews"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "Research review built from published testing. If you test it yourself, add measurements and rewrite How we tested.",
+  "category": "phones",
+  "product": {
+    "name": "Samsung Galaxy Z Flip 8",
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip 8",
+    "homepage": "https://www.samsung.com/",
+    "image": {
+      "src": "/images/galaxy-z-flip-8-review-price-specs-worth-buying/hero-image-fill-size-1200x1200-v1784709805.webp",
+      "alt": "Samsung Galaxy Z Flip 8 folded and open, showing the cover screen and main display",
+      "credit": "Product image",
+      "width": 1200,
+      "height": 1200
+    }
+  },
+  "verdict": {
+    "summary": "The Galaxy Z Flip 8 is the best flip phone you can buy in 2026. It is thinner and lighter, its 4.1 inch cover screen is bright enough to use outdoors, and seven years of updates make the high price easier to justify. Charging at 25W is slow, gaming performance drops as it heats up, and Flip 7 owners have little reason to upgrade.",
+    "scoreMax": 10,
+    "bestFor": [
+      "People who want a small phone that fits any pocket",
+      "Anyone who will keep a phone for five years or more"
+    ],
+    "skipIf": [
+      "You own a Galaxy Z Flip 7 and are happy with it",
+      "You game for long sessions or need fast charging"
+    ],
+    "pros": [
+      {
+        "text": "Bright 4.1 inch cover screen that runs full apps",
+        "evidence": "Smartprix measured 3,000 nits, up from 2,600 on the Flip 7"
+      },
+      {
+        "text": "Thinner and lighter than the Flip 7, at 180g",
+        "evidence": "Smartprix"
+      },
+      {
+        "text": "Seven years of OS and security updates",
+        "evidence": "Smartprix"
+      }
+    ],
+    "cons": [
+      {
+        "text": "25W charging is slow for the price",
+        "evidence": "Smartprix measured about 1 hour 40 minutes for a full charge"
+      },
+      {
+        "text": "Performance drops after 10 to 15 minutes of gaming",
+        "evidence": "Smartprix saw frame rates fall after 10 to 15 minutes"
+      },
+      {
+        "text": "IP48 means only light dust and splash resistance",
+        "evidence": "Samsung specification"
+      }
+    ]
+  },
+  "scores": [],
+  "testing": {
+    "testedOn": "2026-11-06",
+    "duration": "Not tested hands-on: research review",
+    "setup": "Research review. We have not used this product ourselves. Findings come from published testing by Smartprix, Notebookcheck and Finder, and each claim names its source.",
+    "notTested": [
+      "We did not have a Galaxy Z Flip 8 unit, so there are no measurements of our own",
+      "Snapdragon versions sold in some regions",
+      "Long-term hinge durability"
+    ],
+    "measurements": []
+  },
+  "prices": [
+    {
+      "retailer": "Samsung (reported US starting price)",
+      "amount": 1200,
+      "currency": "USD",
+      "url": "https://www.samsung.com/",
+      "affiliate": false,
+      "checkedAt": "2026-11-06",
+      "note": "Approximate, as reported by Notebookcheck. Check Samsung for the current price."
+    }
+  ],
+  "specs": [
+    {
+      "group": "Hardware",
+      "items": [
+        {
+          "label": "Chip",
+          "value": "Samsung Exynos 2600, 10-core CPU up to 3.8GHz",
+          "sourceId": "smartprix",
+          "verified": false
+        },
+        {
+          "label": "Memory and storage",
+          "value": "12GB, 256GB or 512GB",
+          "sourceId": "finder",
+          "verified": false
+        },
+        {
+          "label": "Main display",
+          "value": "6.9 inch Dynamic AMOLED 2X, 1 to 120Hz, 3,000 nits",
+          "sourceId": "smartprix",
+          "verified": false
+        },
+        {
+          "label": "Cover display",
+          "value": "4.1 inch Super AMOLED, up to 120Hz, 3,000 nits",
+          "sourceId": "smartprix",
+          "verified": false
+        },
+        {
+          "label": "Battery",
+          "value": "4,300mAh",
+          "sourceId": "smartprix",
+          "verified": false
+        },
+        {
+          "label": "Charging",
+          "value": "25W wired, 15W wireless",
+          "sourceId": "smartprix",
+          "verified": false
+        },
+        {
+          "label": "Weight and thickness",
+          "value": "180g, 6.1mm open, 13.1mm closed",
+          "sourceId": "smartprix",
+          "verified": false
+        },
+        {
+          "label": "Water and dust",
+          "value": "IP48",
+          "sourceId": "smartprix",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "group": "Cameras and software",
+      "items": [
+        {
+          "label": "Rear cameras",
+          "value": "50MP main (f/1.8, OIS), 12MP ultra wide (f/2.2, no autofocus)",
+          "sourceId": "smartprix",
+          "verified": false
+        },
+        {
+          "label": "Front camera",
+          "value": "10MP (f/2.2)",
+          "sourceId": "smartprix",
+          "verified": false
+        },
+        {
+          "label": "Software",
+          "value": "Android 17, One UI 9, seven years of updates",
+          "sourceId": "smartprix",
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "What the Galaxy Z Flip 8 is",
+      "body": "Samsung announced the Galaxy Z Flip 8 on July 22, 2026. It is a modest update on the Flip 7: thinner and lighter, with an Exynos 2600 chip, a brighter cover screen and a redesigned FlexWindow. It also costs more, which Samsung puts down to rising component and memory prices (Finder).\n\nNotebookcheck reports a US starting price of about $1,200."
+    },
+    {
+      "id": "how-we-tested",
+      "heading": "How we tested it",
+      "body": "We have not tested the Galaxy Z Flip 8 ourselves. This review brings together the hands-on testing from Smartprix, the analysis from Notebookcheck and the launch details reported by Finder. Every figure on this page names where it came from.\n\nWhen we get a unit, we will add our own battery and charging results here and update the verdict."
+    },
+    {
+      "id": "cover-screen",
+      "heading": "Cover screen and design",
+      "body": "Smartprix measured the cover screen at 3,000 nits, up from 2,600 on the Flip 7, and found it easy to read outdoors. The crease is visible at some angles in landscape but less noticeable than on earlier Flips.\n\nThe cover screen is the best reason to buy this phone. You can reply to messages, check maps and take selfies with the main camera without opening it."
+    },
+    {
+      "id": "performance",
+      "heading": "Exynos 2600 performance",
+      "body": "Smartprix measured 2,341,950 in AnTuTu, below the Galaxy S26 average. In gaming it started above 115fps but dropped after 10 to 15 minutes as the chip heated up. Day-to-day use was smooth.\n\nFor messaging, browsing and social apps the Exynos 2600 is more than fast enough. The thin 6.1mm body is the limit: it cannot shed heat quickly, so long games or an hour of 4K recording push it down."
+    },
+    {
+      "id": "battery",
+      "heading": "Battery and charging",
+      "body": "Smartprix estimates 5 to 7 hours of screen-on time depending on use, and found a full charge took about 1 hour 40 minutes at 25W. It named charging speed as the phone's biggest weakness. There is no built-in Qi2 magnetic charging.\n\nThis is the Flip 8's biggest compromise. A normal day is fine, but heavy users will be charging in the evening, and the slow charger makes that a longer wait than on rival phones."
+    },
+    {
+      "id": "camera",
+      "heading": "Camera",
+      "body": "Smartprix found the 50MP main camera solid in daylight but noisy in low light. The 12MP ultra wide has no autofocus, so it cannot take close-ups. The best selfies come from the main camera, using the cover screen as a viewfinder.\n\nThe cameras are good rather than great, which is typical for a flip phone. If photography matters most, a regular flagship at the same price will do better."
+    },
+    {
+      "id": "should-you-buy",
+      "heading": "Should you buy the Galaxy Z Flip 8?",
+      "body": "It makes most sense if you are coming from a Flip 5 or older and want a small phone you will keep for years. Flip 7 owners gain little, and heavy gamers or people who want fast charging should look elsewhere.\n\nBuy the Flip 8 if you love the idea of a phone that folds in half and plan to keep it for years.",
+      "opinion": true
+    }
+  ],
+  "media": [],
+  "alternatives": [
+    {
+      "name": "Samsung Galaxy Z Flip 7",
+      "why": "Nearly the same experience; worth it if you find it clearly discounted."
+    },
+    {
+      "name": "Motorola Razr 70 Ultra",
+      "why": "A bigger, sharper cover screen, though Notebookcheck rates the Flip 8 higher overall."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does the Galaxy Z Flip 8 cost?",
+      "a": "Notebookcheck reports a US starting price of about $1,200 for 256GB. Check Samsung's site for the current price and trade-in deals."
+    },
+    {
+      "q": "Is the Galaxy Z Flip 8 waterproof?",
+      "a": "It is rated IP48, which covers water but only offers light protection against dust. Keep it away from sand."
+    }
+  ],
+  "sources": [
+    {
+      "id": "finder",
+      "name": "Finder Australia: Galaxy Z Fold 8 and Z Flip 8 launch",
+      "url": "https://www.finder.com.au/news/samsung-galaxy-z-fold-8-z-flip-8-launch-australia",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    },
+    {
+      "id": "smartprix",
+      "name": "Smartprix: Samsung Galaxy Z Flip 8 review",
+      "url": "https://us.smartprix.com/bytes/samsung-galaxy-z-flip-8-review-with-pros-and-cons/",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    },
+    {
+      "id": "notebookcheck",
+      "name": "Notebookcheck: best flip smartphone of 2026",
+      "url": "https://www.notebookcheck.net/Samsung-leaves-competition-in-the-dust-best-flip-smartphone-of-2026-is-in-its-own-class.1398189.0.html",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    }
+  ]
+}

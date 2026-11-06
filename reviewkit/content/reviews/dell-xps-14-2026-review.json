@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "type": "review",
+  "slug": "dell-xps-14-2026-review",
+  "locale": "en-US",
+  "status": "published",
+  "title": "Dell XPS 14 (2026) review: a gorgeous OLED, a divisive keyboard",
+  "metaDescription": "Our Dell XPS 14 (2026) review: Intel Panther Lake, the 2.8K OLED touchscreen, battery life, the seamless keyboard and how it compares with a MacBook Pro.",
+  "excerpt": "The XPS 14 is back with Intel Panther Lake, strong integrated graphics and a superb OLED screen. The keyboard, ports and price are where it divides opinion.",
+  "author": {
+    "name": "TechnoWorld360 Editorial Team",
+    "slug": "editorial-team"
+  },
+  "dates": {
+    "published": "2026-11-06",
+    "lastChecked": "2026-11-06"
+  },
+  "tags": [
+    "dell-xps",
+    "windows-laptops",
+    "intel-panther-lake",
+    "laptop-reviews"
+  ],
+  "seo": {
+    "noindex": false,
+    "alternates": []
+  },
+  "editorial": {
+    "aiAssisted": true,
+    "updates": []
+  },
+  "_note": "Research review built from published testing. If you test it yourself, add measurements and rewrite How we tested.",
+  "category": "computing",
+  "product": {
+    "name": "Dell XPS 14 (2026)",
+    "brand": "Dell",
+    "model": "XPS 14 (2026)",
+    "homepage": "https://www.dell.com/",
+    "image": {
+      "src": "/images/dell-xps-14-2026-review-price-oled-panther-lake/img-3335.webp",
+      "alt": "Dell XPS 14 (2026) open on a desk, showing the OLED screen and seamless keyboard",
+      "credit": "Product image",
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  "verdict": {
+    "summary": "The XPS 14 is Dell's best laptop in years. The OLED screen is superb, the Panther Lake graphics can genuinely run modern games, and the design is clean and well built. But the shallow keyboard divides opinion, there are only three ports and no SD slot, and at about $2,199 for the OLED model it faces a MacBook Pro that is faster for less.",
+    "scoreMax": 10,
+    "bestFor": [
+      "People who want a premium Windows laptop with an OLED touchscreen",
+      "Light gaming and creative work on integrated graphics"
+    ],
+    "skipIf": [
+      "You need an SD card slot or upgradeable memory",
+      "You type all day and cannot try the keyboard first"
+    ],
+    "pros": [
+      {
+        "text": "Vivid 2.8K OLED touchscreen",
+        "evidence": "Notebookcheck measured 100% sRGB and 99.7% Display P3"
+      },
+      {
+        "text": "Strong Intel Arc integrated graphics",
+        "evidence": "Tom's Guide ran Cyberpunk 2077 at about 60fps at 1080p with XeSS"
+      },
+      {
+        "text": "Physical function keys are back",
+        "evidence": "Tom's Guide, Gizmodo and Notebookcheck"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Shallow keyboard that splits opinion",
+        "evidence": "Gizmodo and Notebookcheck both found the keys shallow"
+      },
+      {
+        "text": "Only three Thunderbolt 4 ports and no SD slot",
+        "evidence": "Dell specification"
+      },
+      {
+        "text": "Memory is soldered and cannot be upgraded",
+        "evidence": "Gizmodo"
+      }
+    ]
+  },
+  "scores": [],
+  "testing": {
+    "testedOn": "2026-11-06",
+    "duration": "Not tested hands-on: research review",
+    "setup": "Research review. We have not used this product ourselves. Findings come from published testing by Tom's Guide, Gizmodo and Notebookcheck, and each claim names its source.",
+    "notTested": [
+      "We did not have an XPS 14 unit, so there are no measurements of our own",
+      "The LCD model",
+      "The Core Ultra X9 388H configuration"
+    ],
+    "measurements": []
+  },
+  "prices": [
+    {
+      "retailer": "Dell",
+      "amount": 1599,
+      "currency": "USD",
+      "url": "https://www.dell.com/",
+      "affiliate": false,
+      "checkedAt": "2026-11-06",
+      "note": "Starting price: Core Ultra 5 325, 16GB, 512GB, 1200p LED, as reported by Tom's Guide"
+    },
+    {
+      "retailer": "Dell",
+      "amount": 2199,
+      "currency": "USD",
+      "url": "https://www.dell.com/",
+      "affiliate": false,
+      "checkedAt": "2026-11-06",
+      "note": "Core Ultra X7 358H, 32GB, 1TB, 2.8K OLED touch, as reported by Tom's Guide"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Hardware (reviewed OLED configuration)",
+      "items": [
+        {
+          "label": "Processor",
+          "value": "Intel Core Ultra X7 358H (Panther Lake), 16 cores",
+          "sourceId": "notebookcheck",
+          "verified": false
+        },
+        {
+          "label": "Graphics",
+          "value": "Intel Arc B390, 12 Xe3 cores",
+          "sourceId": "notebookcheck",
+          "verified": false
+        },
+        {
+          "label": "Memory and storage",
+          "value": "32GB soldered, 1TB SSD",
+          "sourceId": "toms-guide",
+          "verified": false
+        },
+        {
+          "label": "Display",
+          "value": "14.0 inch 2880 x 1800 OLED touch, 120Hz",
+          "sourceId": "notebookcheck",
+          "verified": false
+        },
+        {
+          "label": "Battery",
+          "value": "70Wh",
+          "sourceId": "notebookcheck",
+          "verified": false
+        },
+        {
+          "label": "Weight",
+          "value": "About 3.0lb (1.36 to 1.44kg depending on configuration)",
+          "sourceId": "toms-guide",
+          "verified": false
+        },
+        {
+          "label": "Ports",
+          "value": "3 x Thunderbolt 4, headphone jack; no SD slot",
+          "sourceId": "toms-guide",
+          "verified": false
+        },
+        {
+          "label": "Wireless",
+          "value": "Wi-Fi 7, Bluetooth 6",
+          "sourceId": "notebookcheck",
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "What the XPS 14 (2026) is",
+      "body": "Dell brought back the XPS name at CES 2026. The XPS 14 uses Intel's Panther Lake processors with integrated Arc graphics, in a 14 inch aluminum body weighing about 3lb.\n\nPrices start at about $1,599 with an LED screen. The OLED configuration most reviewers tested, with a Core Ultra X7 358H, 32GB and 1TB, costs about $2,199 (Tom's Guide)."
+    },
+    {
+      "id": "how-we-tested",
+      "heading": "How we tested it",
+      "body": "We have not tested the XPS 14 ourselves. This review brings together the published testing from Tom's Guide, Gizmodo and Notebookcheck, which all reviewed the same OLED configuration with a Core Ultra X7 358H, 32GB and 1TB. Every figure on this page names where it came from.\n\nWhen we get a unit, we will add our own battery and performance results here and update the verdict."
+    },
+    {
+      "id": "display",
+      "heading": "OLED display",
+      "body": "Notebookcheck measured an average of 389 nits in SDR and 1,104 nits in HDR, with full sRGB coverage. It also detected PWM flicker at about 240Hz, which sensitive users may notice. The screen is 14.0 inches, down from 14.5 on the previous model.\n\nEvery review rates the OLED as the highlight. It is ideal for films, photo editing and HDR, though it is better indoors or in shade than in direct sun."
+    },
+    {
+      "id": "performance",
+      "heading": "Performance and graphics",
+      "body": "Tom's Guide recorded 16,927 in Geekbench 6 multi-core, faster than the last model but behind the M5 MacBook Pro. Notebookcheck compared the graphics to an Nvidia RTX 4050. Tom's Guide ran Cyberpunk 2077 at about 60fps at 1080p with Intel XeSS upscaling.\n\nThe graphics are the real step forward. You can play many recent games at medium settings, which was not possible on integrated graphics a few years ago. It is still not a gaming laptop."
+    },
+    {
+      "id": "battery",
+      "heading": "Battery life",
+      "body": "Results vary with the test. Tom's Guide got 12 hours 23 minutes of web browsing on the OLED model and 20 hours 41 minutes on the LED model. Gizmodo got about 6 hours of active use.\n\nThe difference is not a contradiction. A light browsing test at low brightness lasts much longer than real work. If battery life matters most, the cheaper LED model is the one to buy."
+    },
+    {
+      "id": "keyboard",
+      "heading": "Keyboard and trackpad",
+      "body": "Reviewers disagree here. Tom's Guide had no complaints about the 0.8mm-travel keyboard. Gizmodo found the flat, seamless keys uncomfortable and prone to accidental presses, and Notebookcheck called them soft and shallow.\n\nThis is the part to try before you buy. If you type for hours a day, test it in a store or buy from a retailer with an easy return policy."
+    },
+    {
+      "id": "should-you-buy",
+      "heading": "Should you buy the Dell XPS 14?",
+      "body": "It suits people who want a premium Windows laptop with an OLED touchscreen and good integrated graphics. If you want the most CPU power or battery life for the money, Tom's Guide points to the 14 inch M5 MacBook Pro, which it says starts about $600 less.\n\nThe XPS 14 is a great choice if you want a premium Windows laptop with an outstanding screen.",
+      "opinion": true
+    }
+  ],
+  "media": [],
+  "alternatives": [
+    {
+      "name": "Apple MacBook Pro 14 (M5)",
+      "why": "Faster CPU and longer battery life with an SD card slot, but no touchscreen."
+    },
+    {
+      "name": "HP OmniBook Ultra 14 (2026)",
+      "reviewSlug": "hp-omnibook-ultra-14-2026-review",
+      "why": "Thinner and lighter, with a choice of Snapdragon or Intel chips."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does the Dell XPS 14 (2026) cost?",
+      "a": "Tom's Guide reports a starting price of $1,599, and about $2,199 for the OLED model with a Core Ultra X7, 32GB and 1TB."
+    },
+    {
+      "q": "Can you upgrade the memory in the XPS 14?",
+      "a": "No. The memory is soldered to the board, so choose the amount you need when you buy."
+    }
+  ],
+  "sources": [
+    {
+      "id": "toms-guide",
+      "name": "Tom's Guide: Dell XPS 14 (2026) review",
+      "url": "https://www.tomsguide.com/computing/laptops/i-just-spent-24-hours-with-the-new-xps-14-and-dell-is-so-back",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    },
+    {
+      "id": "gizmodo",
+      "name": "Gizmodo: Dell XPS 14 (2026) review",
+      "url": "https://gizmodo.com/dell-xps-14-2026-review-congratulations-you-almost-made-a-macbook-2000721760",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    },
+    {
+      "id": "notebookcheck",
+      "name": "Notebookcheck: Dell XPS 14 (2026) review",
+      "url": "https://www.notebookcheck.net/Dell-XPS-14-2026-review-Fully-reborn-with-Intel-Panther-Lake-X7.1218670.0.html",
+      "licence": "Cited for facts only, not reproduced",
+      "attribution": null,
+      "fetchedAt": "2026-11-06"
+    }
+  ]
+}

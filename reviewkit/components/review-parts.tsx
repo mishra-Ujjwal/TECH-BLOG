@@ -31,10 +31,17 @@ export function TestRecord({
   const t = review.testing;
   const lastPrice = [...prices].sort((a, b) => b.checkedAt.localeCompare(a.checkedAt))[0];
 
-  const fields: { k: string; v: string }[] = [
-    { k: "Tested", v: formatDate(t.testedOn, review.locale) },
-    { k: "Length of test", v: t.duration },
-  ];
+  // A research review summarises other people's testing, so it must not claim a test date.
+  const research = /^not tested/i.test(t.duration);
+  const fields: { k: string; v: string }[] = research
+    ? [
+        { k: "Researched", v: formatDate(t.testedOn, review.locale) },
+        { k: "Type", v: "Research review, not tested hands-on" },
+      ]
+    : [
+        { k: "Tested", v: formatDate(t.testedOn, review.locale) },
+        { k: "Length of test", v: t.duration },
+      ];
   if (t.versionTested) fields.push({ k: "Version tested", v: t.versionTested });
   if (lastPrice) {
     fields.push({ k: "Price checked", v: formatDate(lastPrice.checkedAt, review.locale) });
