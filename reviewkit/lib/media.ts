@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { copy, del, list, put } from "@vercel/blob";
 import { listRawDocs } from "./content/store";
+import { isBlobUrl } from "./paths";
 
 /**
  * Pictures live in one of two places:
@@ -14,10 +15,7 @@ import { listRawDocs } from "./content/store";
 
 export const blobEnabled = (): boolean => Boolean(process.env.BLOB_READ_WRITE_TOKEN);
 
-/** True for a URL in this project's Blob store (or any public Blob store). */
-export function isBlobUrl(src: string): boolean {
-  return /^https:\/\/[a-z0-9-]+\.public\.blob\.vercel-storage\.com\//i.test(src);
-}
+export { isBlobUrl } from "./paths";
 
 const IMAGE_REF = /"(\/images\/[^"]+|https:\/\/[a-z0-9-]+\.public\.blob\.vercel-storage\.com\/[^"]+)"/gi;
 

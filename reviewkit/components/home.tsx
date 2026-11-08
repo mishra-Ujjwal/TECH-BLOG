@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { formatDate } from "@/lib/format";
 import { FORMAT_LABELS, type DocSummary } from "@/lib/content/schema";
-import { docPath } from "@/lib/paths";
+import { canOptimize, docPath } from "@/lib/paths";
 import { categoryName } from "@/lib/site";
 
 /**
@@ -65,8 +65,8 @@ function Thumb({
     <div
       className={`relative overflow-hidden rounded-[10px] border border-rule bg-paper-2 ${className}`}
     >
-      {d.image && !d.image.src.startsWith("/") ? (
-        // Remote images need a remotePatterns entry for next/image; a plain img always works.
+      {d.image && !canOptimize(d.image.src) ? (
+        // Other remote hosts need a remotePatterns entry for next/image; a plain img always works.
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={d.image.src}

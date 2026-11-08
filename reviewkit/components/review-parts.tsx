@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { formatDate, formatMoney, priceIsStale } from "@/lib/format";
 import { FORMAT_LABELS, type ArticleFormat, type DocSummary } from "@/lib/content/schema";
-import { docPath } from "@/lib/paths";
+import { canOptimize, docPath } from "@/lib/paths";
 import { getAuthor } from "@/lib/site";
 import type {
   Alternative,
@@ -734,7 +734,7 @@ export function IndexRow({
       {/* A thumbnail of the post's picture; reviews keep their score as a badge. */}
       <div className="index__thumb" aria-hidden="true">
         {item.image ? (
-          item.image.src.startsWith("/") ? (
+          canOptimize(item.image.src) ? (
             <Image src={item.image.src} alt="" fill sizes="(min-width: 640px) 10rem, 6.5rem" className="object-cover" />
           ) : (
             // eslint-disable-next-line @next/next/no-img-element
