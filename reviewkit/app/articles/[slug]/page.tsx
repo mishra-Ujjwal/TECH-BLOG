@@ -41,7 +41,7 @@ export async function generateMetadata({
   if (!article) return { title: "Not found" };
   const path = `/articles/${article.slug}`;
   return {
-    title: seoTitle(article.title),
+    title: seoTitle(article.seo.searchTitle ?? article.title),
     description: article.metaDescription,
     alternates: {
       canonical: article.seo.canonical ?? path,

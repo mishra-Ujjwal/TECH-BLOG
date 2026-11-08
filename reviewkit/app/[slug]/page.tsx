@@ -55,7 +55,7 @@ export async function generateMetadata({
   const page = await loadPage(slug);
   if (!page) return { title: "Not found" };
   return {
-    title: seoTitle(page.title),
+    title: seoTitle(page.seo.searchTitle ?? page.title),
     description: page.metaDescription,
     alternates: { canonical: page.seo.canonical ?? `/${page.slug}` },
     robots: page.seo.noindex ? { index: false, follow: true } : undefined,

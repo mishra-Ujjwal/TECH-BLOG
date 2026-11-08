@@ -63,6 +63,7 @@ const LABELS: Record<string, string> = {
   licenceUrl: "Licence URL",
   fetchedAt: "Fetched on",
   ogImage: "Share image",
+  searchTitle: "Search result title",
   noindex: "Hide from search engines",
   aiAssisted: "AI helped draft this",
   editedBy: "Edited by",
@@ -82,6 +83,7 @@ const LABELS: Record<string, string> = {
 
 const HINTS: Record<string, string> = {
   title: "10 to 80 characters. Used in search results and as the headline.",
+  searchTitle: "Optional, 10 to 60 characters. Replaces the headline in search results when the headline is too long.",
   slug: "The file name and the URL. Lowercase words joined by hyphens.",
   metaDescription: "70 to 165 characters. The snippet under the title in search results.",
   excerpt: "40 to 300 characters. Shown on the home page and in listings.",

@@ -179,6 +179,8 @@ export const alternativeSchema = z.strictObject({
 export const seoSchema = z.strictObject({
   canonical: absoluteUrl.optional(),
   noindex: z.boolean().default(false),
+  /** The <title> in search results, when the headline runs past 60 characters and gets cut off. */
+  searchTitle: z.string().min(10).max(60).optional(),
   ogImage: imageRef.optional(),
   /** Equivalent pages in other locales, for hreflang. */
   alternates: z.array(z.strictObject({ locale: localeSchema, path: z.string() })).default([]),

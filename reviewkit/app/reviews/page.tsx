@@ -17,7 +17,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 const metadata: Metadata = {
-  title: "All reviews",
+  title: "Phone, laptop and gaming reviews",
   description:
     "Every review on the site, newest first. Each one is based on a product we used ourselves, with our own measurements and a dated price.",
   alternates: { canonical: "/reviews" },

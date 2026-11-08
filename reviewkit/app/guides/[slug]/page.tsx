@@ -31,7 +31,7 @@ export async function generateMetadata({
   const pillar = await getPillar(slug);
   if (!pillar) return { title: "Not found" };
   return {
-    title: seoTitle(pillar.title),
+    title: seoTitle(pillar.seo.searchTitle ?? pillar.title),
     description: pillar.metaDescription,
     alternates: { canonical: pillar.seo.canonical ?? `/guides/${pillar.slug}` },
     robots: pillar.seo.noindex ? { index: false, follow: true } : undefined,

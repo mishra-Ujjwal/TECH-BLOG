@@ -38,7 +38,7 @@ export async function generateMetadata({
   if (!review) return { title: "Not found" };
   const path = `/reviews/${review.slug}`;
   return {
-    title: seoTitle(review.title),
+    title: seoTitle(review.seo.searchTitle ?? review.title),
     description: review.metaDescription,
     alternates: {
       canonical: review.seo.canonical ?? path,

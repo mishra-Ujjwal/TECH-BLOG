@@ -626,7 +626,7 @@ export function Byline({
     <p className="mt-5 text-small text-ink-3">
       By{" "}
       {href ? (
-        <a href={href} rel="author" className="text-ink-2 hover:text-accent hover:underline">
+        <a href={href} rel="author" className="text-ink-2 underline decoration-rule-strong underline-offset-[0.18em] hover:text-accent hover:decoration-current">
           {name}
         </a>
       ) : (
@@ -735,10 +735,10 @@ export function IndexRow({
       <div className="index__thumb" aria-hidden="true">
         {item.image ? (
           canOptimize(item.image.src) ? (
-            <Image src={item.image.src} alt="" fill sizes="(min-width: 640px) 10rem, 6.5rem" className="object-cover" />
+            <Image src={item.image.src} alt={item.image.alt} fill sizes="(min-width: 640px) 10rem, 6.5rem" className="object-cover" />
           ) : (
             // eslint-disable-next-line @next/next/no-img-element
-            <img src={item.image.src} alt="" loading="lazy" className="h-full w-full object-cover" />
+            <img src={item.image.src} alt={item.image.alt} loading="lazy" className="h-full w-full object-cover" />
           )
         ) : (
           <span className="flex h-full w-full items-center justify-center p-2 text-center">

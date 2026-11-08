@@ -5,7 +5,7 @@ import { breadcrumbJsonLd } from "@/lib/jsonld";
 import { getCategories } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Categories",
+  title: "Browse phones, laptops, gaming and EVs",
   description:
     "Browse by area: phones, computing, gaming and EVs, all tested hands-on.",
   alternates: { canonical: "/categories" },

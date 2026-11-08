@@ -26,11 +26,14 @@ export async function generateMetadata({
   const { slug } = await params;
   const author = getAuthor(slug);
   if (!author) return { title: "Not found" };
+  const full = `${author.name}, ${author.role.toLowerCase()}`;
+  // Search results cut descriptions off near 160 characters; a long bio keeps its first sentence.
+  const description = author.bio.length > 160 ? author.bio.split(/(?<=\.)\s/)[0] : author.bio;
   return {
-    title: seoTitle(`${author.name}, ${author.role.toLowerCase()}`),
-    description: author.bio,
+    title: full.length > 60 ? { absolute: author.name } : seoTitle(full),
+    description,
     alternates: { canonical: `/authors/${author.slug}` },
-    openGraph: openGraphFor({ type: "profile", title: author.name, description: author.bio }),
+    openGraph: openGraphFor({ type: "profile", title: author.name, description }),
   };
 }
 
