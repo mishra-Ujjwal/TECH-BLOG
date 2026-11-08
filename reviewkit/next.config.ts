@@ -15,7 +15,8 @@ const config: NextConfig = {
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 2678400,
     // Add any remote image host you are licensed to use, e.g. a press kit CDN.
-    remotePatterns: [],
+    // Studio uploads go to Vercel Blob when BLOB_READ_WRITE_TOKEN is set (lib/media.ts).
+    remotePatterns: [{ protocol: "https", hostname: "*.public.blob.vercel-storage.com", pathname: "/images/**" }],
   },
   async headers() {
     return [
