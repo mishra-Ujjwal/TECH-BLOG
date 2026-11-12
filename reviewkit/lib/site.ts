@@ -54,9 +54,14 @@ export function getSite(): Site {
   return siteCache;
 }
 
-/** Canonical origin. The env var wins so previews get their own URL. */
+/**
+ * Canonical origin. The env var wins so previews get their own URL, but never
+ * in production: there site.json is the single source of truth, so a stale
+ * env value cannot point canonicals at a host that redirects.
+ */
 export function siteUrl(): string {
-  const fromEnv = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  const isProd = process.env.VERCEL_ENV === "production";
+  const fromEnv = isProd ? undefined : process.env.NEXT_PUBLIC_SITE_URL?.trim();
   const url = fromEnv && fromEnv.length > 0 ? fromEnv : getSite().url;
   return url.replace(/\/$/, "");
 }
