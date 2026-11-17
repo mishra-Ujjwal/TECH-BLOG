@@ -203,13 +203,15 @@ export async function latestEvidence(limit = 3): Promise<
 }
 
 export async function sitemapEntries(): Promise<
-  { type: Doc["type"]; slug: string; updatedAt: string }[]
+  { type: Doc["type"]; slug: string; updatedAt: string; noindex: boolean; canonical: string | null }[]
 > {
   if (useNeon()) return db.listSitemapEntries();
   return publishedDocs().map((d) => ({
     type: d.type,
     slug: d.slug,
     updatedAt: d.dates.updated ?? d.dates.published,
+    noindex: d.seo.noindex,
+    canonical: d.seo.canonical ?? null,
   }));
 }
 

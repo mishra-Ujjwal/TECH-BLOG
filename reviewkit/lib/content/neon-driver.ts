@@ -51,17 +51,25 @@ export async function listSummaries(opts: {
 }
 
 export async function listSitemapEntries(): Promise<
-  { type: Doc["type"]; slug: string; updatedAt: string }[]
+  { type: Doc["type"]; slug: string; updatedAt: string; noindex: boolean; canonical: string | null }[]
 > {
   const sql = sqlRead();
   const rows = (await sql`
     SELECT type, slug,
-           to_char(coalesce(updated_at, published_at), 'YYYY-MM-DD') AS updated_at
+           to_char(coalesce(updated_at, published_at), 'YYYY-MM-DD') AS updated_at,
+           coalesce((doc->'seo'->>'noindex')::boolean, false) AS noindex,
+           doc->'seo'->>'canonical' AS canonical
     FROM content
     WHERE status = 'published'
     ORDER BY type, slug
-  `) as { type: Doc["type"]; slug: string; updated_at: string }[];
-  return rows.map((r) => ({ type: r.type, slug: r.slug, updatedAt: r.updated_at }));
+  `) as { type: Doc["type"]; slug: string; updated_at: string; noindex: boolean; canonical: string | null }[];
+  return rows.map((r) => ({
+    type: r.type,
+    slug: r.slug,
+    updatedAt: r.updated_at,
+    noindex: r.noindex,
+    canonical: r.canonical,
+  }));
 }
 
 export async function searchContent(query: string, limit = 25): Promise<DocSummary[]> {

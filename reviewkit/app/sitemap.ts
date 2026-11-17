@@ -10,7 +10,13 @@ const PATH_FOR: Record<string, (slug: string) => string> = {
 };
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const entries = await sitemapEntries();
+  // Only list URLs Google may index as themselves: a noindexed page, or one whose
+  // canonical points elsewhere, in the sitemap sends Search Console mixed signals.
+  const entries = (await sitemapEntries()).filter(
+    (e) =>
+      !e.noindex &&
+      (!e.canonical || e.canonical.replace(/\/$/, "") === absoluteUrl(PATH_FOR[e.type](e.slug))),
+  );
 
   const has = (type: Doc["type"]) => entries.some((e) => e.type === type);
 
